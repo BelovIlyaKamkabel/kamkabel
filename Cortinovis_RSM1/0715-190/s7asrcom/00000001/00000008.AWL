@@ -1,0 +1,3158 @@
+DATA_BLOCK DB71
+TITLE=Mappa Ingressi
+STRUCT
+DB71_DBX000_1:BOOL; //Emergency push-buttons
+DB71_DBX000_2:BOOL; //Cabinet thermo-switch
+DB71_DBX000_3:BOOL; //Auxiliary 220v transformer overload
+DB71_DBX000_4:BOOL; //24DC UPS module battery alarm
+DB71_DBX000_5:BOOL; //24DC UPS module battery packs ok
+DB71_DBX000_6:BOOL; //Cabinet air fans overload
+DB71_DBX000_7:BOOL; //
+DB71_DBX001_0:BOOL; //Dryer supply overload
+DB71_DBX001_1:BOOL; //Ac motor drives feeder braking resistor alarm
+DB71_DBX001_2:BOOL; //Ac motor drives feeder dc bus alarm
+DB71_DBX001_3:BOOL; //
+DB71_DBX001_4:BOOL; //
+DB71_DBX001_5:BOOL; //
+DB71_DBX001_6:BOOL; //
+DB71_DBX001_7:BOOL; //
+DB71_DBX002_0:BOOL; //Line stop push-buttons
+DB71_DBX002_1:BOOL; //Line run push-buttons
+DB71_DBX002_2:BOOL; //Line jog push-buttons
+DB71_DBX002_3:BOOL; //Line alarms reset push-buttons
+DB71_DBX002_4:BOOL; //Hold line speed push-button
+DB71_DBX002_5:BOOL; //Power supply on
+DB71_DBX002_6:BOOL; //Power supply on end of time
+DB71_DBX002_7:BOOL; //230VAC UPS main failure
+DB71_DBX003_0:BOOL; //230VAC UPS battery nearly low
+DB71_DBX003_1:BOOL; //24DC aux. feeding overload
+DB71_DBX003_2:BOOL; //preforming motor blower and inverter fan supply overload
+DB71_DBX003_3:BOOL; //AC motor drive feeder fan overload
+DB71_DBX003_4:BOOL; //24VDC PLC input supply overload
+DB71_DBX003_5:BOOL; //
+DB71_DBX003_6:BOOL; //
+DB71_DBX003_7:BOOL; //
+DB71_DBX004_0:BOOL; //Take-up bobbin increase pull push-button
+DB71_DBX004_1:BOOL; //Take-up bobbin decrease pull push-button
+DB71_DBX004_2:BOOL; //Take-up bobbin stop push-buttons
+DB71_DBX004_3:BOOL; //Take-up bobbin run push-buttons
+DB71_DBX004_4:BOOL; //Take-up bobbin motor blower overload
+DB71_DBX004_5:BOOL; //Take-up bobbin motor electric brake overload
+DB71_DBX004_6:BOOL; //Take-up bobbin forward jog selector-switch
+DB71_DBX004_7:BOOL; //Take-up bobbin backward jog selector-switch
+DB71_DBX005_0:BOOL; //
+DB71_DBX005_1:BOOL; //
+DB71_DBX005_2:BOOL; //
+DB71_DBX005_3:BOOL; //
+DB71_DBX005_4:BOOL; //
+DB71_DBX005_5:BOOL; //
+DB71_DBX005_6:BOOL; //
+DB71_DBX005_7:BOOL; //
+DB71_DBX006_0:BOOL; //Take-up idle pintle up limit-switch
+DB71_DBX006_1:BOOL; //Take-up idle pintle down limit-switch
+DB71_DBX006_2:BOOL; //Take-up driven pintle up limit-switch
+DB71_DBX006_3:BOOL; //Take-up driven pintle down limit-switch
+DB71_DBX006_4:BOOL; //Take-up driven pintle up selector-switch
+DB71_DBX006_5:BOOL; //Take-up driven pintle down selector-switch
+DB71_DBX006_6:BOOL; //Take-up idle pintle up selector-switch
+DB71_DBX006_7:BOOL; //Take-up idle pintle down selector-switch
+DB71_DBX007_0:BOOL; //Take-up pintles up selector-switches
+DB71_DBX007_1:BOOL; //Take-up pintles down selector-switches
+DB71_DBX007_2:BOOL; //Take-up idle pintle opening selector-switches
+DB71_DBX007_3:BOOL; //Take-up idle pintle closing selector-switches
+DB71_DBX007_4:BOOL; //Take-up idle pintle emergency limit-switch
+DB71_DBX007_5:BOOL; //Take-up driven pintle emergency limit-switch
+DB71_DBX007_6:BOOL; //
+DB71_DBX007_7:BOOL; //
+DB71_DBX008_0:BOOL; //Take-up traverse quick left push-buttons local panel
+DB71_DBX008_1:BOOL; //Take-up traverse quick right push-buttons local panel
+DB71_DBX008_2:BOOL; //Take-up traverse quick left push-buttons main panel
+DB71_DBX008_3:BOOL; //Take-up traverse quick right push-buttons main panel
+DB71_DBX008_4:BOOL; //Take-up traverse translation zero point sensor
+DB71_DBX008_5:BOOL; //Take-up traverse inversion delay sensor
+DB71_DBX008_6:BOOL; //Take-up traverse motor blower overload
+DB71_DBX008_7:BOOL; //
+DB71_DBX009_0:BOOL; //
+DB71_DBX009_1:BOOL; //Take-up ac motors overload
+DB71_DBX009_2:BOOL; //Take-up 220vac power supply overload
+DB71_DBX009_3:BOOL; //Take-up 24vdc power supply overload
+DB71_DBX009_4:BOOL; //
+DB71_DBX009_5:BOOL; //
+DB71_DBX009_6:BOOL; //
+DB71_DBX009_7:BOOL; //
+DB71_DBX010_0:BOOL; //
+DB71_DBX010_1:BOOL; //
+DB71_DBX010_2:BOOL; //
+DB71_DBX010_3:BOOL; //
+DB71_DBX010_4:BOOL; //
+DB71_DBX010_5:BOOL; //
+DB71_DBX010_6:BOOL; //
+DB71_DBX010_7:BOOL; //
+DB71_DBX011_0:BOOL; //
+DB71_DBX011_1:BOOL; //
+DB71_DBX011_2:BOOL; //
+DB71_DBX011_3:BOOL; //
+DB71_DBX011_4:BOOL; //
+DB71_DBX011_5:BOOL; //
+DB71_DBX011_6:BOOL; //
+DB71_DBX011_7:BOOL; //
+DB71_DBX012_0:BOOL; //Capstan motor blower overload
+DB71_DBX012_1:BOOL; //Capstan minimum air pressure pressure-switch
+DB71_DBX012_2:BOOL; //Capstan motor brake control pressure-switch
+DB71_DBX012_3:BOOL; //Capstan cable clock open sensor
+DB71_DBX012_4:BOOL; //Cable block opening selector-switch
+DB71_DBX012_5:BOOL; //Capstan forward jog selector-switch
+DB71_DBX012_6:BOOL; //Capstan backward jog selector-switch
+DB71_DBX012_7:BOOL; //
+DB71_DBX013_0:BOOL; //
+DB71_DBX013_1:BOOL; //
+DB71_DBX013_2:BOOL; //
+DB71_DBX013_3:BOOL; //
+DB71_DBX013_4:BOOL; //
+DB71_DBX013_5:BOOL; //
+DB71_DBX013_6:BOOL; //
+DB71_DBX013_7:BOOL; //
+DB71_DBX014_0:BOOL; //
+DB71_DBX014_1:BOOL; //
+DB71_DBX014_2:BOOL; //
+DB71_DBX014_3:BOOL; //
+DB71_DBX014_4:BOOL; //
+DB71_DBX014_5:BOOL; //
+DB71_DBX014_6:BOOL; //
+DB71_DBX014_7:BOOL; //
+DB71_DBX015_0:BOOL; //
+DB71_DBX015_1:BOOL; //
+DB71_DBX015_2:BOOL; //
+DB71_DBX015_3:BOOL; //
+DB71_DBX015_4:BOOL; //
+DB71_DBX015_5:BOOL; //
+DB71_DBX015_6:BOOL; //
+DB71_DBX015_7:BOOL; //
+DB71_DBX016_0:BOOL; //
+DB71_DBX016_1:BOOL; //
+DB71_DBX016_2:BOOL; //
+DB71_DBX016_3:BOOL; //
+DB71_DBX016_4:BOOL; //
+DB71_DBX016_5:BOOL; //
+DB71_DBX016_6:BOOL; //
+DB71_DBX016_7:BOOL; //
+DB71_DBX017_0:BOOL; //
+DB71_DBX017_1:BOOL; //
+DB71_DBX017_2:BOOL; //
+DB71_DBX017_3:BOOL; //
+DB71_DBX017_4:BOOL; //
+DB71_DBX017_5:BOOL; //
+DB71_DBX017_6:BOOL; //
+DB71_DBX017_7:BOOL; //
+DB71_DBX018_0:BOOL; //Cage 24 230VAC supply overload
+DB71_DBX018_1:BOOL; //Cage 24 24VDC supply overload
+DB71_DBX018_2:BOOL; //Cage 24 loading motor overload
+DB71_DBX018_3:BOOL; //Cage 24 motor blower overload
+DB71_DBX018_4:BOOL; //Cage 24 preforming motor electric brake overload
+DB71_DBX018_5:BOOL; //Cage 24 preforming motor blower overload
+DB71_DBX018_6:BOOL; //Cage 24 platform motor overload
+DB71_DBX018_7:BOOL; //Cage 24 guard  blower motor overload
+DB71_DBX019_0:BOOL; //
+DB71_DBX019_1:BOOL; //
+DB71_DBX019_2:BOOL; //
+DB71_DBX019_3:BOOL; //
+DB71_DBX019_4:BOOL; //
+DB71_DBX019_5:BOOL; //
+DB71_DBX019_6:BOOL; //
+DB71_DBX019_7:BOOL; //
+DB71_DBX020_0:BOOL; //Cage 24 loading line presence of air pressure-switch
+DB71_DBX020_1:BOOL; //Cage 24 brake control pressure-switch
+DB71_DBX020_2:BOOL; //Cage 24 minimum air pressure pressure-switch
+DB71_DBX020_3:BOOL; //Cage 24 piston engaged into cage limit-switch
+DB71_DBX020_4:BOOL; //Cage 24 piston disingaged out of cage limit-switch
+DB71_DBX020_5:BOOL; //Cage 24 loading motor engaged sensors
+DB71_DBX020_6:BOOL; //Cage 24 loading motor disengaged sensors
+DB71_DBX020_7:BOOL; //Cage 24 air pipe  limit-switch
+DB71_DBX021_0:BOOL; //Cage 24 presence of bobbin photocell -loading-
+DB71_DBX021_1:BOOL; //Cage 24 loading stop photocell
+DB71_DBX021_2:BOOL; //Cage 24 break of wire from ring
+DB71_DBX021_3:BOOL; //Cage 24 front door limit-switch
+DB71_DBX021_4:BOOL; //Cage 24 rear door limit-switches
+DB71_DBX021_5:BOOL; //Cage 24 front guard open limit-switch
+DB71_DBX021_6:BOOL; //Cage 24 front guard closed sensor
+DB71_DBX021_7:BOOL; //Cage 24 guard presence of man photocell
+DB71_DBX022_0:BOOL; //Cage 24 line stop push-button
+DB71_DBX022_1:BOOL; //Cage 24 line jog push-button
+DB71_DBX022_2:BOOL; //Cage 24 loading run push-button
+DB71_DBX022_3:BOOL; //Cage 24 alarms reset push-button
+DB71_DBX022_4:BOOL; //Cage 24 guard closing selector-switch
+DB71_DBX022_5:BOOL; //Cage 24 guard opening selector-switch
+DB71_DBX022_6:BOOL; //Cage 24 pintles closing selector-switch
+DB71_DBX022_7:BOOL; //Cage 24 pintles opening selector-switch
+DB71_DBX023_0:BOOL; //Cage 24 pintles locking system closing selector-switch
+DB71_DBX023_1:BOOL; //Cage 24 pintles locking system opening selector-switch
+DB71_DBX023_2:BOOL; //Cage 24 platform up push-button
+DB71_DBX023_3:BOOL; //Cage 24 platform down push-button
+DB71_DBX023_4:BOOL; //Cage 24 bobbin rotation for loading machine push-button
+DB71_DBX023_5:BOOL; //Cage 24 bobbin rotation for resetting machine push-button
+DB71_DBX023_6:BOOL; //Cage 24 loading insertion push-button
+DB71_DBX023_7:BOOL; //Cage 24 platform up limit-switch
+DB71_DBX024_0:BOOL; //Cage 24 platform down limit-switch
+DB71_DBX024_1:BOOL; //Cage 24 odd bobbins rotated for loading platform limit-switch
+DB71_DBX024_2:BOOL; //Cage 24 odd bobbins rotated for loading machine limit-switch
+DB71_DBX024_3:BOOL; //Cage 24 even bobbins rotated for loading platform limit-switch
+DB71_DBX024_4:BOOL; //Cage 24 even bobbins rotated for loading machine limit-switch
+DB71_DBX024_5:BOOL; //Cage 24 hydraulic unit minimum level float-switch
+DB71_DBX024_6:BOOL; //Cage 24 preforming guard limit-switch
+DB71_DBX024_7:BOOL; //Cage 24 preforming brake release push-button
+DB71_DBX025_0:BOOL; //Cage 24 preforming line stop push-button
+DB71_DBX025_1:BOOL; //Cage 24 preforming line jog push-button
+DB71_DBX025_2:BOOL; //
+DB71_DBX025_3:BOOL; //
+DB71_DBX025_4:BOOL; //
+DB71_DBX025_5:BOOL; //
+DB71_DBX025_6:BOOL; //
+DB71_DBX025_7:BOOL; //
+DB71_DBX026_0:BOOL; //
+DB71_DBX026_1:BOOL; //
+DB71_DBX026_2:BOOL; //
+DB71_DBX026_3:BOOL; //
+DB71_DBX026_4:BOOL; //
+DB71_DBX026_5:BOOL; //
+DB71_DBX026_6:BOOL; //
+DB71_DBX026_7:BOOL; //
+DB71_DBX027_0:BOOL; //
+DB71_DBX027_1:BOOL; //
+DB71_DBX027_2:BOOL; //
+DB71_DBX027_3:BOOL; //
+DB71_DBX027_4:BOOL; //Cage 24 bobbin brakes air tank pressure switch
+DB71_DBX027_5:BOOL; //Cage 24 line 1 pintles open
+DB71_DBX027_6:BOOL; //Cage 24 line 2 pintles open
+DB71_DBX027_7:BOOL; //Cage 24 line 3 pintles open
+DB71_DBX028_0:BOOL; //
+DB71_DBX028_1:BOOL; //
+DB71_DBX028_2:BOOL; //
+DB71_DBX028_3:BOOL; //
+DB71_DBX028_4:BOOL; //
+DB71_DBX028_5:BOOL; //
+DB71_DBX028_6:BOOL; //
+DB71_DBX028_7:BOOL; //
+DB71_DBX029_0:BOOL; //
+DB71_DBX029_1:BOOL; //
+DB71_DBX029_2:BOOL; //
+DB71_DBX029_3:BOOL; //
+DB71_DBX029_4:BOOL; //
+DB71_DBX029_5:BOOL; //
+DB71_DBX029_6:BOOL; //
+DB71_DBX029_7:BOOL; //
+DB71_DBX030_0:BOOL; //Cage 24 bobbin 1 break of wire and diameter calculation
+DB71_DBX030_1:BOOL; //Cage 24 bobbin 2 break of wire
+DB71_DBX030_2:BOOL; //Cage 24 bobbin 3 break of wire
+DB71_DBX030_3:BOOL; //Cage 24 bobbin 4 break of wire
+DB71_DBX030_4:BOOL; //Cage 24 bobbin 5 break of wire
+DB71_DBX030_5:BOOL; //Cage 24 bobbin 6 break of wire
+DB71_DBX030_6:BOOL; //Cage 24 bobbin 7 break of wire
+DB71_DBX030_7:BOOL; //Cage 24 bobbin 8 break of wire
+DB71_DBX031_0:BOOL; //Cage 24 bobbin 9 break of wire
+DB71_DBX031_1:BOOL; //Cage 24 bobbin 10 break of wire
+DB71_DBX031_2:BOOL; //Cage 24 bobbin 11 break of wire
+DB71_DBX031_3:BOOL; //Cage 24 bobbin 12 break of wire
+DB71_DBX031_4:BOOL; //Cage 24 bobbin 13 break of wire
+DB71_DBX031_5:BOOL; //Cage 24 bobbin 14 break of wire
+DB71_DBX031_6:BOOL; //Cage 24 bobbin 15 break of wire
+DB71_DBX031_7:BOOL; //Cage 24 bobbin 16 break of wire
+DB71_DBX032_0:BOOL; //Cage 24 bobbin 17 break of wire
+DB71_DBX032_1:BOOL; //Cage 24 bobbin 18 break of wire
+DB71_DBX032_2:BOOL; //Cage 24 bobbin 19 break of wire
+DB71_DBX032_3:BOOL; //Cage 24 bobbin 20 break of wire
+DB71_DBX032_4:BOOL; //Cage 24 bobbin 21 break of wire
+DB71_DBX032_5:BOOL; //Cage 24 bobbin 22 break of wire
+DB71_DBX032_6:BOOL; //Cage 24 bobbin 23 break of wire
+DB71_DBX032_7:BOOL; //Cage 24 bobbin 24 break of wire
+DB71_DBX033_0:BOOL; //
+DB71_DBX033_1:BOOL; //
+DB71_DBX033_2:BOOL; //
+DB71_DBX033_3:BOOL; //
+DB71_DBX033_4:BOOL; //
+DB71_DBX033_5:BOOL; //
+DB71_DBX033_6:BOOL; //
+DB71_DBX033_7:BOOL; //
+DB71_DBX034_0:BOOL; //
+DB71_DBX034_1:BOOL; //
+DB71_DBX034_2:BOOL; //
+DB71_DBX034_3:BOOL; //
+DB71_DBX034_4:BOOL; //
+DB71_DBX034_5:BOOL; //
+DB71_DBX034_6:BOOL; //
+DB71_DBX034_7:BOOL; //
+DB71_DBX035_0:BOOL; //
+DB71_DBX035_1:BOOL; //
+DB71_DBX035_2:BOOL; //
+DB71_DBX035_3:BOOL; //
+DB71_DBX035_4:BOOL; //
+DB71_DBX035_5:BOOL; //
+DB71_DBX035_6:BOOL; //
+DB71_DBX035_7:BOOL; //
+DB71_DBX036_0:BOOL; //
+DB71_DBX036_1:BOOL; //
+DB71_DBX036_2:BOOL; //
+DB71_DBX036_3:BOOL; //
+DB71_DBX036_4:BOOL; //
+DB71_DBX036_5:BOOL; //
+DB71_DBX036_6:BOOL; //
+DB71_DBX036_7:BOOL; //
+DB71_DBX037_0:BOOL; //
+DB71_DBX037_1:BOOL; //
+DB71_DBX037_2:BOOL; //
+DB71_DBX037_3:BOOL; //
+DB71_DBX037_4:BOOL; //
+DB71_DBX037_5:BOOL; //
+DB71_DBX037_6:BOOL; //
+DB71_DBX037_7:BOOL; //
+DB71_DBX038_0:BOOL; //Cage 18 230vac power supply overload
+DB71_DBX038_1:BOOL; //Cage 18 24vdc power supply overload
+DB71_DBX038_2:BOOL; //Cage 18 loading motor overload
+DB71_DBX038_3:BOOL; //Cage 18 motor blower overload
+DB71_DBX038_4:BOOL; //Cage 18 preforming motor electric brake overload
+DB71_DBX038_5:BOOL; //Cage 18 preforming motor blower overload
+DB71_DBX038_6:BOOL; //Cage 18 loading platform motor overload
+DB71_DBX038_7:BOOL; //Cage 18 guard blower motor overload
+DB71_DBX039_0:BOOL; //
+DB71_DBX039_1:BOOL; //
+DB71_DBX039_2:BOOL; //
+DB71_DBX039_3:BOOL; //
+DB71_DBX039_4:BOOL; //
+DB71_DBX039_5:BOOL; //
+DB71_DBX039_6:BOOL; //
+DB71_DBX039_7:BOOL; //
+DB71_DBX040_0:BOOL; //Cage 18 loading line presence of air pressure-switch
+DB71_DBX040_1:BOOL; //Cage 18 brake control pressure-switch
+DB71_DBX040_2:BOOL; //Cage 18 minimum air pressure pressure-switch
+DB71_DBX040_3:BOOL; //Cage 18 piston engaged in cage limit-switch
+DB71_DBX040_4:BOOL; //Cage 18 piston disengaged from cage limit-switch
+DB71_DBX040_5:BOOL; //Cage 18 loading motor engaged sensors
+DB71_DBX040_6:BOOL; //Cage 18 loading motor disengaged sensors
+DB71_DBX040_7:BOOL; //Cage 18 air pipe limit-switch
+DB71_DBX041_0:BOOL; //Cage 18 presence of bobbin photocell -loading-
+DB71_DBX041_1:BOOL; //Cage 18 loading stop photocell
+DB71_DBX041_2:BOOL; //Cage 18 break of wire from ring
+DB71_DBX041_3:BOOL; //Cage 18 front door limit-switch
+DB71_DBX041_4:BOOL; //Cage 18 rear doors limit-switches
+DB71_DBX041_5:BOOL; //Cage 18 front guard open limit-switch
+DB71_DBX041_6:BOOL; //Cage 18 front guard closed sensor
+DB71_DBX041_7:BOOL; //Cage 18 guard presence of man photocell
+DB71_DBX042_0:BOOL; //Cage 18 line stop push-button
+DB71_DBX042_1:BOOL; //Cage 18 line jog push-button
+DB71_DBX042_2:BOOL; //Cage 18 loading run push-button
+DB71_DBX042_3:BOOL; //Cage 18 alarms reset push-button
+DB71_DBX042_4:BOOL; //Cage 18 guard closing selector-switch
+DB71_DBX042_5:BOOL; //Cage 18 guard opening selector-switch
+DB71_DBX042_6:BOOL; //Cage 18 pintles closing selector-switch
+DB71_DBX042_7:BOOL; //Cage 18 pintles opening selector-switch
+DB71_DBX043_0:BOOL; //Cage 18 pintles locking system closing selector-switch
+DB71_DBX043_1:BOOL; //Cage 18 pintles locking system opening selector-switch
+DB71_DBX043_2:BOOL; //Cage 18 platform up push-button
+DB71_DBX043_3:BOOL; //Cage 18 platform down push-button
+DB71_DBX043_4:BOOL; //Cage 18 bobbin rotation for loading machine push-button
+DB71_DBX043_5:BOOL; //Cage 18 bobbin rotation for resetting push-button
+DB71_DBX043_6:BOOL; //Cage 18 loading insertion push-button
+DB71_DBX043_7:BOOL; //Cage 18 platform up limit-switch
+DB71_DBX044_0:BOOL; //Cage 18 platform down limit-switch
+DB71_DBX044_1:BOOL; //Cage 18 odd bobbins rotated for loading platform limit-switch
+DB71_DBX044_2:BOOL; //Cage 18 odd bobbins rotated for loading machine limit-switch
+DB71_DBX044_3:BOOL; //Cage 18 even bobbins rotated for loading platform limit-switch
+DB71_DBX044_4:BOOL; //Cage 18 even bobbins rotated for loading machine limit-switch
+DB71_DBX044_5:BOOL; //Cage 18 hydraulic unit minimum level float-switch
+DB71_DBX044_6:BOOL; //Cage 18 preforming guard limit-switch
+DB71_DBX044_7:BOOL; //Cage 18 preforming brake release push-button
+DB71_DBX045_0:BOOL; //Cage 18 preforming line stop push-button
+DB71_DBX045_1:BOOL; //Cage 18 preforming line jog push-button
+DB71_DBX045_2:BOOL; //
+DB71_DBX045_3:BOOL; //
+DB71_DBX045_4:BOOL; //
+DB71_DBX045_5:BOOL; //
+DB71_DBX045_6:BOOL; //
+DB71_DBX045_7:BOOL; //
+DB71_DBX046_0:BOOL; //
+DB71_DBX046_1:BOOL; //
+DB71_DBX046_2:BOOL; //
+DB71_DBX046_3:BOOL; //
+DB71_DBX046_4:BOOL; //
+DB71_DBX046_5:BOOL; //
+DB71_DBX046_6:BOOL; //
+DB71_DBX046_7:BOOL; //
+DB71_DBX047_0:BOOL; //Cage 18 bobbin brakes air tank minimum pressure pressure-switch
+DB71_DBX047_1:BOOL; //Cage 18 line 1 pintles open
+DB71_DBX047_2:BOOL; //Cage 18 line 2 pintles open
+DB71_DBX047_3:BOOL; //Cage 18 line 3 pintles open
+DB71_DBX047_4:BOOL; //
+DB71_DBX047_5:BOOL; //
+DB71_DBX047_6:BOOL; //
+DB71_DBX047_7:BOOL; //
+DB71_DBX048_0:BOOL; //
+DB71_DBX048_1:BOOL; //
+DB71_DBX048_2:BOOL; //
+DB71_DBX048_3:BOOL; //
+DB71_DBX048_4:BOOL; //
+DB71_DBX048_5:BOOL; //
+DB71_DBX048_6:BOOL; //
+DB71_DBX048_7:BOOL; //
+DB71_DBX049_0:BOOL; //
+DB71_DBX049_1:BOOL; //
+DB71_DBX049_2:BOOL; //
+DB71_DBX049_3:BOOL; //
+DB71_DBX049_4:BOOL; //
+DB71_DBX049_5:BOOL; //
+DB71_DBX049_6:BOOL; //
+DB71_DBX049_7:BOOL; //
+DB71_DBX050_0:BOOL; //Cage 18 bobbin 1 break of wire and diameter calculation
+DB71_DBX050_1:BOOL; //Cage 18 bobbin 2 break of wire
+DB71_DBX050_2:BOOL; //Cage 18 bobbin 3 break of wire
+DB71_DBX050_3:BOOL; //Cage 18 bobbin 4 break of wire
+DB71_DBX050_4:BOOL; //Cage 18 bobbin 5 break of wire
+DB71_DBX050_5:BOOL; //Cage 18 bobbin 6 break of wire
+DB71_DBX050_6:BOOL; //Cage 18 bobbin 7 break of wire
+DB71_DBX050_7:BOOL; //Cage 18 bobbin 8 break of wire
+DB71_DBX051_0:BOOL; //Cage 18 bobbin 9 break of wire
+DB71_DBX051_1:BOOL; //Cage 18 bobbin 10 break of wire
+DB71_DBX051_2:BOOL; //Cage 18 bobbin 11 break of wire
+DB71_DBX051_3:BOOL; //Cage 18 bobbin 12 break of wire
+DB71_DBX051_4:BOOL; //Cage 18 bobbin 13 break of wire
+DB71_DBX051_5:BOOL; //Cage 18 bobbin 14 break of wire
+DB71_DBX051_6:BOOL; //Cage 18 bobbin 15 break of wire
+DB71_DBX051_7:BOOL; //Cage 18 bobbin 16 break of wire
+DB71_DBX052_0:BOOL; //Cage 18 bobbin 17 break of wire
+DB71_DBX052_1:BOOL; //Cage 18 bobbin 18 break of wire
+DB71_DBX052_2:BOOL; //
+DB71_DBX052_3:BOOL; //
+DB71_DBX052_4:BOOL; //
+DB71_DBX052_5:BOOL; //
+DB71_DBX052_6:BOOL; //
+DB71_DBX052_7:BOOL; //
+DB71_DBX053_0:BOOL; //
+DB71_DBX053_1:BOOL; //
+DB71_DBX053_2:BOOL; //
+DB71_DBX053_3:BOOL; //
+DB71_DBX053_4:BOOL; //
+DB71_DBX053_5:BOOL; //
+DB71_DBX053_6:BOOL; //
+DB71_DBX053_7:BOOL; //
+DB71_DBX054_0:BOOL; //
+DB71_DBX054_1:BOOL; //
+DB71_DBX054_2:BOOL; //
+DB71_DBX054_3:BOOL; //
+DB71_DBX054_4:BOOL; //
+DB71_DBX054_5:BOOL; //
+DB71_DBX054_6:BOOL; //
+DB71_DBX054_7:BOOL; //
+DB71_DBX055_0:BOOL; //
+DB71_DBX055_1:BOOL; //
+DB71_DBX055_2:BOOL; //
+DB71_DBX055_3:BOOL; //
+DB71_DBX055_4:BOOL; //
+DB71_DBX055_5:BOOL; //
+DB71_DBX055_6:BOOL; //
+DB71_DBX055_7:BOOL; //
+DB71_DBX056_0:BOOL; //
+DB71_DBX056_1:BOOL; //
+DB71_DBX056_2:BOOL; //
+DB71_DBX056_3:BOOL; //
+DB71_DBX056_4:BOOL; //
+DB71_DBX056_5:BOOL; //
+DB71_DBX056_6:BOOL; //
+DB71_DBX056_7:BOOL; //
+DB71_DBX057_0:BOOL; //
+DB71_DBX057_1:BOOL; //
+DB71_DBX057_2:BOOL; //
+DB71_DBX057_3:BOOL; //
+DB71_DBX057_4:BOOL; //
+DB71_DBX057_5:BOOL; //
+DB71_DBX057_6:BOOL; //
+DB71_DBX057_7:BOOL; //
+DB71_DBX058_0:BOOL; //Cage 12 230vac power supply overload
+DB71_DBX058_1:BOOL; //Cage 12 24vdc power supply overload
+DB71_DBX058_2:BOOL; //Cage 12 loading motor overload
+DB71_DBX058_3:BOOL; //Cage 12 motor blower overload
+DB71_DBX058_4:BOOL; //Cage 12 preforming motor electric brake overload
+DB71_DBX058_5:BOOL; //Cage 12 preforming motor blower overload
+DB71_DBX058_6:BOOL; //Cage 12 loading platform motor overload
+DB71_DBX058_7:BOOL; //Cage 12 guard blower motor overload
+DB71_DBX059_0:BOOL; //
+DB71_DBX059_1:BOOL; //
+DB71_DBX059_2:BOOL; //
+DB71_DBX059_3:BOOL; //
+DB71_DBX059_4:BOOL; //
+DB71_DBX059_5:BOOL; //
+DB71_DBX059_6:BOOL; //
+DB71_DBX059_7:BOOL; //
+DB71_DBX060_0:BOOL; //Cage 12 loading line presence of air pressure-switch
+DB71_DBX060_1:BOOL; //Cage 12 brake control pressure-switch
+DB71_DBX060_2:BOOL; //Cage 12 minimum air pressure pressure-switch
+DB71_DBX060_3:BOOL; //Cage 12 piston engaged in cage limit-switch
+DB71_DBX060_4:BOOL; //Cage 12 piston disengaged from cage limit-switch
+DB71_DBX060_5:BOOL; //Cage 12 loading motor engaged sensors
+DB71_DBX060_6:BOOL; //Cage 12 loading motor disengaged sensors
+DB71_DBX060_7:BOOL; //Cage 12 air pipe limit-switch
+DB71_DBX061_0:BOOL; //Cage 12 presence of bobbin photocell -loading-
+DB71_DBX061_1:BOOL; //Cage 12 loading stop photocell
+DB71_DBX061_2:BOOL; //Cage 12 break of wire from ring
+DB71_DBX061_3:BOOL; //Cage 12 front door limit-switch
+DB71_DBX061_4:BOOL; //Cage 12 rear doors limit-switches
+DB71_DBX061_5:BOOL; //Cage 12 front guard open limit-switch
+DB71_DBX061_6:BOOL; //Cage 12 front guard closed sensor
+DB71_DBX061_7:BOOL; //Cage 12 guard presence of man photocell
+DB71_DBX062_0:BOOL; //Cage 12 line stop push-button
+DB71_DBX062_1:BOOL; //Cage 12 line jog push-button
+DB71_DBX062_2:BOOL; //Cage 12 loading run push-button
+DB71_DBX062_3:BOOL; //Cage 12 alarms reset push-button
+DB71_DBX062_4:BOOL; //Cage 12 guard closing selector-switch
+DB71_DBX062_5:BOOL; //Cage 12 guard opening selector-switch
+DB71_DBX062_6:BOOL; //Cage 12 pintles closing selector-switch
+DB71_DBX062_7:BOOL; //Cage 12 pintles opening selector-switch
+DB71_DBX063_0:BOOL; //Cage 12 pintles locking system closing selector-switch
+DB71_DBX063_1:BOOL; //Cage 12 pintles locking system opening selector-switch
+DB71_DBX063_2:BOOL; //Cage 12 platform up push-button
+DB71_DBX063_3:BOOL; //Cage 12 platform down push-button
+DB71_DBX063_4:BOOL; //Cage 12 bobbin rotation for loading machine push-button
+DB71_DBX063_5:BOOL; //Cage 12 bobbin rotation for resetting push-button
+DB71_DBX063_6:BOOL; //Cage 12 loading insertion push-button
+DB71_DBX063_7:BOOL; //Cage 12 platform up limit-switch
+DB71_DBX064_0:BOOL; //Cage 12 platform down limit-switch
+DB71_DBX064_1:BOOL; //Cage 12 odd bobbins rotated for loading platform limit-switch
+DB71_DBX064_2:BOOL; //Cage 12 odd bobbins rotated for loading machine limit-switch
+DB71_DBX064_3:BOOL; //Cage 12 even bobbins rotated for loading platform limit-switch
+DB71_DBX064_4:BOOL; //Cage 12 even bobbins rotated for loading machine limit-switch
+DB71_DBX064_5:BOOL; //Cage 12 hydraulic unit minimum level float-switch
+DB71_DBX064_6:BOOL; //Cage 12 preforming guard limit-switch
+DB71_DBX064_7:BOOL; //Cage 12 preforming brake release push-button
+DB71_DBX065_0:BOOL; //Cage 12 preforming line stop push-button
+DB71_DBX065_1:BOOL; //Cage 12 preforming line jog push-button
+DB71_DBX065_2:BOOL; //
+DB71_DBX065_3:BOOL; //
+DB71_DBX065_4:BOOL; //
+DB71_DBX065_5:BOOL; //
+DB71_DBX065_6:BOOL; //
+DB71_DBX065_7:BOOL; //
+DB71_DBX066_0:BOOL; //
+DB71_DBX066_1:BOOL; //
+DB71_DBX066_2:BOOL; //
+DB71_DBX066_3:BOOL; //
+DB71_DBX066_4:BOOL; //
+DB71_DBX066_5:BOOL; //
+DB71_DBX066_6:BOOL; //
+DB71_DBX066_7:BOOL; //
+DB71_DBX067_0:BOOL; //Cage 12 bobbin brakes air tank minimum pressure pressure-switch
+DB71_DBX067_1:BOOL; //Cage 12 line 1 pintles open
+DB71_DBX067_2:BOOL; //Cage 12 line 2 pintles open
+DB71_DBX067_3:BOOL; //Cage 12 line 3 pintles open
+DB71_DBX067_4:BOOL; //
+DB71_DBX067_5:BOOL; //
+DB71_DBX067_6:BOOL; //
+DB71_DBX067_7:BOOL; //
+DB71_DBX068_0:BOOL; //
+DB71_DBX068_1:BOOL; //
+DB71_DBX068_2:BOOL; //
+DB71_DBX068_3:BOOL; //
+DB71_DBX068_4:BOOL; //
+DB71_DBX068_5:BOOL; //
+DB71_DBX068_6:BOOL; //
+DB71_DBX068_7:BOOL; //
+DB71_DBX069_0:BOOL; //
+DB71_DBX069_1:BOOL; //
+DB71_DBX069_2:BOOL; //
+DB71_DBX069_3:BOOL; //
+DB71_DBX069_4:BOOL; //
+DB71_DBX069_5:BOOL; //
+DB71_DBX069_6:BOOL; //
+DB71_DBX069_7:BOOL; //
+DB71_DBX070_0:BOOL; //Cage 12 bobbin 1 break of wire and diameter calculation
+DB71_DBX070_1:BOOL; //Cage 12 bobbin 2 break of wire
+DB71_DBX070_2:BOOL; //Cage 12 bobbin 3 break of wire
+DB71_DBX070_3:BOOL; //Cage 12 bobbin 4 break of wire
+DB71_DBX070_4:BOOL; //Cage 12 bobbin 5 break of wire
+DB71_DBX070_5:BOOL; //Cage 12 bobbin 6 break of wire
+DB71_DBX070_6:BOOL; //Cage 12 bobbin 7 break of wire
+DB71_DBX070_7:BOOL; //Cage 12 bobbin 8 break of wire
+DB71_DBX071_0:BOOL; //Cage 12 bobbin 9 break of wire
+DB71_DBX071_1:BOOL; //Cage 12 bobbin 10 break of wire
+DB71_DBX071_2:BOOL; //Cage 12 bobbin 11 break of wire
+DB71_DBX071_3:BOOL; //Cage 12 bobbin 12 break of wire
+DB71_DBX071_4:BOOL; //
+DB71_DBX071_5:BOOL; //
+DB71_DBX071_6:BOOL; //
+DB71_DBX071_7:BOOL; //
+DB71_DBX072_0:BOOL; //
+DB71_DBX072_1:BOOL; //
+DB71_DBX072_2:BOOL; //
+DB71_DBX072_3:BOOL; //
+DB71_DBX072_4:BOOL; //
+DB71_DBX072_5:BOOL; //
+DB71_DBX072_6:BOOL; //
+DB71_DBX072_7:BOOL; //
+DB71_DBX073_0:BOOL; //
+DB71_DBX073_1:BOOL; //
+DB71_DBX073_2:BOOL; //
+DB71_DBX073_3:BOOL; //
+DB71_DBX073_4:BOOL; //
+DB71_DBX073_5:BOOL; //
+DB71_DBX073_6:BOOL; //
+DB71_DBX073_7:BOOL; //
+DB71_DBX074_0:BOOL; //
+DB71_DBX074_1:BOOL; //
+DB71_DBX074_2:BOOL; //
+DB71_DBX074_3:BOOL; //
+DB71_DBX074_4:BOOL; //
+DB71_DBX074_5:BOOL; //
+DB71_DBX074_6:BOOL; //
+DB71_DBX074_7:BOOL; //
+DB71_DBX075_0:BOOL; //
+DB71_DBX075_1:BOOL; //
+DB71_DBX075_2:BOOL; //
+DB71_DBX075_3:BOOL; //
+DB71_DBX075_4:BOOL; //
+DB71_DBX075_5:BOOL; //
+DB71_DBX075_6:BOOL; //
+DB71_DBX075_7:BOOL; //
+DB71_DBX076_0:BOOL; //
+DB71_DBX076_1:BOOL; //
+DB71_DBX076_2:BOOL; //
+DB71_DBX076_3:BOOL; //
+DB71_DBX076_4:BOOL; //
+DB71_DBX076_5:BOOL; //
+DB71_DBX076_6:BOOL; //
+DB71_DBX076_7:BOOL; //
+DB71_DBX077_0:BOOL; //
+DB71_DBX077_1:BOOL; //
+DB71_DBX077_2:BOOL; //
+DB71_DBX077_3:BOOL; //
+DB71_DBX077_4:BOOL; //
+DB71_DBX077_5:BOOL; //
+DB71_DBX077_6:BOOL; //
+DB71_DBX077_7:BOOL; //
+DB71_DBX078_0:BOOL; //Cage 6 loading line presence of air pressure-switch
+DB71_DBX078_1:BOOL; //Cage 6 brake control pressure-switch
+DB71_DBX078_2:BOOL; //Cage 6 minimum air pressure pressure-switch
+DB71_DBX078_3:BOOL; //Cage 6 piston engaged in cage limit-switch
+DB71_DBX078_4:BOOL; //Cage 6 piston disengaged from cage limit-switch
+DB71_DBX078_5:BOOL; //Cage 6 loading motor engaged sensors
+DB71_DBX078_6:BOOL; //Cage 6 loading motor disengaged sensors
+DB71_DBX078_7:BOOL; //Cage 6 air pipe limit-switch
+DB71_DBX079_0:BOOL; //Cage 6 presence of bobbin photocell -loading-
+DB71_DBX079_1:BOOL; //Cage 6 loading stop photocell
+DB71_DBX079_2:BOOL; //Cage 6 break of wire from ring
+DB71_DBX079_3:BOOL; //Cage 6 front door limit-switch
+DB71_DBX079_4:BOOL; //Cage 6 rear doors limit-switches
+DB71_DBX079_5:BOOL; //Cage 6 front guard open limit-switch
+DB71_DBX079_6:BOOL; //Cage 6 front guard closed sensor
+DB71_DBX079_7:BOOL; //Cage 6 guard presence of man photocell
+DB71_DBX080_0:BOOL; //Cage 6 line stop push-button
+DB71_DBX080_1:BOOL; //Cage 6 line jog push-button
+DB71_DBX080_2:BOOL; //Cage 6 loading run push-button
+DB71_DBX080_3:BOOL; //Cage 6 alarms reset push-button
+DB71_DBX080_4:BOOL; //Cage 6 guard closing selector-switch
+DB71_DBX080_5:BOOL; //Cage 6 guard opening selector-switch
+DB71_DBX080_6:BOOL; //Cage 6 pintles closing selector-switch
+DB71_DBX080_7:BOOL; //Cage 6 pintles opening selector-switch
+DB71_DBX081_0:BOOL; //Cage 6 pintles locking system closing selector-switch
+DB71_DBX081_1:BOOL; //Cage 6 pintles locking system opening selector-switch
+DB71_DBX081_2:BOOL; //Cage 6 platform up push-button
+DB71_DBX081_3:BOOL; //Cage 6 platform down push-button
+DB71_DBX081_4:BOOL; //Cage 6 bobbin rotation for loading machine push-button
+DB71_DBX081_5:BOOL; //Cage 6 bobbin rotation for resetting push-button
+DB71_DBX081_6:BOOL; //Cage 6 loading insertion push-button
+DB71_DBX081_7:BOOL; //Cage 6 platform up limit-switch
+DB71_DBX082_0:BOOL; //Cage 6 platform down limit-switch
+DB71_DBX082_1:BOOL; //Cage 6 odd bobbins rotated for loading platform limit-switch
+DB71_DBX082_2:BOOL; //Cage 6 odd bobbins rotated for loading machine limit-switch
+DB71_DBX082_3:BOOL; //Cage 6 even bobbins rotated for loading platform limit-switch
+DB71_DBX082_4:BOOL; //Cage 6 even bobbins rotated for loading machine limit-switch
+DB71_DBX082_5:BOOL; //Cage 6 hydraulic unit minimum level float-switch
+DB71_DBX082_6:BOOL; //Cage 6 preforming guard limit-switch
+DB71_DBX082_7:BOOL; //Cage 6 preforming line stop push-button
+DB71_DBX083_0:BOOL; //Cage 6 preforming line jog push-button
+DB71_DBX083_1:BOOL; //
+DB71_DBX083_2:BOOL; //
+DB71_DBX083_3:BOOL; //
+DB71_DBX083_4:BOOL; //
+DB71_DBX083_5:BOOL; //
+DB71_DBX083_6:BOOL; //
+DB71_DBX083_7:BOOL; //
+DB71_DBX084_0:BOOL; //
+DB71_DBX084_1:BOOL; //
+DB71_DBX084_2:BOOL; //
+DB71_DBX084_3:BOOL; //
+DB71_DBX084_4:BOOL; //
+DB71_DBX084_5:BOOL; //
+DB71_DBX084_6:BOOL; //
+DB71_DBX084_7:BOOL; //
+DB71_DBX085_0:BOOL; //
+DB71_DBX085_1:BOOL; //
+DB71_DBX085_2:BOOL; //
+DB71_DBX085_3:BOOL; //
+DB71_DBX085_4:BOOL; //
+DB71_DBX085_5:BOOL; //
+DB71_DBX085_6:BOOL; //
+DB71_DBX085_7:BOOL; //
+DB71_DBX086_0:BOOL; //
+DB71_DBX086_1:BOOL; //
+DB71_DBX086_2:BOOL; //
+DB71_DBX086_3:BOOL; //
+DB71_DBX086_4:BOOL; //
+DB71_DBX086_5:BOOL; //
+DB71_DBX086_6:BOOL; //
+DB71_DBX086_7:BOOL; //
+DB71_DBX087_0:BOOL; //Cage 6 bobbin brakes air tank minimum pressure pressure-switch
+DB71_DBX087_1:BOOL; //Cage 6 line 1 pintles open
+DB71_DBX087_2:BOOL; //Cage 6 line 2 pintles open
+DB71_DBX087_3:BOOL; //Cage 6 line 3 pintles open
+DB71_DBX087_4:BOOL; //
+DB71_DBX087_5:BOOL; //
+DB71_DBX087_6:BOOL; //
+DB71_DBX087_7:BOOL; //
+DB71_DBX088_0:BOOL; //
+DB71_DBX088_1:BOOL; //
+DB71_DBX088_2:BOOL; //
+DB71_DBX088_3:BOOL; //
+DB71_DBX088_4:BOOL; //
+DB71_DBX088_5:BOOL; //
+DB71_DBX088_6:BOOL; //
+DB71_DBX088_7:BOOL; //
+DB71_DBX089_0:BOOL; //
+DB71_DBX089_1:BOOL; //
+DB71_DBX089_2:BOOL; //
+DB71_DBX089_3:BOOL; //
+DB71_DBX089_4:BOOL; //
+DB71_DBX089_5:BOOL; //
+DB71_DBX089_6:BOOL; //
+DB71_DBX089_7:BOOL; //
+DB71_DBX090_0:BOOL; //Cage 6 bobbin 1 break of wire and diameter calculation
+DB71_DBX090_1:BOOL; //Cage 6 bobbin 2 break of wire
+DB71_DBX090_2:BOOL; //Cage 6 bobbin 3 break of wire
+DB71_DBX090_3:BOOL; //Cage 6 bobbin 4 break of wire
+DB71_DBX090_4:BOOL; //Cage 6 bobbin 5 break of wire
+DB71_DBX090_5:BOOL; //Cage 6 bobbin 6 break of wire
+DB71_DBX090_6:BOOL; //
+DB71_DBX090_7:BOOL; //
+DB71_DBX091_0:BOOL; //
+DB71_DBX091_1:BOOL; //
+DB71_DBX091_2:BOOL; //
+DB71_DBX091_3:BOOL; //
+DB71_DBX091_4:BOOL; //
+DB71_DBX091_5:BOOL; //
+DB71_DBX091_6:BOOL; //
+DB71_DBX091_7:BOOL; //
+DB71_DBX092_0:BOOL; //
+DB71_DBX092_1:BOOL; //
+DB71_DBX092_2:BOOL; //
+DB71_DBX092_3:BOOL; //
+DB71_DBX092_4:BOOL; //
+DB71_DBX092_5:BOOL; //
+DB71_DBX092_6:BOOL; //
+DB71_DBX092_7:BOOL; //
+DB71_DBX093_0:BOOL; //
+DB71_DBX093_1:BOOL; //
+DB71_DBX093_2:BOOL; //
+DB71_DBX093_3:BOOL; //
+DB71_DBX093_4:BOOL; //
+DB71_DBX093_5:BOOL; //
+DB71_DBX093_6:BOOL; //
+DB71_DBX093_7:BOOL; //
+DB71_DBX094_0:BOOL; //
+DB71_DBX094_1:BOOL; //
+DB71_DBX094_2:BOOL; //
+DB71_DBX094_3:BOOL; //
+DB71_DBX094_4:BOOL; //
+DB71_DBX094_5:BOOL; //
+DB71_DBX094_6:BOOL; //
+DB71_DBX094_7:BOOL; //
+DB71_DBX095_0:BOOL; //
+DB71_DBX095_1:BOOL; //
+DB71_DBX095_2:BOOL; //
+DB71_DBX095_3:BOOL; //
+DB71_DBX095_4:BOOL; //
+DB71_DBX095_5:BOOL; //
+DB71_DBX095_6:BOOL; //
+DB71_DBX095_7:BOOL; //
+DB71_DBX096_0:BOOL; //
+DB71_DBX096_1:BOOL; //
+DB71_DBX096_2:BOOL; //
+DB71_DBX096_3:BOOL; //
+DB71_DBX096_4:BOOL; //
+DB71_DBX096_5:BOOL; //
+DB71_DBX096_6:BOOL; //
+DB71_DBX096_7:BOOL; //
+DB71_DBX097_0:BOOL; //
+DB71_DBX097_1:BOOL; //
+DB71_DBX097_2:BOOL; //
+DB71_DBX097_3:BOOL; //
+DB71_DBX097_4:BOOL; //
+DB71_DBX097_5:BOOL; //
+DB71_DBX097_6:BOOL; //
+DB71_DBX097_7:BOOL; //
+DB71_DBX098_0:BOOL; //Pay-off 230vac power supply overload
+DB71_DBX098_1:BOOL; //Pay-off 24vdc power supply overload
+DB71_DBX098_2:BOOL; //
+DB71_DBX098_3:BOOL; //
+DB71_DBX098_4:BOOL; //
+DB71_DBX098_5:BOOL; //
+DB71_DBX098_6:BOOL; //
+DB71_DBX098_7:BOOL; //
+DB71_DBX099_0:BOOL; //Pay-off 630 pintle close selector-switch
+DB71_DBX099_1:BOOL; //Pay-off 630 break of wire sensor
+DB71_DBX099_2:BOOL; //Pay-off 630 main air minimum pressure-switch
+DB71_DBX099_3:BOOL; //Pay-off 630 line stop push-button
+DB71_DBX099_4:BOOL; //Pay-off 630 break release push-button
+DB71_DBX099_5:BOOL; //
+DB71_DBX099_6:BOOL; //
+DB71_DBX099_7:BOOL; //
+DB71_DBX100_0:BOOL; //
+DB71_DBX100_1:BOOL; //Pay-off idle pintle up limit-switch
+DB71_DBX100_2:BOOL; //Pay-off idle pintle down limit-switch
+DB71_DBX100_3:BOOL; //Pay-off driven pintle up limit-switch
+DB71_DBX100_4:BOOL; //Pay-off driven pintle down limit-switch
+DB71_DBX100_5:BOOL; //Pay-off idle pintle up selector-switch
+DB71_DBX100_6:BOOL; //Pay-off idle pintle down selector-switch
+DB71_DBX100_7:BOOL; //Pay-off driven pintle up selector-switch
+DB71_DBX101_0:BOOL; //Pay-off driven pintle down selector-switch
+DB71_DBX101_1:BOOL; //Pay-off pintles up selector-switches
+DB71_DBX101_2:BOOL; //Pay-off pintles down selector-switches
+DB71_DBX101_3:BOOL; //Pay-off idle pintle opening selector-switches
+DB71_DBX101_4:BOOL; //Pay-off idle pintle closing selector-switches
+DB71_DBX101_5:BOOL; //Pay-off idle pintle emergency limit switch
+DB71_DBX101_6:BOOL; //Pay-off driven pintle emergency limit switch
+DB71_DBX101_7:BOOL; //Pay-off traverse quick left push-button
+DB71_DBX102_0:BOOL; //Pay-off traverse quick right push-button
+DB71_DBX102_1:BOOL; //Pay-off break of wire sensor
+DB71_DBX102_2:BOOL; //Pay-off minimum air pressure pressure-switch
+DB71_DBX102_3:BOOL; //Pay-off traverse blower motors overload
+DB71_DBX102_4:BOOL; //Pay-off ac motors overload
+DB71_DBX102_5:BOOL; //
+DB71_DBX102_6:BOOL; //
+DB71_DBX102_7:BOOL; //
+DB71_DBX103_0:BOOL; //
+DB71_DBX103_1:BOOL; //
+DB71_DBX103_2:BOOL; //
+DB71_DBX103_3:BOOL; //
+DB71_DBX103_4:BOOL; //
+DB71_DBX103_5:BOOL; //
+DB71_DBX103_6:BOOL; //
+DB71_DBX103_7:BOOL; //
+DB71_DBX104_0:BOOL; //
+DB71_DBX104_1:BOOL; //
+DB71_DBX104_2:BOOL; //
+DB71_DBX104_3:BOOL; //
+DB71_DBX104_4:BOOL; //
+DB71_DBX104_5:BOOL; //
+DB71_DBX104_6:BOOL; //
+DB71_DBX104_7:BOOL; //
+DB71_DBX105_0:BOOL; //
+DB71_DBX105_1:BOOL; //
+DB71_DBX105_2:BOOL; //
+DB71_DBX105_3:BOOL; //
+DB71_DBX105_4:BOOL; //
+DB71_DBX105_5:BOOL; //
+DB71_DBX105_6:BOOL; //
+DB71_DBX105_7:BOOL; //
+DB71_DBX106_0:BOOL; //
+DB71_DBX106_1:BOOL; //
+DB71_DBX106_2:BOOL; //
+DB71_DBX106_3:BOOL; //
+DB71_DBX106_4:BOOL; //
+DB71_DBX106_5:BOOL; //
+DB71_DBX106_6:BOOL; //
+DB71_DBX106_7:BOOL; //
+DB71_DBX107_0:BOOL; //
+DB71_DBX107_1:BOOL; //
+DB71_DBX107_2:BOOL; //
+DB71_DBX107_3:BOOL; //
+DB71_DBX107_4:BOOL; //
+DB71_DBX107_5:BOOL; //
+DB71_DBX107_6:BOOL; //
+DB71_DBX107_7:BOOL; //
+DB71_DBX108_0:BOOL; //
+DB71_DBX108_1:BOOL; //
+DB71_DBX108_2:BOOL; //
+DB71_DBX108_3:BOOL; //
+DB71_DBX108_4:BOOL; //
+DB71_DBX108_5:BOOL; //
+DB71_DBX108_6:BOOL; //
+DB71_DBX108_7:BOOL; //
+DB71_DBX109_0:BOOL; //
+DB71_DBX109_1:BOOL; //
+DB71_DBX109_2:BOOL; //
+DB71_DBX109_3:BOOL; //
+DB71_DBX109_4:BOOL; //
+DB71_DBX109_5:BOOL; //
+DB71_DBX109_6:BOOL; //
+DB71_DBX109_7:BOOL; //
+DB71_DBX110_0:BOOL; //
+DB71_DBX110_1:BOOL; //
+DB71_DBX110_2:BOOL; //
+DB71_DBX110_3:BOOL; //
+DB71_DBX110_4:BOOL; //
+DB71_DBX110_5:BOOL; //
+DB71_DBX110_6:BOOL; //
+DB71_DBX110_7:BOOL; //
+DB71_DBX111_0:BOOL; //
+DB71_DBX111_1:BOOL; //
+DB71_DBX111_2:BOOL; //
+DB71_DBX111_3:BOOL; //
+DB71_DBX111_4:BOOL; //
+DB71_DBX111_5:BOOL; //
+DB71_DBX111_6:BOOL; //
+DB71_DBX111_7:BOOL; //
+DB71_DBX112_0:BOOL; //
+DB71_DBX112_1:BOOL; //
+DB71_DBX112_2:BOOL; //
+DB71_DBX112_3:BOOL; //
+DB71_DBX112_4:BOOL; //
+DB71_DBX112_5:BOOL; //
+DB71_DBX112_6:BOOL; //
+DB71_DBX112_7:BOOL; //
+DB71_DBX113_0:BOOL; //
+DB71_DBX113_1:BOOL; //
+DB71_DBX113_2:BOOL; //
+DB71_DBX113_3:BOOL; //
+DB71_DBX113_4:BOOL; //
+DB71_DBX113_5:BOOL; //
+DB71_DBX113_6:BOOL; //
+DB71_DBX113_7:BOOL; //
+DB71_DBX114_0:BOOL; //
+DB71_DBX114_1:BOOL; //
+DB71_DBX114_2:BOOL; //
+DB71_DBX114_3:BOOL; //
+DB71_DBX114_4:BOOL; //
+DB71_DBX114_5:BOOL; //
+DB71_DBX114_6:BOOL; //
+DB71_DBX114_7:BOOL; //
+DB71_DBX115_0:BOOL; //
+DB71_DBX115_1:BOOL; //
+DB71_DBX115_2:BOOL; //
+DB71_DBX115_3:BOOL; //
+DB71_DBX115_4:BOOL; //
+DB71_DBX115_5:BOOL; //
+DB71_DBX115_6:BOOL; //
+DB71_DBX115_7:BOOL; //
+DB71_DBX116_0:BOOL; //
+DB71_DBX116_1:BOOL; //
+DB71_DBX116_2:BOOL; //
+DB71_DBX116_3:BOOL; //
+DB71_DBX116_4:BOOL; //
+DB71_DBX116_5:BOOL; //
+DB71_DBX116_6:BOOL; //
+DB71_DBX116_7:BOOL; //
+DB71_DBX117_0:BOOL; //
+DB71_DBX117_1:BOOL; //
+DB71_DBX117_2:BOOL; //
+DB71_DBX117_3:BOOL; //
+DB71_DBX117_4:BOOL; //
+DB71_DBX117_5:BOOL; //
+DB71_DBX117_6:BOOL; //
+DB71_DBX117_7:BOOL; //
+DB71_DBX118_0:BOOL; //
+DB71_DBX118_1:BOOL; //
+DB71_DBX118_2:BOOL; //
+DB71_DBX118_3:BOOL; //
+DB71_DBX118_4:BOOL; //
+DB71_DBX118_5:BOOL; //
+DB71_DBX118_6:BOOL; //
+DB71_DBX118_7:BOOL; //
+DB71_DBX119_0:BOOL; //
+DB71_DBX119_1:BOOL; //
+DB71_DBX119_2:BOOL; //
+DB71_DBX119_3:BOOL; //
+DB71_DBX119_4:BOOL; //
+DB71_DBX119_5:BOOL; //
+DB71_DBX119_6:BOOL; //
+DB71_DBX119_7:BOOL; //
+DB71_DBX120_0:BOOL; //
+DB71_DBX120_1:BOOL; //
+DB71_DBX120_2:BOOL; //
+DB71_DBX120_3:BOOL; //
+DB71_DBX120_4:BOOL; //
+DB71_DBX120_5:BOOL; //
+DB71_DBX120_6:BOOL; //
+DB71_DBX120_7:BOOL; //
+DB71_DBX121_0:BOOL; //
+DB71_DBX121_1:BOOL; //
+DB71_DBX121_2:BOOL; //
+DB71_DBX121_3:BOOL; //
+DB71_DBX121_4:BOOL; //
+DB71_DBX121_5:BOOL; //
+DB71_DBX121_6:BOOL; //
+DB71_DBX121_7:BOOL; //
+DB71_DBX122_0:BOOL; //
+DB71_DBX122_1:BOOL; //
+DB71_DBX122_2:BOOL; //
+DB71_DBX122_3:BOOL; //
+DB71_DBX122_4:BOOL; //
+DB71_DBX122_5:BOOL; //
+DB71_DBX122_6:BOOL; //
+DB71_DBX122_7:BOOL; //
+DB71_DBX123_0:BOOL; //
+DB71_DBX123_1:BOOL; //
+DB71_DBX123_2:BOOL; //
+DB71_DBX123_3:BOOL; //
+DB71_DBX123_4:BOOL; //
+DB71_DBX123_5:BOOL; //
+DB71_DBX123_6:BOOL; //
+DB71_DBX123_7:BOOL; //
+DB71_DBX124_0:BOOL; //
+DB71_DBX124_1:BOOL; //
+DB71_DBX124_2:BOOL; //
+DB71_DBX124_3:BOOL; //
+DB71_DBX124_4:BOOL; //
+DB71_DBX124_5:BOOL; //
+DB71_DBX124_6:BOOL; //
+DB71_DBX124_7:BOOL; //
+DB71_DBX125_0:BOOL; //
+DB71_DBX125_1:BOOL; //
+DB71_DBX125_2:BOOL; //
+DB71_DBX125_3:BOOL; //
+DB71_DBX125_4:BOOL; //
+DB71_DBX125_5:BOOL; //
+DB71_DBX125_6:BOOL; //
+DB71_DBX125_7:BOOL; //
+DB71_DBX126_0:BOOL; //
+DB71_DBX126_1:BOOL; //
+DB71_DBX126_2:BOOL; //
+DB71_DBX126_3:BOOL; //
+DB71_DBX126_4:BOOL; //
+DB71_DBX126_5:BOOL; //
+DB71_DBX126_6:BOOL; //
+DB71_DBX126_7:BOOL; //
+DB71_DBX127_0:BOOL; //
+DB71_DBX127_1:BOOL; //
+DB71_DBX127_2:BOOL; //
+DB71_DBX127_3:BOOL; //
+DB71_DBX127_4:BOOL; //
+DB71_DBX127_5:BOOL; //
+DB71_DBX127_6:BOOL; //
+DB71_DBX127_7:BOOL; //
+DB71_DBX128_0:BOOL; //
+DB71_DBX128_1:BOOL; //
+DB71_DBX128_2:BOOL; //
+DB71_DBX128_3:BOOL; //
+DB71_DBX128_4:BOOL; //
+DB71_DBX128_5:BOOL; //
+DB71_DBX128_6:BOOL; //
+DB71_DBX128_7:BOOL; //
+DB71_DBX129_0:BOOL; //
+DB71_DBX129_1:BOOL; //
+DB71_DBX129_2:BOOL; //
+DB71_DBX129_3:BOOL; //
+DB71_DBX129_4:BOOL; //
+DB71_DBX129_5:BOOL; //
+DB71_DBX129_6:BOOL; //
+DB71_DBX129_7:BOOL; //
+DB71_DBX130_0:BOOL; //
+DB71_DBX130_1:BOOL; //
+DB71_DBX130_2:BOOL; //
+DB71_DBX130_3:BOOL; //
+DB71_DBX130_4:BOOL; //
+DB71_DBX130_5:BOOL; //
+DB71_DBX130_6:BOOL; //
+DB71_DBX130_7:BOOL; //
+DB71_DBX131_0:BOOL; //
+DB71_DBX131_1:BOOL; //
+DB71_DBX131_2:BOOL; //
+DB71_DBX131_3:BOOL; //
+DB71_DBX131_4:BOOL; //
+DB71_DBX131_5:BOOL; //
+DB71_DBX131_6:BOOL; //
+DB71_DBX131_7:BOOL; //
+DB71_DBX132_0:BOOL; //
+DB71_DBX132_1:BOOL; //
+DB71_DBX132_2:BOOL; //
+DB71_DBX132_3:BOOL; //
+DB71_DBX132_4:BOOL; //
+DB71_DBX132_5:BOOL; //
+DB71_DBX132_6:BOOL; //
+DB71_DBX132_7:BOOL; //
+DB71_DBX133_0:BOOL; //
+DB71_DBX133_1:BOOL; //
+DB71_DBX133_2:BOOL; //
+DB71_DBX133_3:BOOL; //
+DB71_DBX133_4:BOOL; //
+DB71_DBX133_5:BOOL; //
+DB71_DBX133_6:BOOL; //
+DB71_DBX133_7:BOOL; //
+DB71_DBX134_0:BOOL; //
+DB71_DBX134_1:BOOL; //
+DB71_DBX134_2:BOOL; //
+DB71_DBX134_3:BOOL; //
+DB71_DBX134_4:BOOL; //
+DB71_DBX134_5:BOOL; //
+DB71_DBX134_6:BOOL; //
+DB71_DBX134_7:BOOL; //
+DB71_DBX135_0:BOOL; //
+DB71_DBX135_1:BOOL; //
+DB71_DBX135_2:BOOL; //
+DB71_DBX135_3:BOOL; //
+DB71_DBX135_4:BOOL; //
+DB71_DBX135_5:BOOL; //
+DB71_DBX135_6:BOOL; //
+DB71_DBX135_7:BOOL; //
+DB71_DBX136_0:BOOL; //
+DB71_DBX136_1:BOOL; //
+DB71_DBX136_2:BOOL; //
+DB71_DBX136_3:BOOL; //
+DB71_DBX136_4:BOOL; //
+DB71_DBX136_5:BOOL; //
+DB71_DBX136_6:BOOL; //
+DB71_DBX136_7:BOOL; //
+DB71_DBX137_0:BOOL; //
+DB71_DBX137_1:BOOL; //
+DB71_DBX137_2:BOOL; //
+DB71_DBX137_3:BOOL; //
+DB71_DBX137_4:BOOL; //
+DB71_DBX137_5:BOOL; //
+DB71_DBX137_6:BOOL; //
+DB71_DBX137_7:BOOL; //
+DB71_DBX138_0:BOOL; //
+DB71_DBX138_1:BOOL; //
+DB71_DBX138_2:BOOL; //
+DB71_DBX138_3:BOOL; //
+DB71_DBX138_4:BOOL; //
+DB71_DBX138_5:BOOL; //
+DB71_DBX138_6:BOOL; //
+DB71_DBX138_7:BOOL; //
+DB71_DBX139_0:BOOL; //
+DB71_DBX139_1:BOOL; //
+DB71_DBX139_2:BOOL; //
+DB71_DBX139_3:BOOL; //
+DB71_DBX139_4:BOOL; //
+DB71_DBX139_5:BOOL; //
+DB71_DBX139_6:BOOL; //
+DB71_DBX139_7:BOOL; //
+DB71_DBX140_0:BOOL; //
+DB71_DBX140_1:BOOL; //
+DB71_DBX140_2:BOOL; //
+DB71_DBX140_3:BOOL; //
+DB71_DBX140_4:BOOL; //
+DB71_DBX140_5:BOOL; //
+DB71_DBX140_6:BOOL; //
+DB71_DBX140_7:BOOL; //
+DB71_DBX141_0:BOOL; //
+DB71_DBX141_1:BOOL; //
+DB71_DBX141_2:BOOL; //
+DB71_DBX141_3:BOOL; //
+DB71_DBX141_4:BOOL; //
+DB71_DBX141_5:BOOL; //
+DB71_DBX141_6:BOOL; //
+DB71_DBX141_7:BOOL; //
+DB71_DBX142_0:BOOL; //
+DB71_DBX142_1:BOOL; //
+DB71_DBX142_2:BOOL; //
+DB71_DBX142_3:BOOL; //
+DB71_DBX142_4:BOOL; //
+DB71_DBX142_5:BOOL; //
+DB71_DBX142_6:BOOL; //
+DB71_DBX142_7:BOOL; //
+DB71_DBX143_0:BOOL; //
+DB71_DBX143_1:BOOL; //
+DB71_DBX143_2:BOOL; //
+DB71_DBX143_3:BOOL; //
+DB71_DBX143_4:BOOL; //
+DB71_DBX143_5:BOOL; //
+DB71_DBX143_6:BOOL; //
+DB71_DBX143_7:BOOL; //
+DB71_DBX144_0:BOOL; //
+DB71_DBX144_1:BOOL; //
+DB71_DBX144_2:BOOL; //
+DB71_DBX144_3:BOOL; //
+DB71_DBX144_4:BOOL; //
+DB71_DBX144_5:BOOL; //
+DB71_DBX144_6:BOOL; //
+DB71_DBX144_7:BOOL; //
+DB71_DBX145_0:BOOL; //
+DB71_DBX145_1:BOOL; //
+DB71_DBX145_2:BOOL; //
+DB71_DBX145_3:BOOL; //
+DB71_DBX145_4:BOOL; //
+DB71_DBX145_5:BOOL; //
+DB71_DBX145_6:BOOL; //
+DB71_DBX145_7:BOOL; //
+DB71_DBX146_0:BOOL; //
+DB71_DBX146_1:BOOL; //
+DB71_DBX146_2:BOOL; //
+DB71_DBX146_3:BOOL; //
+DB71_DBX146_4:BOOL; //
+DB71_DBX146_5:BOOL; //
+DB71_DBX146_6:BOOL; //
+DB71_DBX146_7:BOOL; //
+DB71_DBX147_0:BOOL; //
+DB71_DBX147_1:BOOL; //
+DB71_DBX147_2:BOOL; //
+DB71_DBX147_3:BOOL; //
+DB71_DBX147_4:BOOL; //
+DB71_DBX147_5:BOOL; //
+DB71_DBX147_6:BOOL; //
+DB71_DBX147_7:BOOL; //
+DB71_DBX148_0:BOOL; //
+DB71_DBX148_1:BOOL; //
+DB71_DBX148_2:BOOL; //
+DB71_DBX148_3:BOOL; //
+DB71_DBX148_4:BOOL; //
+DB71_DBX148_5:BOOL; //
+DB71_DBX148_6:BOOL; //
+DB71_DBX148_7:BOOL; //
+DB71_DBX149_0:BOOL; //
+DB71_DBX149_1:BOOL; //
+DB71_DBX149_2:BOOL; //
+DB71_DBX149_3:BOOL; //
+DB71_DBX149_4:BOOL; //
+DB71_DBX149_5:BOOL; //
+DB71_DBX149_6:BOOL; //
+DB71_DBX149_7:BOOL; //
+DB71_DBX150_0:BOOL; //
+DB71_DBX150_1:BOOL; //
+DB71_DBX150_2:BOOL; //
+DB71_DBX150_3:BOOL; //
+DB71_DBX150_4:BOOL; //
+DB71_DBX150_5:BOOL; //
+DB71_DBX150_6:BOOL; //
+DB71_DBX150_7:BOOL; //
+DB71_DBX151_0:BOOL; //
+DB71_DBX151_1:BOOL; //
+DB71_DBX151_2:BOOL; //
+DB71_DBX151_3:BOOL; //
+DB71_DBX151_4:BOOL; //
+DB71_DBX151_5:BOOL; //
+DB71_DBX151_6:BOOL; //
+DB71_DBX151_7:BOOL; //
+DB71_DBX152_0:BOOL; //
+DB71_DBX152_1:BOOL; //
+DB71_DBX152_2:BOOL; //
+DB71_DBX152_3:BOOL; //
+DB71_DBX152_4:BOOL; //
+DB71_DBX152_5:BOOL; //
+DB71_DBX152_6:BOOL; //
+DB71_DBX152_7:BOOL; //
+DB71_DBX153_0:BOOL; //
+DB71_DBX153_1:BOOL; //
+DB71_DBX153_2:BOOL; //
+DB71_DBX153_3:BOOL; //
+DB71_DBX153_4:BOOL; //
+DB71_DBX153_5:BOOL; //
+DB71_DBX153_6:BOOL; //
+DB71_DBX153_7:BOOL; //
+DB71_DBX154_0:BOOL; //
+DB71_DBX154_1:BOOL; //
+DB71_DBX154_2:BOOL; //
+DB71_DBX154_3:BOOL; //
+DB71_DBX154_4:BOOL; //
+DB71_DBX154_5:BOOL; //
+DB71_DBX154_6:BOOL; //
+DB71_DBX154_7:BOOL; //
+DB71_DBX155_0:BOOL; //
+DB71_DBX155_1:BOOL; //
+DB71_DBX155_2:BOOL; //
+DB71_DBX155_3:BOOL; //
+DB71_DBX155_4:BOOL; //
+DB71_DBX155_5:BOOL; //
+DB71_DBX155_6:BOOL; //
+DB71_DBX155_7:BOOL; //
+DB71_DBX156_0:BOOL; //
+DB71_DBX156_1:BOOL; //
+DB71_DBX156_2:BOOL; //
+DB71_DBX156_3:BOOL; //
+DB71_DBX156_4:BOOL; //
+DB71_DBX156_5:BOOL; //
+DB71_DBX156_6:BOOL; //
+DB71_DBX156_7:BOOL; //
+DB71_DBX157_0:BOOL; //
+DB71_DBX157_1:BOOL; //
+DB71_DBX157_2:BOOL; //
+DB71_DBX157_3:BOOL; //
+DB71_DBX157_4:BOOL; //
+DB71_DBX157_5:BOOL; //
+DB71_DBX157_6:BOOL; //
+DB71_DBX157_7:BOOL; //
+DB71_DBX158_0:BOOL; //
+DB71_DBX158_1:BOOL; //
+DB71_DBX158_2:BOOL; //
+DB71_DBX158_3:BOOL; //
+DB71_DBX158_4:BOOL; //
+DB71_DBX158_5:BOOL; //
+DB71_DBX158_6:BOOL; //
+DB71_DBX158_7:BOOL; //
+DB71_DBX159_0:BOOL; //
+DB71_DBX159_1:BOOL; //
+DB71_DBX159_2:BOOL; //
+DB71_DBX159_3:BOOL; //
+DB71_DBX159_4:BOOL; //
+DB71_DBX159_5:BOOL; //
+DB71_DBX159_6:BOOL; //
+DB71_DBX159_7:BOOL; //
+DB71_DBX160_0:BOOL; //
+DB71_DBX160_1:BOOL; //
+DB71_DBX160_2:BOOL; //
+DB71_DBX160_3:BOOL; //
+DB71_DBX160_4:BOOL; //
+DB71_DBX160_5:BOOL; //
+DB71_DBX160_6:BOOL; //
+DB71_DBX160_7:BOOL; //
+DB71_DBX161_0:BOOL; //
+DB71_DBX161_1:BOOL; //
+DB71_DBX161_2:BOOL; //
+DB71_DBX161_3:BOOL; //
+DB71_DBX161_4:BOOL; //
+DB71_DBX161_5:BOOL; //
+DB71_DBX161_6:BOOL; //
+DB71_DBX161_7:BOOL; //
+DB71_DBX162_0:BOOL; //
+DB71_DBX162_1:BOOL; //
+DB71_DBX162_2:BOOL; //
+DB71_DBX162_3:BOOL; //
+DB71_DBX162_4:BOOL; //
+DB71_DBX162_5:BOOL; //
+DB71_DBX162_6:BOOL; //
+DB71_DBX162_7:BOOL; //
+DB71_DBX163_0:BOOL; //
+DB71_DBX163_1:BOOL; //
+DB71_DBX163_2:BOOL; //
+DB71_DBX163_3:BOOL; //
+DB71_DBX163_4:BOOL; //
+DB71_DBX163_5:BOOL; //
+DB71_DBX163_6:BOOL; //
+DB71_DBX163_7:BOOL; //
+DB71_DBX164_0:BOOL; //
+DB71_DBX164_1:BOOL; //
+DB71_DBX164_2:BOOL; //
+DB71_DBX164_3:BOOL; //
+DB71_DBX164_4:BOOL; //
+DB71_DBX164_5:BOOL; //
+DB71_DBX164_6:BOOL; //
+DB71_DBX164_7:BOOL; //
+DB71_DBX165_0:BOOL; //
+DB71_DBX165_1:BOOL; //
+DB71_DBX165_2:BOOL; //
+DB71_DBX165_3:BOOL; //
+DB71_DBX165_4:BOOL; //
+DB71_DBX165_5:BOOL; //
+DB71_DBX165_6:BOOL; //
+DB71_DBX165_7:BOOL; //
+DB71_DBX166_0:BOOL; //
+DB71_DBX166_1:BOOL; //
+DB71_DBX166_2:BOOL; //
+DB71_DBX166_3:BOOL; //
+DB71_DBX166_4:BOOL; //
+DB71_DBX166_5:BOOL; //
+DB71_DBX166_6:BOOL; //
+DB71_DBX166_7:BOOL; //
+DB71_DBX167_0:BOOL; //
+DB71_DBX167_1:BOOL; //
+DB71_DBX167_2:BOOL; //
+DB71_DBX167_3:BOOL; //
+DB71_DBX167_4:BOOL; //
+DB71_DBX167_5:BOOL; //
+DB71_DBX167_6:BOOL; //
+DB71_DBX167_7:BOOL; //
+DB71_DBX168_0:BOOL; //
+DB71_DBX168_1:BOOL; //
+DB71_DBX168_2:BOOL; //
+DB71_DBX168_3:BOOL; //
+DB71_DBX168_4:BOOL; //
+DB71_DBX168_5:BOOL; //
+DB71_DBX168_6:BOOL; //
+DB71_DBX168_7:BOOL; //
+DB71_DBX169_0:BOOL; //
+DB71_DBX169_1:BOOL; //
+DB71_DBX169_2:BOOL; //
+DB71_DBX169_3:BOOL; //
+DB71_DBX169_4:BOOL; //
+DB71_DBX169_5:BOOL; //
+DB71_DBX169_6:BOOL; //
+DB71_DBX169_7:BOOL; //
+DB71_DBX170_0:BOOL; //
+DB71_DBX170_1:BOOL; //
+DB71_DBX170_2:BOOL; //
+DB71_DBX170_3:BOOL; //
+DB71_DBX170_4:BOOL; //
+DB71_DBX170_5:BOOL; //
+DB71_DBX170_6:BOOL; //
+DB71_DBX170_7:BOOL; //
+DB71_DBX171_0:BOOL; //
+DB71_DBX171_1:BOOL; //
+DB71_DBX171_2:BOOL; //
+DB71_DBX171_3:BOOL; //
+DB71_DBX171_4:BOOL; //
+DB71_DBX171_5:BOOL; //
+DB71_DBX171_6:BOOL; //
+DB71_DBX171_7:BOOL; //
+DB71_DBX172_0:BOOL; //
+DB71_DBX172_1:BOOL; //
+DB71_DBX172_2:BOOL; //
+DB71_DBX172_3:BOOL; //
+DB71_DBX172_4:BOOL; //
+DB71_DBX172_5:BOOL; //
+DB71_DBX172_6:BOOL; //
+DB71_DBX172_7:BOOL; //
+DB71_DBX173_0:BOOL; //
+DB71_DBX173_1:BOOL; //
+DB71_DBX173_2:BOOL; //
+DB71_DBX173_3:BOOL; //
+DB71_DBX173_4:BOOL; //
+DB71_DBX173_5:BOOL; //
+DB71_DBX173_6:BOOL; //
+DB71_DBX173_7:BOOL; //
+DB71_DBX174_0:BOOL; //
+DB71_DBX174_1:BOOL; //
+DB71_DBX174_2:BOOL; //
+DB71_DBX174_3:BOOL; //
+DB71_DBX174_4:BOOL; //
+DB71_DBX174_5:BOOL; //
+DB71_DBX174_6:BOOL; //
+DB71_DBX174_7:BOOL; //
+DB71_DBX175_0:BOOL; //
+DB71_DBX175_1:BOOL; //
+DB71_DBX175_2:BOOL; //
+DB71_DBX175_3:BOOL; //
+DB71_DBX175_4:BOOL; //
+DB71_DBX175_5:BOOL; //
+DB71_DBX175_6:BOOL; //
+DB71_DBX175_7:BOOL; //
+DB71_DBX176_0:BOOL; //
+DB71_DBX176_1:BOOL; //
+DB71_DBX176_2:BOOL; //
+DB71_DBX176_3:BOOL; //
+DB71_DBX176_4:BOOL; //
+DB71_DBX176_5:BOOL; //
+DB71_DBX176_6:BOOL; //
+DB71_DBX176_7:BOOL; //
+DB71_DBX177_0:BOOL; //
+DB71_DBX177_1:BOOL; //
+DB71_DBX177_2:BOOL; //
+DB71_DBX177_3:BOOL; //
+DB71_DBX177_4:BOOL; //
+DB71_DBX177_5:BOOL; //
+DB71_DBX177_6:BOOL; //
+DB71_DBX177_7:BOOL; //
+DB71_DBX178_0:BOOL; //
+DB71_DBX178_1:BOOL; //
+DB71_DBX178_2:BOOL; //
+DB71_DBX178_3:BOOL; //
+DB71_DBX178_4:BOOL; //
+DB71_DBX178_5:BOOL; //
+DB71_DBX178_6:BOOL; //
+DB71_DBX178_7:BOOL; //
+DB71_DBX179_0:BOOL; //
+DB71_DBX179_1:BOOL; //
+DB71_DBX179_2:BOOL; //
+DB71_DBX179_3:BOOL; //
+DB71_DBX179_4:BOOL; //
+DB71_DBX179_5:BOOL; //
+DB71_DBX179_6:BOOL; //
+DB71_DBX179_7:BOOL; //
+DB71_DBX180_0:BOOL; //
+DB71_DBX180_1:BOOL; //
+DB71_DBX180_2:BOOL; //
+DB71_DBX180_3:BOOL; //
+DB71_DBX180_4:BOOL; //
+DB71_DBX180_5:BOOL; //
+DB71_DBX180_6:BOOL; //
+DB71_DBX180_7:BOOL; //
+DB71_DBX181_0:BOOL; //
+DB71_DBX181_1:BOOL; //
+DB71_DBX181_2:BOOL; //
+DB71_DBX181_3:BOOL; //
+DB71_DBX181_4:BOOL; //
+DB71_DBX181_5:BOOL; //
+DB71_DBX181_6:BOOL; //
+DB71_DBX181_7:BOOL; //
+DB71_DBX182_0:BOOL; //
+DB71_DBX182_1:BOOL; //
+DB71_DBX182_2:BOOL; //
+DB71_DBX182_3:BOOL; //
+DB71_DBX182_4:BOOL; //
+DB71_DBX182_5:BOOL; //
+DB71_DBX182_6:BOOL; //
+DB71_DBX182_7:BOOL; //
+DB71_DBX183_0:BOOL; //
+DB71_DBX183_1:BOOL; //
+DB71_DBX183_2:BOOL; //
+DB71_DBX183_3:BOOL; //
+DB71_DBX183_4:BOOL; //
+DB71_DBX183_5:BOOL; //
+DB71_DBX183_6:BOOL; //
+DB71_DBX183_7:BOOL; //
+DB71_DBX184_0:BOOL; //
+DB71_DBX184_1:BOOL; //
+DB71_DBX184_2:BOOL; //
+DB71_DBX184_3:BOOL; //
+DB71_DBX184_4:BOOL; //
+DB71_DBX184_5:BOOL; //
+DB71_DBX184_6:BOOL; //
+DB71_DBX184_7:BOOL; //
+DB71_DBX185_0:BOOL; //
+DB71_DBX185_1:BOOL; //
+DB71_DBX185_2:BOOL; //
+DB71_DBX185_3:BOOL; //
+DB71_DBX185_4:BOOL; //
+DB71_DBX185_5:BOOL; //
+DB71_DBX185_6:BOOL; //
+DB71_DBX185_7:BOOL; //
+DB71_DBX186_0:BOOL; //
+DB71_DBX186_1:BOOL; //
+DB71_DBX186_2:BOOL; //
+DB71_DBX186_3:BOOL; //
+DB71_DBX186_4:BOOL; //
+DB71_DBX186_5:BOOL; //
+DB71_DBX186_6:BOOL; //
+DB71_DBX186_7:BOOL; //
+DB71_DBX187_0:BOOL; //
+DB71_DBX187_1:BOOL; //
+DB71_DBX187_2:BOOL; //
+DB71_DBX187_3:BOOL; //
+DB71_DBX187_4:BOOL; //
+DB71_DBX187_5:BOOL; //
+DB71_DBX187_6:BOOL; //
+DB71_DBX187_7:BOOL; //
+DB71_DBX188_0:BOOL; //
+DB71_DBX188_1:BOOL; //
+DB71_DBX188_2:BOOL; //
+DB71_DBX188_3:BOOL; //
+DB71_DBX188_4:BOOL; //
+DB71_DBX188_5:BOOL; //
+DB71_DBX188_6:BOOL; //
+DB71_DBX188_7:BOOL; //
+DB71_DBX189_0:BOOL; //
+DB71_DBX189_1:BOOL; //
+DB71_DBX189_2:BOOL; //
+DB71_DBX189_3:BOOL; //
+DB71_DBX189_4:BOOL; //
+DB71_DBX189_5:BOOL; //
+DB71_DBX189_6:BOOL; //
+DB71_DBX189_7:BOOL; //
+DB71_DBX190_0:BOOL; //
+DB71_DBX190_1:BOOL; //
+DB71_DBX190_2:BOOL; //
+DB71_DBX190_3:BOOL; //
+DB71_DBX190_4:BOOL; //
+DB71_DBX190_5:BOOL; //
+DB71_DBX190_6:BOOL; //
+DB71_DBX190_7:BOOL; //
+DB71_DBX191_0:BOOL; //
+DB71_DBX191_1:BOOL; //
+DB71_DBX191_2:BOOL; //
+DB71_DBX191_3:BOOL; //
+DB71_DBX191_4:BOOL; //
+DB71_DBX191_5:BOOL; //
+DB71_DBX191_6:BOOL; //
+DB71_DBX191_7:BOOL; //
+DB71_DBX192_0:BOOL; //
+DB71_DBX192_1:BOOL; //
+DB71_DBX192_2:BOOL; //
+DB71_DBX192_3:BOOL; //
+DB71_DBX192_4:BOOL; //
+DB71_DBX192_5:BOOL; //
+DB71_DBX192_6:BOOL; //
+DB71_DBX192_7:BOOL; //
+DB71_DBX193_0:BOOL; //
+DB71_DBX193_1:BOOL; //
+DB71_DBX193_2:BOOL; //
+DB71_DBX193_3:BOOL; //
+DB71_DBX193_4:BOOL; //
+DB71_DBX193_5:BOOL; //
+DB71_DBX193_6:BOOL; //
+DB71_DBX193_7:BOOL; //
+DB71_DBX194_0:BOOL; //
+DB71_DBX194_1:BOOL; //
+DB71_DBX194_2:BOOL; //
+DB71_DBX194_3:BOOL; //
+DB71_DBX194_4:BOOL; //
+DB71_DBX194_5:BOOL; //
+DB71_DBX194_6:BOOL; //
+DB71_DBX194_7:BOOL; //
+DB71_DBX195_0:BOOL; //
+DB71_DBX195_1:BOOL; //
+DB71_DBX195_2:BOOL; //
+DB71_DBX195_3:BOOL; //
+DB71_DBX195_4:BOOL; //
+DB71_DBX195_5:BOOL; //
+DB71_DBX195_6:BOOL; //
+DB71_DBX195_7:BOOL; //
+DB71_DBX196_0:BOOL; //
+DB71_DBX196_1:BOOL; //
+DB71_DBX196_2:BOOL; //
+DB71_DBX196_3:BOOL; //
+DB71_DBX196_4:BOOL; //
+DB71_DBX196_5:BOOL; //
+DB71_DBX196_6:BOOL; //
+DB71_DBX196_7:BOOL; //
+
+END_STRUCT ;
+BEGIN
+DB71_DBX000_1:=FALSE;
+DB71_DBX000_2:=FALSE;
+DB71_DBX000_3:=FALSE;
+DB71_DBX000_4:=FALSE;
+DB71_DBX000_5:=FALSE;
+DB71_DBX000_6:=FALSE;
+DB71_DBX000_7:=FALSE;
+DB71_DBX001_0:=FALSE;
+DB71_DBX001_1:=FALSE;
+DB71_DBX001_2:=FALSE;
+DB71_DBX001_3:=FALSE;
+DB71_DBX001_4:=FALSE;
+DB71_DBX001_5:=FALSE;
+DB71_DBX001_6:=FALSE;
+DB71_DBX001_7:=FALSE;
+DB71_DBX002_0:=FALSE;
+DB71_DBX002_1:=FALSE;
+DB71_DBX002_2:=FALSE;
+DB71_DBX002_3:=FALSE;
+DB71_DBX002_4:=FALSE;
+DB71_DBX002_5:=FALSE;
+DB71_DBX002_6:=FALSE;
+DB71_DBX002_7:=FALSE;
+DB71_DBX003_0:=FALSE;
+DB71_DBX003_1:=FALSE;
+DB71_DBX003_2:=FALSE;
+DB71_DBX003_3:=FALSE;
+DB71_DBX003_4:=FALSE;
+DB71_DBX003_5:=FALSE;
+DB71_DBX003_6:=FALSE;
+DB71_DBX003_7:=FALSE;
+DB71_DBX004_0:=FALSE;
+DB71_DBX004_1:=FALSE;
+DB71_DBX004_2:=FALSE;
+DB71_DBX004_3:=FALSE;
+DB71_DBX004_4:=FALSE;
+DB71_DBX004_5:=FALSE;
+DB71_DBX004_6:=FALSE;
+DB71_DBX004_7:=FALSE;
+DB71_DBX005_0:=FALSE;
+DB71_DBX005_1:=FALSE;
+DB71_DBX005_2:=FALSE;
+DB71_DBX005_3:=FALSE;
+DB71_DBX005_4:=FALSE;
+DB71_DBX005_5:=FALSE;
+DB71_DBX005_6:=FALSE;
+DB71_DBX005_7:=FALSE;
+DB71_DBX006_0:=FALSE;
+DB71_DBX006_1:=FALSE;
+DB71_DBX006_2:=FALSE;
+DB71_DBX006_3:=FALSE;
+DB71_DBX006_4:=FALSE;
+DB71_DBX006_5:=FALSE;
+DB71_DBX006_6:=FALSE;
+DB71_DBX006_7:=FALSE;
+DB71_DBX007_0:=FALSE;
+DB71_DBX007_1:=FALSE;
+DB71_DBX007_2:=FALSE;
+DB71_DBX007_3:=FALSE;
+DB71_DBX007_4:=FALSE;
+DB71_DBX007_5:=FALSE;
+DB71_DBX007_6:=FALSE;
+DB71_DBX007_7:=FALSE;
+DB71_DBX008_0:=FALSE;
+DB71_DBX008_1:=FALSE;
+DB71_DBX008_2:=FALSE;
+DB71_DBX008_3:=FALSE;
+DB71_DBX008_4:=FALSE;
+DB71_DBX008_5:=FALSE;
+DB71_DBX008_6:=FALSE;
+DB71_DBX008_7:=FALSE;
+DB71_DBX009_0:=FALSE;
+DB71_DBX009_1:=FALSE;
+DB71_DBX009_2:=FALSE;
+DB71_DBX009_3:=FALSE;
+DB71_DBX009_4:=FALSE;
+DB71_DBX009_5:=FALSE;
+DB71_DBX009_6:=FALSE;
+DB71_DBX009_7:=FALSE;
+DB71_DBX010_0:=FALSE;
+DB71_DBX010_1:=FALSE;
+DB71_DBX010_2:=FALSE;
+DB71_DBX010_3:=FALSE;
+DB71_DBX010_4:=FALSE;
+DB71_DBX010_5:=FALSE;
+DB71_DBX010_6:=FALSE;
+DB71_DBX010_7:=FALSE;
+DB71_DBX011_0:=FALSE;
+DB71_DBX011_1:=FALSE;
+DB71_DBX011_2:=FALSE;
+DB71_DBX011_3:=FALSE;
+DB71_DBX011_4:=FALSE;
+DB71_DBX011_5:=FALSE;
+DB71_DBX011_6:=FALSE;
+DB71_DBX011_7:=FALSE;
+DB71_DBX012_0:=FALSE;
+DB71_DBX012_1:=FALSE;
+DB71_DBX012_2:=FALSE;
+DB71_DBX012_3:=FALSE;
+DB71_DBX012_4:=FALSE;
+DB71_DBX012_5:=FALSE;
+DB71_DBX012_6:=FALSE;
+DB71_DBX012_7:=FALSE;
+DB71_DBX013_0:=FALSE;
+DB71_DBX013_1:=FALSE;
+DB71_DBX013_2:=FALSE;
+DB71_DBX013_3:=FALSE;
+DB71_DBX013_4:=FALSE;
+DB71_DBX013_5:=FALSE;
+DB71_DBX013_6:=FALSE;
+DB71_DBX013_7:=FALSE;
+DB71_DBX014_0:=FALSE;
+DB71_DBX014_1:=FALSE;
+DB71_DBX014_2:=FALSE;
+DB71_DBX014_3:=FALSE;
+DB71_DBX014_4:=FALSE;
+DB71_DBX014_5:=FALSE;
+DB71_DBX014_6:=FALSE;
+DB71_DBX014_7:=FALSE;
+DB71_DBX015_0:=FALSE;
+DB71_DBX015_1:=FALSE;
+DB71_DBX015_2:=FALSE;
+DB71_DBX015_3:=FALSE;
+DB71_DBX015_4:=FALSE;
+DB71_DBX015_5:=FALSE;
+DB71_DBX015_6:=FALSE;
+DB71_DBX015_7:=FALSE;
+DB71_DBX016_0:=FALSE;
+DB71_DBX016_1:=FALSE;
+DB71_DBX016_2:=FALSE;
+DB71_DBX016_3:=FALSE;
+DB71_DBX016_4:=FALSE;
+DB71_DBX016_5:=FALSE;
+DB71_DBX016_6:=FALSE;
+DB71_DBX016_7:=FALSE;
+DB71_DBX017_0:=FALSE;
+DB71_DBX017_1:=FALSE;
+DB71_DBX017_2:=FALSE;
+DB71_DBX017_3:=FALSE;
+DB71_DBX017_4:=FALSE;
+DB71_DBX017_5:=FALSE;
+DB71_DBX017_6:=FALSE;
+DB71_DBX017_7:=FALSE;
+DB71_DBX018_0:=FALSE;
+DB71_DBX018_1:=FALSE;
+DB71_DBX018_2:=FALSE;
+DB71_DBX018_3:=FALSE;
+DB71_DBX018_4:=FALSE;
+DB71_DBX018_5:=FALSE;
+DB71_DBX018_6:=FALSE;
+DB71_DBX018_7:=FALSE;
+DB71_DBX019_0:=FALSE;
+DB71_DBX019_1:=FALSE;
+DB71_DBX019_2:=FALSE;
+DB71_DBX019_3:=FALSE;
+DB71_DBX019_4:=FALSE;
+DB71_DBX019_5:=FALSE;
+DB71_DBX019_6:=FALSE;
+DB71_DBX019_7:=FALSE;
+DB71_DBX020_0:=FALSE;
+DB71_DBX020_1:=FALSE;
+DB71_DBX020_2:=FALSE;
+DB71_DBX020_3:=FALSE;
+DB71_DBX020_4:=FALSE;
+DB71_DBX020_5:=FALSE;
+DB71_DBX020_6:=FALSE;
+DB71_DBX020_7:=FALSE;
+DB71_DBX021_0:=FALSE;
+DB71_DBX021_1:=FALSE;
+DB71_DBX021_2:=FALSE;
+DB71_DBX021_3:=FALSE;
+DB71_DBX021_4:=FALSE;
+DB71_DBX021_5:=FALSE;
+DB71_DBX021_6:=FALSE;
+DB71_DBX021_7:=FALSE;
+DB71_DBX022_0:=FALSE;
+DB71_DBX022_1:=FALSE;
+DB71_DBX022_2:=FALSE;
+DB71_DBX022_3:=FALSE;
+DB71_DBX022_4:=FALSE;
+DB71_DBX022_5:=FALSE;
+DB71_DBX022_6:=FALSE;
+DB71_DBX022_7:=FALSE;
+DB71_DBX023_0:=FALSE;
+DB71_DBX023_1:=FALSE;
+DB71_DBX023_2:=FALSE;
+DB71_DBX023_3:=FALSE;
+DB71_DBX023_4:=FALSE;
+DB71_DBX023_5:=FALSE;
+DB71_DBX023_6:=FALSE;
+DB71_DBX023_7:=FALSE;
+DB71_DBX024_0:=FALSE;
+DB71_DBX024_1:=FALSE;
+DB71_DBX024_2:=FALSE;
+DB71_DBX024_3:=FALSE;
+DB71_DBX024_4:=FALSE;
+DB71_DBX024_5:=FALSE;
+DB71_DBX024_6:=FALSE;
+DB71_DBX024_7:=FALSE;
+DB71_DBX025_0:=FALSE;
+DB71_DBX025_1:=FALSE;
+DB71_DBX025_2:=FALSE;
+DB71_DBX025_3:=FALSE;
+DB71_DBX025_4:=FALSE;
+DB71_DBX025_5:=FALSE;
+DB71_DBX025_6:=FALSE;
+DB71_DBX025_7:=FALSE;
+DB71_DBX026_0:=FALSE;
+DB71_DBX026_1:=FALSE;
+DB71_DBX026_2:=FALSE;
+DB71_DBX026_3:=FALSE;
+DB71_DBX026_4:=FALSE;
+DB71_DBX026_5:=FALSE;
+DB71_DBX026_6:=FALSE;
+DB71_DBX026_7:=FALSE;
+DB71_DBX027_0:=FALSE;
+DB71_DBX027_1:=FALSE;
+DB71_DBX027_2:=FALSE;
+DB71_DBX027_3:=FALSE;
+DB71_DBX027_4:=FALSE;
+DB71_DBX027_5:=FALSE;
+DB71_DBX027_6:=FALSE;
+DB71_DBX027_7:=FALSE;
+DB71_DBX028_0:=FALSE;
+DB71_DBX028_1:=FALSE;
+DB71_DBX028_2:=FALSE;
+DB71_DBX028_3:=FALSE;
+DB71_DBX028_4:=FALSE;
+DB71_DBX028_5:=FALSE;
+DB71_DBX028_6:=FALSE;
+DB71_DBX028_7:=FALSE;
+DB71_DBX029_0:=FALSE;
+DB71_DBX029_1:=FALSE;
+DB71_DBX029_2:=FALSE;
+DB71_DBX029_3:=FALSE;
+DB71_DBX029_4:=FALSE;
+DB71_DBX029_5:=FALSE;
+DB71_DBX029_6:=FALSE;
+DB71_DBX029_7:=FALSE;
+DB71_DBX030_0:=FALSE;
+DB71_DBX030_1:=FALSE;
+DB71_DBX030_2:=FALSE;
+DB71_DBX030_3:=FALSE;
+DB71_DBX030_4:=FALSE;
+DB71_DBX030_5:=FALSE;
+DB71_DBX030_6:=FALSE;
+DB71_DBX030_7:=FALSE;
+DB71_DBX031_0:=FALSE;
+DB71_DBX031_1:=FALSE;
+DB71_DBX031_2:=FALSE;
+DB71_DBX031_3:=FALSE;
+DB71_DBX031_4:=FALSE;
+DB71_DBX031_5:=FALSE;
+DB71_DBX031_6:=FALSE;
+DB71_DBX031_7:=FALSE;
+DB71_DBX032_0:=FALSE;
+DB71_DBX032_1:=FALSE;
+DB71_DBX032_2:=FALSE;
+DB71_DBX032_3:=FALSE;
+DB71_DBX032_4:=FALSE;
+DB71_DBX032_5:=FALSE;
+DB71_DBX032_6:=FALSE;
+DB71_DBX032_7:=FALSE;
+DB71_DBX033_0:=FALSE;
+DB71_DBX033_1:=FALSE;
+DB71_DBX033_2:=FALSE;
+DB71_DBX033_3:=FALSE;
+DB71_DBX033_4:=FALSE;
+DB71_DBX033_5:=FALSE;
+DB71_DBX033_6:=FALSE;
+DB71_DBX033_7:=FALSE;
+DB71_DBX034_0:=FALSE;
+DB71_DBX034_1:=FALSE;
+DB71_DBX034_2:=FALSE;
+DB71_DBX034_3:=FALSE;
+DB71_DBX034_4:=FALSE;
+DB71_DBX034_5:=FALSE;
+DB71_DBX034_6:=FALSE;
+DB71_DBX034_7:=FALSE;
+DB71_DBX035_0:=FALSE;
+DB71_DBX035_1:=FALSE;
+DB71_DBX035_2:=FALSE;
+DB71_DBX035_3:=FALSE;
+DB71_DBX035_4:=FALSE;
+DB71_DBX035_5:=FALSE;
+DB71_DBX035_6:=FALSE;
+DB71_DBX035_7:=FALSE;
+DB71_DBX036_0:=FALSE;
+DB71_DBX036_1:=FALSE;
+DB71_DBX036_2:=FALSE;
+DB71_DBX036_3:=FALSE;
+DB71_DBX036_4:=FALSE;
+DB71_DBX036_5:=FALSE;
+DB71_DBX036_6:=FALSE;
+DB71_DBX036_7:=FALSE;
+DB71_DBX037_0:=FALSE;
+DB71_DBX037_1:=FALSE;
+DB71_DBX037_2:=FALSE;
+DB71_DBX037_3:=FALSE;
+DB71_DBX037_4:=FALSE;
+DB71_DBX037_5:=FALSE;
+DB71_DBX037_6:=FALSE;
+DB71_DBX037_7:=FALSE;
+DB71_DBX038_0:=FALSE;
+DB71_DBX038_1:=FALSE;
+DB71_DBX038_2:=FALSE;
+DB71_DBX038_3:=FALSE;
+DB71_DBX038_4:=FALSE;
+DB71_DBX038_5:=FALSE;
+DB71_DBX038_6:=FALSE;
+DB71_DBX038_7:=FALSE;
+DB71_DBX039_0:=FALSE;
+DB71_DBX039_1:=FALSE;
+DB71_DBX039_2:=FALSE;
+DB71_DBX039_3:=FALSE;
+DB71_DBX039_4:=FALSE;
+DB71_DBX039_5:=FALSE;
+DB71_DBX039_6:=FALSE;
+DB71_DBX039_7:=FALSE;
+DB71_DBX040_0:=FALSE;
+DB71_DBX040_1:=FALSE;
+DB71_DBX040_2:=FALSE;
+DB71_DBX040_3:=FALSE;
+DB71_DBX040_4:=FALSE;
+DB71_DBX040_5:=FALSE;
+DB71_DBX040_6:=FALSE;
+DB71_DBX040_7:=FALSE;
+DB71_DBX041_0:=FALSE;
+DB71_DBX041_1:=FALSE;
+DB71_DBX041_2:=FALSE;
+DB71_DBX041_3:=FALSE;
+DB71_DBX041_4:=FALSE;
+DB71_DBX041_5:=FALSE;
+DB71_DBX041_6:=FALSE;
+DB71_DBX041_7:=FALSE;
+DB71_DBX042_0:=FALSE;
+DB71_DBX042_1:=FALSE;
+DB71_DBX042_2:=FALSE;
+DB71_DBX042_3:=FALSE;
+DB71_DBX042_4:=FALSE;
+DB71_DBX042_5:=FALSE;
+DB71_DBX042_6:=FALSE;
+DB71_DBX042_7:=FALSE;
+DB71_DBX043_0:=FALSE;
+DB71_DBX043_1:=FALSE;
+DB71_DBX043_2:=FALSE;
+DB71_DBX043_3:=FALSE;
+DB71_DBX043_4:=FALSE;
+DB71_DBX043_5:=FALSE;
+DB71_DBX043_6:=FALSE;
+DB71_DBX043_7:=FALSE;
+DB71_DBX044_0:=FALSE;
+DB71_DBX044_1:=FALSE;
+DB71_DBX044_2:=FALSE;
+DB71_DBX044_3:=FALSE;
+DB71_DBX044_4:=FALSE;
+DB71_DBX044_5:=FALSE;
+DB71_DBX044_6:=FALSE;
+DB71_DBX044_7:=FALSE;
+DB71_DBX045_0:=FALSE;
+DB71_DBX045_1:=FALSE;
+DB71_DBX045_2:=FALSE;
+DB71_DBX045_3:=FALSE;
+DB71_DBX045_4:=FALSE;
+DB71_DBX045_5:=FALSE;
+DB71_DBX045_6:=FALSE;
+DB71_DBX045_7:=FALSE;
+DB71_DBX046_0:=FALSE;
+DB71_DBX046_1:=FALSE;
+DB71_DBX046_2:=FALSE;
+DB71_DBX046_3:=FALSE;
+DB71_DBX046_4:=FALSE;
+DB71_DBX046_5:=FALSE;
+DB71_DBX046_6:=FALSE;
+DB71_DBX046_7:=FALSE;
+DB71_DBX047_0:=FALSE;
+DB71_DBX047_1:=FALSE;
+DB71_DBX047_2:=FALSE;
+DB71_DBX047_3:=FALSE;
+DB71_DBX047_4:=FALSE;
+DB71_DBX047_5:=FALSE;
+DB71_DBX047_6:=FALSE;
+DB71_DBX047_7:=FALSE;
+DB71_DBX048_0:=FALSE;
+DB71_DBX048_1:=FALSE;
+DB71_DBX048_2:=FALSE;
+DB71_DBX048_3:=FALSE;
+DB71_DBX048_4:=FALSE;
+DB71_DBX048_5:=FALSE;
+DB71_DBX048_6:=FALSE;
+DB71_DBX048_7:=FALSE;
+DB71_DBX049_0:=FALSE;
+DB71_DBX049_1:=FALSE;
+DB71_DBX049_2:=FALSE;
+DB71_DBX049_3:=FALSE;
+DB71_DBX049_4:=FALSE;
+DB71_DBX049_5:=FALSE;
+DB71_DBX049_6:=FALSE;
+DB71_DBX049_7:=FALSE;
+DB71_DBX050_0:=FALSE;
+DB71_DBX050_1:=FALSE;
+DB71_DBX050_2:=FALSE;
+DB71_DBX050_3:=FALSE;
+DB71_DBX050_4:=FALSE;
+DB71_DBX050_5:=FALSE;
+DB71_DBX050_6:=FALSE;
+DB71_DBX050_7:=FALSE;
+DB71_DBX051_0:=FALSE;
+DB71_DBX051_1:=FALSE;
+DB71_DBX051_2:=FALSE;
+DB71_DBX051_3:=FALSE;
+DB71_DBX051_4:=FALSE;
+DB71_DBX051_5:=FALSE;
+DB71_DBX051_6:=FALSE;
+DB71_DBX051_7:=FALSE;
+DB71_DBX052_0:=FALSE;
+DB71_DBX052_1:=FALSE;
+DB71_DBX052_2:=FALSE;
+DB71_DBX052_3:=FALSE;
+DB71_DBX052_4:=FALSE;
+DB71_DBX052_5:=FALSE;
+DB71_DBX052_6:=FALSE;
+DB71_DBX052_7:=FALSE;
+DB71_DBX053_0:=FALSE;
+DB71_DBX053_1:=FALSE;
+DB71_DBX053_2:=FALSE;
+DB71_DBX053_3:=FALSE;
+DB71_DBX053_4:=FALSE;
+DB71_DBX053_5:=FALSE;
+DB71_DBX053_6:=FALSE;
+DB71_DBX053_7:=FALSE;
+DB71_DBX054_0:=FALSE;
+DB71_DBX054_1:=FALSE;
+DB71_DBX054_2:=FALSE;
+DB71_DBX054_3:=FALSE;
+DB71_DBX054_4:=FALSE;
+DB71_DBX054_5:=FALSE;
+DB71_DBX054_6:=FALSE;
+DB71_DBX054_7:=FALSE;
+DB71_DBX055_0:=FALSE;
+DB71_DBX055_1:=FALSE;
+DB71_DBX055_2:=FALSE;
+DB71_DBX055_3:=FALSE;
+DB71_DBX055_4:=FALSE;
+DB71_DBX055_5:=FALSE;
+DB71_DBX055_6:=FALSE;
+DB71_DBX055_7:=FALSE;
+DB71_DBX056_0:=FALSE;
+DB71_DBX056_1:=FALSE;
+DB71_DBX056_2:=FALSE;
+DB71_DBX056_3:=FALSE;
+DB71_DBX056_4:=FALSE;
+DB71_DBX056_5:=FALSE;
+DB71_DBX056_6:=FALSE;
+DB71_DBX056_7:=FALSE;
+DB71_DBX057_0:=FALSE;
+DB71_DBX057_1:=FALSE;
+DB71_DBX057_2:=FALSE;
+DB71_DBX057_3:=FALSE;
+DB71_DBX057_4:=FALSE;
+DB71_DBX057_5:=FALSE;
+DB71_DBX057_6:=FALSE;
+DB71_DBX057_7:=FALSE;
+DB71_DBX058_0:=FALSE;
+DB71_DBX058_1:=FALSE;
+DB71_DBX058_2:=FALSE;
+DB71_DBX058_3:=FALSE;
+DB71_DBX058_4:=FALSE;
+DB71_DBX058_5:=FALSE;
+DB71_DBX058_6:=FALSE;
+DB71_DBX058_7:=FALSE;
+DB71_DBX059_0:=FALSE;
+DB71_DBX059_1:=FALSE;
+DB71_DBX059_2:=FALSE;
+DB71_DBX059_3:=FALSE;
+DB71_DBX059_4:=FALSE;
+DB71_DBX059_5:=FALSE;
+DB71_DBX059_6:=FALSE;
+DB71_DBX059_7:=FALSE;
+DB71_DBX060_0:=FALSE;
+DB71_DBX060_1:=FALSE;
+DB71_DBX060_2:=FALSE;
+DB71_DBX060_3:=FALSE;
+DB71_DBX060_4:=FALSE;
+DB71_DBX060_5:=FALSE;
+DB71_DBX060_6:=FALSE;
+DB71_DBX060_7:=FALSE;
+DB71_DBX061_0:=FALSE;
+DB71_DBX061_1:=FALSE;
+DB71_DBX061_2:=FALSE;
+DB71_DBX061_3:=FALSE;
+DB71_DBX061_4:=FALSE;
+DB71_DBX061_5:=FALSE;
+DB71_DBX061_6:=FALSE;
+DB71_DBX061_7:=FALSE;
+DB71_DBX062_0:=FALSE;
+DB71_DBX062_1:=FALSE;
+DB71_DBX062_2:=FALSE;
+DB71_DBX062_3:=FALSE;
+DB71_DBX062_4:=FALSE;
+DB71_DBX062_5:=FALSE;
+DB71_DBX062_6:=FALSE;
+DB71_DBX062_7:=FALSE;
+DB71_DBX063_0:=FALSE;
+DB71_DBX063_1:=FALSE;
+DB71_DBX063_2:=FALSE;
+DB71_DBX063_3:=FALSE;
+DB71_DBX063_4:=FALSE;
+DB71_DBX063_5:=FALSE;
+DB71_DBX063_6:=FALSE;
+DB71_DBX063_7:=FALSE;
+DB71_DBX064_0:=FALSE;
+DB71_DBX064_1:=FALSE;
+DB71_DBX064_2:=FALSE;
+DB71_DBX064_3:=FALSE;
+DB71_DBX064_4:=FALSE;
+DB71_DBX064_5:=FALSE;
+DB71_DBX064_6:=FALSE;
+DB71_DBX064_7:=FALSE;
+DB71_DBX065_0:=FALSE;
+DB71_DBX065_1:=FALSE;
+DB71_DBX065_2:=FALSE;
+DB71_DBX065_3:=FALSE;
+DB71_DBX065_4:=FALSE;
+DB71_DBX065_5:=FALSE;
+DB71_DBX065_6:=FALSE;
+DB71_DBX065_7:=FALSE;
+DB71_DBX066_0:=FALSE;
+DB71_DBX066_1:=FALSE;
+DB71_DBX066_2:=FALSE;
+DB71_DBX066_3:=FALSE;
+DB71_DBX066_4:=FALSE;
+DB71_DBX066_5:=FALSE;
+DB71_DBX066_6:=FALSE;
+DB71_DBX066_7:=FALSE;
+DB71_DBX067_0:=FALSE;
+DB71_DBX067_1:=FALSE;
+DB71_DBX067_2:=FALSE;
+DB71_DBX067_3:=FALSE;
+DB71_DBX067_4:=FALSE;
+DB71_DBX067_5:=FALSE;
+DB71_DBX067_6:=FALSE;
+DB71_DBX067_7:=FALSE;
+DB71_DBX068_0:=FALSE;
+DB71_DBX068_1:=FALSE;
+DB71_DBX068_2:=FALSE;
+DB71_DBX068_3:=FALSE;
+DB71_DBX068_4:=FALSE;
+DB71_DBX068_5:=FALSE;
+DB71_DBX068_6:=FALSE;
+DB71_DBX068_7:=FALSE;
+DB71_DBX069_0:=FALSE;
+DB71_DBX069_1:=FALSE;
+DB71_DBX069_2:=FALSE;
+DB71_DBX069_3:=FALSE;
+DB71_DBX069_4:=FALSE;
+DB71_DBX069_5:=FALSE;
+DB71_DBX069_6:=FALSE;
+DB71_DBX069_7:=FALSE;
+DB71_DBX070_0:=FALSE;
+DB71_DBX070_1:=FALSE;
+DB71_DBX070_2:=FALSE;
+DB71_DBX070_3:=FALSE;
+DB71_DBX070_4:=FALSE;
+DB71_DBX070_5:=FALSE;
+DB71_DBX070_6:=FALSE;
+DB71_DBX070_7:=FALSE;
+DB71_DBX071_0:=FALSE;
+DB71_DBX071_1:=FALSE;
+DB71_DBX071_2:=FALSE;
+DB71_DBX071_3:=FALSE;
+DB71_DBX071_4:=FALSE;
+DB71_DBX071_5:=FALSE;
+DB71_DBX071_6:=FALSE;
+DB71_DBX071_7:=FALSE;
+DB71_DBX072_0:=FALSE;
+DB71_DBX072_1:=FALSE;
+DB71_DBX072_2:=FALSE;
+DB71_DBX072_3:=FALSE;
+DB71_DBX072_4:=FALSE;
+DB71_DBX072_5:=FALSE;
+DB71_DBX072_6:=FALSE;
+DB71_DBX072_7:=FALSE;
+DB71_DBX073_0:=FALSE;
+DB71_DBX073_1:=FALSE;
+DB71_DBX073_2:=FALSE;
+DB71_DBX073_3:=FALSE;
+DB71_DBX073_4:=FALSE;
+DB71_DBX073_5:=FALSE;
+DB71_DBX073_6:=FALSE;
+DB71_DBX073_7:=FALSE;
+DB71_DBX074_0:=FALSE;
+DB71_DBX074_1:=FALSE;
+DB71_DBX074_2:=FALSE;
+DB71_DBX074_3:=FALSE;
+DB71_DBX074_4:=FALSE;
+DB71_DBX074_5:=FALSE;
+DB71_DBX074_6:=FALSE;
+DB71_DBX074_7:=FALSE;
+DB71_DBX075_0:=FALSE;
+DB71_DBX075_1:=FALSE;
+DB71_DBX075_2:=FALSE;
+DB71_DBX075_3:=FALSE;
+DB71_DBX075_4:=FALSE;
+DB71_DBX075_5:=FALSE;
+DB71_DBX075_6:=FALSE;
+DB71_DBX075_7:=FALSE;
+DB71_DBX076_0:=FALSE;
+DB71_DBX076_1:=FALSE;
+DB71_DBX076_2:=FALSE;
+DB71_DBX076_3:=FALSE;
+DB71_DBX076_4:=FALSE;
+DB71_DBX076_5:=FALSE;
+DB71_DBX076_6:=FALSE;
+DB71_DBX076_7:=FALSE;
+DB71_DBX077_0:=FALSE;
+DB71_DBX077_1:=FALSE;
+DB71_DBX077_2:=FALSE;
+DB71_DBX077_3:=FALSE;
+DB71_DBX077_4:=FALSE;
+DB71_DBX077_5:=FALSE;
+DB71_DBX077_6:=FALSE;
+DB71_DBX077_7:=FALSE;
+DB71_DBX078_0:=FALSE;
+DB71_DBX078_1:=FALSE;
+DB71_DBX078_2:=FALSE;
+DB71_DBX078_3:=FALSE;
+DB71_DBX078_4:=FALSE;
+DB71_DBX078_5:=FALSE;
+DB71_DBX078_6:=FALSE;
+DB71_DBX078_7:=FALSE;
+DB71_DBX079_0:=FALSE;
+DB71_DBX079_1:=FALSE;
+DB71_DBX079_2:=FALSE;
+DB71_DBX079_3:=FALSE;
+DB71_DBX079_4:=FALSE;
+DB71_DBX079_5:=FALSE;
+DB71_DBX079_6:=FALSE;
+DB71_DBX079_7:=FALSE;
+DB71_DBX080_0:=FALSE;
+DB71_DBX080_1:=FALSE;
+DB71_DBX080_2:=FALSE;
+DB71_DBX080_3:=FALSE;
+DB71_DBX080_4:=FALSE;
+DB71_DBX080_5:=FALSE;
+DB71_DBX080_6:=FALSE;
+DB71_DBX080_7:=FALSE;
+DB71_DBX081_0:=FALSE;
+DB71_DBX081_1:=FALSE;
+DB71_DBX081_2:=FALSE;
+DB71_DBX081_3:=FALSE;
+DB71_DBX081_4:=FALSE;
+DB71_DBX081_5:=FALSE;
+DB71_DBX081_6:=FALSE;
+DB71_DBX081_7:=FALSE;
+DB71_DBX082_0:=FALSE;
+DB71_DBX082_1:=FALSE;
+DB71_DBX082_2:=FALSE;
+DB71_DBX082_3:=FALSE;
+DB71_DBX082_4:=FALSE;
+DB71_DBX082_5:=FALSE;
+DB71_DBX082_6:=FALSE;
+DB71_DBX082_7:=FALSE;
+DB71_DBX083_0:=FALSE;
+DB71_DBX083_1:=FALSE;
+DB71_DBX083_2:=FALSE;
+DB71_DBX083_3:=FALSE;
+DB71_DBX083_4:=FALSE;
+DB71_DBX083_5:=FALSE;
+DB71_DBX083_6:=FALSE;
+DB71_DBX083_7:=FALSE;
+DB71_DBX084_0:=FALSE;
+DB71_DBX084_1:=FALSE;
+DB71_DBX084_2:=FALSE;
+DB71_DBX084_3:=FALSE;
+DB71_DBX084_4:=FALSE;
+DB71_DBX084_5:=FALSE;
+DB71_DBX084_6:=FALSE;
+DB71_DBX084_7:=FALSE;
+DB71_DBX085_0:=FALSE;
+DB71_DBX085_1:=FALSE;
+DB71_DBX085_2:=FALSE;
+DB71_DBX085_3:=FALSE;
+DB71_DBX085_4:=FALSE;
+DB71_DBX085_5:=FALSE;
+DB71_DBX085_6:=FALSE;
+DB71_DBX085_7:=FALSE;
+DB71_DBX086_0:=FALSE;
+DB71_DBX086_1:=FALSE;
+DB71_DBX086_2:=FALSE;
+DB71_DBX086_3:=FALSE;
+DB71_DBX086_4:=FALSE;
+DB71_DBX086_5:=FALSE;
+DB71_DBX086_6:=FALSE;
+DB71_DBX086_7:=FALSE;
+DB71_DBX087_0:=FALSE;
+DB71_DBX087_1:=FALSE;
+DB71_DBX087_2:=FALSE;
+DB71_DBX087_3:=FALSE;
+DB71_DBX087_4:=FALSE;
+DB71_DBX087_5:=FALSE;
+DB71_DBX087_6:=FALSE;
+DB71_DBX087_7:=FALSE;
+DB71_DBX088_0:=FALSE;
+DB71_DBX088_1:=FALSE;
+DB71_DBX088_2:=FALSE;
+DB71_DBX088_3:=FALSE;
+DB71_DBX088_4:=FALSE;
+DB71_DBX088_5:=FALSE;
+DB71_DBX088_6:=FALSE;
+DB71_DBX088_7:=FALSE;
+DB71_DBX089_0:=FALSE;
+DB71_DBX089_1:=FALSE;
+DB71_DBX089_2:=FALSE;
+DB71_DBX089_3:=FALSE;
+DB71_DBX089_4:=FALSE;
+DB71_DBX089_5:=FALSE;
+DB71_DBX089_6:=FALSE;
+DB71_DBX089_7:=FALSE;
+DB71_DBX090_0:=FALSE;
+DB71_DBX090_1:=FALSE;
+DB71_DBX090_2:=FALSE;
+DB71_DBX090_3:=FALSE;
+DB71_DBX090_4:=FALSE;
+DB71_DBX090_5:=FALSE;
+DB71_DBX090_6:=FALSE;
+DB71_DBX090_7:=FALSE;
+DB71_DBX091_0:=FALSE;
+DB71_DBX091_1:=FALSE;
+DB71_DBX091_2:=FALSE;
+DB71_DBX091_3:=FALSE;
+DB71_DBX091_4:=FALSE;
+DB71_DBX091_5:=FALSE;
+DB71_DBX091_6:=FALSE;
+DB71_DBX091_7:=FALSE;
+DB71_DBX092_0:=FALSE;
+DB71_DBX092_1:=FALSE;
+DB71_DBX092_2:=FALSE;
+DB71_DBX092_3:=FALSE;
+DB71_DBX092_4:=FALSE;
+DB71_DBX092_5:=FALSE;
+DB71_DBX092_6:=FALSE;
+DB71_DBX092_7:=FALSE;
+DB71_DBX093_0:=FALSE;
+DB71_DBX093_1:=FALSE;
+DB71_DBX093_2:=FALSE;
+DB71_DBX093_3:=FALSE;
+DB71_DBX093_4:=FALSE;
+DB71_DBX093_5:=FALSE;
+DB71_DBX093_6:=FALSE;
+DB71_DBX093_7:=FALSE;
+DB71_DBX094_0:=FALSE;
+DB71_DBX094_1:=FALSE;
+DB71_DBX094_2:=FALSE;
+DB71_DBX094_3:=FALSE;
+DB71_DBX094_4:=FALSE;
+DB71_DBX094_5:=FALSE;
+DB71_DBX094_6:=FALSE;
+DB71_DBX094_7:=FALSE;
+DB71_DBX095_0:=FALSE;
+DB71_DBX095_1:=FALSE;
+DB71_DBX095_2:=FALSE;
+DB71_DBX095_3:=FALSE;
+DB71_DBX095_4:=FALSE;
+DB71_DBX095_5:=FALSE;
+DB71_DBX095_6:=FALSE;
+DB71_DBX095_7:=FALSE;
+DB71_DBX096_0:=FALSE;
+DB71_DBX096_1:=FALSE;
+DB71_DBX096_2:=FALSE;
+DB71_DBX096_3:=FALSE;
+DB71_DBX096_4:=FALSE;
+DB71_DBX096_5:=FALSE;
+DB71_DBX096_6:=FALSE;
+DB71_DBX096_7:=FALSE;
+DB71_DBX097_0:=FALSE;
+DB71_DBX097_1:=FALSE;
+DB71_DBX097_2:=FALSE;
+DB71_DBX097_3:=FALSE;
+DB71_DBX097_4:=FALSE;
+DB71_DBX097_5:=FALSE;
+DB71_DBX097_6:=FALSE;
+DB71_DBX097_7:=FALSE;
+DB71_DBX098_0:=FALSE;
+DB71_DBX098_1:=FALSE;
+DB71_DBX098_2:=FALSE;
+DB71_DBX098_3:=FALSE;
+DB71_DBX098_4:=FALSE;
+DB71_DBX098_5:=FALSE;
+DB71_DBX098_6:=FALSE;
+DB71_DBX098_7:=FALSE;
+DB71_DBX099_0:=FALSE;
+DB71_DBX099_1:=FALSE;
+DB71_DBX099_2:=FALSE;
+DB71_DBX099_3:=FALSE;
+DB71_DBX099_4:=FALSE;
+DB71_DBX099_5:=FALSE;
+DB71_DBX099_6:=FALSE;
+DB71_DBX099_7:=FALSE;
+DB71_DBX100_0:=FALSE;
+DB71_DBX100_1:=FALSE;
+DB71_DBX100_2:=FALSE;
+DB71_DBX100_3:=FALSE;
+DB71_DBX100_4:=FALSE;
+DB71_DBX100_5:=FALSE;
+DB71_DBX100_6:=FALSE;
+DB71_DBX100_7:=FALSE;
+DB71_DBX101_0:=FALSE;
+DB71_DBX101_1:=FALSE;
+DB71_DBX101_2:=FALSE;
+DB71_DBX101_3:=FALSE;
+DB71_DBX101_4:=FALSE;
+DB71_DBX101_5:=FALSE;
+DB71_DBX101_6:=FALSE;
+DB71_DBX101_7:=FALSE;
+DB71_DBX102_0:=FALSE;
+DB71_DBX102_1:=FALSE;
+DB71_DBX102_2:=FALSE;
+DB71_DBX102_3:=FALSE;
+DB71_DBX102_4:=FALSE;
+DB71_DBX102_5:=FALSE;
+DB71_DBX102_6:=FALSE;
+DB71_DBX102_7:=FALSE;
+DB71_DBX103_0:=FALSE;
+DB71_DBX103_1:=FALSE;
+DB71_DBX103_2:=FALSE;
+DB71_DBX103_3:=FALSE;
+DB71_DBX103_4:=FALSE;
+DB71_DBX103_5:=FALSE;
+DB71_DBX103_6:=FALSE;
+DB71_DBX103_7:=FALSE;
+DB71_DBX104_0:=FALSE;
+DB71_DBX104_1:=FALSE;
+DB71_DBX104_2:=FALSE;
+DB71_DBX104_3:=FALSE;
+DB71_DBX104_4:=FALSE;
+DB71_DBX104_5:=FALSE;
+DB71_DBX104_6:=FALSE;
+DB71_DBX104_7:=FALSE;
+DB71_DBX105_0:=FALSE;
+DB71_DBX105_1:=FALSE;
+DB71_DBX105_2:=FALSE;
+DB71_DBX105_3:=FALSE;
+DB71_DBX105_4:=FALSE;
+DB71_DBX105_5:=FALSE;
+DB71_DBX105_6:=FALSE;
+DB71_DBX105_7:=FALSE;
+DB71_DBX106_0:=FALSE;
+DB71_DBX106_1:=FALSE;
+DB71_DBX106_2:=FALSE;
+DB71_DBX106_3:=FALSE;
+DB71_DBX106_4:=FALSE;
+DB71_DBX106_5:=FALSE;
+DB71_DBX106_6:=FALSE;
+DB71_DBX106_7:=FALSE;
+DB71_DBX107_0:=FALSE;
+DB71_DBX107_1:=FALSE;
+DB71_DBX107_2:=FALSE;
+DB71_DBX107_3:=FALSE;
+DB71_DBX107_4:=FALSE;
+DB71_DBX107_5:=FALSE;
+DB71_DBX107_6:=FALSE;
+DB71_DBX107_7:=FALSE;
+DB71_DBX108_0:=FALSE;
+DB71_DBX108_1:=FALSE;
+DB71_DBX108_2:=FALSE;
+DB71_DBX108_3:=FALSE;
+DB71_DBX108_4:=FALSE;
+DB71_DBX108_5:=FALSE;
+DB71_DBX108_6:=FALSE;
+DB71_DBX108_7:=FALSE;
+DB71_DBX109_0:=FALSE;
+DB71_DBX109_1:=FALSE;
+DB71_DBX109_2:=FALSE;
+DB71_DBX109_3:=FALSE;
+DB71_DBX109_4:=FALSE;
+DB71_DBX109_5:=FALSE;
+DB71_DBX109_6:=FALSE;
+DB71_DBX109_7:=FALSE;
+DB71_DBX110_0:=FALSE;
+DB71_DBX110_1:=FALSE;
+DB71_DBX110_2:=FALSE;
+DB71_DBX110_3:=FALSE;
+DB71_DBX110_4:=FALSE;
+DB71_DBX110_5:=FALSE;
+DB71_DBX110_6:=FALSE;
+DB71_DBX110_7:=FALSE;
+DB71_DBX111_0:=FALSE;
+DB71_DBX111_1:=FALSE;
+DB71_DBX111_2:=FALSE;
+DB71_DBX111_3:=FALSE;
+DB71_DBX111_4:=FALSE;
+DB71_DBX111_5:=FALSE;
+DB71_DBX111_6:=FALSE;
+DB71_DBX111_7:=FALSE;
+DB71_DBX112_0:=FALSE;
+DB71_DBX112_1:=FALSE;
+DB71_DBX112_2:=FALSE;
+DB71_DBX112_3:=FALSE;
+DB71_DBX112_4:=FALSE;
+DB71_DBX112_5:=FALSE;
+DB71_DBX112_6:=FALSE;
+DB71_DBX112_7:=FALSE;
+DB71_DBX113_0:=FALSE;
+DB71_DBX113_1:=FALSE;
+DB71_DBX113_2:=FALSE;
+DB71_DBX113_3:=FALSE;
+DB71_DBX113_4:=FALSE;
+DB71_DBX113_5:=FALSE;
+DB71_DBX113_6:=FALSE;
+DB71_DBX113_7:=FALSE;
+DB71_DBX114_0:=FALSE;
+DB71_DBX114_1:=FALSE;
+DB71_DBX114_2:=FALSE;
+DB71_DBX114_3:=FALSE;
+DB71_DBX114_4:=FALSE;
+DB71_DBX114_5:=FALSE;
+DB71_DBX114_6:=FALSE;
+DB71_DBX114_7:=FALSE;
+DB71_DBX115_0:=FALSE;
+DB71_DBX115_1:=FALSE;
+DB71_DBX115_2:=FALSE;
+DB71_DBX115_3:=FALSE;
+DB71_DBX115_4:=FALSE;
+DB71_DBX115_5:=FALSE;
+DB71_DBX115_6:=FALSE;
+DB71_DBX115_7:=FALSE;
+DB71_DBX116_0:=FALSE;
+DB71_DBX116_1:=FALSE;
+DB71_DBX116_2:=FALSE;
+DB71_DBX116_3:=FALSE;
+DB71_DBX116_4:=FALSE;
+DB71_DBX116_5:=FALSE;
+DB71_DBX116_6:=FALSE;
+DB71_DBX116_7:=FALSE;
+DB71_DBX117_0:=FALSE;
+DB71_DBX117_1:=FALSE;
+DB71_DBX117_2:=FALSE;
+DB71_DBX117_3:=FALSE;
+DB71_DBX117_4:=FALSE;
+DB71_DBX117_5:=FALSE;
+DB71_DBX117_6:=FALSE;
+DB71_DBX117_7:=FALSE;
+DB71_DBX118_0:=FALSE;
+DB71_DBX118_1:=FALSE;
+DB71_DBX118_2:=FALSE;
+DB71_DBX118_3:=FALSE;
+DB71_DBX118_4:=FALSE;
+DB71_DBX118_5:=FALSE;
+DB71_DBX118_6:=FALSE;
+DB71_DBX118_7:=FALSE;
+DB71_DBX119_0:=FALSE;
+DB71_DBX119_1:=FALSE;
+DB71_DBX119_2:=FALSE;
+DB71_DBX119_3:=FALSE;
+DB71_DBX119_4:=FALSE;
+DB71_DBX119_5:=FALSE;
+DB71_DBX119_6:=FALSE;
+DB71_DBX119_7:=FALSE;
+DB71_DBX120_0:=FALSE;
+DB71_DBX120_1:=FALSE;
+DB71_DBX120_2:=FALSE;
+DB71_DBX120_3:=FALSE;
+DB71_DBX120_4:=FALSE;
+DB71_DBX120_5:=FALSE;
+DB71_DBX120_6:=FALSE;
+DB71_DBX120_7:=FALSE;
+DB71_DBX121_0:=FALSE;
+DB71_DBX121_1:=FALSE;
+DB71_DBX121_2:=FALSE;
+DB71_DBX121_3:=FALSE;
+DB71_DBX121_4:=FALSE;
+DB71_DBX121_5:=FALSE;
+DB71_DBX121_6:=FALSE;
+DB71_DBX121_7:=FALSE;
+DB71_DBX122_0:=FALSE;
+DB71_DBX122_1:=FALSE;
+DB71_DBX122_2:=FALSE;
+DB71_DBX122_3:=FALSE;
+DB71_DBX122_4:=FALSE;
+DB71_DBX122_5:=FALSE;
+DB71_DBX122_6:=FALSE;
+DB71_DBX122_7:=FALSE;
+DB71_DBX123_0:=FALSE;
+DB71_DBX123_1:=FALSE;
+DB71_DBX123_2:=FALSE;
+DB71_DBX123_3:=FALSE;
+DB71_DBX123_4:=FALSE;
+DB71_DBX123_5:=FALSE;
+DB71_DBX123_6:=FALSE;
+DB71_DBX123_7:=FALSE;
+DB71_DBX124_0:=FALSE;
+DB71_DBX124_1:=FALSE;
+DB71_DBX124_2:=FALSE;
+DB71_DBX124_3:=FALSE;
+DB71_DBX124_4:=FALSE;
+DB71_DBX124_5:=FALSE;
+DB71_DBX124_6:=FALSE;
+DB71_DBX124_7:=FALSE;
+DB71_DBX125_0:=FALSE;
+DB71_DBX125_1:=FALSE;
+DB71_DBX125_2:=FALSE;
+DB71_DBX125_3:=FALSE;
+DB71_DBX125_4:=FALSE;
+DB71_DBX125_5:=FALSE;
+DB71_DBX125_6:=FALSE;
+DB71_DBX125_7:=FALSE;
+DB71_DBX126_0:=FALSE;
+DB71_DBX126_1:=FALSE;
+DB71_DBX126_2:=FALSE;
+DB71_DBX126_3:=FALSE;
+DB71_DBX126_4:=FALSE;
+DB71_DBX126_5:=FALSE;
+DB71_DBX126_6:=FALSE;
+DB71_DBX126_7:=FALSE;
+DB71_DBX127_0:=FALSE;
+DB71_DBX127_1:=FALSE;
+DB71_DBX127_2:=FALSE;
+DB71_DBX127_3:=FALSE;
+DB71_DBX127_4:=FALSE;
+DB71_DBX127_5:=FALSE;
+DB71_DBX127_6:=FALSE;
+DB71_DBX127_7:=FALSE;
+DB71_DBX128_0:=FALSE;
+DB71_DBX128_1:=FALSE;
+DB71_DBX128_2:=FALSE;
+DB71_DBX128_3:=FALSE;
+DB71_DBX128_4:=FALSE;
+DB71_DBX128_5:=FALSE;
+DB71_DBX128_6:=FALSE;
+DB71_DBX128_7:=FALSE;
+DB71_DBX129_0:=FALSE;
+DB71_DBX129_1:=FALSE;
+DB71_DBX129_2:=FALSE;
+DB71_DBX129_3:=FALSE;
+DB71_DBX129_4:=FALSE;
+DB71_DBX129_5:=FALSE;
+DB71_DBX129_6:=FALSE;
+DB71_DBX129_7:=FALSE;
+DB71_DBX130_0:=FALSE;
+DB71_DBX130_1:=FALSE;
+DB71_DBX130_2:=FALSE;
+DB71_DBX130_3:=FALSE;
+DB71_DBX130_4:=FALSE;
+DB71_DBX130_5:=FALSE;
+DB71_DBX130_6:=FALSE;
+DB71_DBX130_7:=FALSE;
+DB71_DBX131_0:=FALSE;
+DB71_DBX131_1:=FALSE;
+DB71_DBX131_2:=FALSE;
+DB71_DBX131_3:=FALSE;
+DB71_DBX131_4:=FALSE;
+DB71_DBX131_5:=FALSE;
+DB71_DBX131_6:=FALSE;
+DB71_DBX131_7:=FALSE;
+DB71_DBX132_0:=FALSE;
+DB71_DBX132_1:=FALSE;
+DB71_DBX132_2:=FALSE;
+DB71_DBX132_3:=FALSE;
+DB71_DBX132_4:=FALSE;
+DB71_DBX132_5:=FALSE;
+DB71_DBX132_6:=FALSE;
+DB71_DBX132_7:=FALSE;
+DB71_DBX133_0:=FALSE;
+DB71_DBX133_1:=FALSE;
+DB71_DBX133_2:=FALSE;
+DB71_DBX133_3:=FALSE;
+DB71_DBX133_4:=FALSE;
+DB71_DBX133_5:=FALSE;
+DB71_DBX133_6:=FALSE;
+DB71_DBX133_7:=FALSE;
+DB71_DBX134_0:=FALSE;
+DB71_DBX134_1:=FALSE;
+DB71_DBX134_2:=FALSE;
+DB71_DBX134_3:=FALSE;
+DB71_DBX134_4:=FALSE;
+DB71_DBX134_5:=FALSE;
+DB71_DBX134_6:=FALSE;
+DB71_DBX134_7:=FALSE;
+DB71_DBX135_0:=FALSE;
+DB71_DBX135_1:=FALSE;
+DB71_DBX135_2:=FALSE;
+DB71_DBX135_3:=FALSE;
+DB71_DBX135_4:=FALSE;
+DB71_DBX135_5:=FALSE;
+DB71_DBX135_6:=FALSE;
+DB71_DBX135_7:=FALSE;
+DB71_DBX136_0:=FALSE;
+DB71_DBX136_1:=FALSE;
+DB71_DBX136_2:=FALSE;
+DB71_DBX136_3:=FALSE;
+DB71_DBX136_4:=FALSE;
+DB71_DBX136_5:=FALSE;
+DB71_DBX136_6:=FALSE;
+DB71_DBX136_7:=FALSE;
+DB71_DBX137_0:=FALSE;
+DB71_DBX137_1:=FALSE;
+DB71_DBX137_2:=FALSE;
+DB71_DBX137_3:=FALSE;
+DB71_DBX137_4:=FALSE;
+DB71_DBX137_5:=FALSE;
+DB71_DBX137_6:=FALSE;
+DB71_DBX137_7:=FALSE;
+DB71_DBX138_0:=FALSE;
+DB71_DBX138_1:=FALSE;
+DB71_DBX138_2:=FALSE;
+DB71_DBX138_3:=FALSE;
+DB71_DBX138_4:=FALSE;
+DB71_DBX138_5:=FALSE;
+DB71_DBX138_6:=FALSE;
+DB71_DBX138_7:=FALSE;
+DB71_DBX139_0:=FALSE;
+DB71_DBX139_1:=FALSE;
+DB71_DBX139_2:=FALSE;
+DB71_DBX139_3:=FALSE;
+DB71_DBX139_4:=FALSE;
+DB71_DBX139_5:=FALSE;
+DB71_DBX139_6:=FALSE;
+DB71_DBX139_7:=FALSE;
+DB71_DBX140_0:=FALSE;
+DB71_DBX140_1:=FALSE;
+DB71_DBX140_2:=FALSE;
+DB71_DBX140_3:=FALSE;
+DB71_DBX140_4:=FALSE;
+DB71_DBX140_5:=FALSE;
+DB71_DBX140_6:=FALSE;
+DB71_DBX140_7:=FALSE;
+DB71_DBX141_0:=FALSE;
+DB71_DBX141_1:=FALSE;
+DB71_DBX141_2:=FALSE;
+DB71_DBX141_3:=FALSE;
+DB71_DBX141_4:=FALSE;
+DB71_DBX141_5:=FALSE;
+DB71_DBX141_6:=FALSE;
+DB71_DBX141_7:=FALSE;
+DB71_DBX142_0:=FALSE;
+DB71_DBX142_1:=FALSE;
+DB71_DBX142_2:=FALSE;
+DB71_DBX142_3:=FALSE;
+DB71_DBX142_4:=FALSE;
+DB71_DBX142_5:=FALSE;
+DB71_DBX142_6:=FALSE;
+DB71_DBX142_7:=FALSE;
+DB71_DBX143_0:=FALSE;
+DB71_DBX143_1:=FALSE;
+DB71_DBX143_2:=FALSE;
+DB71_DBX143_3:=FALSE;
+DB71_DBX143_4:=FALSE;
+DB71_DBX143_5:=FALSE;
+DB71_DBX143_6:=FALSE;
+DB71_DBX143_7:=FALSE;
+DB71_DBX144_0:=FALSE;
+DB71_DBX144_1:=FALSE;
+DB71_DBX144_2:=FALSE;
+DB71_DBX144_3:=FALSE;
+DB71_DBX144_4:=FALSE;
+DB71_DBX144_5:=FALSE;
+DB71_DBX144_6:=FALSE;
+DB71_DBX144_7:=FALSE;
+DB71_DBX145_0:=FALSE;
+DB71_DBX145_1:=FALSE;
+DB71_DBX145_2:=FALSE;
+DB71_DBX145_3:=FALSE;
+DB71_DBX145_4:=FALSE;
+DB71_DBX145_5:=FALSE;
+DB71_DBX145_6:=FALSE;
+DB71_DBX145_7:=FALSE;
+DB71_DBX146_0:=FALSE;
+DB71_DBX146_1:=FALSE;
+DB71_DBX146_2:=FALSE;
+DB71_DBX146_3:=FALSE;
+DB71_DBX146_4:=FALSE;
+DB71_DBX146_5:=FALSE;
+DB71_DBX146_6:=FALSE;
+DB71_DBX146_7:=FALSE;
+DB71_DBX147_0:=FALSE;
+DB71_DBX147_1:=FALSE;
+DB71_DBX147_2:=FALSE;
+DB71_DBX147_3:=FALSE;
+DB71_DBX147_4:=FALSE;
+DB71_DBX147_5:=FALSE;
+DB71_DBX147_6:=FALSE;
+DB71_DBX147_7:=FALSE;
+DB71_DBX148_0:=FALSE;
+DB71_DBX148_1:=FALSE;
+DB71_DBX148_2:=FALSE;
+DB71_DBX148_3:=FALSE;
+DB71_DBX148_4:=FALSE;
+DB71_DBX148_5:=FALSE;
+DB71_DBX148_6:=FALSE;
+DB71_DBX148_7:=FALSE;
+DB71_DBX149_0:=FALSE;
+DB71_DBX149_1:=FALSE;
+DB71_DBX149_2:=FALSE;
+DB71_DBX149_3:=FALSE;
+DB71_DBX149_4:=FALSE;
+DB71_DBX149_5:=FALSE;
+DB71_DBX149_6:=FALSE;
+DB71_DBX149_7:=FALSE;
+DB71_DBX150_0:=FALSE;
+DB71_DBX150_1:=FALSE;
+DB71_DBX150_2:=FALSE;
+DB71_DBX150_3:=FALSE;
+DB71_DBX150_4:=FALSE;
+DB71_DBX150_5:=FALSE;
+DB71_DBX150_6:=FALSE;
+DB71_DBX150_7:=FALSE;
+DB71_DBX151_0:=FALSE;
+DB71_DBX151_1:=FALSE;
+DB71_DBX151_2:=FALSE;
+DB71_DBX151_3:=FALSE;
+DB71_DBX151_4:=FALSE;
+DB71_DBX151_5:=FALSE;
+DB71_DBX151_6:=FALSE;
+DB71_DBX151_7:=FALSE;
+DB71_DBX152_0:=FALSE;
+DB71_DBX152_1:=FALSE;
+DB71_DBX152_2:=FALSE;
+DB71_DBX152_3:=FALSE;
+DB71_DBX152_4:=FALSE;
+DB71_DBX152_5:=FALSE;
+DB71_DBX152_6:=FALSE;
+DB71_DBX152_7:=FALSE;
+DB71_DBX153_0:=FALSE;
+DB71_DBX153_1:=FALSE;
+DB71_DBX153_2:=FALSE;
+DB71_DBX153_3:=FALSE;
+DB71_DBX153_4:=FALSE;
+DB71_DBX153_5:=FALSE;
+DB71_DBX153_6:=FALSE;
+DB71_DBX153_7:=FALSE;
+DB71_DBX154_0:=FALSE;
+DB71_DBX154_1:=FALSE;
+DB71_DBX154_2:=FALSE;
+DB71_DBX154_3:=FALSE;
+DB71_DBX154_4:=FALSE;
+DB71_DBX154_5:=FALSE;
+DB71_DBX154_6:=FALSE;
+DB71_DBX154_7:=FALSE;
+DB71_DBX155_0:=FALSE;
+DB71_DBX155_1:=FALSE;
+DB71_DBX155_2:=FALSE;
+DB71_DBX155_3:=FALSE;
+DB71_DBX155_4:=FALSE;
+DB71_DBX155_5:=FALSE;
+DB71_DBX155_6:=FALSE;
+DB71_DBX155_7:=FALSE;
+DB71_DBX156_0:=FALSE;
+DB71_DBX156_1:=FALSE;
+DB71_DBX156_2:=FALSE;
+DB71_DBX156_3:=FALSE;
+DB71_DBX156_4:=FALSE;
+DB71_DBX156_5:=FALSE;
+DB71_DBX156_6:=FALSE;
+DB71_DBX156_7:=FALSE;
+DB71_DBX157_0:=FALSE;
+DB71_DBX157_1:=FALSE;
+DB71_DBX157_2:=FALSE;
+DB71_DBX157_3:=FALSE;
+DB71_DBX157_4:=FALSE;
+DB71_DBX157_5:=FALSE;
+DB71_DBX157_6:=FALSE;
+DB71_DBX157_7:=FALSE;
+DB71_DBX158_0:=FALSE;
+DB71_DBX158_1:=FALSE;
+DB71_DBX158_2:=FALSE;
+DB71_DBX158_3:=FALSE;
+DB71_DBX158_4:=FALSE;
+DB71_DBX158_5:=FALSE;
+DB71_DBX158_6:=FALSE;
+DB71_DBX158_7:=FALSE;
+DB71_DBX159_0:=FALSE;
+DB71_DBX159_1:=FALSE;
+DB71_DBX159_2:=FALSE;
+DB71_DBX159_3:=FALSE;
+DB71_DBX159_4:=FALSE;
+DB71_DBX159_5:=FALSE;
+DB71_DBX159_6:=FALSE;
+DB71_DBX159_7:=FALSE;
+DB71_DBX160_0:=FALSE;
+DB71_DBX160_1:=FALSE;
+DB71_DBX160_2:=FALSE;
+DB71_DBX160_3:=FALSE;
+DB71_DBX160_4:=FALSE;
+DB71_DBX160_5:=FALSE;
+DB71_DBX160_6:=FALSE;
+DB71_DBX160_7:=FALSE;
+DB71_DBX161_0:=FALSE;
+DB71_DBX161_1:=FALSE;
+DB71_DBX161_2:=FALSE;
+DB71_DBX161_3:=FALSE;
+DB71_DBX161_4:=FALSE;
+DB71_DBX161_5:=FALSE;
+DB71_DBX161_6:=FALSE;
+DB71_DBX161_7:=FALSE;
+DB71_DBX162_0:=FALSE;
+DB71_DBX162_1:=FALSE;
+DB71_DBX162_2:=FALSE;
+DB71_DBX162_3:=FALSE;
+DB71_DBX162_4:=FALSE;
+DB71_DBX162_5:=FALSE;
+DB71_DBX162_6:=FALSE;
+DB71_DBX162_7:=FALSE;
+DB71_DBX163_0:=FALSE;
+DB71_DBX163_1:=FALSE;
+DB71_DBX163_2:=FALSE;
+DB71_DBX163_3:=FALSE;
+DB71_DBX163_4:=FALSE;
+DB71_DBX163_5:=FALSE;
+DB71_DBX163_6:=FALSE;
+DB71_DBX163_7:=FALSE;
+DB71_DBX164_0:=FALSE;
+DB71_DBX164_1:=FALSE;
+DB71_DBX164_2:=FALSE;
+DB71_DBX164_3:=FALSE;
+DB71_DBX164_4:=FALSE;
+DB71_DBX164_5:=FALSE;
+DB71_DBX164_6:=FALSE;
+DB71_DBX164_7:=FALSE;
+DB71_DBX165_0:=FALSE;
+DB71_DBX165_1:=FALSE;
+DB71_DBX165_2:=FALSE;
+DB71_DBX165_3:=FALSE;
+DB71_DBX165_4:=FALSE;
+DB71_DBX165_5:=FALSE;
+DB71_DBX165_6:=FALSE;
+DB71_DBX165_7:=FALSE;
+DB71_DBX166_0:=FALSE;
+DB71_DBX166_1:=FALSE;
+DB71_DBX166_2:=FALSE;
+DB71_DBX166_3:=FALSE;
+DB71_DBX166_4:=FALSE;
+DB71_DBX166_5:=FALSE;
+DB71_DBX166_6:=FALSE;
+DB71_DBX166_7:=FALSE;
+DB71_DBX167_0:=FALSE;
+DB71_DBX167_1:=FALSE;
+DB71_DBX167_2:=FALSE;
+DB71_DBX167_3:=FALSE;
+DB71_DBX167_4:=FALSE;
+DB71_DBX167_5:=FALSE;
+DB71_DBX167_6:=FALSE;
+DB71_DBX167_7:=FALSE;
+DB71_DBX168_0:=FALSE;
+DB71_DBX168_1:=FALSE;
+DB71_DBX168_2:=FALSE;
+DB71_DBX168_3:=FALSE;
+DB71_DBX168_4:=FALSE;
+DB71_DBX168_5:=FALSE;
+DB71_DBX168_6:=FALSE;
+DB71_DBX168_7:=FALSE;
+DB71_DBX169_0:=FALSE;
+DB71_DBX169_1:=FALSE;
+DB71_DBX169_2:=FALSE;
+DB71_DBX169_3:=FALSE;
+DB71_DBX169_4:=FALSE;
+DB71_DBX169_5:=FALSE;
+DB71_DBX169_6:=FALSE;
+DB71_DBX169_7:=FALSE;
+DB71_DBX170_0:=FALSE;
+DB71_DBX170_1:=FALSE;
+DB71_DBX170_2:=FALSE;
+DB71_DBX170_3:=FALSE;
+DB71_DBX170_4:=FALSE;
+DB71_DBX170_5:=FALSE;
+DB71_DBX170_6:=FALSE;
+DB71_DBX170_7:=FALSE;
+DB71_DBX171_0:=FALSE;
+DB71_DBX171_1:=FALSE;
+DB71_DBX171_2:=FALSE;
+DB71_DBX171_3:=FALSE;
+DB71_DBX171_4:=FALSE;
+DB71_DBX171_5:=FALSE;
+DB71_DBX171_6:=FALSE;
+DB71_DBX171_7:=FALSE;
+DB71_DBX172_0:=FALSE;
+DB71_DBX172_1:=FALSE;
+DB71_DBX172_2:=FALSE;
+DB71_DBX172_3:=FALSE;
+DB71_DBX172_4:=FALSE;
+DB71_DBX172_5:=FALSE;
+DB71_DBX172_6:=FALSE;
+DB71_DBX172_7:=FALSE;
+DB71_DBX173_0:=FALSE;
+DB71_DBX173_1:=FALSE;
+DB71_DBX173_2:=FALSE;
+DB71_DBX173_3:=FALSE;
+DB71_DBX173_4:=FALSE;
+DB71_DBX173_5:=FALSE;
+DB71_DBX173_6:=FALSE;
+DB71_DBX173_7:=FALSE;
+DB71_DBX174_0:=FALSE;
+DB71_DBX174_1:=FALSE;
+DB71_DBX174_2:=FALSE;
+DB71_DBX174_3:=FALSE;
+DB71_DBX174_4:=FALSE;
+DB71_DBX174_5:=FALSE;
+DB71_DBX174_6:=FALSE;
+DB71_DBX174_7:=FALSE;
+DB71_DBX175_0:=FALSE;
+DB71_DBX175_1:=FALSE;
+DB71_DBX175_2:=FALSE;
+DB71_DBX175_3:=FALSE;
+DB71_DBX175_4:=FALSE;
+DB71_DBX175_5:=FALSE;
+DB71_DBX175_6:=FALSE;
+DB71_DBX175_7:=FALSE;
+DB71_DBX176_0:=FALSE;
+DB71_DBX176_1:=FALSE;
+DB71_DBX176_2:=FALSE;
+DB71_DBX176_3:=FALSE;
+DB71_DBX176_4:=FALSE;
+DB71_DBX176_5:=FALSE;
+DB71_DBX176_6:=FALSE;
+DB71_DBX176_7:=FALSE;
+DB71_DBX177_0:=FALSE;
+DB71_DBX177_1:=FALSE;
+DB71_DBX177_2:=FALSE;
+DB71_DBX177_3:=FALSE;
+DB71_DBX177_4:=FALSE;
+DB71_DBX177_5:=FALSE;
+DB71_DBX177_6:=FALSE;
+DB71_DBX177_7:=FALSE;
+DB71_DBX178_0:=FALSE;
+DB71_DBX178_1:=FALSE;
+DB71_DBX178_2:=FALSE;
+DB71_DBX178_3:=FALSE;
+DB71_DBX178_4:=FALSE;
+DB71_DBX178_5:=FALSE;
+DB71_DBX178_6:=FALSE;
+DB71_DBX178_7:=FALSE;
+DB71_DBX179_0:=FALSE;
+DB71_DBX179_1:=FALSE;
+DB71_DBX179_2:=FALSE;
+DB71_DBX179_3:=FALSE;
+DB71_DBX179_4:=FALSE;
+DB71_DBX179_5:=FALSE;
+DB71_DBX179_6:=FALSE;
+DB71_DBX179_7:=FALSE;
+DB71_DBX180_0:=FALSE;
+DB71_DBX180_1:=FALSE;
+DB71_DBX180_2:=FALSE;
+DB71_DBX180_3:=FALSE;
+DB71_DBX180_4:=FALSE;
+DB71_DBX180_5:=FALSE;
+DB71_DBX180_6:=FALSE;
+DB71_DBX180_7:=FALSE;
+DB71_DBX181_0:=FALSE;
+DB71_DBX181_1:=FALSE;
+DB71_DBX181_2:=FALSE;
+DB71_DBX181_3:=FALSE;
+DB71_DBX181_4:=FALSE;
+DB71_DBX181_5:=FALSE;
+DB71_DBX181_6:=FALSE;
+DB71_DBX181_7:=FALSE;
+DB71_DBX182_0:=FALSE;
+DB71_DBX182_1:=FALSE;
+DB71_DBX182_2:=FALSE;
+DB71_DBX182_3:=FALSE;
+DB71_DBX182_4:=FALSE;
+DB71_DBX182_5:=FALSE;
+DB71_DBX182_6:=FALSE;
+DB71_DBX182_7:=FALSE;
+DB71_DBX183_0:=FALSE;
+DB71_DBX183_1:=FALSE;
+DB71_DBX183_2:=FALSE;
+DB71_DBX183_3:=FALSE;
+DB71_DBX183_4:=FALSE;
+DB71_DBX183_5:=FALSE;
+DB71_DBX183_6:=FALSE;
+DB71_DBX183_7:=FALSE;
+DB71_DBX184_0:=FALSE;
+DB71_DBX184_1:=FALSE;
+DB71_DBX184_2:=FALSE;
+DB71_DBX184_3:=FALSE;
+DB71_DBX184_4:=FALSE;
+DB71_DBX184_5:=FALSE;
+DB71_DBX184_6:=FALSE;
+DB71_DBX184_7:=FALSE;
+DB71_DBX185_0:=FALSE;
+DB71_DBX185_1:=FALSE;
+DB71_DBX185_2:=FALSE;
+DB71_DBX185_3:=FALSE;
+DB71_DBX185_4:=FALSE;
+DB71_DBX185_5:=FALSE;
+DB71_DBX185_6:=FALSE;
+DB71_DBX185_7:=FALSE;
+DB71_DBX186_0:=FALSE;
+DB71_DBX186_1:=FALSE;
+DB71_DBX186_2:=FALSE;
+DB71_DBX186_3:=FALSE;
+DB71_DBX186_4:=FALSE;
+DB71_DBX186_5:=FALSE;
+DB71_DBX186_6:=FALSE;
+DB71_DBX186_7:=FALSE;
+DB71_DBX187_0:=FALSE;
+DB71_DBX187_1:=FALSE;
+DB71_DBX187_2:=FALSE;
+DB71_DBX187_3:=FALSE;
+DB71_DBX187_4:=FALSE;
+DB71_DBX187_5:=FALSE;
+DB71_DBX187_6:=FALSE;
+DB71_DBX187_7:=FALSE;
+DB71_DBX188_0:=FALSE;
+DB71_DBX188_1:=FALSE;
+DB71_DBX188_2:=FALSE;
+DB71_DBX188_3:=FALSE;
+DB71_DBX188_4:=FALSE;
+DB71_DBX188_5:=FALSE;
+DB71_DBX188_6:=FALSE;
+DB71_DBX188_7:=FALSE;
+DB71_DBX189_0:=FALSE;
+DB71_DBX189_1:=FALSE;
+DB71_DBX189_2:=FALSE;
+DB71_DBX189_3:=FALSE;
+DB71_DBX189_4:=FALSE;
+DB71_DBX189_5:=FALSE;
+DB71_DBX189_6:=FALSE;
+DB71_DBX189_7:=FALSE;
+DB71_DBX190_0:=FALSE;
+DB71_DBX190_1:=FALSE;
+DB71_DBX190_2:=FALSE;
+DB71_DBX190_3:=FALSE;
+DB71_DBX190_4:=FALSE;
+DB71_DBX190_5:=FALSE;
+DB71_DBX190_6:=FALSE;
+DB71_DBX190_7:=FALSE;
+DB71_DBX191_0:=FALSE;
+DB71_DBX191_1:=FALSE;
+DB71_DBX191_2:=FALSE;
+DB71_DBX191_3:=FALSE;
+DB71_DBX191_4:=FALSE;
+DB71_DBX191_5:=FALSE;
+DB71_DBX191_6:=FALSE;
+DB71_DBX191_7:=FALSE;
+DB71_DBX192_0:=FALSE;
+DB71_DBX192_1:=FALSE;
+DB71_DBX192_2:=FALSE;
+DB71_DBX192_3:=FALSE;
+DB71_DBX192_4:=FALSE;
+DB71_DBX192_5:=FALSE;
+DB71_DBX192_6:=FALSE;
+DB71_DBX192_7:=FALSE;
+DB71_DBX193_0:=FALSE;
+DB71_DBX193_1:=FALSE;
+DB71_DBX193_2:=FALSE;
+DB71_DBX193_3:=FALSE;
+DB71_DBX193_4:=FALSE;
+DB71_DBX193_5:=FALSE;
+DB71_DBX193_6:=FALSE;
+DB71_DBX193_7:=FALSE;
+DB71_DBX194_0:=FALSE;
+DB71_DBX194_1:=FALSE;
+DB71_DBX194_2:=FALSE;
+DB71_DBX194_3:=FALSE;
+DB71_DBX194_4:=FALSE;
+DB71_DBX194_5:=FALSE;
+DB71_DBX194_6:=FALSE;
+DB71_DBX194_7:=FALSE;
+DB71_DBX195_0:=FALSE;
+DB71_DBX195_1:=FALSE;
+DB71_DBX195_2:=FALSE;
+DB71_DBX195_3:=FALSE;
+DB71_DBX195_4:=FALSE;
+DB71_DBX195_5:=FALSE;
+DB71_DBX195_6:=FALSE;
+DB71_DBX195_7:=FALSE;
+DB71_DBX196_0:=FALSE;
+DB71_DBX196_1:=FALSE;
+DB71_DBX196_2:=FALSE;
+DB71_DBX196_3:=FALSE;
+DB71_DBX196_4:=FALSE;
+DB71_DBX196_5:=FALSE;
+DB71_DBX196_6:=FALSE;
+DB71_DBX196_7:=FALSE;
+
+END_DATA_BLOCK

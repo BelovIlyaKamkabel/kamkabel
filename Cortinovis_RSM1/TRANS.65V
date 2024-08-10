@@ -1,0 +1,4741 @@
+LFID	999968
+TOOL	3984385258
+CFID	1396
+CMOD	65
+NODE	6133
+NTOP	0
+SKEY	<unknown>
+LIST
+	PRIM	Misc/Idle
+ELST
+LIST
+	PRIM	Misc/Idle
+ELST
+LIST
+	STRE
+		SORD	0
+			PRIM	Stack/Drop
+			PRIM	Stack/Drop from aux
+			PRIM	Stack/Drop from aux
+		ESBR
+	ESTR
+ELST
+LIST
+	PRIM	Misc/Idle
+ELST
+LIST
+	PRIM	Misc/Idle
+ELST
+LIST
+	PRIM	Misc/Idle
+ELST
+LIST
+	PRIM	Misc/Idle
+ELST
+LIST
+	PRIM	Misc/Idle
+ELST
+STRE
+	SNST	App Config	/l
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	650107	App Config
+			ESBR
+			SORD	2
+				PORD	9	1106/ev:NULL:STANDARD:LOCAL/REM:PRESETS:RAISE/LOWER:PID:APP 6:APP 7:APP 8:CUSTOM;(1091) Application
+				PORD	1	1107/ev:NONE:DEMAND:CURRENT:PID ERROR:R/L OUTPUT;(1092) Anout Source
+				PORD	1	1108/ev:NONE:HEALTH:TRIPPED:RUNNING:AT ZERO:AT SPEED:AT LOAD;(1093) Relay Source
+				PORD	0	1109/ev:NONE:HEALTH:TRIPPED:RUNNING:AT ZERO:AT SPEED:AT LOAD;(1094) Digio 2 Source
+				PORD	0	1079/t,False,True;(1064) App Lock
+			ESBR
+			SORD	1106
+				LCON	 	/*+0,0,0,0, ;(1091) Application
+			ESBR
+			SORD	1107
+				LCON	 	/*+0,0,0,0, ;(1092) Anout Source
+			ESBR
+			SORD	1108
+				LCON	 	/*+0,0,0,0, ;(1093) Relay Source
+			ESBR
+			SORD	1109
+				LCON	 	/*+0,0,0,0, ;(1094) Digio 2 Source
+			ESBR
+			SORD	1079
+				LCON	 	/*+0,0,0,0, ;(1064) App Lock
+			ESBR
+		ESTR
+		CMNT	1	0,600,4500
+	ESBR
+	SNST	Analog Input 1	/l
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	650010	Analog Input 1
+			ESBR
+			SORD	2
+				PORD	0	31/:s,0,0,0.1;%.1f %%;(16) Value
+				PORD	10000	29/s,-30000,30000,0.01;%.2f %%;(14) Scale
+				PORD	0	30/s,-30000,30000,0.01;%.2f %%;(15) Offset
+				PORD	0	28/ev:0..10 V:0...5 V;(13) Type
+			ESBR
+			SORD	31
+				LCON	 	/*+0,0,0,0,VALUE;(16) Value
+			ESBR
+			SORD	29
+				LCON	 	/*+0,0,0,0, ;(14) Scale
+			ESBR
+			SORD	30
+				LCON	 	/*+0,0,0,0, ;(15) Offset
+			ESBR
+			SORD	28
+				LCON	 	/*+0,0,0,0, ;(13) Type
+			ESBR
+		ESTR
+		CMNT	1	0,3480,3396
+	ESBR
+	SNST	Analog Input 2	/l
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	650011	Analog Input 2
+			ESBR
+			SORD	2
+				PORD	0	40/:s,0,0,0.1;%.1f %%;(25) Value
+				PORD	10000	38/s,-30000,30000,0.01;%.2f %%;(23) Scale
+				PORD	0	39/s,-30000,30000,0.01;%.2f %%;(24) Offset
+				PORD	0	37/ev:0..10 V:0...5 V:0..20 mA:4..20 mA;(22) Type
+				PORD	0	41/s,-1000,1000,0.1;%.1f %%;(26) Break Value
+			ESBR
+			SORD	40
+				LCON	 	/*+0,0,0,0,VALUE;(25) Value
+			ESBR
+			SORD	38
+				LCON	 	/*+0,0,0,0, ;(23) Scale
+			ESBR
+			SORD	39
+				LCON	 	/*+0,0,0,0, ;(24) Offset
+			ESBR
+			SORD	37
+				LCON	 	/*+0,0,0,0, ;(22) Type
+			ESBR
+			SORD	41
+				LCON	 	/*+0,0,0,0, ;(26) Break Value
+			ESBR
+		ESTR
+		CMNT	1	0,4542,3276
+	ESBR
+	SNST	Analog Output	/l
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	650012	Analog Output
+			ESBR
+			SORD	2
+				PORD	0	60/s,-3000,3000,0.1;%.1f %%;(45) Value
+				PORD	10000	61/s,-30000,30000,0.01;%.2f %%;(46) Scale
+				PORD	0	62/s,-30000,30000,0.01;%.2f %%;(47) Offset
+				PORD	1	63/t,False,True;(48) Absolute
+			ESBR
+			SORD	60
+				LCON	 	/*+0,0,0,0, ;(45) Value
+			ESBR
+			SORD	61
+				LCON	 	/*+0,0,0,0, ;(46) Scale
+			ESBR
+			SORD	62
+				LCON	 	/*+0,0,0,0, ;(47) Offset
+			ESBR
+			SORD	63
+				LCON	 	/*+0,0,0,0, ;(48) Absolute
+			ESBR
+		ESTR
+		CMNT	1	0,5686,3540
+	ESBR
+	SNST	Digital Input 1 (terminal 7)	/l
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	354649	Digital Input
+			ESBR
+			SORD	2
+				PORD	0	46/:t,False,True;(31) Value
+				PORD	0	45/t,False,True;(30) Invert
+			ESBR
+			SORD	46
+				LCON	 	/*+0,0,0,0,VALUE;(31) Value
+				LIST	 	/l6
+					GSYM	Conns/Update[attach]
+					LNOD
+					MSGE
+						ICAL	Sequencing Logic
+						GSYM	Drive/Run Forward
+						LITO	31
+						LITO	291
+						ISYM	res link 4
+					EMSG
+					CMNT	13	0,1064,-1
+				ELST
+			ESBR
+			SORD	45
+				LCON	 	/*+0,0,0,0, ;(30) Invert
+			ESBR
+		ESTR
+		CMNT	1	0,402,1020
+	ESBR
+	SNST	Digital Input 2 (terminal 8)	/l
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	354649	Digital Input
+			ESBR
+			SORD	2
+				PORD	0	49/:t,False,True;(34) Value
+				PORD	0	48/t,False,True;(33) Invert
+			ESBR
+			SORD	49
+				LCON	 	/*+0,0,0,0,VALUE;(34) Value
+				LIST	 	/l6
+					GSYM	Conns/Update[attach]
+					LNOD
+					MSGE
+						ICAL	Sequencing Logic
+						GSYM	Drive/Run Reverse
+						LITO	34
+						LITO	292
+						ISYM	res link 5
+					EMSG
+					CMNT	13	0,1028,-1
+				ELST
+			ESBR
+			SORD	48
+				LCON	 	/*+0,0,0,0, ;(33) Invert
+			ESBR
+		ESTR
+		CMNT	1	0,438,1608
+	ESBR
+	SNST	Digital Input 3 (terminal 9)	/l
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	354649	Digital Input
+			ESBR
+			SORD	2
+				PORD	0	52/:t,False,True;(37) Value
+				PORD	0	51/t,False,True;(36) Invert
+			ESBR
+			SORD	52
+				LCON	 	/*+0,0,0,0,VALUE;(37) Value
+				LIST	 	/l6
+					GSYM	Conns/Update[attach]
+					LNOD
+					MSGE
+						ICAL	Sequencing Logic
+						GSYM	Drive/Jog
+						LITO	37
+						LITO	280
+						ISYM	res link 6
+					EMSG
+					CMNT	13	0,1064,-1
+				ELST
+			ESBR
+			SORD	51
+				LCON	 	/*+0,0,0,0, ;(36) Invert
+			ESBR
+		ESTR
+		CMNT	1	0,402,2052
+	ESBR
+	SNST	Digital Input 4 (terminal 10)	/l
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	354649	Digital Input
+			ESBR
+			SORD	2
+				PORD	0	55/:t,False,True;(40) Value
+				PORD	0	54/t,False,True;(39) Invert
+			ESBR
+			SORD	55
+				LCON	 	/*+0,0,0,0,VALUE;(40) Value
+			ESBR
+			SORD	54
+				LCON	 	/*+0,0,0,0, ;(39) Invert
+			ESBR
+		ESTR
+		CMNT	1	0,1320,2928
+	ESBR
+	SNST	Digital Input 5 (terminal 11)	/l
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	354649	Digital Input
+			ESBR
+			SORD	2
+				PORD	1	58/:t,False,True;(43) Value
+				PORD	1	57/t,False,True;(42) Invert
+			ESBR
+			SORD	58
+				LCON	 	/*+0,0,0,0,VALUE;(43) Value
+			ESBR
+			SORD	57
+				LCON	 	/*+0,0,0,0, ;(42) Invert
+			ESBR
+		ESTR
+		CMNT	1	0,474,3156
+	ESBR
+	SNST	Digital Input 6 (terminal 12)	/l
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	354649	Digital Input
+			ESBR
+			SORD	2
+				PORD	0	741/:t,False,True;(726) Value
+				PORD	0	740/t,False,True;(725) Invert
+			ESBR
+			SORD	741
+				LCON	 	/*+0,0,0,0,VALUE;(726) Value
+			ESBR
+			SORD	740
+				LCON	 	/*+0,0,0,0, ;(725) Invert
+			ESBR
+		ESTR
+		CMNT	1	0,1608,4320
+	ESBR
+	SNST	Digital Input 7 (terminal 13)	/l
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	354649	Digital Input
+			ESBR
+			SORD	2
+				PORD	0	743/:t,False,True;(728) Value
+				PORD	0	742/t,False,True;(727) Invert
+			ESBR
+			SORD	743
+				LCON	 	/*+0,0,0,0,VALUE;(728) Value
+			ESBR
+			SORD	742
+				LCON	 	/*+0,0,0,0, ;(727) Invert
+			ESBR
+		ESTR
+		CMNT	1	0,2508,4332
+	ESBR
+	SNST	Digital Output 1 (terminal 9)	/l
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	354650	Digital Output
+			ESBR
+			SORD	2
+				PORD	0	67/t,False,True;(52) Value
+				PORD	0	66/t,False,True;(51) Invert
+			ESBR
+			SORD	67
+				LCON	 	/*+0,0,0,0, ;(52) Value
+			ESBR
+			SORD	66
+				LCON	 	/*+0,0,0,0, ;(51) Invert
+			ESBR
+		ESTR
+		CMNT	1	0,2482,3492
+	ESBR
+	SNST	Digital Output 2 (terminal 10)	/l
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	354650	Digital Output
+			ESBR
+			SORD	2
+				PORD	0	70/t,False,True;(55) Value
+				PORD	0	69/t,False,True;(54) Invert
+			ESBR
+			SORD	70
+				LCON	 	/*+0,0,0,0, ;(55) Value
+			ESBR
+			SORD	69
+				LCON	 	/*+0,0,0,0, ;(54) Invert
+			ESBR
+		ESTR
+		CMNT	1	0,4840,2292
+	ESBR
+	SNST	Digital Output 3 (relay)	/l
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	354650	Digital Output
+			ESBR
+			SORD	2
+				PORD	1	752/t,False,True;(737) Value
+				PORD	0	751/t,False,True;(736) Invert
+			ESBR
+			SORD	752
+				LCON	 	/*+0,0,0,0, ;(737) Value
+			ESBR
+			SORD	751
+				LCON	 	/*+0,0,0,0, ;(736) Invert
+			ESBR
+		ESTR
+		CMNT	1	0,3346,1812
+	ESBR
+	SNST	Value Func 1	/l
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	650015	Value Func
+			ESBR
+			SORD	2
+				LONG	0	148/:s,0,0,0.01;%.2f;(133) Output
+				LONG	0	145/s,-3276800,3276700,0.01;%.2f;(130) Input A
+				LONG	0	146/s,-3276800,3276700,0.01;%.2f;(131) Input B
+				LONG	0	147/s,-3276800,3276700,0.01;%.2f;(132) Input C
+				PORD	4	149/ev:IF(C) -A:ABS(A+B+C):SWITCH(A,B):(A*B)/C:A+B+C:A-B-C:B<=A<=C:A>B+/-C:A>=B:ABS(A)>B+/-C:ABS(A)>=B:A(1+B):IF(C) HOLD(A):BINARY DECODE:ON DELAY:OFF DELAY:TIMER:MINIMUM PULSE:PULSE TRAIN:WINDOW:UP/DWN COUNTER:(A*B)/C ROUND:WINDOW NO HYST:WIND A>=B,A<=C:A<=B:((A*B)/100)+C:MIN(A,B,C):MAX(A,B,C):PROFILE SQRT:PROFILE LINEAR:PROFILE x^2:PROFILE x^3:PROFILE x^4;(134) Type
+			ESBR
+			SORD	148
+				LCON	 	/*+0,0,0,0,OUTPUT;(133) Output
+			ESBR
+			SORD	145
+				LCON	 	/*+0,0,0,0, ;(130) Input A
+			ESBR
+			SORD	146
+				LCON	 	/*+0,0,0,0, ;(131) Input B
+			ESBR
+			SORD	147
+				LCON	 	/*+0,0,0,0, ;(132) Input C
+			ESBR
+			SORD	149
+				LCON	 	/*+0,0,0,0, ;(134) Type
+			ESBR
+		ESTR
+		CMNT	1	0,5022,4800
+	ESBR
+	SNST	Value Func 2	/l
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	650015	Value Func
+			ESBR
+			SORD	2
+				LONG	0	153/:s,0,0,0.01;%.2f;(138) Output
+				LONG	10000	150/s,-3276800,3276700,0.01;%.2f;(135) Input A
+				LONG	0	151/s,-3276800,3276700,0.01;%.2f;(136) Input B
+				LONG	0	152/s,-3276800,3276700,0.01;%.2f;(137) Input C
+				PORD	4	154/ev:IF(C) -A:ABS(A+B+C):SWITCH(A,B):(A*B)/C:A+B+C:A-B-C:B<=A<=C:A>B+/-C:A>=B:ABS(A)>B+/-C:ABS(A)>=B:A(1+B):IF(C) HOLD(A):BINARY DECODE:ON DELAY:OFF DELAY:TIMER:MINIMUM PULSE:PULSE TRAIN:WINDOW:UP/DWN COUNTER:(A*B)/C ROUND:WINDOW NO HYST:WIND A>=B,A<=C:A<=B:((A*B)/100)+C:MIN(A,B,C):MAX(A,B,C):PROFILE SQRT:PROFILE LINEAR:PROFILE x^2:PROFILE x^3:PROFILE x^4;(139) Type
+			ESBR
+			SORD	153
+				LCON	 	/*+0,0,0,0,OUTPUT;(138) Output
+				LIST	 	/l6
+					GSYM	Conns/Update[attach]
+					LNOD
+					MSGE
+						ICAL	Reference
+						GSYM	Drive/Remote Setpoint
+						LITO	138
+						LITO	245
+						ISYM	res link 3
+					EMSG
+					CMNT	13	0,3693,-1
+				ELST
+			ESBR
+			SORD	150
+				LCON	 	/*+0,0,0,0, ;(135) Input A
+			ESBR
+			SORD	151
+				LCON	 	/*+0,0,0,0, ;(136) Input B
+			ESBR
+			SORD	152
+				LCON	 	/*+0,0,0,0, ;(137) Input C
+			ESBR
+			SORD	154
+				LCON	 	/*+0,0,0,0, ;(139) Type
+			ESBR
+		ESTR
+		CMNT	1	0,2832,600
+	ESBR
+	SNST	Value Func 3	/l
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	650015	Value Func
+			ESBR
+			SORD	2
+				LONG	0	158/:s,0,0,0.01;%.2f;(143) Output
+				LONG	0	155/s,-3276800,3276700,0.01;%.2f;(140) Input A
+				LONG	0	156/s,-3276800,3276700,0.01;%.2f;(141) Input B
+				LONG	0	157/s,-3276800,3276700,0.01;%.2f;(142) Input C
+				PORD	0	159/ev:IF(C) -A:ABS(A+B+C):SWITCH(A,B):(A*B)/C:A+B+C:A-B-C:B<=A<=C:A>B+/-C:A>=B:ABS(A)>B+/-C:ABS(A)>=B:A(1+B):IF(C) HOLD(A):BINARY DECODE:ON DELAY:OFF DELAY:TIMER:MINIMUM PULSE:PULSE TRAIN:WINDOW:UP/DWN COUNTER:(A*B)/C ROUND:WINDOW NO HYST:WIND A>=B,A<=C:A<=B:((A*B)/100)+C:MIN(A,B,C):MAX(A,B,C):PROFILE SQRT:PROFILE LINEAR:PROFILE x^2:PROFILE x^3:PROFILE x^4;(144) Type
+			ESBR
+			SORD	158
+				LCON	 	/*+0,0,0,0,OUTPUT;(143) Output
+			ESBR
+			SORD	155
+				LCON	 	/*+0,0,0,0, ;(140) Input A
+			ESBR
+			SORD	156
+				LCON	 	/*+0,0,0,0, ;(141) Input B
+			ESBR
+			SORD	157
+				LCON	 	/*+0,0,0,0, ;(142) Input C
+			ESBR
+			SORD	159
+				LCON	 	/*+0,0,0,0, ;(144) Type
+			ESBR
+		ESTR
+		CMNT	1	3,3600,300
+	ESBR
+	SNST	Value Func 4	/l
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	650015	Value Func
+			ESBR
+			SORD	2
+				LONG	0	163/:s,0,0,0.01;%.2f;(148) Output
+				LONG	0	160/s,-3276800,3276700,0.01;%.2f;(145) Input A
+				LONG	0	161/s,-3276800,3276700,0.01;%.2f;(146) Input B
+				LONG	0	162/s,-3276800,3276700,0.01;%.2f;(147) Input C
+				PORD	0	164/ev:IF(C) -A:ABS(A+B+C):SWITCH(A,B):(A*B)/C:A+B+C:A-B-C:B<=A<=C:A>B+/-C:A>=B:ABS(A)>B+/-C:ABS(A)>=B:A(1+B):IF(C) HOLD(A):BINARY DECODE:ON DELAY:OFF DELAY:TIMER:MINIMUM PULSE:PULSE TRAIN:WINDOW:UP/DWN COUNTER:(A*B)/C ROUND:WINDOW NO HYST:WIND A>=B,A<=C:A<=B:((A*B)/100)+C:MIN(A,B,C):MAX(A,B,C):PROFILE SQRT:PROFILE LINEAR:PROFILE x^2:PROFILE x^3:PROFILE x^4;(149) Type
+			ESBR
+			SORD	163
+				LCON	 	/*+0,0,0,0,OUTPUT;(148) Output
+			ESBR
+			SORD	160
+				LCON	 	/*+0,0,0,0, ;(145) Input A
+			ESBR
+			SORD	161
+				LCON	 	/*+0,0,0,0, ;(146) Input B
+			ESBR
+			SORD	162
+				LCON	 	/*+0,0,0,0, ;(147) Input C
+			ESBR
+			SORD	164
+				LCON	 	/*+0,0,0,0, ;(149) Type
+			ESBR
+		ESTR
+		CMNT	1	3,5100,300
+	ESBR
+	SNST	Value Func 5	/l
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	650015	Value Func
+			ESBR
+			SORD	2
+				LONG	0	168/:s,0,0,0.01;%.2f;(153) Output
+				LONG	0	165/s,-3276800,3276700,0.01;%.2f;(150) Input A
+				LONG	0	166/s,-3276800,3276700,0.01;%.2f;(151) Input B
+				LONG	0	167/s,-3276800,3276700,0.01;%.2f;(152) Input C
+				PORD	0	169/ev:IF(C) -A:ABS(A+B+C):SWITCH(A,B):(A*B)/C:A+B+C:A-B-C:B<=A<=C:A>B+/-C:A>=B:ABS(A)>B+/-C:ABS(A)>=B:A(1+B):IF(C) HOLD(A):BINARY DECODE:ON DELAY:OFF DELAY:TIMER:MINIMUM PULSE:PULSE TRAIN:WINDOW:UP/DWN COUNTER:(A*B)/C ROUND:WINDOW NO HYST:WIND A>=B,A<=C:A<=B:((A*B)/100)+C:MIN(A,B,C):MAX(A,B,C):PROFILE SQRT:PROFILE LINEAR:PROFILE x^2:PROFILE x^3:PROFILE x^4;(154) Type
+			ESBR
+			SORD	168
+				LCON	 	/*+0,0,0,0,OUTPUT;(153) Output
+			ESBR
+			SORD	165
+				LCON	 	/*+0,0,0,0, ;(150) Input A
+			ESBR
+			SORD	166
+				LCON	 	/*+0,0,0,0, ;(151) Input B
+			ESBR
+			SORD	167
+				LCON	 	/*+0,0,0,0, ;(152) Input C
+			ESBR
+			SORD	169
+				LCON	 	/*+0,0,0,0, ;(154) Type
+			ESBR
+		ESTR
+		CMNT	1	3,6600,300
+	ESBR
+	SNST	Value Func 6	/l
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	650015	Value Func
+			ESBR
+			SORD	2
+				LONG	0	173/:s,0,0,0.01;%.2f;(158) Output
+				LONG	0	170/s,-3276800,3276700,0.01;%.2f;(155) Input A
+				LONG	0	171/s,-3276800,3276700,0.01;%.2f;(156) Input B
+				LONG	0	172/s,-3276800,3276700,0.01;%.2f;(157) Input C
+				PORD	0	174/ev:IF(C) -A:ABS(A+B+C):SWITCH(A,B):(A*B)/C:A+B+C:A-B-C:B<=A<=C:A>B+/-C:A>=B:ABS(A)>B+/-C:ABS(A)>=B:A(1+B):IF(C) HOLD(A):BINARY DECODE:ON DELAY:OFF DELAY:TIMER:MINIMUM PULSE:PULSE TRAIN:WINDOW:UP/DWN COUNTER:(A*B)/C ROUND:WINDOW NO HYST:WIND A>=B,A<=C:A<=B:((A*B)/100)+C:MIN(A,B,C):MAX(A,B,C):PROFILE SQRT:PROFILE LINEAR:PROFILE x^2:PROFILE x^3:PROFILE x^4;(159) Type
+			ESBR
+			SORD	173
+				LCON	 	/*+0,0,0,0,OUTPUT;(158) Output
+			ESBR
+			SORD	170
+				LCON	 	/*+0,0,0,0, ;(155) Input A
+			ESBR
+			SORD	171
+				LCON	 	/*+0,0,0,0, ;(156) Input B
+			ESBR
+			SORD	172
+				LCON	 	/*+0,0,0,0, ;(157) Input C
+			ESBR
+			SORD	174
+				LCON	 	/*+0,0,0,0, ;(159) Type
+			ESBR
+		ESTR
+		CMNT	1	3,600,900
+	ESBR
+	SNST	Value Func 7	/l
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	650015	Value Func
+			ESBR
+			SORD	2
+				LONG	0	178/:s,0,0,0.01;%.2f;(163) Output
+				LONG	0	175/s,-3276800,3276700,0.01;%.2f;(160) Input A
+				LONG	0	176/s,-3276800,3276700,0.01;%.2f;(161) Input B
+				LONG	0	177/s,-3276800,3276700,0.01;%.2f;(162) Input C
+				PORD	0	179/ev:IF(C) -A:ABS(A+B+C):SWITCH(A,B):(A*B)/C:A+B+C:A-B-C:B<=A<=C:A>B+/-C:A>=B:ABS(A)>B+/-C:ABS(A)>=B:A(1+B):IF(C) HOLD(A):BINARY DECODE:ON DELAY:OFF DELAY:TIMER:MINIMUM PULSE:PULSE TRAIN:WINDOW:UP/DWN COUNTER:(A*B)/C ROUND:WINDOW NO HYST:WIND A>=B,A<=C:A<=B:((A*B)/100)+C:MIN(A,B,C):MAX(A,B,C):PROFILE SQRT:PROFILE LINEAR:PROFILE x^2:PROFILE x^3:PROFILE x^4;(164) Type
+			ESBR
+			SORD	178
+				LCON	 	/*+0,0,0,0,OUTPUT;(163) Output
+			ESBR
+			SORD	175
+				LCON	 	/*+0,0,0,0, ;(160) Input A
+			ESBR
+			SORD	176
+				LCON	 	/*+0,0,0,0, ;(161) Input B
+			ESBR
+			SORD	177
+				LCON	 	/*+0,0,0,0, ;(162) Input C
+			ESBR
+			SORD	179
+				LCON	 	/*+0,0,0,0, ;(164) Type
+			ESBR
+		ESTR
+		CMNT	1	3,2100,900
+	ESBR
+	SNST	Value Func 8	/l
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	650015	Value Func
+			ESBR
+			SORD	2
+				LONG	0	183/:s,0,0,0.01;%.2f;(168) Output
+				LONG	0	180/s,-3276800,3276700,0.01;%.2f;(165) Input A
+				LONG	0	181/s,-3276800,3276700,0.01;%.2f;(166) Input B
+				LONG	0	182/s,-3276800,3276700,0.01;%.2f;(167) Input C
+				PORD	0	184/ev:IF(C) -A:ABS(A+B+C):SWITCH(A,B):(A*B)/C:A+B+C:A-B-C:B<=A<=C:A>B+/-C:A>=B:ABS(A)>B+/-C:ABS(A)>=B:A(1+B):IF(C) HOLD(A):BINARY DECODE:ON DELAY:OFF DELAY:TIMER:MINIMUM PULSE:PULSE TRAIN:WINDOW:UP/DWN COUNTER:(A*B)/C ROUND:WINDOW NO HYST:WIND A>=B,A<=C:A<=B:((A*B)/100)+C:MIN(A,B,C):MAX(A,B,C):PROFILE SQRT:PROFILE LINEAR:PROFILE x^2:PROFILE x^3:PROFILE x^4;(169) Type
+			ESBR
+			SORD	183
+				LCON	 	/*+0,0,0,0,OUTPUT;(168) Output
+			ESBR
+			SORD	180
+				LCON	 	/*+0,0,0,0, ;(165) Input A
+			ESBR
+			SORD	181
+				LCON	 	/*+0,0,0,0, ;(166) Input B
+			ESBR
+			SORD	182
+				LCON	 	/*+0,0,0,0, ;(167) Input C
+			ESBR
+			SORD	184
+				LCON	 	/*+0,0,0,0, ;(169) Type
+			ESBR
+		ESTR
+		CMNT	1	3,3600,900
+	ESBR
+	SNST	Value Func 9	/l
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	650015	Value Func
+			ESBR
+			SORD	2
+				LONG	0	188/:s,0,0,0.01;%.2f;(173) Output
+				LONG	0	185/s,-3276800,3276700,0.01;%.2f;(170) Input A
+				LONG	0	186/s,-3276800,3276700,0.01;%.2f;(171) Input B
+				LONG	0	187/s,-3276800,3276700,0.01;%.2f;(172) Input C
+				PORD	0	189/ev:IF(C) -A:ABS(A+B+C):SWITCH(A,B):(A*B)/C:A+B+C:A-B-C:B<=A<=C:A>B+/-C:A>=B:ABS(A)>B+/-C:ABS(A)>=B:A(1+B):IF(C) HOLD(A):BINARY DECODE:ON DELAY:OFF DELAY:TIMER:MINIMUM PULSE:PULSE TRAIN:WINDOW:UP/DWN COUNTER:(A*B)/C ROUND:WINDOW NO HYST:WIND A>=B,A<=C:A<=B:((A*B)/100)+C:MIN(A,B,C):MAX(A,B,C):PROFILE SQRT:PROFILE LINEAR:PROFILE x^2:PROFILE x^3:PROFILE x^4;(174) Type
+			ESBR
+			SORD	188
+				LCON	 	/*+0,0,0,0,OUTPUT;(173) Output
+			ESBR
+			SORD	185
+				LCON	 	/*+0,0,0,0, ;(170) Input A
+			ESBR
+			SORD	186
+				LCON	 	/*+0,0,0,0, ;(171) Input B
+			ESBR
+			SORD	187
+				LCON	 	/*+0,0,0,0, ;(172) Input C
+			ESBR
+			SORD	189
+				LCON	 	/*+0,0,0,0, ;(174) Type
+			ESBR
+		ESTR
+		CMNT	1	3,5100,900
+	ESBR
+	SNST	Value Func 10	/l
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	650015	Value Func
+			ESBR
+			SORD	2
+				LONG	0	193/:s,0,0,0.01;%.2f;(178) Output
+				LONG	0	190/s,-3276800,3276700,0.01;%.2f;(175) Input A
+				LONG	0	191/s,-3276800,3276700,0.01;%.2f;(176) Input B
+				LONG	0	192/s,-3276800,3276700,0.01;%.2f;(177) Input C
+				PORD	0	194/ev:IF(C) -A:ABS(A+B+C):SWITCH(A,B):(A*B)/C:A+B+C:A-B-C:B<=A<=C:A>B+/-C:A>=B:ABS(A)>B+/-C:ABS(A)>=B:A(1+B):IF(C) HOLD(A):BINARY DECODE:ON DELAY:OFF DELAY:TIMER:MINIMUM PULSE:PULSE TRAIN:WINDOW:UP/DWN COUNTER:(A*B)/C ROUND:WINDOW NO HYST:WIND A>=B,A<=C:A<=B:((A*B)/100)+C:MIN(A,B,C):MAX(A,B,C):PROFILE SQRT:PROFILE LINEAR:PROFILE x^2:PROFILE x^3:PROFILE x^4;(179) Type
+			ESBR
+			SORD	193
+				LCON	 	/*+0,0,0,0,OUTPUT;(178) Output
+			ESBR
+			SORD	190
+				LCON	 	/*+0,0,0,0, ;(175) Input A
+			ESBR
+			SORD	191
+				LCON	 	/*+0,0,0,0, ;(176) Input B
+			ESBR
+			SORD	192
+				LCON	 	/*+0,0,0,0, ;(177) Input C
+			ESBR
+			SORD	194
+				LCON	 	/*+0,0,0,0, ;(179) Type
+			ESBR
+		ESTR
+		CMNT	1	3,6600,900
+	ESBR
+	SNST	Logic Func 1	/l
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	650016	Logic Func
+			ESBR
+			SORD	2
+				PORD	1	198/:t,False,True;(183) Output
+				PORD	0	195/t,False,True;(180) Input A
+				PORD	0	196/t,False,True;(181) Input B
+				PORD	0	197/t,False,True;(182) Input C
+				PORD	0	199/ev:NOT(A):AND(A,B,C):NAND(A,B,C):OR(A,B,C):NOR(A,B,C):XOR(A,B):0-1 EDGE(A):1-0 EDGE(A):AND(A,B,!C):OR(A,B,!C):S FLIP-FLOP:R FLIP-FLOP:LATCH:SWITCH;(184) Type
+			ESBR
+			SORD	198
+				LCON	 	/*+0,0,0,0,OUTPUT;(183) Output
+			ESBR
+			SORD	195
+				LCON	 	/*+0,0,0,0, ;(180) Input A
+			ESBR
+			SORD	196
+				LCON	 	/*+0,0,0,0, ;(181) Input B
+			ESBR
+			SORD	197
+				LCON	 	/*+0,0,0,0, ;(182) Input C
+			ESBR
+			SORD	199
+				LCON	 	/*+0,0,0,0, ;(184) Type
+			ESBR
+		ESTR
+		CMNT	1	0,3024,4644
+	ESBR
+	SNST	Logic Func 2	/l
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	650016	Logic Func
+			ESBR
+			SORD	2
+				PORD	1	203/:t,False,True;(188) Output
+				PORD	0	200/t,False,True;(185) Input A
+				PORD	0	201/t,False,True;(186) Input B
+				PORD	0	202/t,False,True;(187) Input C
+				PORD	0	204/ev:NOT(A):AND(A,B,C):NAND(A,B,C):OR(A,B,C):NOR(A,B,C):XOR(A,B):0-1 EDGE(A):1-0 EDGE(A):AND(A,B,!C):OR(A,B,!C):S FLIP-FLOP:R FLIP-FLOP:LATCH:SWITCH;(189) Type
+			ESBR
+			SORD	203
+				LCON	 	/*+0,0,0,0,OUTPUT;(188) Output
+			ESBR
+			SORD	200
+				LCON	 	/*+0,0,0,0, ;(185) Input A
+			ESBR
+			SORD	201
+				LCON	 	/*+0,0,0,0, ;(186) Input B
+			ESBR
+			SORD	202
+				LCON	 	/*+0,0,0,0, ;(187) Input C
+			ESBR
+			SORD	204
+				LCON	 	/*+0,0,0,0, ;(189) Type
+			ESBR
+		ESTR
+		CMNT	1	3,2100,1500
+	ESBR
+	SNST	Logic Func 3	/l
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	650016	Logic Func
+			ESBR
+			SORD	2
+				PORD	1	208/:t,False,True;(193) Output
+				PORD	0	205/t,False,True;(190) Input A
+				PORD	0	206/t,False,True;(191) Input B
+				PORD	0	207/t,False,True;(192) Input C
+				PORD	0	209/ev:NOT(A):AND(A,B,C):NAND(A,B,C):OR(A,B,C):NOR(A,B,C):XOR(A,B):0-1 EDGE(A):1-0 EDGE(A):AND(A,B,!C):OR(A,B,!C):S FLIP-FLOP:R FLIP-FLOP:LATCH:SWITCH;(194) Type
+			ESBR
+			SORD	208
+				LCON	 	/*+0,0,0,0,OUTPUT;(193) Output
+			ESBR
+			SORD	205
+				LCON	 	/*+0,0,0,0, ;(190) Input A
+			ESBR
+			SORD	206
+				LCON	 	/*+0,0,0,0, ;(191) Input B
+			ESBR
+			SORD	207
+				LCON	 	/*+0,0,0,0, ;(192) Input C
+			ESBR
+			SORD	209
+				LCON	 	/*+0,0,0,0, ;(194) Type
+			ESBR
+		ESTR
+		CMNT	1	3,3600,1500
+	ESBR
+	SNST	Logic Func 4	/l
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	650016	Logic Func
+			ESBR
+			SORD	2
+				PORD	1	213/:t,False,True;(198) Output
+				PORD	0	210/t,False,True;(195) Input A
+				PORD	0	211/t,False,True;(196) Input B
+				PORD	0	212/t,False,True;(197) Input C
+				PORD	0	214/ev:NOT(A):AND(A,B,C):NAND(A,B,C):OR(A,B,C):NOR(A,B,C):XOR(A,B):0-1 EDGE(A):1-0 EDGE(A):AND(A,B,!C):OR(A,B,!C):S FLIP-FLOP:R FLIP-FLOP:LATCH:SWITCH;(199) Type
+			ESBR
+			SORD	213
+				LCON	 	/*+0,0,0,0,OUTPUT;(198) Output
+			ESBR
+			SORD	210
+				LCON	 	/*+0,0,0,0, ;(195) Input A
+			ESBR
+			SORD	211
+				LCON	 	/*+0,0,0,0, ;(196) Input B
+			ESBR
+			SORD	212
+				LCON	 	/*+0,0,0,0, ;(197) Input C
+			ESBR
+			SORD	214
+				LCON	 	/*+0,0,0,0, ;(199) Type
+			ESBR
+		ESTR
+		CMNT	1	3,5100,1500
+	ESBR
+	SNST	Logic Func 5	/l
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	650016	Logic Func
+			ESBR
+			SORD	2
+				PORD	1	218/:t,False,True;(203) Output
+				PORD	0	215/t,False,True;(200) Input A
+				PORD	0	216/t,False,True;(201) Input B
+				PORD	0	217/t,False,True;(202) Input C
+				PORD	0	219/ev:NOT(A):AND(A,B,C):NAND(A,B,C):OR(A,B,C):NOR(A,B,C):XOR(A,B):0-1 EDGE(A):1-0 EDGE(A):AND(A,B,!C):OR(A,B,!C):S FLIP-FLOP:R FLIP-FLOP:LATCH:SWITCH;(204) Type
+			ESBR
+			SORD	218
+				LCON	 	/*+0,0,0,0,OUTPUT;(203) Output
+			ESBR
+			SORD	215
+				LCON	 	/*+0,0,0,0, ;(200) Input A
+			ESBR
+			SORD	216
+				LCON	 	/*+0,0,0,0, ;(201) Input B
+			ESBR
+			SORD	217
+				LCON	 	/*+0,0,0,0, ;(202) Input C
+			ESBR
+			SORD	219
+				LCON	 	/*+0,0,0,0, ;(204) Type
+			ESBR
+		ESTR
+		CMNT	1	3,6600,1500
+	ESBR
+	SNST	Logic Func 6	/l
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	650016	Logic Func
+			ESBR
+			SORD	2
+				PORD	1	223/:t,False,True;(208) Output
+				PORD	0	220/t,False,True;(205) Input A
+				PORD	0	221/t,False,True;(206) Input B
+				PORD	0	222/t,False,True;(207) Input C
+				PORD	0	224/ev:NOT(A):AND(A,B,C):NAND(A,B,C):OR(A,B,C):NOR(A,B,C):XOR(A,B):0-1 EDGE(A):1-0 EDGE(A):AND(A,B,!C):OR(A,B,!C):S FLIP-FLOP:R FLIP-FLOP:LATCH:SWITCH;(209) Type
+			ESBR
+			SORD	223
+				LCON	 	/*+0,0,0,0,OUTPUT;(208) Output
+			ESBR
+			SORD	220
+				LCON	 	/*+0,0,0,0, ;(205) Input A
+			ESBR
+			SORD	221
+				LCON	 	/*+0,0,0,0, ;(206) Input B
+			ESBR
+			SORD	222
+				LCON	 	/*+0,0,0,0, ;(207) Input C
+			ESBR
+			SORD	224
+				LCON	 	/*+0,0,0,0, ;(209) Type
+			ESBR
+		ESTR
+		CMNT	1	3,600,2100
+	ESBR
+	SNST	Logic Func 7	/l
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	650016	Logic Func
+			ESBR
+			SORD	2
+				PORD	1	228/:t,False,True;(213) Output
+				PORD	0	225/t,False,True;(210) Input A
+				PORD	0	226/t,False,True;(211) Input B
+				PORD	0	227/t,False,True;(212) Input C
+				PORD	0	229/ev:NOT(A):AND(A,B,C):NAND(A,B,C):OR(A,B,C):NOR(A,B,C):XOR(A,B):0-1 EDGE(A):1-0 EDGE(A):AND(A,B,!C):OR(A,B,!C):S FLIP-FLOP:R FLIP-FLOP:LATCH:SWITCH;(214) Type
+			ESBR
+			SORD	228
+				LCON	 	/*+0,0,0,0,OUTPUT;(213) Output
+			ESBR
+			SORD	225
+				LCON	 	/*+0,0,0,0, ;(210) Input A
+			ESBR
+			SORD	226
+				LCON	 	/*+0,0,0,0, ;(211) Input B
+			ESBR
+			SORD	227
+				LCON	 	/*+0,0,0,0, ;(212) Input C
+			ESBR
+			SORD	229
+				LCON	 	/*+0,0,0,0, ;(214) Type
+			ESBR
+		ESTR
+		CMNT	1	3,2100,2100
+	ESBR
+	SNST	Logic Func 8	/l
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	650016	Logic Func
+			ESBR
+			SORD	2
+				PORD	1	233/:t,False,True;(218) Output
+				PORD	0	230/t,False,True;(215) Input A
+				PORD	0	231/t,False,True;(216) Input B
+				PORD	0	232/t,False,True;(217) Input C
+				PORD	0	234/ev:NOT(A):AND(A,B,C):NAND(A,B,C):OR(A,B,C):NOR(A,B,C):XOR(A,B):0-1 EDGE(A):1-0 EDGE(A):AND(A,B,!C):OR(A,B,!C):S FLIP-FLOP:R FLIP-FLOP:LATCH:SWITCH;(219) Type
+			ESBR
+			SORD	233
+				LCON	 	/*+0,0,0,0,OUTPUT;(218) Output
+			ESBR
+			SORD	230
+				LCON	 	/*+0,0,0,0, ;(215) Input A
+			ESBR
+			SORD	231
+				LCON	 	/*+0,0,0,0, ;(216) Input B
+			ESBR
+			SORD	232
+				LCON	 	/*+0,0,0,0, ;(217) Input C
+			ESBR
+			SORD	234
+				LCON	 	/*+0,0,0,0, ;(219) Type
+			ESBR
+		ESTR
+		CMNT	1	3,3600,2100
+	ESBR
+	SNST	Logic Func 9	/l
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	650016	Logic Func
+			ESBR
+			SORD	2
+				PORD	1	238/:t,False,True;(223) Output
+				PORD	0	235/t,False,True;(220) Input A
+				PORD	0	236/t,False,True;(221) Input B
+				PORD	0	237/t,False,True;(222) Input C
+				PORD	0	239/ev:NOT(A):AND(A,B,C):NAND(A,B,C):OR(A,B,C):NOR(A,B,C):XOR(A,B):0-1 EDGE(A):1-0 EDGE(A):AND(A,B,!C):OR(A,B,!C):S FLIP-FLOP:R FLIP-FLOP:LATCH:SWITCH;(224) Type
+			ESBR
+			SORD	238
+				LCON	 	/*+0,0,0,0,OUTPUT;(223) Output
+			ESBR
+			SORD	235
+				LCON	 	/*+0,0,0,0, ;(220) Input A
+			ESBR
+			SORD	236
+				LCON	 	/*+0,0,0,0, ;(221) Input B
+			ESBR
+			SORD	237
+				LCON	 	/*+0,0,0,0, ;(222) Input C
+			ESBR
+			SORD	239
+				LCON	 	/*+0,0,0,0, ;(224) Type
+			ESBR
+		ESTR
+		CMNT	1	3,5100,2100
+	ESBR
+	SNST	Logic Func 10	/l
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	650016	Logic Func
+			ESBR
+			SORD	2
+				PORD	1	243/:t,False,True;(228) Output
+				PORD	0	240/t,False,True;(225) Input A
+				PORD	0	241/t,False,True;(226) Input B
+				PORD	0	242/t,False,True;(227) Input C
+				PORD	0	244/ev:NOT(A):AND(A,B,C):NAND(A,B,C):OR(A,B,C):NOR(A,B,C):XOR(A,B):0-1 EDGE(A):1-0 EDGE(A):AND(A,B,!C):OR(A,B,!C):S FLIP-FLOP:R FLIP-FLOP:LATCH:SWITCH;(229) Type
+			ESBR
+			SORD	243
+				LCON	 	/*+0,0,0,0,OUTPUT;(228) Output
+			ESBR
+			SORD	240
+				LCON	 	/*+0,0,0,0, ;(225) Input A
+			ESBR
+			SORD	241
+				LCON	 	/*+0,0,0,0, ;(226) Input B
+			ESBR
+			SORD	242
+				LCON	 	/*+0,0,0,0, ;(227) Input C
+			ESBR
+			SORD	244
+				LCON	 	/*+0,0,0,0, ;(229) Type
+			ESBR
+		ESTR
+		CMNT	1	3,6600,2100
+	ESBR
+	SNST	Preset 1	/l
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	690090	Preset
+			ESBR
+			SORD	2
+				LONG	1000	371/:s,0,0,0.01;%.2f;(356) Output 1
+				LONG	-1000	387/:s,0,0,0.01;%.2f;(372) Output 2
+				PORD	0	370/ev:INPUT 0:INPUT 1:INPUT 2:INPUT 3:INPUT 4:INPUT 5:INPUT 6:INPUT 7;(355) Select Input
+				LONG	1000	362/s,-3276800,3276700,0.01;%.2f;(347) Input 0
+				LONG	2000	363/s,-3276800,3276700,0.01;%.2f;(348) Input 1
+				LONG	5000	364/s,-3276800,3276700,0.01;%.2f;(349) Input 2
+				LONG	10000	365/s,-3276800,3276700,0.01;%.2f;(350) Input 3
+				LONG	-1000	366/s,-3276800,3276700,0.01;%.2f;(351) Input 4
+				LONG	-2000	367/s,-3276800,3276700,0.01;%.2f;(352) Input 5
+				LONG	-5000	368/s,-3276800,3276700,0.01;%.2f;(353) Input 6
+				LONG	-10000	369/s,-3276800,3276700,0.01;%.2f;(354) Input 7
+			ESBR
+			SORD	371
+				LCON	 	/*+0,0,0,0,OUTPUT 1;(356) Output 1
+			ESBR
+			SORD	387
+				LCON	 	/*+0,0,0,0,OUTPUT 2;(372) Output 2
+			ESBR
+			SORD	370
+				LCON	 	/*+0,0,0,0, ;(355) Select Input
+			ESBR
+			SORD	362
+				LCON	 	/*+0,0,0,0, ;(347) Input 0
+			ESBR
+			SORD	363
+				LCON	 	/*+0,0,0,0, ;(348) Input 1
+			ESBR
+			SORD	364
+				LCON	 	/*+0,0,0,0, ;(349) Input 2
+			ESBR
+			SORD	365
+				LCON	 	/*+0,0,0,0, ;(350) Input 3
+			ESBR
+			SORD	366
+				LCON	 	/*+0,0,0,0, ;(351) Input 4
+			ESBR
+			SORD	367
+				LCON	 	/*+0,0,0,0, ;(352) Input 5
+			ESBR
+			SORD	368
+				LCON	 	/*+0,0,0,0, ;(353) Input 6
+			ESBR
+			SORD	369
+				LCON	 	/*+0,0,0,0, ;(354) Input 7
+			ESBR
+		ESTR
+		CMNT	1	0,6552,2976
+	ESBR
+	SNST	Preset 2	/l
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	690090	Preset
+			ESBR
+			SORD	2
+				LONG	1000	404/:s,0,0,0.01;%.2f;(389) Output 1
+				LONG	-1000	388/:s,0,0,0.01;%.2f;(373) Output 2
+				PORD	0	403/ev:INPUT 0:INPUT 1:INPUT 2:INPUT 3:INPUT 4:INPUT 5:INPUT 6:INPUT 7;(388) Select Input
+				LONG	1000	395/s,-3276800,3276700,0.01;%.2f;(380) Input 0
+				LONG	2000	396/s,-3276800,3276700,0.01;%.2f;(381) Input 1
+				LONG	5000	397/s,-3276800,3276700,0.01;%.2f;(382) Input 2
+				LONG	10000	398/s,-3276800,3276700,0.01;%.2f;(383) Input 3
+				LONG	-1000	399/s,-3276800,3276700,0.01;%.2f;(384) Input 4
+				LONG	-2000	400/s,-3276800,3276700,0.01;%.2f;(385) Input 5
+				LONG	-5000	401/s,-3276800,3276700,0.01;%.2f;(386) Input 6
+				LONG	-10000	402/s,-3276800,3276700,0.01;%.2f;(387) Input 7
+			ESBR
+			SORD	404
+				LCON	 	/*+0,0,0,0,OUTPUT 1;(389) Output 1
+			ESBR
+			SORD	388
+				LCON	 	/*+0,0,0,0,OUTPUT 2;(373) Output 2
+			ESBR
+			SORD	403
+				LCON	 	/*+0,0,0,0, ;(388) Select Input
+			ESBR
+			SORD	395
+				LCON	 	/*+0,0,0,0, ;(380) Input 0
+			ESBR
+			SORD	396
+				LCON	 	/*+0,0,0,0, ;(381) Input 1
+			ESBR
+			SORD	397
+				LCON	 	/*+0,0,0,0, ;(382) Input 2
+			ESBR
+			SORD	398
+				LCON	 	/*+0,0,0,0, ;(383) Input 3
+			ESBR
+			SORD	399
+				LCON	 	/*+0,0,0,0, ;(384) Input 4
+			ESBR
+			SORD	400
+				LCON	 	/*+0,0,0,0, ;(385) Input 5
+			ESBR
+			SORD	401
+				LCON	 	/*+0,0,0,0, ;(386) Input 6
+			ESBR
+			SORD	402
+				LCON	 	/*+0,0,0,0, ;(387) Input 7
+			ESBR
+		ESTR
+		CMNT	1	3,3600,3000
+	ESBR
+	SNST	Preset 3	/l
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	690090	Preset
+			ESBR
+			SORD	2
+				LONG	1000	414/:s,0,0,0.01;%.2f;(399) Output 1
+				LONG	-1000	389/:s,0,0,0.01;%.2f;(374) Output 2
+				PORD	0	413/ev:INPUT 0:INPUT 1:INPUT 2:INPUT 3:INPUT 4:INPUT 5:INPUT 6:INPUT 7;(398) Select Input
+				LONG	1000	405/s,-3276800,3276700,0.01;%.2f;(390) Input 0
+				LONG	2000	406/s,-3276800,3276700,0.01;%.2f;(391) Input 1
+				LONG	5000	407/s,-3276800,3276700,0.01;%.2f;(392) Input 2
+				LONG	10000	408/s,-3276800,3276700,0.01;%.2f;(393) Input 3
+				LONG	-1000	409/s,-3276800,3276700,0.01;%.2f;(394) Input 4
+				LONG	-2000	410/s,-3276800,3276700,0.01;%.2f;(395) Input 5
+				LONG	-5000	411/s,-3276800,3276700,0.01;%.2f;(396) Input 6
+				LONG	-10000	412/s,-3276800,3276700,0.01;%.2f;(397) Input 7
+			ESBR
+			SORD	414
+				LCON	 	/*+0,0,0,0,OUTPUT 1;(399) Output 1
+			ESBR
+			SORD	389
+				LCON	 	/*+0,0,0,0,OUTPUT 2;(374) Output 2
+			ESBR
+			SORD	413
+				LCON	 	/*+0,0,0,0, ;(398) Select Input
+			ESBR
+			SORD	405
+				LCON	 	/*+0,0,0,0, ;(390) Input 0
+			ESBR
+			SORD	406
+				LCON	 	/*+0,0,0,0, ;(391) Input 1
+			ESBR
+			SORD	407
+				LCON	 	/*+0,0,0,0, ;(392) Input 2
+			ESBR
+			SORD	408
+				LCON	 	/*+0,0,0,0, ;(393) Input 3
+			ESBR
+			SORD	409
+				LCON	 	/*+0,0,0,0, ;(394) Input 4
+			ESBR
+			SORD	410
+				LCON	 	/*+0,0,0,0, ;(395) Input 5
+			ESBR
+			SORD	411
+				LCON	 	/*+0,0,0,0, ;(396) Input 6
+			ESBR
+			SORD	412
+				LCON	 	/*+0,0,0,0, ;(397) Input 7
+			ESBR
+		ESTR
+		CMNT	1	3,5100,3000
+	ESBR
+	SNST	Preset 4	/l
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	690090	Preset
+			ESBR
+			SORD	2
+				LONG	1000	534/:s,0,0,0.01;%.2f;(519) Output 1
+				LONG	-1000	535/:s,0,0,0.01;%.2f;(520) Output 2
+				PORD	0	533/ev:INPUT 0:INPUT 1:INPUT 2:INPUT 3:INPUT 4:INPUT 5:INPUT 6:INPUT 7;(518) Select Input
+				LONG	1000	525/s,-3276800,3276700,0.01;%.2f;(510) Input 0
+				LONG	2000	526/s,-3276800,3276700,0.01;%.2f;(511) Input 1
+				LONG	5000	527/s,-3276800,3276700,0.01;%.2f;(512) Input 2
+				LONG	10000	528/s,-3276800,3276700,0.01;%.2f;(513) Input 3
+				LONG	-1000	529/s,-3276800,3276700,0.01;%.2f;(514) Input 4
+				LONG	-2000	530/s,-3276800,3276700,0.01;%.2f;(515) Input 5
+				LONG	-5000	531/s,-3276800,3276700,0.01;%.2f;(516) Input 6
+				LONG	-10000	532/s,-3276800,3276700,0.01;%.2f;(517) Input 7
+			ESBR
+			SORD	534
+				LCON	 	/*+0,0,0,0,OUTPUT 1;(519) Output 1
+			ESBR
+			SORD	535
+				LCON	 	/*+0,0,0,0,OUTPUT 2;(520) Output 2
+			ESBR
+			SORD	533
+				LCON	 	/*+0,0,0,0, ;(518) Select Input
+			ESBR
+			SORD	525
+				LCON	 	/*+0,0,0,0, ;(510) Input 0
+			ESBR
+			SORD	526
+				LCON	 	/*+0,0,0,0, ;(511) Input 1
+			ESBR
+			SORD	527
+				LCON	 	/*+0,0,0,0, ;(512) Input 2
+			ESBR
+			SORD	528
+				LCON	 	/*+0,0,0,0, ;(513) Input 3
+			ESBR
+			SORD	529
+				LCON	 	/*+0,0,0,0, ;(514) Input 4
+			ESBR
+			SORD	530
+				LCON	 	/*+0,0,0,0, ;(515) Input 5
+			ESBR
+			SORD	531
+				LCON	 	/*+0,0,0,0, ;(516) Input 6
+			ESBR
+			SORD	532
+				LCON	 	/*+0,0,0,0, ;(517) Input 7
+			ESBR
+		ESTR
+		CMNT	1	3,6600,3000
+	ESBR
+	SNST	Comms Ports	/l
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	650018	Comms Ports
+			ESBR
+			SORD	2
+				PORD	0	117/s,0,7,1.0;%.0f;(102) Group Id (gid)
+				PORD	0	118/s,0,255,1.0;%.0f;(103) Comms Address
+				PORD	4	1077/ev:1200:2400:4800:7200:9600:14400:19200:38400:57600;(1062) Baud Rate
+				PORD	0	1076/ev:NONE:ODD:EVEN;(1061) Parity
+				PORD	5	1275/s,0,200,1.0;%.0f;(1260) Reply Delay Ms
+				PORD	0	1075/ev:AUTOMATIC:KEYPAD:EIBISYNC ASCII:MODBUS:FIELDBUS;(1060) Op Port Protocol
+				PORD	0	1074/ev:AUTOMATIC:KEYPAD:EIBISYNC ASCII:MODBUS:FIELDBUS;(1059) P3 Port Protocol
+				PORD	3	132/ev:AUTOMATIC:KEYPAD:EIBISYNC ASCII:MODBUS:FIELDBUS;(117) Rs485 Protocol
+				PORD	0	144/t,False,True;(129) Switch Op Port
+			ESBR
+			SORD	117
+				LCON	 	/*+0,0,0,0, ;(102) Group Id (gid)
+			ESBR
+			SORD	118
+				LCON	 	/*+0,0,0,0, ;(103) Comms Address
+			ESBR
+			SORD	1077
+				LCON	 	/*+0,0,0,0, ;(1062) Baud Rate
+			ESBR
+			SORD	1076
+				LCON	 	/*+0,0,0,0, ;(1061) Parity
+			ESBR
+			SORD	1275
+				LCON	 	/*+0,0,0,0, ;(1260) Reply Delay Ms
+			ESBR
+			SORD	1075
+				LCON	 	/*+0,0,0,0, ;(1060) Op Port Protocol
+			ESBR
+			SORD	1074
+				LCON	 	/*+0,0,0,0, ;(1059) P3 Port Protocol
+			ESBR
+			SORD	132
+				LCON	 	/*+0,0,0,0, ;(117) Rs485 Protocol
+			ESBR
+			SORD	144
+				LCON	 	/*+0,0,0,0, ;(129) Switch Op Port
+			ESBR
+		ESTR
+		CMNT	1	2,900,2400
+	ESBR
+	SNST	Comms Control	/l
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	605022	Comms Control
+			ESBR
+			SORD	2
+				PORD	0	310/:t,False,True;(295) Comms Seq
+				PORD	0	285/:t,False,True;(270) Comms Ref
+				PORD	49	287/:x;0x%4.4x;(272) Comms Status
+				PORD	0	288/:x;0x%4.4x;(273) Comms Command
+				PORD	0	315/t,False,True;(300) Remote Comms Sel
+				PORD	0	322/ev:TERMINALS/COMMS:TERMINALS ONLY:COMMS ONLY;(307) Remote Seq Modes
+				PORD	0	323/ev:TERMINALS/COMMS:TERMINALS ONLY:COMMS ONLY;(308) Remote Ref Modes
+				PORD	0	324/s,0,6000,0.1;%.1f s;(309) Comms Timeout
+			ESBR
+			SORD	310
+				LCON	 	/*+0,0,0,0,COMMS SEQ;(295) Comms Seq
+			ESBR
+			SORD	285
+				LCON	 	/*+0,0,0,0,COMMS REF;(270) Comms Ref
+			ESBR
+			SORD	287
+				LCON	 	/*+0,0,0,0,COMMS STATUS;(272) Comms Status
+			ESBR
+			SORD	288
+				LCON	 	/*+0,0,0,0,COMMS COMMAND;(273) Comms Command
+			ESBR
+			SORD	315
+				LCON	 	/*+0,0,0,0, ;(300) Remote Comms Sel
+			ESBR
+			SORD	322
+				LCON	 	/*+0,0,0,0, ;(307) Remote Seq Modes
+			ESBR
+			SORD	323
+				LCON	 	/*+0,0,0,0, ;(308) Remote Ref Modes
+			ESBR
+			SORD	324
+				LCON	 	/*+0,0,0,0, ;(309) Comms Timeout
+			ESBR
+		ESTR
+		CMNT	1	2,900,3300
+	ESBR
+	SNST	Reference Jog	/l
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	650020	Reference Jog
+			ESBR
+			SORD	2
+				PORD	100	261/s,-1000,1000,0.1;%.1f %%;(246) Setpoint
+				PORD	10	276/s,0,30000,0.1;%.1f s;(261) Accel Time
+				PORD	10	277/s,0,30000,0.1;%.1f s;(262) Decel Time
+			ESBR
+			SORD	261
+				LCON	 	/*+0,0,0,0, ;(246) Setpoint
+			ESBR
+			SORD	276
+				LCON	 	/*+0,0,0,0, ;(261) Accel Time
+			ESBR
+			SORD	277
+				LCON	 	/*+0,0,0,0, ;(262) Decel Time
+			ESBR
+		ESTR
+		CMNT	1	0,6230,416
+	ESBR
+	SNST	Mmi Access	/l
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	650021	Access Control
+			ESBR
+			SORD	2
+				PORD	0	23/x;0x%4.4x;(8) Password
+				PORD	0	893/t,False,True;(878) Detailed Menus
+			ESBR
+			SORD	23
+				LCON	 	/*+0,0,0,0, ;(8) Password
+			ESBR
+			SORD	893
+				LCON	 	/*+0,0,0,0, ;(878) Detailed Menus
+			ESBR
+		ESTR
+		CMNT	1	2,2400,3300
+	ESBR
+	SNST	Display/keypad	/l
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	650222	Display/keypad
+			ESBR
+			SORD	2
+				PORD	0	245/:x;0x%4.4x;(230) Disp 1 Version
+				PORD	0	1125/:x;0x%4.4x;(1110) Disp 2 Version
+				PORD	65535	142/x;0x%4.4x;(127) Enabled Keys
+			ESBR
+			SORD	245
+				LCON	 	/*+0,0,0,0,DISP 1 VERSION;(230) Disp 1 Version
+			ESBR
+			SORD	1125
+				LCON	 	/*+0,0,0,0,DISP 2 VERSION;(1110) Disp 2 Version
+			ESBR
+			SORD	142
+				LCON	 	/*+0,0,0,0, ;(127) Enabled Keys
+			ESBR
+		ESTR
+		CMNT	1	2,2400,2800
+	ESBR
+	SNST	Reference	/l
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	650123	Reference
+			ESBR
+			SORD	2
+				PORD	0	270/:s,0,0,0.1;%.1f %%;(255) Speed Demand
+				PORD	0	269/:s,0,0,0.1;%.1f %%;(254) Speed Setpoint
+				PORD	0	271/:t,False,True;(256) Reverse
+				PORD	0	262/:s,-1000,1000,0.1;%.1f %%;(247) Local Setpoint
+				PORD	0	785/:s,0,0,0.1;%.1f %%;(770) Comms Setpoint
+				PORD	0	265/:t,False,True;(250) Local Reverse
+				PORD	0	260/s,-1100,1100,0.1;%.1f %%;(245) Remote Setpoint
+				PORD	0	263/s,-1100,1100,0.1;%.1f %%;(248) Speed Trim
+				PORD	500	2072/s,75,2400,0.1;%.1f Hz;(57) Max Speed
+				PORD	1100	267/s,0,1100,0.1;%.1f %%;(252) Max Speed Clamp
+				PORD	64436	268/s,-1100,0,0.1;%.1f %%;(253) Min Speed Clamp
+				PORD	0	258/t,False,True;(243) Trim In Local
+				PORD	0	264/t,False,True;(249) Remote Reverse
+				PORD	0	266/s,0,1000,0.1;%.1f %%;(251) Local Min Speed
+			ESBR
+			SORD	270
+				LCON	 	/*+0,0,0,0,SPEED DEMAND;(255) Speed Demand
+			ESBR
+			SORD	269
+				LCON	 	/*+0,0,0,0,SPEED SETPOINT;(254) Speed Setpoint
+			ESBR
+			SORD	271
+				LCON	 	/*+0,0,0,0,REVERSE;(256) Reverse
+			ESBR
+			SORD	262
+				LCON	 	/*+0,0,0,0,LOCAL SETPOINT;(247) Local Setpoint
+			ESBR
+			SORD	785
+				LCON	 	/*+0,0,0,0,COMMS SETPOINT;(770) Comms Setpoint
+			ESBR
+			SORD	265
+				LCON	 	/*+0,0,0,0,LOCAL REVERSE;(250) Local Reverse
+			ESBR
+			SORD	260
+				LCON	 	/*+0,0,0,0, ;(245) Remote Setpoint
+			ESBR
+			SORD	263
+				LCON	 	/*+0,0,0,0, ;(248) Speed Trim
+			ESBR
+			SORD	2072
+				LCON	 	/*+0,0,0,0, ;(57) Max Speed
+			ESBR
+			SORD	267
+				LCON	 	/*+0,0,0,0, ;(252) Max Speed Clamp
+			ESBR
+			SORD	268
+				LCON	 	/*+0,0,0,0, ;(253) Min Speed Clamp
+			ESBR
+			SORD	258
+				LCON	 	/*+0,0,0,0, ;(243) Trim In Local
+			ESBR
+			SORD	264
+				LCON	 	/*+0,0,0,0, ;(249) Remote Reverse
+			ESBR
+			SORD	266
+				LCON	 	/*+0,0,0,0, ;(251) Local Min Speed
+			ESBR
+		ESTR
+		CMNT	1	0,3980,588
+	ESBR
+	SNST	Sequencing Logic	/l
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	650024	Sequencing Logic
+			ESBR
+			SORD	2
+				PORD	0	304/:t,False,True;(289) Tripped
+				PORD	0	300/:t,False,True;(285) Running
+				PORD	0	317/:t,False,True;(302) Jogging
+				PORD	0	318/:t,False,True;(303) Stopping
+				PORD	0	301/:t,False,True;(286) Output Contactor
+				PORD	1	303/:t,False,True;(288) Switch On Enable
+				PORD	0	321/:t,False,True;(306) Switched On
+				PORD	0	302/:t,False,True;(287) Ready
+				PORD	0	320/:t,False,True;(305) System Reset
+				PORD	1	316/:ev:START DISABLED:START ENABLED:SWITCHED ON:READY:ENABLED:F-STOP ACTIVE:TRIP ACTIVE:TRIPPED;(301) Sequencer State
+				PORD	0	311/:t,False,True;(296) Remote Rev Out
+				PORD	1	289/:t,False,True;(274) Healthy
+				PORD	0	635/:t,False,True;(620) Fan Running
+				PORD	0	306/t,False,True;(291) Run Forward
+				PORD	0	307/t,False,True;(292) Run Reverse
+				PORD	0	308/t,False,True;(293) Not Stop
+				PORD	0	295/t,False,True;(280) Jog
+				PORD	1	1250/t,False,True;(1235) Contactor Closed
+				PORD	1	291/t,False,True;(276) Drive Enable
+				PORD	1	292/t,False,True;(277) Not Fast Stop
+				PORD	1	293/t,False,True;(278) Not Coast Stop
+				PORD	0	309/t,False,True;(294) Remote Reverse
+				PORD	0	297/t,False,True;(282) Rem Trip Reset
+				PORD	1	305/t,False,True;(290) Trip Rst By Run
+				PORD	1	298/t,False,True;(283) Power Up Start
+			ESBR
+			SORD	304
+				LCON	 	/*+0,0,0,0,TRIPPED;(289) Tripped
+			ESBR
+			SORD	300
+				LCON	 	/*+0,0,0,0,RUNNING;(285) Running
+			ESBR
+			SORD	317
+				LCON	 	/*+0,0,0,0,JOGGING;(302) Jogging
+			ESBR
+			SORD	318
+				LCON	 	/*+0,0,0,0,STOPPING;(303) Stopping
+			ESBR
+			SORD	301
+				LCON	 	/*+0,0,0,0,OUTPUT CONTACTOR;(286) Output Contactor
+			ESBR
+			SORD	303
+				LCON	 	/*+0,0,0,0,SWITCH ON ENABLE;(288) Switch On Enable
+			ESBR
+			SORD	321
+				LCON	 	/*+0,0,0,0,SWITCHED ON;(306) Switched On
+			ESBR
+			SORD	302
+				LCON	 	/*+0,0,0,0,READY;(287) Ready
+			ESBR
+			SORD	320
+				LCON	 	/*+0,0,0,0,SYSTEM RESET;(305) System Reset
+			ESBR
+			SORD	316
+				LCON	 	/*+0,0,0,0,SEQUENCER STATE;(301) Sequencer State
+			ESBR
+			SORD	311
+				LCON	 	/*+0,0,0,0,REMOTE REV OUT;(296) Remote Rev Out
+				LIST	 	/l6
+					GSYM	Conns/Update[attach]
+					LNOD
+					MSGE
+						ICAL	Reference
+						GSYM	Drive/Remote Reverse
+						LITO	296
+						LITO	249
+						ISYM	res link 2
+					EMSG
+					CMNT	13	0,2990,-1
+				ELST
+			ESBR
+			SORD	289
+				LCON	 	/*+0,0,0,0,HEALTHY;(274) Healthy
+				LIST	 	/l6
+					GSYM	Conns/Update[attach]
+					LNOD
+					MSGE
+						ICAL	Digital Output 3 (relay)
+						GSYM	Drive/Value
+						LITO	274
+						LITO	737
+						ISYM	res link 1
+					EMSG
+					CMNT	13	0,3200,-1
+				ELST
+			ESBR
+			SORD	635
+				LCON	 	/*+0,0,0,0,FAN RUNNING;(620) Fan Running
+			ESBR
+			SORD	306
+				LCON	 	/*+0,0,0,0, ;(291) Run Forward
+			ESBR
+			SORD	307
+				LCON	 	/*+0,0,0,0, ;(292) Run Reverse
+			ESBR
+			SORD	308
+				LCON	 	/*+0,0,0,0, ;(293) Not Stop
+			ESBR
+			SORD	295
+				LCON	 	/*+0,0,0,0, ;(280) Jog
+			ESBR
+			SORD	1250
+				LCON	 	/*+0,0,0,0, ;(1235) Contactor Closed
+			ESBR
+			SORD	291
+				LCON	 	/*+0,0,0,0, ;(276) Drive Enable
+			ESBR
+			SORD	292
+				LCON	 	/*+0,0,0,0, ;(277) Not Fast Stop
+			ESBR
+			SORD	293
+				LCON	 	/*+0,0,0,0, ;(278) Not Coast Stop
+			ESBR
+			SORD	309
+				LCON	 	/*+0,0,0,0, ;(294) Remote Reverse
+			ESBR
+			SORD	297
+				LCON	 	/*+0,0,0,0, ;(282) Rem Trip Reset
+			ESBR
+			SORD	305
+				LCON	 	/*+0,0,0,0, ;(290) Trip Rst By Run
+			ESBR
+			SORD	298
+				LCON	 	/*+0,0,0,0, ;(283) Power Up Start
+			ESBR
+		ESTR
+		CMNT	1	0,1300,732
+	ESBR
+	SNST	Pattern Gen	/l
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	650025	Pattern Gen
+			ESBR
+			SORD	2
+				PORD	0	606/:s,0,0,0.1;%.1f Hz;(591) Drive Frequency
+				PORD	1	113/t,False,True;(98) Random Pattern
+				PORD	20	2115/s,1,100,0.1;%.1f s;(100) Deflux Delay
+			ESBR
+			SORD	606
+				LCON	 	/*+0,0,0,0,DRIVE FREQUENCY;(591) Drive Frequency
+			ESBR
+			SORD	113
+				LCON	 	/*+0,0,0,0, ;(98) Random Pattern
+			ESBR
+			SORD	2115
+				LCON	 	/*+0,0,0,0, ;(100) Deflux Delay
+			ESBR
+		ESTR
+		CMNT	1	1,900,1600
+	ESBR
+	SNST	Feedbacks	/l
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	650127	Feedbacks
+			ESBR
+			SORD	2
+				PORD	578	90/:s,0,0,1;%.0f V;(75) Dc Link Volts
+				PORD	0	81/:s,0,0,0.1;%.1f %%;(66) Motor Current %
+				PORD	0	82/:s,0,0,0.1;%.1f A;(67) Motor Current A
+				PORD	0	1035/:s,0,0,1;%.0f V;(1020) Terminal Volts
+				LONG	0	584/:s,0,0,0.01;%.2f RPM;(569) Speed Fbk Rpm
+				PORD	0	583/:s,0,0,0.01;%.2f Hz;(568) Speed Fbk Rev/s
+				PORD	0	764/:s,0,0,0.01;%.2f %%;(749) Speed Fbk %
+				PORD	0	85/:s,0,0,0.01;%.2f %%;(70) Torque Feedback
+				PORD	0	88/:s,0,0,0.01;%.2f %%;(73) Field Feedback
+				PORD	0	65/t,False,True;(50) Normal Duty
+			ESBR
+			SORD	90
+				LCON	 	/*+0,0,0,0,DC LINK VOLTS;(75) Dc Link Volts
+			ESBR
+			SORD	81
+				LCON	 	/*+0,0,0,0,MOTOR CURRENT %;(66) Motor Current %
+			ESBR
+			SORD	82
+				LCON	 	/*+0,0,0,0,MOTOR CURRENT A;(67) Motor Current A
+			ESBR
+			SORD	1035
+				LCON	 	/*+0,0,0,0,TERMINAL VOLTS;(1020) Terminal Volts
+			ESBR
+			SORD	584
+				LCON	 	/*+0,0,0,0,SPEED FBK RPM;(569) Speed Fbk Rpm
+			ESBR
+			SORD	583
+				LCON	 	/*+0,0,0,0,SPEED FBK REV/S;(568) Speed Fbk Rev/s
+			ESBR
+			SORD	764
+				LCON	 	/*+0,0,0,0,SPEED FBK %;(749) Speed Fbk %
+			ESBR
+			SORD	85
+				LCON	 	/*+0,0,0,0,TORQUE FEEDBACK;(70) Torque Feedback
+			ESBR
+			SORD	88
+				LCON	 	/*+0,0,0,0,FIELD FEEDBACK;(73) Field Feedback
+			ESBR
+			SORD	65
+				LCON	 	/*+0,0,0,0, ;(50) Normal Duty
+			ESBR
+		ESTR
+		CMNT	1	1,2604,2700
+	ESBR
+	SNST	Current Limit	/l
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	690017	Current Limit
+			ESBR
+			SORD	2
+				PORD	15000	380/s,0,30000,0.01;%.2f %%;(365) Current Limit
+				PORD	1	701/t,False,True;(686) Regen Lim Enable
+			ESBR
+			SORD	380
+				LCON	 	/*+0,0,0,0, ;(365) CURRENT LIMIT
+			ESBR
+			SORD	701
+				LCON	 	/*+0,0,0,0, ;(686) REGEN LIM ENABLE
+			ESBR
+		ESTR
+		CMNT	1	1,900,2060
+	ESBR
+	SNST	Inj Braking	/l
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	650030	Inj Braking
+			ESBR
+			SORD	2
+				PORD	0	598/:t,False,True;(583) Active
+				PORD	5	2725/s,1,200,0.1;%.1f s;(710) Deflux Time
+				PORD	90	2592/s,10,2400,0.1;%.1f Hz;(577) Frequency
+				PORD	1000	593/s,500,1500,0.1;%.1f %%;(578) I-lim Level
+				PORD	20	2594/s,0,1000,0.1;%.1f s;(579) Dc Pulse
+				PORD	10	2595/s,0,100,0.1;%.1f s;(580) Final Dc Pulse
+				PORD	25	2596/s,0,250,0.1;%.1f %%;(581) Dc Level
+				PORD	600	597/s,0,6000,0.1;%.1f s;(582) Timeout
+				PORD	10000	2754/s,0,11547,0.01;%.2f %%;(739) Base Volts
+			ESBR
+			SORD	598
+				LCON	 	/*+0,0,0,0,ACTIVE;(583) Active
+			ESBR
+			SORD	2725
+				LCON	 	/*+0,0,0,0, ;(710) Deflux Time
+			ESBR
+			SORD	2592
+				LCON	 	/*+0,0,0,0, ;(577) Frequency
+			ESBR
+			SORD	593
+				LCON	 	/*+0,0,0,0, ;(578) I-lim Level
+			ESBR
+			SORD	2594
+				LCON	 	/*+0,0,0,0, ;(579) Dc Pulse
+			ESBR
+			SORD	2595
+				LCON	 	/*+0,0,0,0, ;(580) Final Dc Pulse
+			ESBR
+			SORD	2596
+				LCON	 	/*+0,0,0,0, ;(581) Dc Level
+			ESBR
+			SORD	597
+				LCON	 	/*+0,0,0,0, ;(582) Timeout
+			ESBR
+			SORD	2754
+				LCON	 	/*+0,0,0,0, ;(739) Base Volts
+			ESBR
+		ESTR
+		CMNT	1	1,900,2400
+	ESBR
+	SNST	Stabilisation	/l
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	690042	Stabilisation
+			ESBR
+			SORD	2
+				PORD	1	143/t,False,True;(128) Enable
+			ESBR
+			SORD	143
+				LCON	 	/*+0,0,0,0, ;(128) ENABLE
+			ESBR
+		ESTR
+		CMNT	1	1,900,3300
+	ESBR
+	SNST	Inverse Time	/l
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	650032	Inverse Time
+			ESBR
+			SORD	2
+				PORD	0	1167/:t,False,True;(1152) It Limiting
+				PORD	1500	1168/:s,0,0,0.1;%.1f %%;(1153) Inverse Time Op
+				PORD	1050	1163/s,500,1050,0.1;%.1f %%;(1148) Aiming Point
+				PORD	300	1164/s,50,300,0.1;%.1f s;(1149) Delay
+				PORD	100	1165/s,10,100,0.1;%.1f s;(1150) Down Time
+				PORD	1200	1166/s,10,6000,0.1;%.1f s;(1151) Up Time
+			ESBR
+			SORD	1167
+				LCON	 	/*+0,0,0,0,IT LIMITING;(1152) It Limiting
+			ESBR
+			SORD	1168
+				LCON	 	/*+0,0,0,0,INVERSE TIME OP;(1153) Inverse Time Op
+			ESBR
+			SORD	1163
+				LCON	 	/*+0,0,0,0, ;(1148) Aiming Point
+			ESBR
+			SORD	1164
+				LCON	 	/*+0,0,0,0, ;(1149) Delay
+			ESBR
+			SORD	1165
+				LCON	 	/*+0,0,0,0, ;(1150) Down Time
+			ESBR
+			SORD	1166
+				LCON	 	/*+0,0,0,0, ;(1151) Up Time
+			ESBR
+		ESTR
+		CMNT	1	1,900,3600
+	ESBR
+	SNST	Fluxing	/l
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	650233	Fluxing
+			ESBR
+			SORD	2
+				PORD	0	119/ev:LINEAR LAW:FAN LAW;(104) V/f Shape
+				PORD	0	2122/s,0,2500,0.01;%.2f %%;(107) Fixed Boost
+				PORD	0	2123/s,0,2500,0.01;%.2f %%;(108) Auto Boost
+				PORD	0	3073/t,False,True;(1058) 601 Fluxing
+				PORD	0	1670/t,False,True;(1655) Energy Saving
+			ESBR
+			SORD	119
+				LCON	 	/*+0,0,0,0, ;(104) V/f Shape
+			ESBR
+			SORD	2122
+				LCON	 	/*+0,0,0,0, ;(107) Fixed Boost
+			ESBR
+			SORD	2123
+				LCON	 	/*+0,0,0,0, ;(108) Auto Boost
+			ESBR
+			SORD	3073
+				LCON	 	/*+0,0,0,0, ;(1058) 601 Fluxing
+			ESBR
+			SORD	1670
+				LCON	 	/*+0,0,0,0, ;(1655) Energy Saving
+			ESBR
+		ESTR
+		CMNT	1	1,900,4200
+	ESBR
+	SNST	Slew Rate Limit	/l
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	650034	Slew Rate Limit
+			ESBR
+			SORD	2
+				PORD	1	75/t,False,True;(60) Enable
+				PORD	5000	77/s,10,12000,0.1;%.1f Hz/s;(62) Accel Limit
+				PORD	5000	76/s,10,12000,0.1;%.1f Hz/s;(61) Decel Limit
+			ESBR
+			SORD	75
+				LCON	 	/*+0,0,0,0, ;(60) Enable
+			ESBR
+			SORD	77
+				LCON	 	/*+0,0,0,0, ;(62) Accel Limit
+			ESBR
+			SORD	76
+				LCON	 	/*+0,0,0,0, ;(61) Decel Limit
+			ESBR
+		ESTR
+		CMNT	1	1,2600,300
+	ESBR
+	SNST	Motor Data	/l
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	650135	Motor Data
+			ESBR
+			SORD	2
+				PORD	500	3174/s,75,2400,0.1;%.1f Hz;(1159) Base Frequency
+				PORD	3800	3175/s,0,5750,0.1;%.1f V;(1160) Motor Voltage
+				LONG	300	2079/s,1,99999,0.01;%.2f A;(64) Motor Current
+				LONG	400	2080/s,1,99999,0.01;%.2f A;(65) Mag Current
+				LONG	14200	2098/s,1,300000,0.1;%.1f RPM;(83) Nameplate Rpm
+				PORD	1	2099/ev:2 POLE:4 POLE:6 POLE:8 POLE:10 POLE:12 POLE;(84) Motor Poles
+				PORD	0	1172/ev:VOLTS / Hz:SENSORLESS VEC;(1157) Control Mode
+				LONG	110	3173/s,0,35500,0.01;%.2f Kw;(1158) Power
+				PORD	1	2139/ev:DELTA:STAR;(124) Motor Connection
+				PORD	81	2257/s,50,99,0.01;%.2f;(242) Power Factor
+				PORD	20	3179/s,10,50,0.1;%.1f;(1164) Overload
+				LONG	7698	2134/s,0,2500000,0.0001;%.4f ohms;(119) Stator Res
+				LONG	2450	2135/s,0,300000,0.01;%.2f mH;(120) Leakage Induc
+				LONG	9801	2136/s,0,300000,0.01;%.2f mH;(121) Mutual Induc
+				LONG	37956	3178/s,1000,300000,0.01;%.2f ms;(1163) Rotor Time Const
+			ESBR
+			SORD	3174
+				LCON	 	/*+0,0,0,0, ;(1159) Base Frequency
+			ESBR
+			SORD	3175
+				LCON	 	/*+0,0,0,0, ;(1160) Motor Voltage
+			ESBR
+			SORD	2079
+				LCON	 	/*+0,0,0,0, ;(64) Motor Current
+			ESBR
+			SORD	2080
+				LCON	 	/*+0,0,0,0, ;(65) Mag Current
+			ESBR
+			SORD	2098
+				LCON	 	/*+0,0,0,0, ;(83) Nameplate Rpm
+			ESBR
+			SORD	2099
+				LCON	 	/*+0,0,0,0, ;(84) Motor Poles
+			ESBR
+			SORD	1172
+				LCON	 	/*+0,0,0,0, ;(1157) Control Mode
+			ESBR
+			SORD	3173
+				LCON	 	/*+0,0,0,0, ;(1158) Power
+			ESBR
+			SORD	2139
+				LCON	 	/*+0,0,0,0, ;(124) Motor Connection
+			ESBR
+			SORD	2257
+				LCON	 	/*+0,0,0,0, ;(242) Power Factor
+			ESBR
+			SORD	3179
+				LCON	 	/*+0,0,0,0, ;(1164) Overload
+			ESBR
+			SORD	2134
+				LCON	 	/*+0,0,0,0, ;(119) Stator Res
+			ESBR
+			SORD	2135
+				LCON	 	/*+0,0,0,0, ;(120) Leakage Induc
+			ESBR
+			SORD	2136
+				LCON	 	/*+0,0,0,0, ;(121) Mutual Induc
+			ESBR
+			SORD	3178
+				LCON	 	/*+0,0,0,0, ;(1163) Rotor Time Const
+			ESBR
+		ESTR
+		CMNT	1	1,900,300
+	ESBR
+	SNST	Dynamic Braking	/l
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	690014	Dynamic Braking
+			ESBR
+			SORD	2
+				PORD	0	96/:t,False,True;(81) Braking
+				PORD	1	95/t,False,True;(80) Enable
+				PORD	100	92/s,1,1000,1.0;%.0f;(77) Brake Resistance
+				PORD	1	93/s,1,5100,0.1;%.1f Kw;(78) Brake Power
+				PORD	25	94/s,1,40,1.0;%.0f;(79) 1sec Over Rating
+			ESBR
+			SORD	96
+				LCON	 	/*+0,0,0,0,BRAKING;(81) BRAKING
+			ESBR
+			SORD	95
+				LCON	 	/*+0,0,0,0, ;(80) ENABLE
+			ESBR
+			SORD	92
+				LCON	 	/*+0,0,0,0, ;(77) BRAKE RESISTANCE
+			ESBR
+			SORD	93
+				LCON	 	/*+0,0,0,0, ;(78) BRAKE POWER
+			ESBR
+			SORD	94
+				LCON	 	/*+0,0,0,0, ;(79) 1SEC OVER RATING
+			ESBR
+		ESTR
+		CMNT	1	1,2600,2000
+	ESBR
+	SNST	Torque Limit	/l
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	650038	Torque Limit
+			ESBR
+			SORD	2
+				PORD	1500	1227/:s,0,0,0.1;%.1f %%;(1212) Actual Pos Lim
+				PORD	64036	1228/:s,0,0,0.1;%.1f %%;(1213) Actual Neg Lim
+				PORD	2000	1223/s,-5000,5000,0.1;%.1f %%;(1208) Pos Torque Lim
+				PORD	63536	1224/s,-5000,5000,0.1;%.1f %%;(1209) Neg Torque Lim
+				PORD	2000	1225/s,0,5000,0.1;%.1f %%;(1210) Main Torque Lim
+				PORD	0	1226/t,False,True;(1211) Symmetric Lim
+				PORD	15000	1569/s,-30000,30000,0.01;%.2f %%;(1554) Fast Stop T-lim
+			ESBR
+			SORD	1227
+				LCON	 	/*+0,0,0,0,ACTUAL POS LIM;(1212) Actual Pos Lim
+			ESBR
+			SORD	1228
+				LCON	 	/*+0,0,0,0,ACTUAL NEG LIM;(1213) Actual Neg Lim
+			ESBR
+			SORD	1223
+				LCON	 	/*+0,0,0,0, ;(1208) Pos Torque Lim
+			ESBR
+			SORD	1224
+				LCON	 	/*+0,0,0,0, ;(1209) Neg Torque Lim
+			ESBR
+			SORD	1225
+				LCON	 	/*+0,0,0,0, ;(1210) Main Torque Lim
+			ESBR
+			SORD	1226
+				LCON	 	/*+0,0,0,0, ;(1211) Symmetric Lim
+			ESBR
+			SORD	1569
+				LCON	 	/*+0,0,0,0, ;(1554) Fast Stop T-lim
+			ESBR
+		ESTR
+		CMNT	1	1,2600,700
+	ESBR
+	SNST	Slip Comp	/l
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	650039	Slip Comp
+			ESBR
+			SORD	2
+				PORD	0	97/t,False,True;(82) Enable
+				PORD	1500	2100/s,0,6000,0.1;%.1f RPM;(85) Motoring Limit
+				PORD	1500	2101/s,0,6000,0.1;%.1f RPM;(86) Regen Limit
+			ESBR
+			SORD	97
+				LCON	 	/*+0,0,0,0, ;(82) Enable
+			ESBR
+			SORD	2100
+				LCON	 	/*+0,0,0,0, ;(85) Motoring Limit
+			ESBR
+			SORD	2101
+				LCON	 	/*+0,0,0,0, ;(86) Regen Limit
+			ESBR
+		ESTR
+		CMNT	1	1,2600,1500
+	ESBR
+	SNST	Auto Restart	/l
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	650040	Auto Restart
+			ESBR
+			SORD	2
+				PORD	0	623/:t,False,True;(608) Pending
+				PORD	0	631/:t,False,True;(616) Restarting
+				PORD	0	629/:s,0,0,1.0;%.0f;(614) Attempts Left
+				PORD	0	630/:s,0,0,0.1;%.1f s;(615) Time Left
+				PORD	0	627/s,0,10,1.0;%.0f;(612) Attempts
+				PORD	100	628/s,0,6000,0.1;%.1f s;(613) Attempt Delay 1
+				PORD	0	624/x;0x%4.4x;(609) Triggers 1
+				PORD	0	759/x;0x%4.4x;(744) Triggers 1+
+			ESBR
+			SORD	623
+				LCON	 	/*+0,0,0,0,PENDING;(608) Pending
+			ESBR
+			SORD	631
+				LCON	 	/*+0,0,0,0,RESTARTING;(616) Restarting
+			ESBR
+			SORD	629
+				LCON	 	/*+0,0,0,0,ATTEMPTS LEFT;(614) Attempts Left
+			ESBR
+			SORD	630
+				LCON	 	/*+0,0,0,0,TIME LEFT;(615) Time Left
+			ESBR
+			SORD	627
+				LCON	 	/*+0,0,0,0, ;(612) Attempts
+			ESBR
+			SORD	628
+				LCON	 	/*+0,0,0,0, ;(613) Attempt Delay 1
+			ESBR
+			SORD	624
+				LCON	 	/*+0,0,0,0, ;(609) Triggers 1
+			ESBR
+			SORD	759
+				LCON	 	/*+0,0,0,0, ;(744) Triggers 1+
+			ESBR
+		ESTR
+		CMNT	1	2,900,300
+	ESBR
+	SNST	Local Control	/l
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	605027	Local Control
+			ESBR
+			SORD	2
+				PORD	0	312/:t,False,True;(297) Remote Seq
+				PORD	0	272/:t,False,True;(257) Remote Ref
+				PORD	0	313/ev:LOCAL/REMOTE:LOCAL ONLY:REMOTE ONLY;(298) Seq Modes
+				PORD	0	280/ev:LOCAL/REMOTE:LOCAL ONLY:REMOTE ONLY;(265) Ref Modes
+				PORD	2	314/ev:LOCAL:REMOTE:AUTOMATIC;(299) Power Up Mode
+				PORD	0	296/t,False,True;(281) Seq Direction
+			ESBR
+			SORD	312
+				LCON	 	/*+0,0,0,0,REMOTE SEQ;(297) Remote Seq
+			ESBR
+			SORD	272
+				LCON	 	/*+0,0,0,0,REMOTE REF;(257) Remote Ref
+			ESBR
+			SORD	313
+				LCON	 	/*+0,0,0,0, ;(298) Seq Modes
+			ESBR
+			SORD	280
+				LCON	 	/*+0,0,0,0, ;(265) Ref Modes
+			ESBR
+			SORD	314
+				LCON	 	/*+0,0,0,0, ;(299) Power Up Mode
+			ESBR
+			SORD	296
+				LCON	 	/*+0,0,0,0, ;(281) Seq Direction
+			ESBR
+		ESTR
+		CMNT	1	2,900,1200
+	ESBR
+	SNST	Reference Ramp	/l
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	650042	Reference Ramp
+			ESBR
+			SORD	2
+				PORD	0	713/:t,False,True;(698) Ramping
+				PORD	0	259/ev:LINEAR:S;(244) Ramp Type
+				PORD	100	273/s,0,30000,0.1;%.1f s;(258) Accel Time
+				PORD	100	274/s,0,30000,0.1;%.1f s;(259) Decel Time
+				PORD	1000	709/s,1,10000,0.01;%.2f s^3;(694) Sramp Jerk 1
+				PORD	1	706/t,False,True;(691) Sramp Continuous
+				PORD	0	275/t,False,True;(260) Hold
+			ESBR
+			SORD	713
+				LCON	 	/*+0,0,0,0,RAMPING;(698) Ramping
+			ESBR
+			SORD	259
+				LCON	 	/*+0,0,0,0, ;(244) Ramp Type
+			ESBR
+			SORD	273
+				LCON	 	/*+0,0,0,0, ;(258) Accel Time
+			ESBR
+			SORD	274
+				LCON	 	/*+0,0,0,0, ;(259) Decel Time
+			ESBR
+			SORD	709
+				LCON	 	/*+0,0,0,0, ;(694) Sramp Jerk 1
+			ESBR
+			SORD	706
+				LCON	 	/*+0,0,0,0, ;(691) Sramp Continuous
+			ESBR
+			SORD	275
+				LCON	 	/*+0,0,0,0, ;(260) Hold
+			ESBR
+		ESTR
+		CMNT	1	0,6230,786
+	ESBR
+	SNST	Reference Stop	/l
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	650043	Reference Stop
+			ESBR
+			SORD	2
+				PORD	0	294/ev:RAMPED:COAST:DC INJECTION;(279) Run Stop Mode
+				PORD	100	278/s,0,6000,0.1;%.1f s;(263) Stop Time
+				PORD	1	281/s,0,1000,0.1;%.1f %%;(266) Stop Zero Speed
+				PORD	5	299/s,0,300,0.1;%.1f s;(284) Stop Delay
+				PORD	0	319/ev:RAMPED:COAST;(304) Fast Stop Mode
+				PORD	300	290/s,0,30000,0.1;%.1f s;(275) Fast Stop Limit
+				PORD	1	279/s,0,6000,0.1;%.1f s;(264) Fast Stop Time
+				PORD	1200	141/s,12,4800,1;%.0f Hz/s;(126) Final Stop Rate
+			ESBR
+			SORD	294
+				LCON	 	/*+0,0,0,0, ;(279) Run Stop Mode
+			ESBR
+			SORD	278
+				LCON	 	/*+0,0,0,0, ;(263) Stop Time
+			ESBR
+			SORD	281
+				LCON	 	/*+0,0,0,0, ;(266) Stop Zero Speed
+			ESBR
+			SORD	299
+				LCON	 	/*+0,0,0,0, ;(284) Stop Delay
+			ESBR
+			SORD	319
+				LCON	 	/*+0,0,0,0, ;(304) Fast Stop Mode
+			ESBR
+			SORD	290
+				LCON	 	/*+0,0,0,0, ;(275) Fast Stop Limit
+			ESBR
+			SORD	279
+				LCON	 	/*+0,0,0,0, ;(264) Fast Stop Time
+			ESBR
+			SORD	141
+				LCON	 	/*+0,0,0,0, ;(126) Final Stop Rate
+			ESBR
+		ESTR
+		CMNT	1	0,6194,1446
+	ESBR
+	SNST	Raise/lower	/l
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	650044	Raise/lower
+			ESBR
+			SORD	2
+				PORD	0	340/:s,0,10000,0.01;%.2f %%;(325) Output
+				PORD	0	342/t,False,True;(327) Raise Input
+				PORD	0	343/t,False,True;(328) Lower Input
+				PORD	100	341/s,0,6000,0.1;%.1f s;(326) Ramp Time
+				PORD	10000	345/s,-10000,10000,0.01;%.2f %%;(330) Max Value
+				PORD	0	344/s,-10000,10000,0.01;%.2f %%;(329) Min Value
+				PORD	0	346/s,-10000,10000,0.01;%.2f %%;(331) Reset Value
+				PORD	0	347/t,False,True;(332) Reset
+			ESBR
+			SORD	340
+				LCON	 	/*+0,0,0,0,OUTPUT;(325) Output
+			ESBR
+			SORD	342
+				LCON	 	/*+0,0,0,0, ;(327) Raise Input
+			ESBR
+			SORD	343
+				LCON	 	/*+0,0,0,0, ;(328) Lower Input
+			ESBR
+			SORD	341
+				LCON	 	/*+0,0,0,0, ;(326) Ramp Time
+			ESBR
+			SORD	345
+				LCON	 	/*+0,0,0,0, ;(330) Max Value
+			ESBR
+			SORD	344
+				LCON	 	/*+0,0,0,0, ;(329) Min Value
+			ESBR
+			SORD	346
+				LCON	 	/*+0,0,0,0, ;(331) Reset Value
+			ESBR
+			SORD	347
+				LCON	 	/*+0,0,0,0, ;(332) Reset
+			ESBR
+		ESTR
+		CMNT	1	0,3978,4536
+	ESBR
+	SNST	Minimum Speed	/l
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	650045	Minimum Speed
+			ESBR
+			SORD	2
+				PORD	0	350/:s,0,0,0.1;%.1f %%;(335) Output
+				PORD	0	351/s,-3000,3000,0.1;%.1f %%;(336) Input
+				PORD	0	352/s,-1000,1000,0.1;%.1f %%;(337) Minimum
+				PORD	0	353/ev:PROP. W/MIN:LINEAR;(338) Mode
+			ESBR
+			SORD	350
+				LCON	 	/*+0,0,0,0,OUTPUT;(335) Output
+			ESBR
+			SORD	351
+				LCON	 	/*+0,0,0,0, ;(336) Input
+			ESBR
+			SORD	352
+				LCON	 	/*+0,0,0,0, ;(337) Minimum
+			ESBR
+			SORD	353
+				LCON	 	/*+0,0,0,0, ;(338) Mode
+			ESBR
+		ESTR
+		CMNT	1	0,2106,4728
+	ESBR
+	SNST	Pid	/l
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	650146	PID
+			ESBR
+			SORD	2
+				PORD	0	1271/:s,0,0,0.01;%.2f %%;(1256) Output
+				PORD	0	634/:s,0,0,0.01;%.2f %%;(619) Error
+				PORD	0	1272/:t,False,True;(1257) Limiting
+				PORD	0	1262/s,-30000,30000,0.01;%.2f %%;(1247) Setpoint
+				PORD	0	632/s,-30000,30000,0.01;%.2f %%;(617) Feedback
+				PORD	0	1263/s,-30000,30000,0.01;%.2f %%;(1248) Feed Fwd
+				PORD	100	633/s,-1000,1000,0.01;%.2f;(618) Feedback Gain
+				PORD	0	1264/s,-1000,1000,0.01;%.2f;(1249) Feed Fwd Gain
+				PORD	100	1265/s,0,10000,0.01;%.2f;(1250) P Gain
+				PORD	0	1266/s,0,10000,0.01;%.2f;(1251) I Gain
+				PORD	0	1267/s,0,10000,0.01;%.2f;(1252) D Gain
+				PORD	30000	1268/s,0,30000,0.01;%.2f %%;(1253) Limit
+				PORD	0	1269/t,False,True;(1254) Enable Pid
+				PORD	0	1113/t,False,True;(1098) Integral Defeat
+				PORD	5	1270/s,5,500,0.01;%.2f s;(1255) D Filter Tc
+				PORD	10000	1273/s,-30000,30000,0.0001;%.4f;(1258) Output Scaling
+			ESBR
+			SORD	1271
+				LCON	 	/*+0,0,0,0,OUTPUT;(1256) Output
+			ESBR
+			SORD	634
+				LCON	 	/*+0,0,0,0,ERROR;(619) Error
+			ESBR
+			SORD	1272
+				LCON	 	/*+0,0,0,0,LIMITING;(1257) Limiting
+			ESBR
+			SORD	1262
+				LCON	 	/*+0,0,0,0, ;(1247) Setpoint
+			ESBR
+			SORD	632
+				LCON	 	/*+0,0,0,0, ;(617) Feedback
+			ESBR
+			SORD	1263
+				LCON	 	/*+0,0,0,0, ;(1248) Feed Fwd
+			ESBR
+			SORD	633
+				LCON	 	/*+0,0,0,0, ;(618) Feedback Gain
+			ESBR
+			SORD	1264
+				LCON	 	/*+0,0,0,0, ;(1249) Feed Fwd Gain
+			ESBR
+			SORD	1265
+				LCON	 	/*+0,0,0,0, ;(1250) P Gain
+			ESBR
+			SORD	1266
+				LCON	 	/*+0,0,0,0, ;(1251) I Gain
+			ESBR
+			SORD	1267
+				LCON	 	/*+0,0,0,0, ;(1252) D Gain
+			ESBR
+			SORD	1268
+				LCON	 	/*+0,0,0,0, ;(1253) Limit
+			ESBR
+			SORD	1269
+				LCON	 	/*+0,0,0,0, ;(1254) Enable Pid
+			ESBR
+			SORD	1113
+				LCON	 	/*+0,0,0,0, ;(1098) Integral Defeat
+			ESBR
+			SORD	1270
+				LCON	 	/*+0,0,0,0, ;(1255) D Filter Tc
+			ESBR
+			SORD	1273
+				LCON	 	/*+0,0,0,0, ;(1258) Output Scaling
+			ESBR
+		ESTR
+		CMNT	1	0,6574,3948
+	ESBR
+	SNST	Multiplexer	/l
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	605024	Multiplexer
+			ESBR
+			SORD	2
+				PORD	0	613/:x;0x%4.4x;(598) Output
+				PORD	0	656/t,False,True;(641) Input 0
+				PORD	0	657/t,False,True;(642) Input 1
+				PORD	0	658/t,False,True;(643) Input 2
+				PORD	0	659/t,False,True;(644) Input 3
+				PORD	0	660/t,False,True;(645) Input 4
+				PORD	0	661/t,False,True;(646) Input 5
+				PORD	0	662/t,False,True;(647) Input 6
+				PORD	0	663/t,False,True;(648) Input 7
+				PORD	0	664/t,False,True;(649) Input 8
+				PORD	0	665/t,False,True;(650) Input 9
+				PORD	0	666/t,False,True;(651) Input 10
+				PORD	0	667/t,False,True;(652) Input 11
+				PORD	0	668/t,False,True;(653) Input 12
+				PORD	0	669/t,False,True;(654) Input 13
+				PORD	0	670/t,False,True;(655) Input 14
+				PORD	0	671/t,False,True;(656) Input 15
+			ESBR
+			SORD	613
+				LCON	 	/*+0,0,0,0,OUTPUT;(598) Output
+			ESBR
+			SORD	656
+				LCON	 	/*+0,0,0,0, ;(641) Input 0
+			ESBR
+			SORD	657
+				LCON	 	/*+0,0,0,0, ;(642) Input 1
+			ESBR
+			SORD	658
+				LCON	 	/*+0,0,0,0, ;(643) Input 2
+			ESBR
+			SORD	659
+				LCON	 	/*+0,0,0,0, ;(644) Input 3
+			ESBR
+			SORD	660
+				LCON	 	/*+0,0,0,0, ;(645) Input 4
+			ESBR
+			SORD	661
+				LCON	 	/*+0,0,0,0, ;(646) Input 5
+			ESBR
+			SORD	662
+				LCON	 	/*+0,0,0,0, ;(647) Input 6
+			ESBR
+			SORD	663
+				LCON	 	/*+0,0,0,0, ;(648) Input 7
+			ESBR
+			SORD	664
+				LCON	 	/*+0,0,0,0, ;(649) Input 8
+			ESBR
+			SORD	665
+				LCON	 	/*+0,0,0,0, ;(650) Input 9
+			ESBR
+			SORD	666
+				LCON	 	/*+0,0,0,0, ;(651) Input 10
+			ESBR
+			SORD	667
+				LCON	 	/*+0,0,0,0, ;(652) Input 11
+			ESBR
+			SORD	668
+				LCON	 	/*+0,0,0,0, ;(653) Input 12
+			ESBR
+			SORD	669
+				LCON	 	/*+0,0,0,0, ;(654) Input 13
+			ESBR
+			SORD	670
+				LCON	 	/*+0,0,0,0, ;(655) Input 14
+			ESBR
+			SORD	671
+				LCON	 	/*+0,0,0,0, ;(656) Input 15
+			ESBR
+		ESTR
+		CMNT	1	3,600,3000
+	ESBR
+	SNST	Demultiplexer	/l
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	605023	Demultiplexer
+			ESBR
+			SORD	2
+				PORD	0	672/:t,False,True;(657) Output 0
+				PORD	0	673/:t,False,True;(658) Output 1
+				PORD	0	674/:t,False,True;(659) Output 2
+				PORD	0	675/:t,False,True;(660) Output 3
+				PORD	0	676/:t,False,True;(661) Output 4
+				PORD	0	677/:t,False,True;(662) Output 5
+				PORD	0	678/:t,False,True;(663) Output 6
+				PORD	0	679/:t,False,True;(664) Output 7
+				PORD	0	680/:t,False,True;(665) Output 8
+				PORD	0	681/:t,False,True;(666) Output 9
+				PORD	0	682/:t,False,True;(667) Output 10
+				PORD	0	683/:t,False,True;(668) Output 11
+				PORD	0	684/:t,False,True;(669) Output 12
+				PORD	0	685/:t,False,True;(670) Output 13
+				PORD	0	686/:t,False,True;(671) Output 14
+				PORD	0	687/:t,False,True;(672) Output 15
+				PORD	0	614/x;0x%4.4x;(599) Input
+			ESBR
+			SORD	672
+				LCON	 	/*+0,0,0,0,OUTPUT 0;(657) Output 0
+			ESBR
+			SORD	673
+				LCON	 	/*+0,0,0,0,OUTPUT 1;(658) Output 1
+			ESBR
+			SORD	674
+				LCON	 	/*+0,0,0,0,OUTPUT 2;(659) Output 2
+			ESBR
+			SORD	675
+				LCON	 	/*+0,0,0,0,OUTPUT 3;(660) Output 3
+			ESBR
+			SORD	676
+				LCON	 	/*+0,0,0,0,OUTPUT 4;(661) Output 4
+			ESBR
+			SORD	677
+				LCON	 	/*+0,0,0,0,OUTPUT 5;(662) Output 5
+			ESBR
+			SORD	678
+				LCON	 	/*+0,0,0,0,OUTPUT 6;(663) Output 6
+			ESBR
+			SORD	679
+				LCON	 	/*+0,0,0,0,OUTPUT 7;(664) Output 7
+			ESBR
+			SORD	680
+				LCON	 	/*+0,0,0,0,OUTPUT 8;(665) Output 8
+			ESBR
+			SORD	681
+				LCON	 	/*+0,0,0,0,OUTPUT 9;(666) Output 9
+			ESBR
+			SORD	682
+				LCON	 	/*+0,0,0,0,OUTPUT 10;(667) Output 10
+			ESBR
+			SORD	683
+				LCON	 	/*+0,0,0,0,OUTPUT 11;(668) Output 11
+			ESBR
+			SORD	684
+				LCON	 	/*+0,0,0,0,OUTPUT 12;(669) Output 12
+			ESBR
+			SORD	685
+				LCON	 	/*+0,0,0,0,OUTPUT 13;(670) Output 13
+			ESBR
+			SORD	686
+				LCON	 	/*+0,0,0,0,OUTPUT 14;(671) Output 14
+			ESBR
+			SORD	687
+				LCON	 	/*+0,0,0,0,OUTPUT 15;(672) Output 15
+			ESBR
+			SORD	614
+				LCON	 	/*+0,0,0,0, ;(599) Input
+			ESBR
+		ESTR
+		CMNT	1	3,2100,3000
+	ESBR
+	SNST	Zero Speed	/l
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	650049	Zero Speed
+			ESBR
+			SORD	2
+				PORD	1	1248/:t,False,True;(1233) At Zero Speed
+				PORD	5	374/s,0,3000,0.1;%.1f %%;(359) Hysterisis
+				PORD	10	372/s,0,3000,0.1;%.1f %%;(357) Threshold
+			ESBR
+			SORD	1248
+				LCON	 	/*+0,0,0,0,AT ZERO SPEED;(1233) At Zero Speed
+				LIST	 	/l6
+					GSYM	Conns/Update[attach]
+					LNOD
+					MSGE
+						ICAL	Digital Output 2 (terminal 10)
+						GSYM	Drive/Value
+						LITO	1233
+						LITO	55
+						ISYM	res link 9
+					EMSG
+					CMNT	13	0,4239,-1
+				ELST
+			ESBR
+			SORD	374
+				LCON	 	/*+0,0,0,0, ;(359) Hysterisis
+			ESBR
+			SORD	372
+				LCON	 	/*+0,0,0,0, ;(357) Threshold
+			ESBR
+		ESTR
+		CMNT	1	0,3224,2280
+	ESBR
+	SNST	Trips Status	/l
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	650050	Trips Status
+			ESBR
+			SORD	2
+				PORD	0	19/:x;0x%4.4x;(4) Active Trips
+				PORD	0	755/:x;0x%4.4x;(740) Active Trips+
+				PORD	0	20/:x;0x%4.4x;(5) Warnings
+				PORD	0	756/:x;0x%4.4x;(741) Warnings+
+				PORD	0	21/:ev:NO TRIP:OVERVOLTAGE:UNDERVOLTAGE:OVERCURRENT:HEATSINK:EXTERNAL TRIP:INVERSE TIME:CURRENT LOOP:MOTOR STALLED:ANIN FAULT:BRAKE RESISTOR:BRAKE SWITCH:DISPLAY / KEYPAD:LOST COMMS:CONTACTOR FBK:SPEED FEEDBACK:AMBIENT TEMP:MOTOR OVERTEMP:CURRENT LIMIT:SHORT CIRCUIT:24V FAILURE:LOW SPEED OVER I:10V FAULT:ENCODER 1 FAULT:DESAT (OVER I):VDC RIPPLE:BRAKE SHORT CCT:OVERSPEED:ANOUT FAULT:DIG IO 1 FAULT:DIG IO 2 FAULT:UNKNOWN:OTHER:ZERO I CAL:MAX SPEED LOW:MAINS VOLTS LOW:NOT AT SPEED:MAG CURRENT FAIL:NEGATIVE SLIP F:TR TOO LARGE:TR TOO SMALL:MAX RPM DATA ERR:MOTOR TURNING ERR:MOTOR STALL ERR:LEAKGE L TIMEOUT;(6) First Trip
+				PORD	1632	246/x;0x%4.4x;(231) Disable Trips
+				PORD	0	757/x;0x%4.4x;(742) Disable Trips+
+			ESBR
+			SORD	19
+				LCON	 	/*+0,0,0,0,ACTIVE TRIPS;(4) Active Trips
+			ESBR
+			SORD	755
+				LCON	 	/*+0,0,0,0,ACTIVE TRIPS+;(740) Active Trips+
+			ESBR
+			SORD	20
+				LCON	 	/*+0,0,0,0,WARNINGS;(5) Warnings
+			ESBR
+			SORD	756
+				LCON	 	/*+0,0,0,0,WARNINGS+;(741) Warnings+
+			ESBR
+			SORD	21
+				LCON	 	/*+0,0,0,0,FIRST TRIP;(6) First Trip
+			ESBR
+			SORD	246
+				LCON	 	/*+0,0,0,0, ;(231) Disable Trips
+			ESBR
+			SORD	757
+				LCON	 	/*+0,0,0,0, ;(742) Disable Trips+
+			ESBR
+		ESTR
+		CMNT	1	2,2400,800
+	ESBR
+	SNST	Trips History	/l
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	650051	Trips History
+			ESBR
+			SORD	2
+				PORD	5	515/:ev:NO TRIP:OVERVOLTAGE:UNDERVOLTAGE:OVERCURRENT:HEATSINK:EXTERNAL TRIP:INVERSE TIME:CURRENT LOOP:MOTOR STALLED:ANIN FAULT:BRAKE RESISTOR:BRAKE SWITCH:DISPLAY / KEYPAD:LOST COMMS:CONTACTOR FBK:SPEED FEEDBACK:AMBIENT TEMP:MOTOR OVERTEMP:CURRENT LIMIT:SHORT CIRCUIT:24V FAILURE:LOW SPEED OVER I:10V FAULT:ENCODER 1 FAULT:DESAT (OVER I):VDC RIPPLE:BRAKE SHORT CCT:OVERSPEED:ANOUT FAULT:DIG IO 1 FAULT:DIG IO 2 FAULT:UNKNOWN:OTHER:ZERO I CAL:MAX SPEED LOW:MAINS VOLTS LOW:NOT AT SPEED:MAG CURRENT FAIL:NEGATIVE SLIP F:TR TOO LARGE:TR TOO SMALL:MAX RPM DATA ERR:MOTOR TURNING ERR:MOTOR STALL ERR:LEAKGE L TIMEOUT;(500) Trip 1 (newest)
+				PORD	5	516/:ev:NO TRIP:OVERVOLTAGE:UNDERVOLTAGE:OVERCURRENT:HEATSINK:EXTERNAL TRIP:INVERSE TIME:CURRENT LOOP:MOTOR STALLED:ANIN FAULT:BRAKE RESISTOR:BRAKE SWITCH:DISPLAY / KEYPAD:LOST COMMS:CONTACTOR FBK:SPEED FEEDBACK:AMBIENT TEMP:MOTOR OVERTEMP:CURRENT LIMIT:SHORT CIRCUIT:24V FAILURE:LOW SPEED OVER I:10V FAULT:ENCODER 1 FAULT:DESAT (OVER I):VDC RIPPLE:BRAKE SHORT CCT:OVERSPEED:ANOUT FAULT:DIG IO 1 FAULT:DIG IO 2 FAULT:UNKNOWN:OTHER:ZERO I CAL:MAX SPEED LOW:MAINS VOLTS LOW:NOT AT SPEED:MAG CURRENT FAIL:NEGATIVE SLIP F:TR TOO LARGE:TR TOO SMALL:MAX RPM DATA ERR:MOTOR TURNING ERR:MOTOR STALL ERR:LEAKGE L TIMEOUT;(501) Trip 2
+				PORD	5	517/:ev:NO TRIP:OVERVOLTAGE:UNDERVOLTAGE:OVERCURRENT:HEATSINK:EXTERNAL TRIP:INVERSE TIME:CURRENT LOOP:MOTOR STALLED:ANIN FAULT:BRAKE RESISTOR:BRAKE SWITCH:DISPLAY / KEYPAD:LOST COMMS:CONTACTOR FBK:SPEED FEEDBACK:AMBIENT TEMP:MOTOR OVERTEMP:CURRENT LIMIT:SHORT CIRCUIT:24V FAILURE:LOW SPEED OVER I:10V FAULT:ENCODER 1 FAULT:DESAT (OVER I):VDC RIPPLE:BRAKE SHORT CCT:OVERSPEED:ANOUT FAULT:DIG IO 1 FAULT:DIG IO 2 FAULT:UNKNOWN:OTHER:ZERO I CAL:MAX SPEED LOW:MAINS VOLTS LOW:NOT AT SPEED:MAG CURRENT FAIL:NEGATIVE SLIP F:TR TOO LARGE:TR TOO SMALL:MAX RPM DATA ERR:MOTOR TURNING ERR:MOTOR STALL ERR:LEAKGE L TIMEOUT;(502) Trip 3
+				PORD	5	518/:ev:NO TRIP:OVERVOLTAGE:UNDERVOLTAGE:OVERCURRENT:HEATSINK:EXTERNAL TRIP:INVERSE TIME:CURRENT LOOP:MOTOR STALLED:ANIN FAULT:BRAKE RESISTOR:BRAKE SWITCH:DISPLAY / KEYPAD:LOST COMMS:CONTACTOR FBK:SPEED FEEDBACK:AMBIENT TEMP:MOTOR OVERTEMP:CURRENT LIMIT:SHORT CIRCUIT:24V FAILURE:LOW SPEED OVER I:10V FAULT:ENCODER 1 FAULT:DESAT (OVER I):VDC RIPPLE:BRAKE SHORT CCT:OVERSPEED:ANOUT FAULT:DIG IO 1 FAULT:DIG IO 2 FAULT:UNKNOWN:OTHER:ZERO I CAL:MAX SPEED LOW:MAINS VOLTS LOW:NOT AT SPEED:MAG CURRENT FAIL:NEGATIVE SLIP F:TR TOO LARGE:TR TOO SMALL:MAX RPM DATA ERR:MOTOR TURNING ERR:MOTOR STALL ERR:LEAKGE L TIMEOUT;(503) Trip 4
+				PORD	4	519/:ev:NO TRIP:OVERVOLTAGE:UNDERVOLTAGE:OVERCURRENT:HEATSINK:EXTERNAL TRIP:INVERSE TIME:CURRENT LOOP:MOTOR STALLED:ANIN FAULT:BRAKE RESISTOR:BRAKE SWITCH:DISPLAY / KEYPAD:LOST COMMS:CONTACTOR FBK:SPEED FEEDBACK:AMBIENT TEMP:MOTOR OVERTEMP:CURRENT LIMIT:SHORT CIRCUIT:24V FAILURE:LOW SPEED OVER I:10V FAULT:ENCODER 1 FAULT:DESAT (OVER I):VDC RIPPLE:BRAKE SHORT CCT:OVERSPEED:ANOUT FAULT:DIG IO 1 FAULT:DIG IO 2 FAULT:UNKNOWN:OTHER:ZERO I CAL:MAX SPEED LOW:MAINS VOLTS LOW:NOT AT SPEED:MAG CURRENT FAIL:NEGATIVE SLIP F:TR TOO LARGE:TR TOO SMALL:MAX RPM DATA ERR:MOTOR TURNING ERR:MOTOR STALL ERR:LEAKGE L TIMEOUT;(504) Trip 5
+				PORD	15	520/:ev:NO TRIP:OVERVOLTAGE:UNDERVOLTAGE:OVERCURRENT:HEATSINK:EXTERNAL TRIP:INVERSE TIME:CURRENT LOOP:MOTOR STALLED:ANIN FAULT:BRAKE RESISTOR:BRAKE SWITCH:DISPLAY / KEYPAD:LOST COMMS:CONTACTOR FBK:SPEED FEEDBACK:AMBIENT TEMP:MOTOR OVERTEMP:CURRENT LIMIT:SHORT CIRCUIT:24V FAILURE:LOW SPEED OVER I:10V FAULT:ENCODER 1 FAULT:DESAT (OVER I):VDC RIPPLE:BRAKE SHORT CCT:OVERSPEED:ANOUT FAULT:DIG IO 1 FAULT:DIG IO 2 FAULT:UNKNOWN:OTHER:ZERO I CAL:MAX SPEED LOW:MAINS VOLTS LOW:NOT AT SPEED:MAG CURRENT FAIL:NEGATIVE SLIP F:TR TOO LARGE:TR TOO SMALL:MAX RPM DATA ERR:MOTOR TURNING ERR:MOTOR STALL ERR:LEAKGE L TIMEOUT;(505) Trip 6
+				PORD	5	521/:ev:NO TRIP:OVERVOLTAGE:UNDERVOLTAGE:OVERCURRENT:HEATSINK:EXTERNAL TRIP:INVERSE TIME:CURRENT LOOP:MOTOR STALLED:ANIN FAULT:BRAKE RESISTOR:BRAKE SWITCH:DISPLAY / KEYPAD:LOST COMMS:CONTACTOR FBK:SPEED FEEDBACK:AMBIENT TEMP:MOTOR OVERTEMP:CURRENT LIMIT:SHORT CIRCUIT:24V FAILURE:LOW SPEED OVER I:10V FAULT:ENCODER 1 FAULT:DESAT (OVER I):VDC RIPPLE:BRAKE SHORT CCT:OVERSPEED:ANOUT FAULT:DIG IO 1 FAULT:DIG IO 2 FAULT:UNKNOWN:OTHER:ZERO I CAL:MAX SPEED LOW:MAINS VOLTS LOW:NOT AT SPEED:MAG CURRENT FAIL:NEGATIVE SLIP F:TR TOO LARGE:TR TOO SMALL:MAX RPM DATA ERR:MOTOR TURNING ERR:MOTOR STALL ERR:LEAKGE L TIMEOUT;(506) Trip 7
+				PORD	5	522/:ev:NO TRIP:OVERVOLTAGE:UNDERVOLTAGE:OVERCURRENT:HEATSINK:EXTERNAL TRIP:INVERSE TIME:CURRENT LOOP:MOTOR STALLED:ANIN FAULT:BRAKE RESISTOR:BRAKE SWITCH:DISPLAY / KEYPAD:LOST COMMS:CONTACTOR FBK:SPEED FEEDBACK:AMBIENT TEMP:MOTOR OVERTEMP:CURRENT LIMIT:SHORT CIRCUIT:24V FAILURE:LOW SPEED OVER I:10V FAULT:ENCODER 1 FAULT:DESAT (OVER I):VDC RIPPLE:BRAKE SHORT CCT:OVERSPEED:ANOUT FAULT:DIG IO 1 FAULT:DIG IO 2 FAULT:UNKNOWN:OTHER:ZERO I CAL:MAX SPEED LOW:MAINS VOLTS LOW:NOT AT SPEED:MAG CURRENT FAIL:NEGATIVE SLIP F:TR TOO LARGE:TR TOO SMALL:MAX RPM DATA ERR:MOTOR TURNING ERR:MOTOR STALL ERR:LEAKGE L TIMEOUT;(507) Trip 8
+				PORD	5	523/:ev:NO TRIP:OVERVOLTAGE:UNDERVOLTAGE:OVERCURRENT:HEATSINK:EXTERNAL TRIP:INVERSE TIME:CURRENT LOOP:MOTOR STALLED:ANIN FAULT:BRAKE RESISTOR:BRAKE SWITCH:DISPLAY / KEYPAD:LOST COMMS:CONTACTOR FBK:SPEED FEEDBACK:AMBIENT TEMP:MOTOR OVERTEMP:CURRENT LIMIT:SHORT CIRCUIT:24V FAILURE:LOW SPEED OVER I:10V FAULT:ENCODER 1 FAULT:DESAT (OVER I):VDC RIPPLE:BRAKE SHORT CCT:OVERSPEED:ANOUT FAULT:DIG IO 1 FAULT:DIG IO 2 FAULT:UNKNOWN:OTHER:ZERO I CAL:MAX SPEED LOW:MAINS VOLTS LOW:NOT AT SPEED:MAG CURRENT FAIL:NEGATIVE SLIP F:TR TOO LARGE:TR TOO SMALL:MAX RPM DATA ERR:MOTOR TURNING ERR:MOTOR STALL ERR:LEAKGE L TIMEOUT;(508) Trip 9
+				PORD	5	524/:ev:NO TRIP:OVERVOLTAGE:UNDERVOLTAGE:OVERCURRENT:HEATSINK:EXTERNAL TRIP:INVERSE TIME:CURRENT LOOP:MOTOR STALLED:ANIN FAULT:BRAKE RESISTOR:BRAKE SWITCH:DISPLAY / KEYPAD:LOST COMMS:CONTACTOR FBK:SPEED FEEDBACK:AMBIENT TEMP:MOTOR OVERTEMP:CURRENT LIMIT:SHORT CIRCUIT:24V FAILURE:LOW SPEED OVER I:10V FAULT:ENCODER 1 FAULT:DESAT (OVER I):VDC RIPPLE:BRAKE SHORT CCT:OVERSPEED:ANOUT FAULT:DIG IO 1 FAULT:DIG IO 2 FAULT:UNKNOWN:OTHER:ZERO I CAL:MAX SPEED LOW:MAINS VOLTS LOW:NOT AT SPEED:MAG CURRENT FAIL:NEGATIVE SLIP F:TR TOO LARGE:TR TOO SMALL:MAX RPM DATA ERR:MOTOR TURNING ERR:MOTOR STALL ERR:LEAKGE L TIMEOUT;(509) Trip 10 (oldest)
+			ESBR
+			SORD	515
+				LCON	 	/*+0,0,0,0,TRIP 1 (NEWEST);(500) Trip 1 (newest)
+			ESBR
+			SORD	516
+				LCON	 	/*+0,0,0,0,TRIP 2;(501) Trip 2
+			ESBR
+			SORD	517
+				LCON	 	/*+0,0,0,0,TRIP 3;(502) Trip 3
+			ESBR
+			SORD	518
+				LCON	 	/*+0,0,0,0,TRIP 4;(503) Trip 4
+			ESBR
+			SORD	519
+				LCON	 	/*+0,0,0,0,TRIP 5;(504) Trip 5
+			ESBR
+			SORD	520
+				LCON	 	/*+0,0,0,0,TRIP 6;(505) Trip 6
+			ESBR
+			SORD	521
+				LCON	 	/*+0,0,0,0,TRIP 7;(506) Trip 7
+			ESBR
+			SORD	522
+				LCON	 	/*+0,0,0,0,TRIP 8;(507) Trip 8
+			ESBR
+			SORD	523
+				LCON	 	/*+0,0,0,0,TRIP 9;(508) Trip 9
+			ESBR
+			SORD	524
+				LCON	 	/*+0,0,0,0,TRIP 10 (OLDEST);(509) Trip 10 (oldest)
+			ESBR
+		ESTR
+		CMNT	1	2,2400,1600
+	ESBR
+	SNST	At Speed	/l
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	650052	At Speed
+			ESBR
+			SORD	2
+				PORD	0	1111/:t,False,True;(1096) At Speed
+				PORD	10	1110/s,0,3000,0.1;%.1f %%;(1095) Hysterisis
+			ESBR
+			SORD	1111
+				LCON	 	/*+0,0,0,0,AT SPEED;(1096) At Speed
+			ESBR
+			SORD	1110
+				LCON	 	/*+0,0,0,0, ;(1095) Hysterisis
+			ESBR
+		ESTR
+		CMNT	1	0,5006,4092
+	ESBR
+	SNST	Voltage Control	/l
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	650053	Voltage Control
+			ESBR
+			SORD	2
+				PORD	0	610/ev:NONE:FIXED:AUTOMATIC;(595) Voltage Mode
+				PORD	10000	127/s,0,11547,0.01;%.2f %%;(112) Base Volts
+			ESBR
+			SORD	610
+				LCON	 	/*+0,0,0,0, ;(595) Voltage Mode
+			ESBR
+			SORD	127
+				LCON	 	/*+0,0,0,0, ;(112) Base Volts
+			ESBR
+		ESTR
+		CMNT	1	1,4300,300
+	ESBR
+	SNST	Io Trips	/l
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	650054	Io Trips
+			ESBR
+			SORD	2
+				PORD	0	1170/:t,False,True;(1155) Thermist State
+				PORD	0	775/t,False,True;(760) Invert Thermist
+				PORD	0	249/t,False,True;(234) External Trip
+			ESBR
+			SORD	1170
+				LCON	 	/*+0,0,0,0,THERMIST STATE;(1155) Thermist State
+			ESBR
+			SORD	775
+				LCON	 	/*+0,0,0,0, ;(760) Invert Thermist
+			ESBR
+			SORD	249
+				LCON	 	/*+0,0,0,0, ;(234) External Trip
+			ESBR
+		ESTR
+		CMNT	1	2,2500,300
+	ESBR
+	SNST	Skip Frequencies	/l
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	650055	Skip Frequencies
+			ESBR
+			SORD	2
+				PORD	0	361/:s,0,0,0.01;%.2f %%;(346) Output
+				PORD	0	355/s,-30000,30000,0.01;%.2f %%;(340) Input
+				PORD	0	356/s,0,600,0.1;%.1f Hz;(341) Band 1
+				PORD	0	357/s,0,2400,0.1;%.1f Hz;(342) Frequency 1
+				PORD	0	695/s,0,600,0.1;%.1f Hz;(680) Band 2
+				PORD	0	358/s,0,2400,0.1;%.1f Hz;(343) Frequency 2
+			ESBR
+			SORD	361
+				LCON	 	/*+0,0,0,0,OUTPUT;(346) Output
+			ESBR
+			SORD	355
+				LCON	 	/*+0,0,0,0, ;(340) Input
+			ESBR
+			SORD	356
+				LCON	 	/*+0,0,0,0, ;(341) Band 1
+			ESBR
+			SORD	357
+				LCON	 	/*+0,0,0,0, ;(342) Frequency 1
+			ESBR
+			SORD	695
+				LCON	 	/*+0,0,0,0, ;(680) Band 2
+			ESBR
+			SORD	358
+				LCON	 	/*+0,0,0,0, ;(343) Frequency 2
+			ESBR
+		ESTR
+		CMNT	1	0,436,3540
+	ESBR
+	SNST	Stall Trip	/l
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	650056	Stall Trip
+			ESBR
+			SORD	2
+				PORD	6000	256/s,1,30000,0.1;%.1f s;(241) Stall Time
+				PORD	10000	255/s,5000,15000,0.01;%.2f %%;(240) Stall Limit
+				PORD	1	1647/t,False,True;(1632) Stall Limit Type
+			ESBR
+			SORD	256
+				LCON	 	/*+0,0,0,0, ;(241) Stall Time
+			ESBR
+			SORD	255
+				LCON	 	/*+0,0,0,0, ;(240) Stall Limit
+			ESBR
+			SORD	1647
+				LCON	 	/*+0,0,0,0, ;(1632) Stall Limit Type
+			ESBR
+		ESTR
+		CMNT	1	1,4300,700
+	ESBR
+	SNST	Flycatching	/l
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	650057	Flycatching
+			ESBR
+			SORD	2
+				PORD	0	591/:t,False,True;(576) Active
+				PORD	0	43/:s,0,0,0.01;%.2f Hz;(28) Setpoint
+				PORD	0	585/t,False,True;(570) Vhz Enable
+				PORD	1	1568/t,False,True;(1553) Vector Enable
+				PORD	0	586/ev:ALWAYS:TRIP OR POWER UP:TRIP;(571) Start Mode
+				PORD	0	587/ev:BIDIRECTIONAL:UNIDIRECTION;(572) Search Mode
+				PORD	900	2588/s,0,10000,0.01;%.2f %%;(573) Search Volts
+				PORD	4000	2047/s,0,5000,0.01;%.2f %%;(32) Search Boost
+				PORD	100	2589/s,1,600,0.1;%.1f s;(574) Search Time
+				PORD	50	590/s,0,5000,0.1;%.1f Hz;(575) Min Search Speed
+				PORD	30	724/s,1,200,0.1;%.1f s;(709) Reflux Time
+			ESBR
+			SORD	591
+				LCON	 	/*+0,0,0,0,ACTIVE;(576) Active
+			ESBR
+			SORD	43
+				LCON	 	/*+0,0,0,0,SETPOINT;(28) Setpoint
+			ESBR
+			SORD	585
+				LCON	 	/*+0,0,0,0, ;(570) Vhz Enable
+			ESBR
+			SORD	1568
+				LCON	 	/*+0,0,0,0, ;(1553) Vector Enable
+			ESBR
+			SORD	586
+				LCON	 	/*+0,0,0,0, ;(571) Start Mode
+			ESBR
+			SORD	587
+				LCON	 	/*+0,0,0,0, ;(572) Search Mode
+			ESBR
+			SORD	2588
+				LCON	 	/*+0,0,0,0, ;(573) Search Volts
+			ESBR
+			SORD	2047
+				LCON	 	/*+0,0,0,0, ;(32) Search Boost
+			ESBR
+			SORD	2589
+				LCON	 	/*+0,0,0,0, ;(574) Search Time
+			ESBR
+			SORD	590
+				LCON	 	/*+0,0,0,0, ;(575) Min Search Speed
+			ESBR
+			SORD	724
+				LCON	 	/*+0,0,0,0, ;(709) Reflux Time
+			ESBR
+		ESTR
+		CMNT	1	1,4300,1800
+	ESBR
+	SNST	Speed Loop	/l
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	650059	Speed Loop
+			ESBR
+			SORD	2
+				PORD	0	1218/:s,0,0,0.01;%.2f RPM;(1203) Totl Spd Dmd Rpm
+				PORD	0	1221/:s,0,0,0.01;%.2f %%;(1206) Total Spd Dmd %
+				PORD	0	1222/:s,0,0,0.01;%.2f %%;(1207) Speed Error
+				PORD	0	1219/:s,0,0,0.01;%.2f %%;(1204) Torque Demand
+				PORD	2000	3202/s,0,30000,0.01;%.2f;(1187) Speed Prop Gain
+				PORD	100	3203/s,1,15000,1;%.0f ms;(1188) Speed Int Time
+				PORD	0	1204/t,False,True;(1189) Int Defeat
+				LONG	0	1205/s,-50000,50000,0.01;%.2f %%;(1190) Speed Int Preset
+				PORD	30	1206/s,0,140,0.1;%.1f ms;(1191) Speed Dmd Filter
+				PORD	15	1207/s,0,150,0.1;%.1f ms;(1192) Speed Fbk Filter
+				PORD	0	1208/s,-30000,30000,0.01;%.2f %%;(1193) (aux) Torque Dmd
+				PORD	11000	1215/s,-11000,11000,0.01;%.2f %%;(1200) Speed Pos Lim
+				PORD	54536	1216/s,-11000,11000,0.01;%.2f %%;(1201) Speed Neg Lim
+				PORD	0	1217/t,False,True;(1202) Torq Ctrl Mode
+			ESBR
+			SORD	1218
+				LCON	 	/*+0,0,0,0,TOTL SPD DMD RPM;(1203) Totl Spd Dmd Rpm
+			ESBR
+			SORD	1221
+				LCON	 	/*+0,0,0,0,TOTAL SPD DMD %;(1206) Total Spd Dmd %
+			ESBR
+			SORD	1222
+				LCON	 	/*+0,0,0,0,SPEED ERROR;(1207) Speed Error
+			ESBR
+			SORD	1219
+				LCON	 	/*+0,0,0,0,TORQUE DEMAND;(1204) Torque Demand
+			ESBR
+			SORD	3202
+				LCON	 	/*+0,0,0,0, ;(1187) Speed Prop Gain
+			ESBR
+			SORD	3203
+				LCON	 	/*+0,0,0,0, ;(1188) Speed Int Time
+			ESBR
+			SORD	1204
+				LCON	 	/*+0,0,0,0, ;(1189) Int Defeat
+			ESBR
+			SORD	1205
+				LCON	 	/*+0,0,0,0, ;(1190) Speed Int Preset
+			ESBR
+			SORD	1206
+				LCON	 	/*+0,0,0,0, ;(1191) Speed Dmd Filter
+			ESBR
+			SORD	1207
+				LCON	 	/*+0,0,0,0, ;(1192) Speed Fbk Filter
+			ESBR
+			SORD	1208
+				LCON	 	/*+0,0,0,0, ;(1193) (aux) Torque Dmd
+			ESBR
+			SORD	1215
+				LCON	 	/*+0,0,0,0, ;(1200) Speed Pos Lim
+			ESBR
+			SORD	1216
+				LCON	 	/*+0,0,0,0, ;(1201) Speed Neg Lim
+			ESBR
+			SORD	1217
+				LCON	 	/*+0,0,0,0, ;(1202) Torq Ctrl Mode
+			ESBR
+		ESTR
+		CMNT	1	1,2600,3900
+	ESBR
+	SNST	Autotune	/l
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	690101	Autotune
+			ESBR
+			SORD	2
+				PORD	0	619/:t,False,True;(604) Active
+				PORD	0	618/t,False,True;(603) Enable
+				PORD	0	704/ev:STATIONARY:ROTATING;(689) Mode
+				PORD	0	1040/x;0x%4.4x;(1025) Test Disable
+			ESBR
+			SORD	619
+				LCON	 	/*+0,0,0,0,ACTIVE;(604) Active
+			ESBR
+			SORD	618
+				LCON	 	/*+0,0,0,0, ;(603) Enable
+			ESBR
+			SORD	704
+				LCON	 	/*+0,0,0,0, ;(689) Mode
+			ESBR
+			SORD	1040
+				LCON	 	/*+0,0,0,0, ;(1025) Test Disable
+			ESBR
+		ESTR
+		CMNT	1	1,4300,1200
+	ESBR
+	SNST	Energy Meter	/l
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	650064	Energy Meter
+			ESBR
+			SORD	2
+				PORD	0	1619/:s,0,0,0.01;%.2f Kw;(1604) Power
+				PORD	0	1620/:s,0,0,0.01;%.2f;(1605) Power
+				PORD	0	1621/:s,0,0,0.01;%.2f;(1606) Reactive Power
+				LONG	10	1622/:s,0,327670,0.1;%.1f;(1607) Energy Used
+				PORD	0	1618/t,False,True;(1603) Reset
+			ESBR
+			SORD	1619
+				LCON	 	/*+0,0,0,0,POWER;(1604) Power
+			ESBR
+			SORD	1620
+				LCON	 	/*+0,0,0,0,POWER;(1605) Power
+			ESBR
+			SORD	1621
+				LCON	 	/*+0,0,0,0,REACTIVE POWER;(1606) Reactive Power
+			ESBR
+			SORD	1622
+				LCON	 	/*+0,0,0,0,ENERGY USED;(1607) Energy Used
+			ESBR
+			SORD	1618
+				LCON	 	/*+0,0,0,0, ;(1603) Reset
+			ESBR
+		ESTR
+		CMNT	1	1,4300,3000
+	ESBR
+	SNST	At Load	/l
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	650165	At Load
+			ESBR
+			SORD	2
+				PORD	0	637/:t,False,True;(622) At Or Above Load
+				PORD	1000	636/s,-3000,3000,0.1;%.1f %%;(621) Level
+				PORD	0	1274/t,False,True;(1259) Absolute
+			ESBR
+			SORD	637
+				LCON	 	/*+0,0,0,0,AT OR ABOVE LOAD;(622) At Or Above Load
+			ESBR
+			SORD	636
+				LCON	 	/*+0,0,0,0, ;(621) Level
+			ESBR
+			SORD	1274
+				LCON	 	/*+0,0,0,0, ;(1259) Absolute
+			ESBR
+		ESTR
+		CMNT	1	0,3422,4140
+	ESBR
+	SNST	Encoder	/l
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	650066	Encoder
+			ESBR
+			SORD	2
+				PORD	0	126/:s,0,0,0.1;%.1f;(111) Speed
+				PORD	0	763/:s,0,0,1;%.0f;(748) Position
+				PORD	0	580/ev:QUADRATURE:CLOCK/DIR:CLOCK;(565) Mode
+				PORD	0	762/t,False,True;(747) Reset
+				PORD	0	582/t,False,True;(567) Invert
+				PORD	100	581/s,100,10000,1.0;%.0f;(566) Lines
+				PORD	100	125/s,0,30000,0.01;%.2f;(110) Speed Scale
+			ESBR
+			SORD	126
+				LCON	 	/*+0,0,0,0,SPEED;(111) Speed
+			ESBR
+			SORD	763
+				LCON	 	/*+0,0,0,0,POSITION;(748) Position
+			ESBR
+			SORD	580
+				LCON	 	/*+0,0,0,0, ;(565) Mode
+			ESBR
+			SORD	762
+				LCON	 	/*+0,0,0,0, ;(747) Reset
+			ESBR
+			SORD	582
+				LCON	 	/*+0,0,0,0, ;(567) Invert
+			ESBR
+			SORD	581
+				LCON	 	/*+0,0,0,0, ;(566) Lines
+			ESBR
+			SORD	125
+				LCON	 	/*+0,0,0,0, ;(110) Speed Scale
+			ESBR
+		ESTR
+		CMNT	1	1,4300,3600
+	ESBR
+	SNST	Brake Control	/l
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	650069	Brake Control
+			ESBR
+			SORD	2
+				PORD	0	604/:t,False,True;(589) Release
+				PORD	0	605/:t,False,True;(590) Hold
+				PORD	5000	599/s,0,15000,0.01;%.2f %%;(584) On Load
+				PORD	50	600/s,0,5000,0.1;%.1f Hz;(585) On Frequency
+				PORD	30	601/s,0,5000,0.1;%.1f Hz;(586) Off Frequency
+				PORD	0	602/s,0,6000,0.01;%.2f s;(587) On Hold Time
+				PORD	0	603/s,0,6000,0.01;%.2f s;(588) Off Hold Time
+			ESBR
+			SORD	604
+				LCON	 	/*+0,0,0,0,RELEASE;(589) Release
+			ESBR
+			SORD	605
+				LCON	 	/*+0,0,0,0,HOLD;(590) Hold
+			ESBR
+			SORD	599
+				LCON	 	/*+0,0,0,0, ;(584) On Load
+			ESBR
+			SORD	600
+				LCON	 	/*+0,0,0,0, ;(585) On Frequency
+			ESBR
+			SORD	601
+				LCON	 	/*+0,0,0,0, ;(586) Off Frequency
+			ESBR
+			SORD	602
+				LCON	 	/*+0,0,0,0, ;(587) On Hold Time
+			ESBR
+			SORD	603
+				LCON	 	/*+0,0,0,0, ;(588) Off Hold Time
+			ESBR
+		ESTR
+		CMNT	1	1,5700,300
+	ESBR
+	SNST	Custom Menu	/l
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	650070	Custom Menu
+			ESBR
+			SORD	2
+				PORD	0	89/s,-1655,1655,1.0;%.0f;(74) Custom Menu 1
+				PORD	0	386/s,-1655,1655,1.0;%.0f;(371) Custom Menu 2
+				PORD	0	641/s,-1655,1655,1.0;%.0f;(626) Custom Menu 3
+				PORD	0	642/s,-1655,1655,1.0;%.0f;(627) Custom Menu 4
+				PORD	0	643/s,-1655,1655,1.0;%.0f;(628) Custom Menu 5
+				PORD	0	644/s,-1655,1655,1.0;%.0f;(629) Custom Menu 6
+				PORD	0	645/s,-1655,1655,1.0;%.0f;(630) Custom Menu 7
+				PORD	0	646/s,-1655,1655,1.0;%.0f;(631) Custom Menu 8
+			ESBR
+			SORD	89
+				LCON	 	/*+0,0,0,0, ;(74) Custom Menu 1
+			ESBR
+			SORD	386
+				LCON	 	/*+0,0,0,0, ;(371) Custom Menu 2
+			ESBR
+			SORD	641
+				LCON	 	/*+0,0,0,0, ;(626) Custom Menu 3
+			ESBR
+			SORD	642
+				LCON	 	/*+0,0,0,0, ;(627) Custom Menu 4
+			ESBR
+			SORD	643
+				LCON	 	/*+0,0,0,0, ;(628) Custom Menu 5
+			ESBR
+			SORD	644
+				LCON	 	/*+0,0,0,0, ;(629) Custom Menu 6
+			ESBR
+			SORD	645
+				LCON	 	/*+0,0,0,0, ;(630) Custom Menu 7
+			ESBR
+			SORD	646
+				LCON	 	/*+0,0,0,0, ;(631) Custom Menu 8
+			ESBR
+		ESTR
+		CMNT	1	2,4200,300
+	ESBR
+	SNST	res link 1	/h
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	354578	IO Link
+				LITO	1	/:I/O link block
+			ESBR
+			SORD	2
+				PORD	274	415/s,-1655,1655,1.0;%.0f;(400) source
+				PORD	737	416/s,0,1655,1.0;%.0f;(401) destination
+			ESBR
+			SORD	415
+				LCON	 	/*+0,0,0,0, ;(400) source
+			ESBR
+			SORD	416
+				LCON	 	/*+0,0,0,0, ;(401) destination
+			ESBR
+		ESTR
+		CMNT	1	5,400,300
+	ESBR
+	SNST	res link 2	/h
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	354578	IO Link
+				LITO	1	/:I/O link block
+			ESBR
+			SORD	2
+				PORD	296	417/s,-1655,1655,1.0;%.0f;(402) source
+				PORD	249	418/s,0,1655,1.0;%.0f;(403) destination
+			ESBR
+			SORD	417
+				LCON	 	/*+0,0,0,0, ;(402) source
+			ESBR
+			SORD	418
+				LCON	 	/*+0,0,0,0, ;(403) destination
+			ESBR
+		ESTR
+		CMNT	1	5,1120,300
+	ESBR
+	SNST	res link 3	/h
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	354578	IO Link
+				LITO	1	/:I/O link block
+			ESBR
+			SORD	2
+				PORD	138	419/s,-1655,1655,1.0;%.0f;(404) source
+				PORD	245	420/s,0,1655,1.0;%.0f;(405) destination
+			ESBR
+			SORD	419
+				LCON	 	/*+0,0,0,0, ;(404) source
+			ESBR
+			SORD	420
+				LCON	 	/*+0,0,0,0, ;(405) destination
+			ESBR
+		ESTR
+		CMNT	1	5,1840,300
+	ESBR
+	SNST	res link 4	/h
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	354578	IO Link
+				LITO	1	/:I/O link block
+			ESBR
+			SORD	2
+				PORD	31	421/s,-1655,1655,1.0;%.0f;(406) source
+				PORD	291	422/s,0,1655,1.0;%.0f;(407) destination
+			ESBR
+			SORD	421
+				LCON	 	/*+0,0,0,0, ;(406) source
+			ESBR
+			SORD	422
+				LCON	 	/*+0,0,0,0, ;(407) destination
+			ESBR
+		ESTR
+		CMNT	1	5,2560,300
+	ESBR
+	SNST	res link 5	/h
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	354578	IO Link
+				LITO	1	/:I/O link block
+			ESBR
+			SORD	2
+				PORD	34	423/s,-1655,1655,1.0;%.0f;(408) source
+				PORD	292	424/s,0,1655,1.0;%.0f;(409) destination
+			ESBR
+			SORD	423
+				LCON	 	/*+0,0,0,0, ;(408) source
+			ESBR
+			SORD	424
+				LCON	 	/*+0,0,0,0, ;(409) destination
+			ESBR
+		ESTR
+		CMNT	1	5,3280,300
+	ESBR
+	SNST	res link 6	/h
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	354578	IO Link
+				LITO	1	/:I/O link block
+			ESBR
+			SORD	2
+				PORD	37	425/s,-1655,1655,1.0;%.0f;(410) source
+				PORD	280	426/s,0,1655,1.0;%.0f;(411) destination
+			ESBR
+			SORD	425
+				LCON	 	/*+0,0,0,0, ;(410) source
+			ESBR
+			SORD	426
+				LCON	 	/*+0,0,0,0, ;(411) destination
+			ESBR
+		ESTR
+		CMNT	1	5,4000,300
+	ESBR
+	SNST	res link 7	/h
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	354578	IO Link
+				LITO	1	/:I/O link block
+			ESBR
+			SORD	2
+				PORD	0	427/s,-1655,1655,1.0;%.0f;(412) source
+				PORD	0	428/s,0,1655,1.0;%.0f;(413) destination
+			ESBR
+			SORD	427
+				LCON	 	/*+0,0,0,0, ;(412) source
+			ESBR
+			SORD	428
+				LCON	 	/*+0,0,0,0, ;(413) destination
+			ESBR
+		ESTR
+		CMNT	1	5,4720,300
+	ESBR
+	SNST	res link 8	/h
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	354578	IO Link
+				LITO	1	/:I/O link block
+			ESBR
+			SORD	2
+				PORD	0	429/s,-1655,1655,1.0;%.0f;(414) source
+				PORD	0	430/s,0,1655,1.0;%.0f;(415) destination
+			ESBR
+			SORD	429
+				LCON	 	/*+0,0,0,0, ;(414) source
+			ESBR
+			SORD	430
+				LCON	 	/*+0,0,0,0, ;(415) destination
+			ESBR
+		ESTR
+		CMNT	1	5,5440,300
+	ESBR
+	SNST	res link 9	/h
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	354578	IO Link
+				LITO	1	/:I/O link block
+			ESBR
+			SORD	2
+				PORD	1233	431/s,-1655,1655,1.0;%.0f;(416) source
+				PORD	55	432/s,0,1655,1.0;%.0f;(417) destination
+			ESBR
+			SORD	431
+				LCON	 	/*+0,0,0,0, ;(416) source
+			ESBR
+			SORD	432
+				LCON	 	/*+0,0,0,0, ;(417) destination
+			ESBR
+		ESTR
+		CMNT	1	5,6160,300
+	ESBR
+	SNST	res link 10	/h
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	354578	IO Link
+				LITO	1	/:I/O link block
+			ESBR
+			SORD	2
+				PORD	0	433/s,-1655,1655,1.0;%.0f;(418) source
+				PORD	0	434/s,0,1655,1.0;%.0f;(419) destination
+			ESBR
+			SORD	433
+				LCON	 	/*+0,0,0,0, ;(418) source
+			ESBR
+			SORD	434
+				LCON	 	/*+0,0,0,0, ;(419) destination
+			ESBR
+		ESTR
+		CMNT	1	5,6880,300
+	ESBR
+	SNST	res link 11	/h
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	354578	IO Link
+				LITO	1	/:I/O link block
+			ESBR
+			SORD	2
+				PORD	0	435/s,-1655,1655,1.0;%.0f;(420) source
+				PORD	0	436/s,0,1655,1.0;%.0f;(421) destination
+			ESBR
+			SORD	435
+				LCON	 	/*+0,0,0,0, ;(420) source
+			ESBR
+			SORD	436
+				LCON	 	/*+0,0,0,0, ;(421) destination
+			ESBR
+		ESTR
+		CMNT	1	5,400,800
+	ESBR
+	SNST	res link 12	/h
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	354578	IO Link
+				LITO	1	/:I/O link block
+			ESBR
+			SORD	2
+				PORD	0	437/s,-1655,1655,1.0;%.0f;(422) source
+				PORD	0	438/s,0,1655,1.0;%.0f;(423) destination
+			ESBR
+			SORD	437
+				LCON	 	/*+0,0,0,0, ;(422) source
+			ESBR
+			SORD	438
+				LCON	 	/*+0,0,0,0, ;(423) destination
+			ESBR
+		ESTR
+		CMNT	1	5,1120,800
+	ESBR
+	SNST	res link 13	/h
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	354578	IO Link
+				LITO	1	/:I/O link block
+			ESBR
+			SORD	2
+				PORD	0	439/s,-1655,1655,1.0;%.0f;(424) source
+				PORD	0	440/s,0,1655,1.0;%.0f;(425) destination
+			ESBR
+			SORD	439
+				LCON	 	/*+0,0,0,0, ;(424) source
+			ESBR
+			SORD	440
+				LCON	 	/*+0,0,0,0, ;(425) destination
+			ESBR
+		ESTR
+		CMNT	1	5,1840,800
+	ESBR
+	SNST	res link 14	/h
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	354578	IO Link
+				LITO	1	/:I/O link block
+			ESBR
+			SORD	2
+				PORD	0	441/s,-1655,1655,1.0;%.0f;(426) source
+				PORD	0	442/s,0,1655,1.0;%.0f;(427) destination
+			ESBR
+			SORD	441
+				LCON	 	/*+0,0,0,0, ;(426) source
+			ESBR
+			SORD	442
+				LCON	 	/*+0,0,0,0, ;(427) destination
+			ESBR
+		ESTR
+		CMNT	1	5,2560,800
+	ESBR
+	SNST	res link 15	/h
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	354578	IO Link
+				LITO	1	/:I/O link block
+			ESBR
+			SORD	2
+				PORD	0	443/s,-1655,1655,1.0;%.0f;(428) source
+				PORD	0	444/s,0,1655,1.0;%.0f;(429) destination
+			ESBR
+			SORD	443
+				LCON	 	/*+0,0,0,0, ;(428) source
+			ESBR
+			SORD	444
+				LCON	 	/*+0,0,0,0, ;(429) destination
+			ESBR
+		ESTR
+		CMNT	1	5,3280,800
+	ESBR
+	SNST	res link 16	/h
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	354578	IO Link
+				LITO	1	/:I/O link block
+			ESBR
+			SORD	2
+				PORD	0	445/s,-1655,1655,1.0;%.0f;(430) source
+				PORD	0	446/s,0,1655,1.0;%.0f;(431) destination
+			ESBR
+			SORD	445
+				LCON	 	/*+0,0,0,0, ;(430) source
+			ESBR
+			SORD	446
+				LCON	 	/*+0,0,0,0, ;(431) destination
+			ESBR
+		ESTR
+		CMNT	1	5,4000,800
+	ESBR
+	SNST	res link 17	/h
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	354578	IO Link
+				LITO	1	/:I/O link block
+			ESBR
+			SORD	2
+				PORD	0	447/s,-1655,1655,1.0;%.0f;(432) source
+				PORD	0	448/s,0,1655,1.0;%.0f;(433) destination
+			ESBR
+			SORD	447
+				LCON	 	/*+0,0,0,0, ;(432) source
+			ESBR
+			SORD	448
+				LCON	 	/*+0,0,0,0, ;(433) destination
+			ESBR
+		ESTR
+		CMNT	1	5,4720,800
+	ESBR
+	SNST	res link 18	/h
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	354578	IO Link
+				LITO	1	/:I/O link block
+			ESBR
+			SORD	2
+				PORD	0	449/s,-1655,1655,1.0;%.0f;(434) source
+				PORD	0	450/s,0,1655,1.0;%.0f;(435) destination
+			ESBR
+			SORD	449
+				LCON	 	/*+0,0,0,0, ;(434) source
+			ESBR
+			SORD	450
+				LCON	 	/*+0,0,0,0, ;(435) destination
+			ESBR
+		ESTR
+		CMNT	1	5,5440,800
+	ESBR
+	SNST	res link 19	/h
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	354578	IO Link
+				LITO	1	/:I/O link block
+			ESBR
+			SORD	2
+				PORD	0	451/s,-1655,1655,1.0;%.0f;(436) source
+				PORD	0	452/s,0,1655,1.0;%.0f;(437) destination
+			ESBR
+			SORD	451
+				LCON	 	/*+0,0,0,0, ;(436) source
+			ESBR
+			SORD	452
+				LCON	 	/*+0,0,0,0, ;(437) destination
+			ESBR
+		ESTR
+		CMNT	1	5,6160,800
+	ESBR
+	SNST	res link 20	/h
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	354578	IO Link
+				LITO	1	/:I/O link block
+			ESBR
+			SORD	2
+				PORD	0	453/s,-1655,1655,1.0;%.0f;(438) source
+				PORD	0	454/s,0,1655,1.0;%.0f;(439) destination
+			ESBR
+			SORD	453
+				LCON	 	/*+0,0,0,0, ;(438) source
+			ESBR
+			SORD	454
+				LCON	 	/*+0,0,0,0, ;(439) destination
+			ESBR
+		ESTR
+		CMNT	1	5,6880,800
+	ESBR
+	SNST	res link 21	/h
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	354578	IO Link
+				LITO	1	/:I/O link block
+			ESBR
+			SORD	2
+				PORD	0	455/s,-1655,1655,1.0;%.0f;(440) source
+				PORD	0	456/s,0,1655,1.0;%.0f;(441) destination
+			ESBR
+			SORD	455
+				LCON	 	/*+0,0,0,0, ;(440) source
+			ESBR
+			SORD	456
+				LCON	 	/*+0,0,0,0, ;(441) destination
+			ESBR
+		ESTR
+		CMNT	1	5,400,1300
+	ESBR
+	SNST	res link 22	/h
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	354578	IO Link
+				LITO	1	/:I/O link block
+			ESBR
+			SORD	2
+				PORD	0	457/s,-1655,1655,1.0;%.0f;(442) source
+				PORD	0	458/s,0,1655,1.0;%.0f;(443) destination
+			ESBR
+			SORD	457
+				LCON	 	/*+0,0,0,0, ;(442) source
+			ESBR
+			SORD	458
+				LCON	 	/*+0,0,0,0, ;(443) destination
+			ESBR
+		ESTR
+		CMNT	1	5,1120,1300
+	ESBR
+	SNST	res link 23	/h
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	354578	IO Link
+				LITO	1	/:I/O link block
+			ESBR
+			SORD	2
+				PORD	0	459/s,-1655,1655,1.0;%.0f;(444) source
+				PORD	0	460/s,0,1655,1.0;%.0f;(445) destination
+			ESBR
+			SORD	459
+				LCON	 	/*+0,0,0,0, ;(444) source
+			ESBR
+			SORD	460
+				LCON	 	/*+0,0,0,0, ;(445) destination
+			ESBR
+		ESTR
+		CMNT	1	5,1840,1300
+	ESBR
+	SNST	res link 24	/h
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	354578	IO Link
+				LITO	1	/:I/O link block
+			ESBR
+			SORD	2
+				PORD	0	461/s,-1655,1655,1.0;%.0f;(446) source
+				PORD	0	462/s,0,1655,1.0;%.0f;(447) destination
+			ESBR
+			SORD	461
+				LCON	 	/*+0,0,0,0, ;(446) source
+			ESBR
+			SORD	462
+				LCON	 	/*+0,0,0,0, ;(447) destination
+			ESBR
+		ESTR
+		CMNT	1	5,2560,1300
+	ESBR
+	SNST	res link 25	/h
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	354578	IO Link
+				LITO	1	/:I/O link block
+			ESBR
+			SORD	2
+				PORD	0	463/s,-1655,1655,1.0;%.0f;(448) source
+				PORD	0	464/s,0,1655,1.0;%.0f;(449) destination
+			ESBR
+			SORD	463
+				LCON	 	/*+0,0,0,0, ;(448) source
+			ESBR
+			SORD	464
+				LCON	 	/*+0,0,0,0, ;(449) destination
+			ESBR
+		ESTR
+		CMNT	1	5,3280,1300
+	ESBR
+	SNST	res link 26	/h
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	354578	IO Link
+				LITO	1	/:I/O link block
+			ESBR
+			SORD	2
+				PORD	0	465/s,-1655,1655,1.0;%.0f;(450) source
+				PORD	0	466/s,0,1655,1.0;%.0f;(451) destination
+			ESBR
+			SORD	465
+				LCON	 	/*+0,0,0,0, ;(450) source
+			ESBR
+			SORD	466
+				LCON	 	/*+0,0,0,0, ;(451) destination
+			ESBR
+		ESTR
+		CMNT	1	5,4000,1300
+	ESBR
+	SNST	res link 27	/h
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	354578	IO Link
+				LITO	1	/:I/O link block
+			ESBR
+			SORD	2
+				PORD	0	467/s,-1655,1655,1.0;%.0f;(452) source
+				PORD	0	468/s,0,1655,1.0;%.0f;(453) destination
+			ESBR
+			SORD	467
+				LCON	 	/*+0,0,0,0, ;(452) source
+			ESBR
+			SORD	468
+				LCON	 	/*+0,0,0,0, ;(453) destination
+			ESBR
+		ESTR
+		CMNT	1	5,4720,1300
+	ESBR
+	SNST	res link 28	/h
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	354578	IO Link
+				LITO	1	/:I/O link block
+			ESBR
+			SORD	2
+				PORD	0	469/s,-1655,1655,1.0;%.0f;(454) source
+				PORD	0	470/s,0,1655,1.0;%.0f;(455) destination
+			ESBR
+			SORD	469
+				LCON	 	/*+0,0,0,0, ;(454) source
+			ESBR
+			SORD	470
+				LCON	 	/*+0,0,0,0, ;(455) destination
+			ESBR
+		ESTR
+		CMNT	1	5,5440,1300
+	ESBR
+	SNST	res link 29	/h
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	354578	IO Link
+				LITO	1	/:I/O link block
+			ESBR
+			SORD	2
+				PORD	0	471/s,-1655,1655,1.0;%.0f;(456) source
+				PORD	0	472/s,0,1655,1.0;%.0f;(457) destination
+			ESBR
+			SORD	471
+				LCON	 	/*+0,0,0,0, ;(456) source
+			ESBR
+			SORD	472
+				LCON	 	/*+0,0,0,0, ;(457) destination
+			ESBR
+		ESTR
+		CMNT	1	5,6160,1300
+	ESBR
+	SNST	res link 30	/h
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	354578	IO Link
+				LITO	1	/:I/O link block
+			ESBR
+			SORD	2
+				PORD	0	473/s,-1655,1655,1.0;%.0f;(458) source
+				PORD	0	474/s,0,1655,1.0;%.0f;(459) destination
+			ESBR
+			SORD	473
+				LCON	 	/*+0,0,0,0, ;(458) source
+			ESBR
+			SORD	474
+				LCON	 	/*+0,0,0,0, ;(459) destination
+			ESBR
+		ESTR
+		CMNT	1	5,6880,1300
+	ESBR
+	SNST	res link 31	/h
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	354578	IO Link
+				LITO	1	/:I/O link block
+			ESBR
+			SORD	2
+				PORD	0	475/s,-1655,1655,1.0;%.0f;(460) source
+				PORD	0	476/s,0,1655,1.0;%.0f;(461) destination
+			ESBR
+			SORD	475
+				LCON	 	/*+0,0,0,0, ;(460) source
+			ESBR
+			SORD	476
+				LCON	 	/*+0,0,0,0, ;(461) destination
+			ESBR
+		ESTR
+		CMNT	1	5,400,1800
+	ESBR
+	SNST	res link 32	/h
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	354578	IO Link
+				LITO	1	/:I/O link block
+			ESBR
+			SORD	2
+				PORD	0	477/s,-1655,1655,1.0;%.0f;(462) source
+				PORD	0	478/s,0,1655,1.0;%.0f;(463) destination
+			ESBR
+			SORD	477
+				LCON	 	/*+0,0,0,0, ;(462) source
+			ESBR
+			SORD	478
+				LCON	 	/*+0,0,0,0, ;(463) destination
+			ESBR
+		ESTR
+		CMNT	1	5,1120,1800
+	ESBR
+	SNST	res link 33	/h
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	354578	IO Link
+				LITO	1	/:I/O link block
+			ESBR
+			SORD	2
+				PORD	0	479/s,-1655,1655,1.0;%.0f;(464) source
+				PORD	0	480/s,0,1655,1.0;%.0f;(465) destination
+			ESBR
+			SORD	479
+				LCON	 	/*+0,0,0,0, ;(464) source
+			ESBR
+			SORD	480
+				LCON	 	/*+0,0,0,0, ;(465) destination
+			ESBR
+		ESTR
+		CMNT	1	5,1840,1800
+	ESBR
+	SNST	res link 34	/h
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	354578	IO Link
+				LITO	1	/:I/O link block
+			ESBR
+			SORD	2
+				PORD	0	481/s,-1655,1655,1.0;%.0f;(466) source
+				PORD	0	482/s,0,1655,1.0;%.0f;(467) destination
+			ESBR
+			SORD	481
+				LCON	 	/*+0,0,0,0, ;(466) source
+			ESBR
+			SORD	482
+				LCON	 	/*+0,0,0,0, ;(467) destination
+			ESBR
+		ESTR
+		CMNT	1	5,2560,1800
+	ESBR
+	SNST	res link 35	/h
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	354578	IO Link
+				LITO	1	/:I/O link block
+			ESBR
+			SORD	2
+				PORD	0	483/s,-1655,1655,1.0;%.0f;(468) source
+				PORD	0	484/s,0,1655,1.0;%.0f;(469) destination
+			ESBR
+			SORD	483
+				LCON	 	/*+0,0,0,0, ;(468) source
+			ESBR
+			SORD	484
+				LCON	 	/*+0,0,0,0, ;(469) destination
+			ESBR
+		ESTR
+		CMNT	1	5,3280,1800
+	ESBR
+	SNST	res link 36	/h
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	354578	IO Link
+				LITO	1	/:I/O link block
+			ESBR
+			SORD	2
+				PORD	0	485/s,-1655,1655,1.0;%.0f;(470) source
+				PORD	0	486/s,0,1655,1.0;%.0f;(471) destination
+			ESBR
+			SORD	485
+				LCON	 	/*+0,0,0,0, ;(470) source
+			ESBR
+			SORD	486
+				LCON	 	/*+0,0,0,0, ;(471) destination
+			ESBR
+		ESTR
+		CMNT	1	5,4000,1800
+	ESBR
+	SNST	res link 37	/h
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	354578	IO Link
+				LITO	1	/:I/O link block
+			ESBR
+			SORD	2
+				PORD	0	487/s,-1655,1655,1.0;%.0f;(472) source
+				PORD	0	488/s,0,1655,1.0;%.0f;(473) destination
+			ESBR
+			SORD	487
+				LCON	 	/*+0,0,0,0, ;(472) source
+			ESBR
+			SORD	488
+				LCON	 	/*+0,0,0,0, ;(473) destination
+			ESBR
+		ESTR
+		CMNT	1	5,4720,1800
+	ESBR
+	SNST	res link 38	/h
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	354578	IO Link
+				LITO	1	/:I/O link block
+			ESBR
+			SORD	2
+				PORD	0	489/s,-1655,1655,1.0;%.0f;(474) source
+				PORD	0	490/s,0,1655,1.0;%.0f;(475) destination
+			ESBR
+			SORD	489
+				LCON	 	/*+0,0,0,0, ;(474) source
+			ESBR
+			SORD	490
+				LCON	 	/*+0,0,0,0, ;(475) destination
+			ESBR
+		ESTR
+		CMNT	1	5,5440,1800
+	ESBR
+	SNST	res link 39	/h
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	354578	IO Link
+				LITO	1	/:I/O link block
+			ESBR
+			SORD	2
+				PORD	0	491/s,-1655,1655,1.0;%.0f;(476) source
+				PORD	0	492/s,0,1655,1.0;%.0f;(477) destination
+			ESBR
+			SORD	491
+				LCON	 	/*+0,0,0,0, ;(476) source
+			ESBR
+			SORD	492
+				LCON	 	/*+0,0,0,0, ;(477) destination
+			ESBR
+		ESTR
+		CMNT	1	5,6160,1800
+	ESBR
+	SNST	res link 40	/h
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	354578	IO Link
+				LITO	1	/:I/O link block
+			ESBR
+			SORD	2
+				PORD	0	493/s,-1655,1655,1.0;%.0f;(478) source
+				PORD	0	494/s,0,1655,1.0;%.0f;(479) destination
+			ESBR
+			SORD	493
+				LCON	 	/*+0,0,0,0, ;(478) source
+			ESBR
+			SORD	494
+				LCON	 	/*+0,0,0,0, ;(479) destination
+			ESBR
+		ESTR
+		CMNT	1	5,6880,1800
+	ESBR
+	SNST	res link 41	/h
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	354578	IO Link
+				LITO	1	/:I/O link block
+			ESBR
+			SORD	2
+				PORD	0	495/s,-1655,1655,1.0;%.0f;(480) source
+				PORD	0	496/s,0,1655,1.0;%.0f;(481) destination
+			ESBR
+			SORD	495
+				LCON	 	/*+0,0,0,0, ;(480) source
+			ESBR
+			SORD	496
+				LCON	 	/*+0,0,0,0, ;(481) destination
+			ESBR
+		ESTR
+		CMNT	1	5,400,2300
+	ESBR
+	SNST	res link 42	/h
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	354578	IO Link
+				LITO	1	/:I/O link block
+			ESBR
+			SORD	2
+				PORD	0	497/s,-1655,1655,1.0;%.0f;(482) source
+				PORD	0	498/s,0,1655,1.0;%.0f;(483) destination
+			ESBR
+			SORD	497
+				LCON	 	/*+0,0,0,0, ;(482) source
+			ESBR
+			SORD	498
+				LCON	 	/*+0,0,0,0, ;(483) destination
+			ESBR
+		ESTR
+		CMNT	1	5,1120,2300
+	ESBR
+	SNST	res link 43	/h
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	354578	IO Link
+				LITO	1	/:I/O link block
+			ESBR
+			SORD	2
+				PORD	0	499/s,-1655,1655,1.0;%.0f;(484) source
+				PORD	0	500/s,0,1655,1.0;%.0f;(485) destination
+			ESBR
+			SORD	499
+				LCON	 	/*+0,0,0,0, ;(484) source
+			ESBR
+			SORD	500
+				LCON	 	/*+0,0,0,0, ;(485) destination
+			ESBR
+		ESTR
+		CMNT	1	5,1840,2300
+	ESBR
+	SNST	res link 44	/h
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	354578	IO Link
+				LITO	1	/:I/O link block
+			ESBR
+			SORD	2
+				PORD	0	501/s,-1655,1655,1.0;%.0f;(486) source
+				PORD	0	502/s,0,1655,1.0;%.0f;(487) destination
+			ESBR
+			SORD	501
+				LCON	 	/*+0,0,0,0, ;(486) source
+			ESBR
+			SORD	502
+				LCON	 	/*+0,0,0,0, ;(487) destination
+			ESBR
+		ESTR
+		CMNT	1	5,2560,2300
+	ESBR
+	SNST	res link 45	/h
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	354578	IO Link
+				LITO	1	/:I/O link block
+			ESBR
+			SORD	2
+				PORD	0	503/s,-1655,1655,1.0;%.0f;(488) source
+				PORD	0	504/s,0,1655,1.0;%.0f;(489) destination
+			ESBR
+			SORD	503
+				LCON	 	/*+0,0,0,0, ;(488) source
+			ESBR
+			SORD	504
+				LCON	 	/*+0,0,0,0, ;(489) destination
+			ESBR
+		ESTR
+		CMNT	1	5,3280,2300
+	ESBR
+	SNST	res link 46	/h
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	354578	IO Link
+				LITO	1	/:I/O link block
+			ESBR
+			SORD	2
+				PORD	0	505/s,-1655,1655,1.0;%.0f;(490) source
+				PORD	0	506/s,0,1655,1.0;%.0f;(491) destination
+			ESBR
+			SORD	505
+				LCON	 	/*+0,0,0,0, ;(490) source
+			ESBR
+			SORD	506
+				LCON	 	/*+0,0,0,0, ;(491) destination
+			ESBR
+		ESTR
+		CMNT	1	5,4000,2300
+	ESBR
+	SNST	res link 47	/h
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	354578	IO Link
+				LITO	1	/:I/O link block
+			ESBR
+			SORD	2
+				PORD	0	507/s,-1655,1655,1.0;%.0f;(492) source
+				PORD	0	508/s,0,1655,1.0;%.0f;(493) destination
+			ESBR
+			SORD	507
+				LCON	 	/*+0,0,0,0, ;(492) source
+			ESBR
+			SORD	508
+				LCON	 	/*+0,0,0,0, ;(493) destination
+			ESBR
+		ESTR
+		CMNT	1	5,4720,2300
+	ESBR
+	SNST	res link 48	/h
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	354578	IO Link
+				LITO	1	/:I/O link block
+			ESBR
+			SORD	2
+				PORD	0	509/s,-1655,1655,1.0;%.0f;(494) source
+				PORD	0	510/s,0,1655,1.0;%.0f;(495) destination
+			ESBR
+			SORD	509
+				LCON	 	/*+0,0,0,0, ;(494) source
+			ESBR
+			SORD	510
+				LCON	 	/*+0,0,0,0, ;(495) destination
+			ESBR
+		ESTR
+		CMNT	1	5,5440,2300
+	ESBR
+	SNST	res link 49	/h
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	354578	IO Link
+				LITO	1	/:I/O link block
+			ESBR
+			SORD	2
+				PORD	0	511/s,-1655,1655,1.0;%.0f;(496) source
+				PORD	0	512/s,0,1655,1.0;%.0f;(497) destination
+			ESBR
+			SORD	511
+				LCON	 	/*+0,0,0,0, ;(496) source
+			ESBR
+			SORD	512
+				LCON	 	/*+0,0,0,0, ;(497) destination
+			ESBR
+		ESTR
+		CMNT	1	5,6160,2300
+	ESBR
+	SNST	res link 50	/h
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	354578	IO Link
+				LITO	1	/:I/O link block
+			ESBR
+			SORD	2
+				PORD	0	513/s,-1655,1655,1.0;%.0f;(498) source
+				PORD	0	514/s,0,1655,1.0;%.0f;(499) destination
+			ESBR
+			SORD	513
+				LCON	 	/*+0,0,0,0, ;(498) source
+			ESBR
+			SORD	514
+				LCON	 	/*+0,0,0,0, ;(499) destination
+			ESBR
+		ESTR
+		CMNT	1	5,6880,2300
+	ESBR
+	SNST	res peek data	/h
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	651109	res peek data
+			ESBR
+			SORD	2
+				PORD	0	35/:x;0x%4.4x;(20) output as word
+				PORD	0	1201/:s,0,0,0.0001;%.4f;(1186) output as real
+				PORD	65535	1196/x;0x%4.4x;(1181) address hi word
+				PORD	61440	34/x;0x%4.4x;(19) address lo word
+				PORD	1	1197/t,False,True;(1182) enable
+				PORD	0	1199/ev:8-BIT:16-BIT:REAL;(1184) access size
+			ESBR
+			SORD	35
+				LCON	 	/*+0,0,0,0,output as word;(20) output as word
+			ESBR
+			SORD	1201
+				LCON	 	/*+0,0,0,0,output as real;(1186) output as real
+			ESBR
+			SORD	1196
+				LCON	 	/*+0,0,0,0, ;(1181) address hi word
+			ESBR
+			SORD	34
+				LCON	 	/*+0,0,0,0, ;(19) address lo word
+			ESBR
+			SORD	1197
+				LCON	 	/*+0,0,0,0, ;(1182) enable
+			ESBR
+			SORD	1199
+				LCON	 	/*+0,0,0,0, ;(1184) access size
+			ESBR
+		ESTR
+		CMNT	1	5,3000,3300
+	ESBR
+	SNST	res analog input 1	/h
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	651010	res analog input 1
+			ESBR
+			SORD	2
+				PORD	1	1114/t,False,True;(1099) force to zero
+			ESBR
+			SORD	1114
+				LCON	 	/*+0,0,0,0, ;(1099) force to zero
+			ESBR
+		ESTR
+		CMNT	1	5,4000,3300
+	ESBR
+	SNST	res analog input 2	/h
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	651011	res analog input 2
+			ESBR
+			SORD	2
+				PORD	1	1115/t,False,True;(1100) force to zero
+			ESBR
+			SORD	1115
+				LCON	 	/*+0,0,0,0, ;(1100) force to zero
+			ESBR
+		ESTR
+		CMNT	1	5,5000,3300
+	ESBR
+	SNST	res mmi access	/h
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	651021	res access control
+			ESBR
+			SORD	2
+				PORD	0	892/t,False,True;(877) view reserved
+			ESBR
+			SORD	892
+				LCON	 	/*+0,0,0,0, ;(877) view reserved
+			ESBR
+		ESTR
+		CMNT	1	5,6000,3300
+	ESBR
+	SNST	res reference	/h
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	651023	res reference
+			ESBR
+			SORD	2
+				PORD	0	284/s,-1000,1000,0.1;%.1f %%;(269) res comms setp
+			ESBR
+			SORD	284
+				LCON	 	/*+0,0,0,0, ;(269) res comms setp
+			ESBR
+		ESTR
+		CMNT	1	5,1000,5720
+	ESBR
+	SNST	res pattern gen	/h
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	651025	res pattern gen
+			ESBR
+			SORD	2
+				PORD	1400	1644/s,500,3000,1.0;%.0f;(1629) reduced freq
+			ESBR
+			SORD	1644
+				LCON	 	/*+0,0,0,0, ;(1629) reduced freq
+			ESBR
+		ESTR
+		CMNT	1	6,1000,1300
+	ESBR
+	SNST	res waveform gen	/h
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	651126	res waveform gen
+			ESBR
+			SORD	2
+				PORD	0	1245/:s,0,0,1;%.0f V;(1230) vsd
+				PORD	0	1246/:s,0,0,1;%.0f V;(1231) vsq
+				PORD	1	1244/t,False,True;(1229) ulc enable
+				PORD	90	3071/s,0,200,0.01;%.2f V;(1056) igbt volt drop
+			ESBR
+			SORD	1245
+				LCON	 	/*+0,0,0,0,vsd;(1230) vsd
+			ESBR
+			SORD	1246
+				LCON	 	/*+0,0,0,0,vsq;(1231) vsq
+			ESBR
+			SORD	1244
+				LCON	 	/*+0,0,0,0, ;(1229) ulc enable
+			ESBR
+			SORD	3071
+				LCON	 	/*+0,0,0,0, ;(1056) igbt volt drop
+			ESBR
+		ESTR
+		CMNT	1	6,5500,1300
+	ESBR
+	SNST	res feedbacks	/h
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	651027	res feedbacks
+			ESBR
+			SORD	2
+				PORD	0	1032/:s,0,0,0.0001;%.4f %%;(1017) id
+				PORD	0	1033/:s,0,0,0.0001;%.4f %%;(1018) iq
+			ESBR
+			SORD	1032
+				LCON	 	/*+0,0,0,0,id;(1017) id
+			ESBR
+			SORD	1033
+				LCON	 	/*+0,0,0,0,iq;(1018) iq
+			ESBR
+		ESTR
+		CMNT	1	6,1000,4300
+	ESBR
+	SNST	res open-loop i-lim	/h
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	651129	res open-loop i-lim
+			ESBR
+			SORD	2
+				PORD	0	384/:s,0,0,0.1;%.1f Hz;(369) setpoint
+				PORD	0	385/:t,False,True;(370) limiting
+				PORD	120	2382/s,0,30000,0.01;%.2f;(367) prop gain
+				PORD	20	2383/s,0,30000,0.01;%.2f;(368) integral gain
+			ESBR
+			SORD	384
+				LCON	 	/*+0,0,0,0,setpoint;(369) setpoint
+			ESBR
+			SORD	385
+				LCON	 	/*+0,0,0,0,limiting;(370) limiting
+			ESBR
+			SORD	2382
+				LCON	 	/*+0,0,0,0, ;(367) prop gain
+			ESBR
+			SORD	2383
+				LCON	 	/*+0,0,0,0, ;(368) integral gain
+			ESBR
+		ESTR
+		CMNT	1	5,2000,4300
+	ESBR
+	SNST	res stabilisation	/h
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	651131	res stabilisation
+			ESBR
+			SORD	2
+				PORD	0	702/:s,0,0,0.1;%.1f Hz;(687) output
+				PORD	0	703/:s,0,0,0.1;%.1f Hz;(688) trim
+				PORD	1000	2617/s,0,5000,0.01;%.2f %%;(602) slew rate
+				PORD	65436	2699/s,-3000,3000,0.001;%.3f;(684) stb gain
+				PORD	200	2700/s,20,10000,0.001;%.3f s;(685) time constant
+				PORD	100	2784/s,0,600,0.01;%.2f Hz;(769) trim clamp
+			ESBR
+			SORD	702
+				LCON	 	/*+0,0,0,0,output;(687) output
+			ESBR
+			SORD	703
+				LCON	 	/*+0,0,0,0,trim;(688) trim
+			ESBR
+			SORD	2617
+				LCON	 	/*+0,0,0,0, ;(602) slew rate
+			ESBR
+			SORD	2699
+				LCON	 	/*+0,0,0,0, ;(684) stb gain
+			ESBR
+			SORD	2700
+				LCON	 	/*+0,0,0,0, ;(685) time constant
+			ESBR
+			SORD	2784
+				LCON	 	/*+0,0,0,0, ;(769) trim clamp
+			ESBR
+		ESTR
+		CMNT	1	5,3000,4300
+	ESBR
+	SNST	res fluxing	/h
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	651133	res fluxing
+			ESBR
+			SORD	2
+				PORD	0	1036/:s,0,0,0.01;%.2f %%;(1021) vsd
+				PORD	0	1037/:s,0,0,0.01;%.2f %%;(1022) vsq
+				PORD	250	2124/s,20,5000,0.001;%.3f s;(109) auto boost tc
+			ESBR
+			SORD	1036
+				LCON	 	/*+0,0,0,0,vsd;(1021) vsd
+			ESBR
+			SORD	1037
+				LCON	 	/*+0,0,0,0,vsq;(1022) vsq
+			ESBR
+			SORD	2124
+				LCON	 	/*+0,0,0,0, ;(109) auto boost tc
+			ESBR
+		ESTR
+		CMNT	1	5,4000,4300
+	ESBR
+	SNST	res slew rate limit	/h
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	651034	res slew rate limit
+			ESBR
+			SORD	2
+				PORD	0	78/:s,0,0,0.1;%.1f Hz;(63) output
+			ESBR
+			SORD	78
+				LCON	 	/*+0,0,0,0,output;(63) output
+			ESBR
+		ESTR
+		CMNT	1	6,2500,4300
+	ESBR
+	SNST	res motor data	/h
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	690057	Res Motor Data
+			ESBR
+			SORD	2
+				LONG	50	3176/s,0,300000,0.0001;%.4f kg/m^2;(1161) inertia
+				PORD	0	3177/s,0,10000,0.1;%.1f NmHz;(1162) viscous friction
+			ESBR
+			SORD	3176
+				LCON	 	/*+0,0,0,0, ;(1161) inertia
+			ESBR
+			SORD	3177
+				LCON	 	/*+0,0,0,0, ;(1162) viscous friction
+			ESBR
+		ESTR
+		CMNT	1	5,5000,4300
+	ESBR
+	SNST	res dynamic braking	/h
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	690015	Res Dynamic Braking
+			ESBR
+			SORD	2
+				PORD	9380	91/s,0,10000,0.01;%.2f %%;(76) brake level
+			ESBR
+			SORD	91
+				LCON	 	/*+0,0,0,0, ;(76) brake level
+			ESBR
+		ESTR
+		CMNT	1	5,6000,4300
+	ESBR
+	SNST	res motor sequencing	/h
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	651037	res motor sequencing
+			ESBR
+			SORD	2
+				PORD	0	698/:s,0,0,1.0;%.0f;(683) state
+			ESBR
+			SORD	698
+				LCON	 	/*+0,0,0,0,state;(683) state
+			ESBR
+		ESTR
+		CMNT	1	6,4000,1300
+	ESBR
+	SNST	res slip comp	/h
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	651139	res slip comp
+			ESBR
+			SORD	2
+				PORD	0	103/:s,0,0,0.1;%.1f Hz;(88) output
+				PORD	250	2102/s,200,5000,1;%.0f ms;(87) filter tc
+			ESBR
+			SORD	103
+				LCON	 	/*+0,0,0,0,output;(88) output
+			ESBR
+			SORD	2102
+				LCON	 	/*+0,0,0,0, ;(87) filter tc
+			ESBR
+		ESTR
+		CMNT	1	6,1000,300
+	ESBR
+	SNST	res voltage control	/h
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	651153	res voltage control
+			ESBR
+			SORD	2
+				PORD	0	1038/:s,0,0,0.01;%.2f %%;(1023) vsd
+				PORD	0	1039/:s,0,0,0.01;%.2f %%;(1024) vsq
+				PORD	20	2609/s,2,5000,0.001;%.3f s;(594) dem dc tc
+				PORD	250	2612/s,100,5000,0.001;%.3f s;(597) meas dc tc
+			ESBR
+			SORD	1038
+				LCON	 	/*+0,0,0,0,vsd;(1023) vsd
+			ESBR
+			SORD	1039
+				LCON	 	/*+0,0,0,0,vsq;(1024) vsq
+			ESBR
+			SORD	2609
+				LCON	 	/*+0,0,0,0, ;(594) dem dc tc
+			ESBR
+			SORD	2612
+				LCON	 	/*+0,0,0,0, ;(597) meas dc tc
+			ESBR
+		ESTR
+		CMNT	1	6,2500,300
+	ESBR
+	SNST	res flycatching	/h
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	651057	res flycatching
+			ESBR
+			SORD	2
+				PORD	0	50/s,-5000,5000,0.01;%.2f %%;(35) load level
+				PORD	500	53/s,10,30000,0.01;%.2f %%;(38) slew delta
+				PORD	50	56/s,1,500,0.01;%.2f s;(41) regen hold
+				PORD	20000	2044/s,0,30000,0.01;%.2f %%;(29) error scaler
+			ESBR
+			SORD	50
+				LCON	 	/*+0,0,0,0, ;(35) load level
+			ESBR
+			SORD	53
+				LCON	 	/*+0,0,0,0, ;(38) slew delta
+			ESBR
+			SORD	56
+				LCON	 	/*+0,0,0,0, ;(41) regen hold
+			ESBR
+			SORD	2044
+				LCON	 	/*+0,0,0,0, ;(29) error scaler
+			ESBR
+		ESTR
+		CMNT	1	6,4000,300
+	ESBR
+	SNST	res current loop	/h
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	651158	res current loop
+			ESBR
+			SORD	2
+				PORD	40	3126/s,0,1000,0.01;%.2f;(1111) i loop prop gain
+				PORD	20	3127/s,0,100,0.01;%.2f;(1112) i loop int gain
+				PORD	0	1643/t,False,True;(1628) int frze enabled
+				PORD	0	1129/t,False,True;(1114) test mode
+				PORD	20	1130/s,2,1000,1.0;%.0f;(1115) test period
+				PORD	20	1131/s,0,200,0.01;%.2f;(1116) test amplitude
+				PORD	0	1132/s,0,200,0.01;%.2f;(1117) test offset
+				PORD	0	1133/ev:U PHASE:V PHASE:W PHASE:V -U PHASES:W -V PHASES:U -W PHASES;(1118) test phase
+			ESBR
+			SORD	3126
+				LCON	 	/*+0,0,0,0, ;(1111) i loop prop gain
+			ESBR
+			SORD	3127
+				LCON	 	/*+0,0,0,0, ;(1112) i loop int gain
+			ESBR
+			SORD	1643
+				LCON	 	/*+0,0,0,0, ;(1628) int frze enabled
+			ESBR
+			SORD	1129
+				LCON	 	/*+0,0,0,0, ;(1114) test mode
+			ESBR
+			SORD	1130
+				LCON	 	/*+0,0,0,0, ;(1115) test period
+			ESBR
+			SORD	1131
+				LCON	 	/*+0,0,0,0, ;(1116) test amplitude
+			ESBR
+			SORD	1132
+				LCON	 	/*+0,0,0,0, ;(1117) test offset
+			ESBR
+			SORD	1133
+				LCON	 	/*+0,0,0,0, ;(1118) test phase
+			ESBR
+		ESTR
+		CMNT	1	6,5500,300
+	ESBR
+	SNST	res flux control	/h
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	651260	res flux control
+			ESBR
+			SORD	2
+				PORD	0	1135/:s,0,0,0.1;%.1f %%;(1120) rated id
+				PORD	0	1136/:s,0,0,0.1;%.1f %%;(1121) rated iq
+				PORD	0	1137/:s,0,0,0.1;%.1f %%;(1122) imr demand
+				PORD	0	1138/:s,0,0,0.1;%.1f %%;(1123) imr
+				PORD	20	1134/s,0,100,0.1;%.1f;(1119) imr prop gain
+				PORD	1	1139/t,False,True;(1124) imr from feedbk
+				PORD	500	1140/s,0,1000,0.1;%.1f %%;(1125) id dmd hdroom
+				PORD	0	1141/s,-800,0,0.1;%.1f %%;(1126) min id demand
+				PORD	1000	1152/s,1000,1000,0.1;%.1f %%;(1137) mag i scale 0
+				PORD	770	1153/s,0,1000,0.1;%.1f %%;(1138) mag i scale 1
+				PORD	630	1154/s,0,1000,0.1;%.1f %%;(1139) mag i scale 2
+				PORD	550	1155/s,0,1000,0.1;%.1f %%;(1140) mag i scale 3
+				PORD	470	1156/s,0,1000,0.1;%.1f %%;(1141) mag i scale 4
+				PORD	390	1157/s,0,1000,0.1;%.1f %%;(1142) mag i scale 5
+				PORD	320	1158/s,0,1000,0.1;%.1f %%;(1143) mag i scale 6
+				PORD	1	1566/t,False,True;(1551) link v cmpnsat'n
+				PORD	200	1567/s,1,1000,0.001;%.3f;(1552) link v filt gain
+				PORD	500	1631/s,0,900,0.1;%.1f %%;(1616) l0 scale range
+				PORD	1000	1632/s,1000,1000,0.1;%.1f %%;(1617) l0 scale 0
+				PORD	1000	1633/s,100,1900,0.1;%.1f %%;(1618) l0 scale 1
+				PORD	1000	1634/s,100,1900,0.1;%.1f %%;(1619) l0 scale 2
+				PORD	1000	1635/s,100,1900,0.1;%.1f %%;(1620) l0 scale 3
+				PORD	1000	1636/s,100,1900,0.1;%.1f %%;(1621) l0 scale 4
+				PORD	1000	1637/s,100,1900,0.1;%.1f %%;(1622) l0 scale 5
+				PORD	1000	1638/s,100,1900,0.1;%.1f %%;(1623) l0 scale 6
+			ESBR
+			SORD	1135
+				LCON	 	/*+0,0,0,0,rated id;(1120) rated id
+			ESBR
+			SORD	1136
+				LCON	 	/*+0,0,0,0,rated iq;(1121) rated iq
+			ESBR
+			SORD	1137
+				LCON	 	/*+0,0,0,0,imr demand;(1122) imr demand
+			ESBR
+			SORD	1138
+				LCON	 	/*+0,0,0,0,imr;(1123) imr
+			ESBR
+			SORD	1134
+				LCON	 	/*+0,0,0,0, ;(1119) imr prop gain
+			ESBR
+			SORD	1139
+				LCON	 	/*+0,0,0,0, ;(1124) imr from feedbk
+			ESBR
+			SORD	1140
+				LCON	 	/*+0,0,0,0, ;(1125) id dmd hdroom
+			ESBR
+			SORD	1141
+				LCON	 	/*+0,0,0,0, ;(1126) min id demand
+			ESBR
+			SORD	1152
+				LCON	 	/*+0,0,0,0, ;(1137) mag i scale 0
+			ESBR
+			SORD	1153
+				LCON	 	/*+0,0,0,0, ;(1138) mag i scale 1
+			ESBR
+			SORD	1154
+				LCON	 	/*+0,0,0,0, ;(1139) mag i scale 2
+			ESBR
+			SORD	1155
+				LCON	 	/*+0,0,0,0, ;(1140) mag i scale 3
+			ESBR
+			SORD	1156
+				LCON	 	/*+0,0,0,0, ;(1141) mag i scale 4
+			ESBR
+			SORD	1157
+				LCON	 	/*+0,0,0,0, ;(1142) mag i scale 5
+			ESBR
+			SORD	1158
+				LCON	 	/*+0,0,0,0, ;(1143) mag i scale 6
+			ESBR
+			SORD	1566
+				LCON	 	/*+0,0,0,0, ;(1551) link v cmpnsat'n
+			ESBR
+			SORD	1567
+				LCON	 	/*+0,0,0,0, ;(1552) link v filt gain
+			ESBR
+			SORD	1631
+				LCON	 	/*+0,0,0,0, ;(1616) l0 scale range
+			ESBR
+			SORD	1632
+				LCON	 	/*+0,0,0,0, ;(1617) l0 scale 0
+			ESBR
+			SORD	1633
+				LCON	 	/*+0,0,0,0, ;(1618) l0 scale 1
+			ESBR
+			SORD	1634
+				LCON	 	/*+0,0,0,0, ;(1619) l0 scale 2
+			ESBR
+			SORD	1635
+				LCON	 	/*+0,0,0,0, ;(1620) l0 scale 3
+			ESBR
+			SORD	1636
+				LCON	 	/*+0,0,0,0, ;(1621) l0 scale 4
+			ESBR
+			SORD	1637
+				LCON	 	/*+0,0,0,0, ;(1622) l0 scale 5
+			ESBR
+			SORD	1638
+				LCON	 	/*+0,0,0,0, ;(1623) l0 scale 6
+			ESBR
+		ESTR
+		CMNT	1	6,1000,2300
+	ESBR
+	SNST	res tr adaptation	/h
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	651161	res tr adaptation
+			ESBR
+			SORD	2
+				PORD	0	1235/:s,0,0,0.1;%.1f %%;(1220) term v integral
+				PORD	0	1236/:s,0,0,0.1;%.1f V;(1221) max avail volts
+				PORD	0	1669/:s,0,0,0.1;%.1f ms;(1654) actual tr
+				PORD	500	1229/s,0,1000,0.1;%.1f %%;(1214) tvolts int range
+				PORD	10	1230/s,1,20,0.1;%.1f;(1215) iq @ tv intgn =0
+				PORD	20	1231/s,1,40,0.1;%.1f;(1216) iq @max tv intgn
+				PORD	5	1232/s,3,50,1;%.0f;(1217) loop respnse=ntr
+				PORD	50	1233/s,20,90,1;%.0f %%;(1218) spd @tv int =0
+				PORD	5	1234/s,0,20,1;%.0f %%;(1219) load at base spd
+				PORD	1	1666/t,False,True;(1651) low spd tr comp
+				PORD	10	1667/s,0,10000,0.01;%.2f;(1652) lspd comp p gain
+				PORD	25	1668/s,0,10000,0.01;%.2f;(1653) lspd comp i gain
+			ESBR
+			SORD	1235
+				LCON	 	/*+0,0,0,0,term v integral;(1220) term v integral
+			ESBR
+			SORD	1236
+				LCON	 	/*+0,0,0,0,max avail volts;(1221) max avail volts
+			ESBR
+			SORD	1669
+				LCON	 	/*+0,0,0,0,actual Tr;(1654) actual tr
+			ESBR
+			SORD	1229
+				LCON	 	/*+0,0,0,0, ;(1214) tvolts int range
+			ESBR
+			SORD	1230
+				LCON	 	/*+0,0,0,0, ;(1215) iq @ tv intgn =0
+			ESBR
+			SORD	1231
+				LCON	 	/*+0,0,0,0, ;(1216) iq @max tv intgn
+			ESBR
+			SORD	1232
+				LCON	 	/*+0,0,0,0, ;(1217) loop respnse=ntr
+			ESBR
+			SORD	1233
+				LCON	 	/*+0,0,0,0, ;(1218) spd @tv int =0
+			ESBR
+			SORD	1234
+				LCON	 	/*+0,0,0,0, ;(1219) load at base spd
+			ESBR
+			SORD	1666
+				LCON	 	/*+0,0,0,0, ;(1651) low spd tr comp
+			ESBR
+			SORD	1667
+				LCON	 	/*+0,0,0,0, ;(1652) lspd comp p gain
+			ESBR
+			SORD	1668
+				LCON	 	/*+0,0,0,0, ;(1653) lspd comp i gain
+			ESBR
+		ESTR
+		CMNT	1	6,2500,2300
+	ESBR
+	SNST	res mras	/h
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	651262	res mras
+			ESBR
+			SORD	2
+				PORD	0	1181/:s,0,0,0.01;%.2f %%;(1166) speed %
+				PORD	0	1183/:s,0,0,1;%.0f deg;(1168) field angle
+				PORD	0	1184/:s,0,0,0.1;%.1f Hz;(1169) field frequency
+				PORD	0	1185/:s,0,0,0.01;%.2f %%;(1170) torque %
+				PORD	0	1186/:s,0,0,0.1;%.1f Nm;(1171) torque nm
+				PORD	0	1188/:t,False,True;(1173) low speed op
+				PORD	0	1187/:t,False,True;(1172) high speed op
+				LONG	29363	3189/s,0,3000000,0.0001;%.4f;(1174) coupling kc
+				LONG	4500	3190/s,0,100000,0.0001;%.4f s;(1175) coupling ti
+				LONG	7514	3191/s,0,3000000,0.0001;%.4f;(1176) adaptive kc
+				LONG	1120	3192/s,0,100000,0.0001;%.4f s;(1177) adaptive ti
+				PORD	1367	3193/s,0,30000,0.0001;%.4f s;(1178) adaptive td
+				PORD	500	3194/s,5,5000,1.0;%.0f;(1179) wmr slw lim @ bs
+				LONG	50	3572/s,0,50000,0.01;%.2f Hz;(1557) ls low thresh
+				LONG	100	3573/s,0,50000,0.01;%.2f Hz;(1558) ls high thresh
+				LONG	200	3570/s,0,300000,0.0001;%.4f;(1555) flux corr kc
+				PORD	0	3571/t,False,True;(1556) alt volts model
+				PORD	2	3630/s,0,10,1.0;%.0f;(1615) al bandwidth
+				PORD	5	3072/s,1,30,0.1;%.1f Hz;(1057) cl bandwidth
+			ESBR
+			SORD	1181
+				LCON	 	/*+0,0,0,0,speed %;(1166) speed %
+			ESBR
+			SORD	1183
+				LCON	 	/*+0,0,0,0,field angle;(1168) field angle
+			ESBR
+			SORD	1184
+				LCON	 	/*+0,0,0,0,field frequency;(1169) field frequency
+			ESBR
+			SORD	1185
+				LCON	 	/*+0,0,0,0,torque %;(1170) torque %
+			ESBR
+			SORD	1186
+				LCON	 	/*+0,0,0,0,torque nm;(1171) torque nm
+			ESBR
+			SORD	1188
+				LCON	 	/*+0,0,0,0,low speed op;(1173) low speed op
+			ESBR
+			SORD	1187
+				LCON	 	/*+0,0,0,0,high speed op;(1172) high speed op
+			ESBR
+			SORD	3189
+				LCON	 	/*+0,0,0,0, ;(1174) coupling kc
+			ESBR
+			SORD	3190
+				LCON	 	/*+0,0,0,0, ;(1175) coupling ti
+			ESBR
+			SORD	3191
+				LCON	 	/*+0,0,0,0, ;(1176) adaptive kc
+			ESBR
+			SORD	3192
+				LCON	 	/*+0,0,0,0, ;(1177) adaptive ti
+			ESBR
+			SORD	3193
+				LCON	 	/*+0,0,0,0, ;(1178) adaptive td
+			ESBR
+			SORD	3194
+				LCON	 	/*+0,0,0,0, ;(1179) wmr slw lim @ bs
+			ESBR
+			SORD	3572
+				LCON	 	/*+0,0,0,0, ;(1557) ls low thresh
+			ESBR
+			SORD	3573
+				LCON	 	/*+0,0,0,0, ;(1558) ls high thresh
+			ESBR
+			SORD	3570
+				LCON	 	/*+0,0,0,0, ;(1555) flux corr kc
+			ESBR
+			SORD	3571
+				LCON	 	/*+0,0,0,0, ;(1556) alt volts model
+			ESBR
+			SORD	3630
+				LCON	 	/*+0,0,0,0, ;(1615) al bandwidth
+			ESBR
+			SORD	3072
+				LCON	 	/*+0,0,0,0, ;(1057) cl bandwidth
+			ESBR
+		ESTR
+		CMNT	1	6,4000,2300
+	ESBR
+	SNST	res autotune	/h
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	651163	res autotune
+			ESBR
+			SORD	2
+				LONG	300000	1041/s,0,300000,0.1;%.1f RPM;(1026) autocal max rpm
+				PORD	100	1042/s,0,1000,0.01;%.2f;(1027) imr int gain
+				PORD	100	3043/s,0,6000,0.1;%.1f s;(1028) atn ramp time
+				PORD	5000	1044/s,0,10000,0.0001;%.4f;(1029) vdc filt gain
+				PORD	200	1045/s,0,10000,0.0001;%.4f;(1030) vterm filt gain
+				LONG	0	1046/s,0,300000,0.1;%.1f RPM;(1031) max spd rpm @cal
+				PORD	100	1254/s,0,100,0.01;%.2f;(1239) lkge l test crnt
+				PORD	500	1255/s,0,1000,0.1;%.1f Hz;(1240) lkge l test freq
+				PORD	400	1256/s,0,10000,0.0001;%.4f;(1241) lkge exctn p gn
+				PORD	4000	1257/s,0,10000,0.0001;%.4f;(1242) lkge exctn i gn
+				PORD	0	1258/s,0,1000,0.001;%.3f;(1243) lkge dc offset
+				PORD	100	1261/s,0,1000,0.001;%.3f;(1246) psd filter gn
+				PORD	0	1642/s,0,9,1.0;%.0f;(1627) last measured pt
+				LONG	25	1078/s,0,35500,0.01;%.2f Kw;(1063) small motor lim
+			ESBR
+			SORD	1041
+				LCON	 	/*+0,0,0,0, ;(1026) autocal max rpm
+			ESBR
+			SORD	1042
+				LCON	 	/*+0,0,0,0, ;(1027) imr int gain
+			ESBR
+			SORD	3043
+				LCON	 	/*+0,0,0,0, ;(1028) atn ramp time
+			ESBR
+			SORD	1044
+				LCON	 	/*+0,0,0,0, ;(1029) vdc filt gain
+			ESBR
+			SORD	1045
+				LCON	 	/*+0,0,0,0, ;(1030) vterm filt gain
+			ESBR
+			SORD	1046
+				LCON	 	/*+0,0,0,0, ;(1031) max spd rpm @cal
+			ESBR
+			SORD	1254
+				LCON	 	/*+0,0,0,0, ;(1239) lkge l test crnt
+			ESBR
+			SORD	1255
+				LCON	 	/*+0,0,0,0, ;(1240) lkge l test freq
+			ESBR
+			SORD	1256
+				LCON	 	/*+0,0,0,0, ;(1241) lkge exctn p gn
+			ESBR
+			SORD	1257
+				LCON	 	/*+0,0,0,0, ;(1242) lkge exctn i gn
+			ESBR
+			SORD	1258
+				LCON	 	/*+0,0,0,0, ;(1243) lkge dc offset
+			ESBR
+			SORD	1261
+				LCON	 	/*+0,0,0,0, ;(1246) psd filter gn
+			ESBR
+			SORD	1642
+				LCON	 	/*+0,0,0,0, ;(1627) last measured pt
+			ESBR
+			SORD	1078
+				LCON	 	/*+0,0,0,0, ;(1063) small motor lim
+			ESBR
+		ESTR
+		CMNT	1	6,5500,2300
+	ESBR
+	SNST	res energy meter	/h
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	651064	res energy meter
+			ESBR
+			SORD	2
+				PORD	0	1623/:s,0,0,0.1;%.1f;(1608) kw min
+			ESBR
+			SORD	1623
+				LCON	 	/*+0,0,0,0,kW min;(1608) kw min
+			ESBR
+		ESTR
+		CMNT	1	6,4000,4300
+	ESBR
+	SNST	res vdc ripple	/h
+		STRE
+			SGLB	Misc/Class Reference
+				CLAS	651167	res vdc ripple
+			ESBR
+			SORD	2
+				PORD	0	1237/:s,0,0,0.1;%.1f V;(1222) filtered ripple
+				PORD	890	3238/s,100,5000,0.1;%.1f V;(1223) max ripple
+			ESBR
+			SORD	1237
+				LCON	 	/*+0,0,0,0,filtered ripple;(1222) filtered ripple
+			ESBR
+			SORD	3238
+				LCON	 	/*+0,0,0,0, ;(1223) max ripple
+			ESBR
+		ESTR
+		CMNT	1	6,2500,1300
+	ESBR
+ESTR
+CMNT	64	-1,6,6,39,299,9805,8867,0,14,0,0,0
+CMTL	33	0,0,0,0
+	CMNT	12	297,2745,7254,2736,0
+	CMTL	21	0,300,4956,26880
+		CMNT	4	300,4956,1776,5073,0
+		CMNT	14	0,99,26880,Set APPLICATION to CUSTOM
+	ECMT
+ECMT
+CMTL	33	-1,0,0,0
+	CMTL	21	-1,290,5109,2304
+		CMNT	4	290,5109,2248,5229,0
+		CMNT	14	0,97,2304,Configuration for 650V. (Version 4)
+	ECMT
+ECMT
+CMTL	19	ustitle
+	CMNT	14	3928,5496,1536,^I^C
+	CMNT	22	7500,5496,1536,^D
+	CMNT	22	7500,5607,1536,^S  OF  ^N
+	CMTL	21	-1,6093,5409,1792
+		CMNT	4	6093,5409,6120,5499,0
+		CMNT	14	0,72,1792,1
+	ECMT
+ECMT
+CMTL	19	usborder
+	CMTL	21	-1,828,5292,10496
+		CMNT	4	828,5292,1244,5416,0
+		CMNT	14	0,96,10496,Important!
+	ECMT
+	CMTL	21	-1,216,5504,2304
+		CMNT	4	216,5504,1736,5620,0
+		CMNT	14	0,92,2304,connections and parameters only.
+	ECMT
+	CMTL	21	-1,216,5404,2304
+		CMNT	4	216,5404,1792,5520,0
+		CMNT	14	0,92,2304,Configurations display configurable
+	ECMT
+	CMNT	12	1800,5403,7569,5403,0
+	CMNT	12	1800,5514,7569,5514,0
+	CMNT	12	6041,5292,6041,5403,0
+	CMNT	12	6678,5514,6678,5625,0
+	CMNT	12	198,5292,7565,5292,2
+	CMNT	12	1800,5292,1800,5625,2
+	CMNT	12	2907,5292,2907,5625,2
+	CMNT	12	3888,5292,3888,5625,2
+	CMNT	12	5796,5292,5796,5625,2
+	CMNT	12	198,126,7565,126,2
+	CMNT	12	198,126,198,5625,2
+	CMNT	12	198,5625,7565,5625,2
+	CMNT	12	7565,126,7565,5625,2
+	CMNT	68	3888,3,3888,111,2
+	CMNT	68	3888,5748,3888,5640,2
+	CMNT	68	75,2883,183,2883,2
+	CMNT	68	7692,2883,7584,2883,2
+	CMTL	21	-1,6705,5541,0
+		CMNT	4	6705,5541,6905,5601,0
+		CMNT	14	0,46,1280,SHEET
+	ECMT
+	CMTL	21	-1,5973,5306,1792
+		CMNT	4	5973,5306,6023,5399,0
+		CMNT	14	0,72,1792,A
+	ECMT
+	CMTL	21	-1,6061,5319,0
+		CMNT	4	6061,5319,6346,5378,0
+		CMNT	14	0,46,1280,DWG. NO.
+	ECMT
+	CMTL	21	-1,5823,5541,0
+		CMNT	4	5823,5541,6021,5600,0
+		CMNT	14	0,46,1280,SCALE
+	ECMT
+	CMTL	21	-1,5823,5430,0
+		CMNT	4	5823,5430,6003,5489,0
+		CMNT	14	0,46,1280,ISSUE
+	ECMT
+	CMTL	21	-1,5823,5319,0
+		CMNT	4	5823,5319,5956,5378,0
+		CMNT	14	0,46,1280,SIZE
+	ECMT
+	CMTL	21	-1,1827,5541,0
+		CMNT	4	1827,5541,1953,5601,0
+		CMNT	14	0,45,1280,APP
+	ECMT
+	CMTL	21	-1,1827,5432,0
+		CMNT	4	1827,5432,1959,5492,0
+		CMNT	14	0,45,1280,CHK
+	ECMT
+	CMTL	21	-1,1826,5321,0
+		CMNT	4	1826,5321,1976,5381,0
+		CMNT	14	0,45,1280,DWN
+	ECMT
+ECMT

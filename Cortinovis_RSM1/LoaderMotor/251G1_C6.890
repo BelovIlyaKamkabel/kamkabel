@@ -1,0 +1,1595 @@
+<?xml version="1.0" encoding = "iso-8859-1"?>
+<Drive project="DSELite" name="L890_14" lname="251G1_C6" revision="1" serial="-108539889" lfid="470890002" cfid="6" mod="1" node="1" Performance="0" updated="1">
+	<info config="" proj_name="18566 Loader" project="" user="-"/>
+	<blockTypeRefs>
+		<blockTypeRef id="5443" rev="1"/>
+		<blockTypeRef id="5440" rev="1"/>
+		<blockTypeRef id="5441" rev="1"/>
+		<blockTypeRef id="5445" rev="1"/>
+		<blockTypeRef id="5444" rev="1"/>
+		<blockTypeRef id="865" rev="9"/>
+		<blockTypeRef id="4492" rev="1"/>
+		<blockTypeRef id="5310" rev="1"/>
+		<blockTypeRef id="4774" rev="1"/>
+		<blockTypeRef id="4775" rev="1"/>
+		<blockTypeRef id="5321" rev="2"/>
+		<blockTypeRef id="5384" rev="1"/>
+		<blockTypeRef id="5383" rev="1"/>
+		<blockTypeRef id="5391" rev="1"/>
+		<blockTypeRef id="5390" rev="1"/>
+		<blockTypeRef id="5404" rev="1"/>
+		<blockTypeRef id="5439" rev="1"/>
+		<blockTypeRef id="5437" rev="1"/>
+	</blockTypeRefs>
+	<Blockdiagram name="" w="15000" h="12000" page="1" left="-4" right="711" top="-23" bottom="475" scaling="9" xoffset="0" yoffset="0">
+		<Blocks>
+			<Block page="1" command="18" name=" System" caption=" System" x="6912" y="4608" lock="1" type="5310">
+				<Params>
+					<Param key="2" id="1" value="0"/>
+					<Param key="2" id="2" value="0"/>
+					<Param key="2" id="3" value="0"/>
+					<Param key="2" id="4" value="0"/>
+					<Param key="5" id="1" value="0"/>
+					<Param key="5" id="2" value="0"/>
+				</Params>
+			</Block>
+			<Block page="1" command="18" name="ACCESS CONTROL" caption="ACCESS CONTROL" x="5760" y="4608" lock="1" width="663" type="6063">
+				<Params>
+					<Param id="993" value="1"/>
+					<Param id="998" value="0"/>
+					<Param id="994" value="0"/>
+					<Param id="4129" value="0" caption="COMMS PORT MODE"/>
+					<Param id="995" value="0"/>
+					<Param id="996" value="0"/>
+				</Params>
+			</Block>
+			<Block page="1" command="18" name="AN OUT 1" caption="AN OUT 1" x="5868" y="756" lock="1" type="5390">
+				<Params>
+					<Param key="2" id="2" value="0"/>
+					<Param key="2" id="3" value="100"/>
+					<Param key="2" id="5" value="0"/>
+					<Param key="1" id="1" value="0"/>
+					<Param key="2" id="1" value="193"/>
+					<Param key="2" id="4" value="100"/>
+				</Params>
+			</Block>
+			<Block page="1" command="18" name="AN OUT 2" caption="AN OUT 2" x="5868" y="1152" lock="1" type="5391">
+				<Params>
+					<Param key="2" id="2" value="0"/>
+					<Param key="2" id="3" value="100"/>
+					<Param key="2" id="5" value="0"/>
+					<Param key="1" id="1" value="0"/>
+					<Param key="2" id="1" value="225"/>
+					<Param key="2" id="4" value="100"/>
+				</Params>
+			</Block>
+			<Block page="1" command="18" name="DIG IN 2" caption="DIG IN 2" x="2304" y="1080" type="5437">
+				<Params>
+					<Param key="2" id="3" value="1"/>
+					<Param key="2" id="4" value="0"/>
+					<Param key="2" id="2" value="0"/>
+					<Param key="2" id="1" value="290"/>
+				</Params>
+				<Conns>
+					<Conn source="DIG IN 2" output="1" dest="Motor Control" method="Macro/INPUT.4" points=";3024,900;4167,-1;"/>
+				</Conns>
+			</Block>
+			<Block page="1" command="18" name="DIG IN 4" caption="DIG IN 4" x="2340" y="756" type="5439">
+				<Params>
+					<Param key="2" id="3" value="1"/>
+					<Param key="2" id="4" value="0"/>
+					<Param key="2" id="2" value="0"/>
+					<Param key="2" id="1" value="354"/>
+				</Params>
+				<Conns>
+					<Conn source="DIG IN 4" output="1" dest="Motor Control" method="Macro/INPUT.1" points=";2885,828;4167,-1;"/>
+				</Conns>
+			</Block>
+			<Block page="1" command="18" name="DIG IN 5" caption="DIG IN 5" x="2340" y="1440" type="5440">
+				<Params>
+					<Param key="2" id="3" value="1"/>
+					<Param key="2" id="4" value="0"/>
+					<Param key="2" id="2" value="0"/>
+					<Param key="2" id="1" value="386"/>
+				</Params>
+				<Conns>
+					<Conn source="DIG IN 5" output="1" dest="LS.2" method="Utility/Input" points=";3159,1512;3159,-1;"/>
+				</Conns>
+			</Block>
+			<Block page="1" command="18" name="DIG IN 6.1" caption="DIG IN 6.1" x="2340" y="1872" type="5441">
+				<Params>
+					<Param key="2" id="3" value="1"/>
+					<Param key="2" id="4" value="0"/>
+					<Param key="2" id="2" value="0"/>
+					<Param key="2" id="1" value="418"/>
+				</Params>
+				<Conns>
+					<Conn source="DIG IN 6.1" output="1" dest="Motor Control" method="Macro/INPUT.2" points=";3960,1044;4167,-1;"/>
+				</Conns>
+			</Block>
+			<Block page="1" command="18" name="DIG OUT 1" caption="DIG OUT 1" x="5868" y="1908" lock="1" type="5443">
+				<Params>
+					<Param key="2" id="1" value="0"/>
+					<Param key="2" id="4" value="1"/>
+					<Param key="2" id="2" value="0"/>
+					<Param key="2" id="3" value="545"/>
+				</Params>
+			</Block>
+			<Block page="1" command="18" name="DIG OUT 2" caption="DIG OUT 2" x="5868" y="2304" lock="1" type="5444">
+				<Params>
+					<Param key="2" id="1" value="0"/>
+					<Param key="2" id="4" value="1"/>
+					<Param key="2" id="2" value="0"/>
+					<Param key="2" id="3" value="577"/>
+				</Params>
+			</Block>
+			<Block page="1" command="18" name="DIG OUT 3" caption="DIG OUT 3" x="5868" y="3132" lock="1" type="5445">
+				<Params>
+					<Param key="2" id="1" value="0"/>
+					<Param key="2" id="4" value="1"/>
+					<Param key="2" id="2" value="0"/>
+					<Param key="2" id="3" value="609"/>
+				</Params>
+			</Block>
+			<Block page="1" command="18" name="I/O CONFIGURATION" caption="I/O CONFIGURATION" x="4608" y="3924" lock="1" width="840" type="6062">
+				<Params>
+					<Param id="35" value="0" caption="ANALOG INPUT 1 TYPE"/>
+					<Param id="67" value="0" caption="ANALOG INPUT 2 TYPE"/>
+					<Param id="99" value="0" caption="ANALOG INPUT 3 TYPE"/>
+					<Param id="131" value="0" caption="ANALOG INPUT 4 TYPE"/>
+					<Param id="197" value="1" caption="ANALOG OUTPUT 1 TYPE"/>
+					<Param id="229" value="1" caption="ANALOG OUTPUT 2 TYPE"/>
+				</Params>
+			</Block>
+			<Block page="1" command="18" name="INV.1" caption="INV.1" x="5544" y="3132" type="4492">
+				<Params>
+					<Param key="2" id="3" value="0"/>
+					<Param key="2" id="1" value="0"/>
+					<Param key="2" id="2" value="21845"/>
+					<Param key="2" id="4" value="0"/>
+					<Param key="2" id="5" value="0"/>
+					<Param key="2" id="6" value="0"/>
+				</Params>
+				<Conns>
+					<Conn source="INV.1" output="1" dest="DIG OUT 3" method="Utility/X14-1&amp;2" points=";5778,3204;5823,-1;"/>
+				</Conns>
+			</Block>
+			<Block page="1" command="18" name="LS.2" x="3204" y="1476" type="5321">
+				<Params>
+					<Param key="2" id="1" value="0"/>
+				</Params>
+				<Conns>
+					<Conn source="LS.2" output="1" dest="Motor Control" method="Macro/INPUT.7" points=";3456,972;4167,-1;"/>
+				</Conns>
+			</Block>
+			<Block page="1" command="18" name="Motor Control" caption="Motor Control" x="4212" y="756" lock="1" width="1014" type="6501">
+				<Params>
+					<Param key="-3" id="3" value="0" caption="SPEED" block="OUTPUT.5"/>
+					<Param key="-3" id="4" value="0" caption="TORQUE" block="OUTPUT.6"/>
+					<Param key="-3" id="1" value="0" caption="RUNNING" block="OUTPUT.8"/>
+					<Param key="-2" id="1" value="0" caption="START" block="INPUT.1"/>
+					<Param key="-2" id="3" value="0" caption="REVERSE" block="INPUT.4"/>
+					<Param key="-3" id="2" value="1" caption="ZERO SPEED" block="OUTPUT.1"/>
+					<Param key="-3" id="5" value="0" caption="HEALTHY" block="OUTPUT.7"/>
+					<Param key="-2" id="4" value="0" caption="Slow Down" block="INPUT.7"/>
+					<Param key="-2" id="2" value="0" caption="DRIVE RESET" block="INPUT.2"/>
+				</Params>
+				<Conns>
+					<Conn source="Motor Control" output="2" dest="AN OUT 2" method="Utility/X12-07" points=";5607,1224;5823,-1;"/>
+					<Conn source="Motor Control" output="3" dest="DIG OUT 1" method="Utility/X15-08" points=";5517,1980;5823,-1;"/>
+					<Conn source="Motor Control" output="1" dest="AN OUT 1" method="Utility/X12-06" points=";5823,828;5823,-1;"/>
+					<Conn source="Motor Control" output="4" dest="DIG OUT 2" method="Utility/X15-09" points=";5418,2376;5823,-1;"/>
+					<Conn source="Motor Control" output="5" dest="INV.1" method="Logic/Input 1" points=";5297,3204;5499,-1;"/>
+				</Conns>
+				<Blockdiagram name="MACRO.1" w="15000" h="12000" page="1" left="0" right="1066" top="0" bottom="706" scaling="8" xoffset="-272" yoffset="0">
+					<Blocks>
+						<Block page="1" command="18" name="SF.4" caption="(SHT 2) SEQUENCING LOGIC:REMOTE REV OUT" x="648" y="1332" type="5384">
+							<Conns>
+								<Conn source="SF.4" output="1" dest="REFERENCE" method="Drive/pref_3238" points=";774,1368;963,-1;"/>
+							</Conns>
+						</Block>
+						<Block page="1" command="18" name="SF.2" caption="(SHT 4) INERTIA COMP:OUTPUT" x="6141" y="1044" type="5384">
+							<Conns>
+								<Conn source="SF.2" output="1" dest="TORQUE LIMIT" method="Drive/pref_3" points=";6291,1080;6291,-1;"/>
+							</Conns>
+						</Block>
+						<Block page="1" command="18" name="SF.1" caption="(SHT 4) POSITION LOOP:OUTPUT" x="4213" y="2412" type="5384">
+							<Conns>
+								<Conn source="SF.1" output="1" dest="SPEED LOOP" method="Drive/pref_3" points=";4339,2448;4383,-1;"/>
+							</Conns>
+						</Block>
+						<Block page="1" command="18" name="SF.3" caption="(SHT 5) SW.1:OUTPUT" x="756" y="972" type="5384">
+							<Conns>
+								<Conn source="SF.3" output="1" dest="REFERENCE" method="Drive/pref_3233" points=";918,1008;963,-1;"/>
+							</Conns>
+						</Block>
+						<Block page="1" command="18" name="CURRENT LIMIT" caption="CURRENT LIMIT" x="6336" y="1296" lock="1" view="1" width="720" type="6015">
+							<Params>
+								<Param id="2625" value="150"/>
+								<Param id="2626" value="1"/>
+								<Param key="-4" id="1" readonly="1" value="0" caption="OUTPUT"/>
+								<Param key="-4" id="2" value="0" caption="CURRENT DEMAND"/>
+							</Params>
+							<Conns>
+								<Conn source="CURRENT LIMIT" output="3" dest="PATTERN GEN" method="Drive/pref_1" points=";7236,1764;6021,2376;6291,-1;"/>
+								<Conn source="CURRENT LIMIT" output="3" dest="PATTERN GEN" method="Drive/pref_2" points=";7236,1764;6021,2448;6291,-1;"/>
+							</Conns>
+						</Block>
+						<Block page="1" command="18" name="FEEDBACKS" caption="FEEDBACKS" x="1008" y="2808" lock="1" view="1" width="720" type="6027">
+							<Params>
+								<Param id="2242" value="578.05661"/>
+								<Param id="2243" value="0"/>
+								<Param id="2244" value="0"/>
+								<Param id="2245" value="0"/>
+								<Param id="2246" value="0"/>
+								<Param id="2257" value="45.10022"/>
+								<Param id="2258" value="50.109863"/>
+								<Param id="2250" value="0"/>
+								<Param id="2251" value="0"/>
+								<Param id="2252" value="0"/>
+								<Param id="2253" value="0"/>
+								<Param id="2259" value="3.5"/>
+								<Param id="2241" value="0"/>
+								<Param id="2260" value="1"/>
+							</Params>
+							<Conns>
+								<Conn source="FEEDBACKS" output="4" dest="SPEED LOOP" method="Drive/pref_2" points=";1809,3096;3411,2520;4383,-1;"/>
+								<Conn source="FEEDBACKS" output="5" dest="OUTPUT.5" method="SignalP/Input" updaterate="100" points=";2547,3168;2547,-1;"/>
+								<Conn source="FEEDBACKS" output="8" dest="OUTPUT.6" method="SignalP/Input" updaterate="100" points=";2538,3384;2538,-1;"/>
+							</Conns>
+						</Block>
+						<Block page="1" command="18" name="MOTOR DATA" caption="MOTOR DATA" x="6336" y="3384" lock="1" view="1" width="720" type="6030">
+							<Params>
+								<Param id="865" value="0"/>
+								<Param id="888" value="1"/>
+								<Param id="866" value="1.100006"/>
+								<Param id="867" value="50"/>
+								<Param id="868" value="370"/>
+								<Param id="869" value="3"/>
+								<Param id="870" value="2.490005"/>
+								<Param id="871" value="1391"/>
+								<Param id="872" value="1"/>
+								<Param id="873" value="1"/>
+								<Param id="874" value="0.809998"/>
+								<Param id="875" value="1.999176"/>
+								<Param id="887" value="0"/>
+								<Param id="878" value="13.878586"/>
+								<Param id="879" value="294.51001"/>
+								<Param id="880" value="1178.050049"/>
+								<Param id="881" value="109.399994"/>
+							</Params>
+						</Block>
+						<Block page="1" command="18" name="PATTERN GEN" caption="PATTERN GEN" x="6336" y="1944" lock="1" view="1" width="720" type="6024">
+							<Params>
+								<Param id="2340" value="0"/>
+								<Param id="2341" value="3000"/>
+								<Param id="2337" value="1"/>
+								<Param id="2338" value="3000"/>
+								<Param id="2339" value="2"/>
+								<Param key="-4" id="1" value="0" caption="Vsd"/>
+								<Param key="-4" id="2" value="0" caption="Vsq"/>
+								<Param id="2346" value="0"/>
+								<Param id="2342" value="0"/>
+								<Param id="2343" value="1.049988"/>
+								<Param id="2344" value="1400"/>
+								<Param id="2345" value="5"/>
+							</Params>
+						</Block>
+						<Block page="1" command="18" name="REFERENCE" caption="REFERENCE" x="1008" y="432" lock="1" view="1" width="663" type="6040">
+							<Params>
+								<Param id="3241" value="0"/>
+								<Param id="3242" value="0"/>
+								<Param id="3243" value="0"/>
+								<Param id="3244" value="0"/>
+								<Param id="3245" value="0"/>
+								<Param id="3247" value="0"/>
+								<Param id="3248" value="0"/>
+								<Param id="3233" value="80"/>
+								<Param id="3234" value="0"/>
+								<Param id="3235" value="110"/>
+								<Param id="3236" value="-110"/>
+								<Param id="3237" value="0"/>
+								<Param id="3238" value="0"/>
+								<Param id="3239" value="0"/>
+								<Param id="3240" value="1391"/>
+							</Params>
+							<Conns>
+								<Conn source="REFERENCE" output="1" dest="SPEED LOOP" method="Drive/pref_1" points=";1944,2790;3348,2376;4383,-1;"/>
+							</Conns>
+						</Block>
+						<Block page="1" command="18" name="REFERENCE JOG" caption="REFERENCE JOG" x="2466" y="1548" lock="1" view="1" width="585" type="6038">
+							<Params>
+								<Param id="3297" value="10"/>
+								<Param id="3298" value="1"/>
+								<Param id="3299" value="1"/>
+							</Params>
+						</Block>
+						<Block page="1" command="18" name="REFERENCE RAMP" caption="REFERENCE RAMP" x="2484" y="324" lock="1" view="1" width="720" type="6041">
+							<Params>
+								<Param id="3214" value="0"/>
+								<Param id="3201" value="0"/>
+								<Param id="3202" value="1"/>
+								<Param id="3203" value="0.5"/>
+								<Param id="3204" value="0"/>
+								<Param id="3205" value="5"/>
+								<Param id="3206" value="1"/>
+								<Param id="3207" value="10"/>
+								<Param id="3208" value="10"/>
+								<Param id="3209" value="10"/>
+								<Param id="3210" value="10"/>
+								<Param id="3211" value="10"/>
+								<Param id="3212" value="10"/>
+								<Param id="3213" value="0"/>
+							</Params>
+						</Block>
+						<Block page="1" command="18" name="REFERENCE STOP" caption="REFERENCE STOP" x="2484" y="1980" lock="1" view="1" width="663" type="6039">
+							<Params>
+								<Param id="3265" value="3"/>
+								<Param id="3266" value="0.5"/>
+								<Param id="3267" value="0.100006"/>
+								<Param id="3268" value="0.5"/>
+								<Param id="3269" value="0"/>
+								<Param id="3270" value="30"/>
+								<Param id="3271" value="0.100006"/>
+								<Param id="3272" value="1200"/>
+							</Params>
+						</Block>
+						<Block page="1" command="18" name="OUTPUT.5" caption="SPEED" x="2592" y="3132" type="4775">
+							<Params>
+								<Param key="0" id="1" value="0"/>
+							</Params>
+						</Block>
+						<Block page="1" command="18" name="SPEED LOOP" caption="SPEED LOOP" x="4428" y="360" lock="1" view="1" width="840" type="6019">
+							<Params>
+								<Param id="2513" value="0"/>
+								<Param id="2514" value="0"/>
+								<Param id="2515" value="0"/>
+								<Param id="2516" value="0"/>
+								<Param id="2517" value="0"/>
+								<Param id="2522" value="0"/>
+								<Param id="2524" value="1"/>
+								<Param id="2525" value="0"/>
+								<Param id="2497" value="20"/>
+								<Param id="2498" value="100"/>
+								<Param id="2499" value="0"/>
+								<Param id="2500" value="0"/>
+								<Param id="2501" value="0"/>
+								<Param id="2502" value="0"/>
+								<Param id="2503" value="0"/>
+								<Param id="2504" value="0"/>
+								<Param id="2505" value="20"/>
+								<Param id="2506" value="0"/>
+								<Param id="2507" value="1"/>
+								<Param id="2508" value="110"/>
+								<Param id="2509" value="-110"/>
+								<Param id="2510" value="110"/>
+								<Param id="2511" value="-110"/>
+								<Param id="2512" value="0"/>
+								<Param id="2526" value="0"/>
+								<Param id="2523" value="2000"/>
+								<Param id="2527" value="2000"/>
+								<Param key="-4" id="1" value="0" caption="SPEED DEMAND"/>
+								<Param key="-4" id="3" value="0" caption="PHASE SPEED DEMAND"/>
+								<Param key="-4" id="2" value="0" caption="SPEED FEEDBACK"/>
+							</Params>
+							<Conns>
+								<Conn source="SPEED LOOP" output="4" dest="TORQUE LIMIT" method="Drive/pref_2" points=";5544,1008;6291,-1;"/>
+							</Conns>
+						</Block>
+						<Block page="1" command="18" name="OUTPUT.6" caption="TORQUE" x="2583" y="3348" type="4775">
+							<Params>
+								<Param key="0" id="1" value="0"/>
+							</Params>
+						</Block>
+						<Block page="1" command="18" name="TORQUE LIMIT" caption="TORQUE LIMIT" x="6336" y="360" lock="1" view="1" width="840" type="6014">
+							<Params>
+								<Param id="2661" value="0"/>
+								<Param id="2662" value="0"/>
+								<Param id="2657" value="150"/>
+								<Param id="2658" value="-150"/>
+								<Param id="2659" value="150"/>
+								<Param id="2663" value="150"/>
+								<Param id="2660" value="0"/>
+								<Param key="-4" id="1" readonly="1" value="0" caption="CURRENT DEMAND"/>
+								<Param key="-4" id="2" value="0" caption="TORQUE DEMAND"/>
+								<Param key="-4" id="3" value="0" caption="PHASE TORQUE DEMAND"/>
+							</Params>
+							<Conns>
+								<Conn source="TORQUE LIMIT" output="8" dest="CURRENT LIMIT" method="Drive/pref_2" points=";7362,1197;5994,1584;6291,-1;"/>
+							</Conns>
+						</Block>
+						<Block page="1" command="18" name="ZERO SPEED" caption="ZERO SPEED" x="2880" y="4536" lock="1" view="1" width="663" type="6012">
+							<Params>
+								<Param id="2723" value="1"/>
+								<Param id="2724" value="1"/>
+								<Param id="2725" value="1"/>
+								<Param id="2721" value="0.100006"/>
+								<Param id="2722" value="2"/>
+							</Params>
+							<Conns>
+								<Conn source="ZERO SPEED" output="1" dest="OUTPUT.1" method="SignalP/Input" points=";3987,4608;3987,-1;"/>
+							</Conns>
+						</Block>
+						<Block page="1" command="18" name="OUTPUT.1" caption="ZERO SPEED" x="4032" y="4572" type="4775">
+							<Params>
+								<Param key="0" id="1" value="0"/>
+							</Params>
+						</Block>
+						<Block page="2" command="18" name="AUTOTUNE" caption="AUTOTUNE" x="6552" y="684" lock="1" view="1" width="720" type="6017">
+							<Params>
+								<Param id="2569" value="0"/>
+								<Param id="2561" value="0"/>
+								<Param id="2562" value="1"/>
+								<Param id="2563" value="0"/>
+								<Param id="2580" value="2"/>
+								<Param id="2583" value="50"/>
+								<Param id="2584" value="50"/>
+							</Params>
+						</Block>
+						<Block page="2" command="18" name="COMMS CONTROL" caption="COMMS CONTROL" x="1296" y="4284" lock="1" view="1" width="720" type="6042">
+							<Params>
+								<Param id="3046" value="0"/>
+								<Param id="3047" value="0"/>
+								<Param id="3051" value="0"/>
+								<Param id="3048" value="1073"/>
+								<Param id="3049" value="0"/>
+								<Param id="3041" value="0"/>
+								<Param id="3050" value="0"/>
+								<Param id="3042" value="0"/>
+								<Param id="3043" value="0"/>
+								<Param id="3044" value="0"/>
+								<Param id="3045" value="0"/>
+							</Params>
+						</Block>
+						<Block page="2" command="18" name="INPUT.2" caption="DRIVE RESET" x="576" y="2304" type="4774">
+							<Conns>
+								<Conn source="INPUT.2" output="1" dest="SEQUENCING LOGIC" method="Drive/pref_2954" points=";1287,2340;1287,-1;"/>
+							</Conns>
+						</Block>
+						<Block page="2" command="18" name="DYNAMIC BRAKING" caption="DYNAMIC BRAKING" x="5184" y="2196" lock="1" view="1" width="720" type="6009">
+							<Params>
+								<Param id="3174" value="0"/>
+								<Param id="3169" value="1"/>
+								<Param id="3171" value="100"/>
+								<Param id="3172" value="0.100006"/>
+								<Param id="3173" value="25"/>
+								<Param id="3175" value="0"/>
+							</Params>
+						</Block>
+						<Block page="2" command="18" name="EMC CAPACITOR" caption="EMC CAPACITOR" x="5198" y="3168" lock="1" view="3" width="624" type="6075">
+							<Params>
+								<Param id="4001" value="0"/>
+							</Params>
+						</Block>
+						<Block page="2" command="18" name="ENERGY METER" caption="ENERGY METER" x="6561" y="3420" lock="1" view="1" width="624" type="6006">
+							<Params>
+								<Param id="3618" value="0"/>
+								<Param id="3619" value="0"/>
+								<Param id="3620" value="0"/>
+								<Param id="3621" value="0"/>
+								<Param id="3617" value="0"/>
+							</Params>
+						</Block>
+						<Block page="2" command="18" name="FIREWIRE" caption="FIREWIRE" x="6552" y="4104" lock="1" view="1" width="720" type="6057">
+							<Params>
+								<Param id="3745" value="99"/>
+								<Param id="3746" value="99"/>
+								<Param id="3747" value="0"/>
+								<Param id="3748" value="0"/>
+								<Param id="3749" value="0"/>
+								<Param id="3750" value="0"/>
+								<Param id="3751" value="0"/>
+								<Param id="3752" value="0"/>
+							</Params>
+						</Block>
+						<Block page="2" command="18" name="OUTPUT.7" caption="HEALTHY" x="2592" y="648" type="4775">
+							<Params>
+								<Param key="0" id="1" value="0"/>
+							</Params>
+						</Block>
+						<Block page="2" command="18" name="I/O TRIPS" caption="I/O TRIPS" x="3573" y="4428" lock="1" view="1" width="663" type="6050">
+							<Params>
+								<Param id="3141" value="0"/>
+								<Param id="3142" value="0"/>
+								<Param id="3143" value="0"/>
+								<Param id="3137" value="0"/>
+								<Param id="3138" value="0"/>
+								<Param id="3144" value="2"/>
+								<Param id="3139" value="0"/>
+								<Param id="3140" value="0"/>
+							</Params>
+						</Block>
+						<Block page="2" command="18" name="INVERSE TIME" caption="INVERSE TIME" x="5184" y="1368" lock="1" view="1" width="663" type="6013">
+							<Params>
+								<Param id="2693" value="0"/>
+								<Param id="2694" value="150"/>
+								<Param id="2689" value="105"/>
+								<Param id="2690" value="60"/>
+								<Param id="2691" value="10"/>
+								<Param id="2692" value="120"/>
+							</Params>
+						</Block>
+						<Block page="2" command="18" name="LOCAL CONTROL" caption="LOCAL CONTROL" x="1296" y="3600" lock="1" view="1" width="585" type="6043">
+							<Params>
+								<Param id="3013" value="1"/>
+								<Param id="3014" value="1"/>
+								<Param id="3009" value="0"/>
+								<Param id="3010" value="0"/>
+								<Param id="3011" value="1"/>
+								<Param id="3012" value="0"/>
+							</Params>
+						</Block>
+						<Block page="2" command="18" name="OVER SPEED TRIP" caption="OVER SPEED TRIP" x="3573" y="3312" lock="1" view="1" width="663" type="6046">
+							<Params>
+								<Param id="3937" value="0"/>
+								<Param id="3938" value="150"/>
+								<Param id="3939" value="0.100006"/>
+								<Param id="3940" value="0"/>
+							</Params>
+						</Block>
+						<Block page="2" command="18" name="POWER LOSS CNTRL" caption="POWER LOSS CNTRL" x="6552" y="2628" lock="1" view="1" width="720" type="6007">
+							<Params>
+								<Param id="3591" value="0"/>
+								<Param id="3585" value="0"/>
+								<Param id="3586" value="447"/>
+								<Param id="3587" value="20"/>
+								<Param id="3588" value="10"/>
+								<Param id="3589" value="5"/>
+								<Param id="3592" value="0"/>
+								<Param id="3590" value="30"/>
+							</Params>
+						</Block>
+						<Block page="2" command="18" name="ST.4" caption="REFERENCE:REMOTE REVERSE (SHT 1)" x="2688" y="1368" type="5383">
+							<Params>
+								<Param key="0" id="1" value="0"/>
+							</Params>
+						</Block>
+						<Block page="2" command="18" name="INPUT.4" caption="REVERSE" x="576" y="1728" type="4774">
+							<Conns>
+								<Conn source="INPUT.4" output="1" dest="SEQUENCING LOGIC" method="Drive/pref_2946" points=";765,1764;1287,-1;"/>
+							</Conns>
+						</Block>
+						<Block page="2" command="18" name="OUTPUT.8" caption="RUNNING" x="2592" y="720" type="4775">
+							<Params>
+								<Param key="0" id="1" value="0"/>
+							</Params>
+						</Block>
+						<Block page="2" command="18" name="SEQUENCING LOGIC" caption="SEQUENCING LOGIC" x="1332" y="612" lock="1" view="1" width="720" type="6045">
+							<Params>
+								<Param id="2957" value="0"/>
+								<Param id="2958" value="0"/>
+								<Param id="2959" value="0"/>
+								<Param id="2960" value="0"/>
+								<Param id="2961" value="1"/>
+								<Param id="2962" value="1"/>
+								<Param id="2963" value="0"/>
+								<Param id="2964" value="0"/>
+								<Param id="2965" value="0"/>
+								<Param id="2966" value="1"/>
+								<Param id="2967" value="0"/>
+								<Param id="2968" value="1"/>
+								<Param id="2970" value="0"/>
+								<Param id="2969" value="0"/>
+								<Param id="2945" value="0"/>
+								<Param id="2946" value="0"/>
+								<Param id="2947" value="0"/>
+								<Param id="2948" value="0"/>
+								<Param id="2949" value="1"/>
+								<Param id="2950" value="1"/>
+								<Param id="2951" value="1"/>
+								<Param id="2952" value="1"/>
+								<Param id="2953" value="0"/>
+								<Param id="2954" value="0"/>
+								<Param id="2955" value="1"/>
+								<Param id="2956" value="0"/>
+							</Params>
+							<Conns>
+								<Conn source="SEQUENCING LOGIC" output="2" dest="OUTPUT.8" method="SignalP/Input" points=";2547,756;2547,-1;"/>
+								<Conn source="SEQUENCING LOGIC" output="11" dest="ST.4" method="SignalP/Input" points=";2643,1404;2643,-1;"/>
+								<Conn source="SEQUENCING LOGIC" output="1" dest="OUTPUT.7" method="SignalP/Input" points=";2232,684;2547,-1;"/>
+							</Conns>
+						</Block>
+						<Block page="2" command="18" name="SLEW RATE LIMIT" caption="SLEW RATE LIMIT" x="5184" y="684" lock="1" view="1" width="663" type="6035">
+							<Params>
+								<Param id="705" value="1"/>
+								<Param id="706" value="500"/>
+								<Param id="707" value="500"/>
+							</Params>
+						</Block>
+						<Block page="2" command="18" name="SPD FBK TRIP" caption="SPD FBK TRIP" x="3573" y="2736" lock="1" view="1" width="546" type="6047">
+							<Params>
+								<Param id="3681" value="0"/>
+								<Param id="3682" value="50"/>
+								<Param id="3683" value="10"/>
+								<Param id="3684" value="0"/>
+							</Params>
+						</Block>
+						<Block page="2" command="18" name="STALL TRIP" caption="STALL TRIP" x="3573" y="3924" lock="1" view="1" width="720" type="6048">
+							<Params>
+								<Param id="3361" value="120"/>
+								<Param id="3363" value="2"/>
+							</Params>
+						</Block>
+						<Block page="2" command="18" name="INPUT.1" caption="START" x="711" y="1656" type="4774">
+							<Conns>
+								<Conn source="INPUT.1" output="1" dest="SEQUENCING LOGIC" method="Drive/pref_2945" points=";900,1692;1287,-1;"/>
+							</Conns>
+						</Block>
+						<Block page="2" command="18" name="TRIPS HISTORY" caption="TRIPS HISTORY" x="3537" y="1584" lock="1" view="1" width="720" type="6052">
+							<Params>
+								<Param id="3073" value="2"/>
+								<Param id="3074" value="2"/>
+								<Param id="3075" value="2"/>
+								<Param id="3076" value="2"/>
+								<Param id="3077" value="2"/>
+								<Param id="3078" value="2"/>
+								<Param id="3079" value="2"/>
+								<Param id="3080" value="2"/>
+								<Param id="3081" value="2"/>
+								<Param id="3082" value="2"/>
+							</Params>
+						</Block>
+						<Block page="2" command="18" name="TRIPS STATUS" caption="TRIPS STATUS" x="3573" y="684" lock="1" view="1" width="624" type="6051">
+							<Params>
+								<Param id="3109" value="0"/>
+								<Param id="3110" value="0"/>
+								<Param id="3111" value="0"/>
+								<Param id="3112" value="0"/>
+								<Param id="3113" value="0"/>
+								<Param id="3105" value="300"/>
+								<Param id="3106" value="840"/>
+								<Param id="3107" value="0"/>
+								<Param id="3108" value="0"/>
+							</Params>
+						</Block>
+						<Block page="3" command="18" name="AUTO RESTART" caption="AUTO RESTART" x="3888" y="3492" lock="1" view="1" width="663" type="6044">
+							<Params>
+								<Param id="2977" value="0"/>
+								<Param id="2978" value="5"/>
+								<Param id="2979" value="10"/>
+								<Param id="2980" value="10"/>
+								<Param id="2981" value="0"/>
+								<Param id="2982" value="0"/>
+								<Param id="2983" value="0.100006"/>
+								<Param id="2984" value="0.100006"/>
+								<Param id="2985" value="0"/>
+								<Param id="2986" value="0"/>
+								<Param id="2987" value="0"/>
+								<Param id="2988" value="0"/>
+								<Param id="2989" value="5"/>
+								<Param id="2990" value="0"/>
+							</Params>
+						</Block>
+						<Block page="3" command="18" name="ENCODER" caption="ENCODER" x="6030" y="756" lock="1" view="1" width="840" type="6026">
+							<Params>
+								<Param id="2280" value="0"/>
+								<Param id="2281" value="0"/>
+								<Param id="2282" value="0"/>
+								<Param id="2273" value="10"/>
+								<Param id="2274" value="2048"/>
+								<Param id="2275" value="0"/>
+								<Param id="2276" value="0"/>
+								<Param id="2277" value="1"/>
+								<Param id="2278" value="0"/>
+								<Param id="2294" value="0"/>
+							</Params>
+						</Block>
+						<Block page="3" command="18" name="FLUXING" caption="FLUXING" x="2268" y="792" lock="1" view="1" width="663" type="6036">
+							<Params>
+								<Param id="673" value="0"/>
+								<Param id="675" value="0"/>
+								<Param id="676" value="0"/>
+								<Param id="680" value="0"/>
+								<Param id="681" value="0"/>
+								<Param id="682" value="10"/>
+								<Param id="683" value="10"/>
+								<Param id="684" value="20"/>
+								<Param id="685" value="20"/>
+								<Param id="686" value="30"/>
+								<Param id="687" value="30"/>
+								<Param id="688" value="40"/>
+								<Param id="689" value="40"/>
+								<Param id="690" value="50"/>
+								<Param id="691" value="50"/>
+								<Param id="692" value="60"/>
+								<Param id="693" value="60"/>
+								<Param id="694" value="70"/>
+								<Param id="695" value="70"/>
+								<Param id="696" value="80"/>
+								<Param id="697" value="80"/>
+								<Param id="698" value="90"/>
+								<Param id="699" value="90"/>
+								<Param id="700" value="100"/>
+								<Param id="701" value="100"/>
+							</Params>
+						</Block>
+						<Block page="3" command="18" name="FLYCATCHING" caption="FLYCATCHING" x="3852" y="2016" lock="1" view="1" width="720" type="6028">
+							<Params>
+								<Param id="2221" value="0"/>
+								<Param id="2222" value="0"/>
+								<Param id="2209" value="0"/>
+								<Param id="2223" value="0"/>
+								<Param id="2210" value="0"/>
+								<Param id="2211" value="0"/>
+								<Param id="2212" value="9"/>
+								<Param id="2213" value="40"/>
+								<Param id="2214" value="10"/>
+								<Param id="2215" value="5"/>
+								<Param id="2216" value="3"/>
+							</Params>
+						</Block>
+						<Block page="3" command="18" name="INJ BRAKING" caption="INJ BRAKING" x="846" y="2979" lock="1" view="1" width="702" type="6029">
+							<Params>
+								<Param id="937" value="0"/>
+								<Param id="929" value="0.5"/>
+								<Param id="930" value="9"/>
+								<Param id="931" value="100"/>
+								<Param id="932" value="2"/>
+								<Param id="933" value="1"/>
+								<Param id="934" value="2.5"/>
+								<Param id="935" value="90"/>
+								<Param id="936" value="100"/>
+							</Params>
+						</Block>
+						<Block page="3" command="18" name="REGEN CNTRL" caption="REGEN CNTRL" x="6192" y="3528" lock="1" view="1" width="720" type="6005">
+							<Params>
+								<Param id="3657" value="0"/>
+								<Param id="3658" value="0"/>
+								<Param id="3659" value="0"/>
+								<Param id="3660" value="1"/>
+								<Param id="3661" value="0"/>
+								<Param id="3662" value="4"/>
+								<Param id="3649" value="1"/>
+								<Param id="3650" value="720"/>
+								<Param id="3663" value="0"/>
+							</Params>
+						</Block>
+						<Block page="3" command="18" name="SKIP FREQUENCIES" caption="SKIP FREQUENCIES" x="3816" y="792" lock="1" view="1" width="720" type="6010">
+							<Params>
+								<Param id="2922" value="0"/>
+								<Param id="2923" value="0"/>
+								<Param id="2924" value="0"/>
+								<Param id="2913" value="0"/>
+								<Param id="2914" value="0"/>
+								<Param id="2915" value="0"/>
+								<Param id="2916" value="0"/>
+								<Param id="2917" value="0"/>
+								<Param id="2918" value="0"/>
+								<Param id="2919" value="0"/>
+								<Param id="2920" value="0"/>
+								<Param id="2921" value="0"/>
+							</Params>
+						</Block>
+						<Block page="3" command="18" name="SLIP COMP" caption="SLIP COMP" x="828" y="765" lock="1" view="1" width="702" type="6034">
+							<Params>
+								<Param id="737" value="0"/>
+								<Param id="738" value="150"/>
+								<Param id="739" value="150"/>
+							</Params>
+						</Block>
+						<Block page="3" command="18" name="STABILISATION" caption="STABILISATION" x="828" y="2052" lock="1" view="1" width="585" type="6032">
+							<Params>
+								<Param id="801" value="1"/>
+							</Params>
+						</Block>
+						<Block page="3" command="18" name="VOLTAGE CONTROL" caption="VOLTAGE CONTROL" x="828" y="1377" lock="1" view="1" width="663" type="6016">
+							<Params>
+								<Param id="2593" value="0"/>
+								<Param id="2595" value="100"/>
+							</Params>
+						</Block>
+						<Block page="4" command="18" name="FIREWIRE REF" caption="FIREWIRE REF" x="1071" y="2160" lock="1" view="1" width="663" performance="1" type="6055">
+							<Params>
+								<Param id="3814" value="0"/>
+								<Param id="3815" value="0"/>
+								<Param id="3816" value="0"/>
+								<Param id="3817" value="0"/>
+								<Param id="3818" value="0"/>
+								<Param id="3819" value="0"/>
+								<Param id="3822" value="0"/>
+								<Param id="3821" value="6"/>
+								<Param id="3809" value="0"/>
+								<Param id="3810" value="0"/>
+								<Param id="3811" value="0"/>
+								<Param id="3812" value="1000000"/>
+								<Param id="3813" value="1000000"/>
+								<Param key="-4" id="1" readonly="1" value="0" caption="OUTPUT"/>
+							</Params>
+							<Conns>
+								<Conn source="FIREWIRE REF" output="14" dest="POSITION LOOP" method="Drive/pref_2" points=";5478,3168;5478,-1;"/>
+							</Conns>
+						</Block>
+						<Block page="4" command="18" name="INERTIA COMP" caption="INERTIA COMP" x="5454" y="657" lock="1" view="1" width="840" performance="1" type="6003">
+							<Params>
+								<Param id="3908" value="0"/>
+								<Param id="3909" value="0"/>
+								<Param id="3910" value="0"/>
+								<Param id="3911" value="0"/>
+								<Param id="3905" value="0"/>
+								<Param id="3906" value="0"/>
+								<Param id="3907" value="0"/>
+								<Param key="-4" id="1" readonly="1" value="0" caption="OUTPUT"/>
+							</Params>
+							<Conns>
+								<Conn source="INERTIA COMP" output="8" dest="ST.2" method="SignalP/Input" points=";6516,1233;6516,-1;"/>
+							</Conns>
+						</Block>
+						<Block page="4" command="18" name="MOVE TO MASTER" caption="MOVE TO MASTER" x="2799" y="405" lock="1" view="1" width="624" performance="2" type="6053">
+							<Params>
+								<Param id="3974" value="0"/>
+								<Param id="3976" value="0"/>
+								<Param id="3977" value="1"/>
+								<Param id="3969" value="0"/>
+								<Param id="3970" value="0"/>
+								<Param id="3971" value="0.050003"/>
+								<Param id="3972" value="1"/>
+								<Param id="3973" value="1"/>
+								<Param key="-4" id="1" readonly="1" value="0" caption="OUTPUT"/>
+							</Params>
+							<Conns>
+								<Conn source="MOVE TO MASTER" output="9" dest="POSITION LOOP" method="Drive/pref_2" points=";4770,3168;5478,-1;"/>
+							</Conns>
+						</Block>
+						<Block page="4" command="18" name="PHASE INCH" caption="PHASE INCH" x="2799" y="1485" lock="1" view="1" width="540" performance="1" type="6061">
+							<Params>
+								<Param id="3466" value="0"/>
+								<Param id="3460" value="0"/>
+								<Param id="3457" value="0"/>
+								<Param id="3458" value="0"/>
+								<Param id="3465" value="0"/>
+								<Param id="3459" value="0.100006"/>
+								<Param id="3464" value="1"/>
+								<Param key="-4" id="1" readonly="1" value="0" caption="OUTPUT"/>
+							</Params>
+							<Conns>
+								<Conn source="PHASE INCH" output="8" dest="POSITION LOOP" method="Drive/pref_2" points=";4662,3168;5478,-1;"/>
+							</Conns>
+						</Block>
+						<Block page="4" command="18" name="PHASE MOVE" caption="PHASE MOVE" x="3501" y="3816" lock="1" view="1" width="585" performance="1" type="6060">
+							<Params>
+								<Param id="3493" value="0"/>
+								<Param id="3494" value="0"/>
+								<Param id="3498" value="0"/>
+								<Param id="3489" value="0"/>
+								<Param id="3496" value="0"/>
+								<Param id="3499" value="0"/>
+								<Param id="3490" value="1"/>
+								<Param id="3491" value="0"/>
+								<Param id="3492" value="1"/>
+								<Param id="3495" value="1"/>
+								<Param key="-4" id="1" readonly="1" value="0" caption="OUTPUT"/>
+							</Params>
+							<Conns>
+								<Conn source="PHASE MOVE" output="11" dest="POSITION LOOP" method="Drive/pref_2" points=";4347,3168;5478,-1;"/>
+							</Conns>
+						</Block>
+						<Block page="4" command="18" name="PHASE MOVE ABS" caption="PHASE MOVE ABS" x="1980" y="3816" lock="1" view="1" width="624" performance="1" type="6054">
+							<Params>
+								<Param id="3848" value="0"/>
+								<Param id="3850" value="0"/>
+								<Param id="3851" value="0"/>
+								<Param id="3852" value="1"/>
+								<Param id="3841" value="0"/>
+								<Param id="3842" value="0"/>
+								<Param id="3843" value="0"/>
+								<Param id="3844" value="0.050003"/>
+								<Param id="3845" value="0"/>
+								<Param id="3846" value="1"/>
+								<Param id="3847" value="1"/>
+								<Param key="-4" id="1" readonly="1" value="0" caption="OUTPUT"/>
+							</Params>
+							<Conns>
+								<Conn source="PHASE MOVE ABS" output="12" dest="POSITION LOOP" method="Drive/pref_2" points=";3087,3168;5478,-1;"/>
+							</Conns>
+						</Block>
+						<Block page="4" command="18" name="PHASE OFFSET" caption="PHASE OFFSET" x="2799" y="2529" lock="1" view="1" width="546" performance="1" type="6059">
+							<Params>
+								<Param id="3523" value="0"/>
+								<Param id="3521" value="0"/>
+								<Param id="3522" value="0"/>
+								<Param id="3524" value="0"/>
+								<Param key="-4" id="1" readonly="1" value="0" caption="OUTPUT"/>
+							</Params>
+							<Conns>
+								<Conn source="PHASE OFFSET" output="5" dest="POSITION LOOP" method="Drive/pref_2" points=";4581,3168;5478,-1;"/>
+							</Conns>
+						</Block>
+						<Block page="4" command="18" name="PHASE TUNING" caption="PHASE TUNING" x="5553" y="3780" lock="1" view="1" width="720" performance="1" type="6058">
+							<Params>
+								<Param id="3558" value="0"/>
+								<Param id="3569" value="0"/>
+								<Param id="3556" value="0"/>
+								<Param id="3554" value="0"/>
+								<Param id="3560" value="0"/>
+								<Param id="3561" value="0.100006"/>
+								<Param id="3568" value="1"/>
+								<Param id="3553" value="10"/>
+								<Param id="3564" value="0"/>
+								<Param id="3565" value="100"/>
+								<Param id="3566" value="20"/>
+								<Param id="3567" value="1"/>
+							</Params>
+						</Block>
+						<Block page="4" command="18" name="POSITION LOOP" caption="POSITION LOOP" x="5523" y="1872" lock="1" view="1" width="720" performance="1" type="6004">
+							<Params>
+								<Param id="3887" value="0"/>
+								<Param id="3886" value="0"/>
+								<Param id="3882" value="0"/>
+								<Param id="3885" value="0"/>
+								<Param id="3884" value="0"/>
+								<Param id="3881" value="0"/>
+								<Param id="3880" value="0"/>
+								<Param id="3878" value="0"/>
+								<Param id="3877" value="0"/>
+								<Param id="3876" value="100"/>
+								<Param id="3888" value="0"/>
+								<Param id="3879" value="0"/>
+								<Param id="3873" value="10"/>
+								<Param id="3874" value="500"/>
+								<Param id="3875" value="0"/>
+								<Param id="3883" value="10"/>
+								<Param key="-4" id="1" readonly="1" value="0" caption="OUTPUT"/>
+								<Param key="-4" id="2" value="0" caption="INPUT"/>
+							</Params>
+							<Conns>
+								<Conn source="POSITION LOOP" output="17" dest="ST.1" method="SignalP/Input" points=";6507,3096;6507,-1;"/>
+							</Conns>
+						</Block>
+						<Block page="4" command="18" name="ST.1" caption="SPEED LOOP:PHASE SPEED DEMAND (SHT 1)" x="6552" y="3060" performance="1" type="5383">
+							<Params>
+								<Param key="0" id="1" value="0"/>
+							</Params>
+						</Block>
+						<Block page="4" command="18" name="ST.2" caption="TORQUE LIMIT:PHASE TORQUE DEMAND (SHT 1)" x="6561" y="1197" performance="1" type="5383">
+							<Params>
+								<Param key="0" id="1" value="0"/>
+							</Params>
+						</Block>
+						<Block page="4" command="18" name="VIRTUAL MASTER" caption="VIRTUAL MASTER" x="1071" y="225" lock="1" view="1" width="663" performance="1" type="6056">
+							<Params>
+								<Param id="3790" value="0"/>
+								<Param id="3789" value="0"/>
+								<Param id="3791" value="0"/>
+								<Param id="3792" value="0"/>
+								<Param id="3795" value="5"/>
+								<Param id="3793" value="0"/>
+								<Param id="3777" value="0"/>
+								<Param id="3778" value="10"/>
+								<Param id="3779" value="10"/>
+								<Param id="3780" value="10"/>
+								<Param id="3781" value="10"/>
+								<Param id="3782" value="10"/>
+								<Param id="3783" value="10"/>
+								<Param id="3784" value="0"/>
+								<Param id="3785" value="0"/>
+								<Param id="3786" value="0"/>
+								<Param id="3787" value="0"/>
+								<Param id="3788" value="0"/>
+								<Param id="3794" value="1500"/>
+								<Param id="3796" value="0"/>
+								<Param id="3798" value="5"/>
+								<Param id="3799" value="5"/>
+							</Params>
+						</Block>
+						<Block page="5" command="18" name="ST.3" caption="REFERENCE:REMOTE SETPOINT (SHT 1)" x="2949" y="2484" type="5383">
+							<Params>
+								<Param key="0" id="1" value="0"/>
+							</Params>
+						</Block>
+						<Block page="5" command="18" name="INPUT.7" caption="Slow Down" x="1188" y="2556" type="4774">
+							<Conns>
+								<Conn source="INPUT.7" output="1" dest="SW.1" method="SignalP/Select" points=";1377,2592;2115,-1;"/>
+							</Conns>
+						</Block>
+						<Block page="5" command="18" name="SW.1" caption="SW.1" x="2160" y="2376" type="865">
+							<Params>
+								<Param key="2" id="2" value="80"/>
+								<Param key="2" id="3" value="30"/>
+								<Param key="2" id="1" value="0"/>
+								<Param key="0" id="1" value="0"/>
+							</Params>
+							<Conns>
+								<Conn source="SW.1" output="1" dest="ST.3" method="SignalP/Input" points=";2904,2520;2904,-1;"/>
+							</Conns>
+						</Block>
+						<Block page="6" command="18" name="autotune" caption="autotune" x="2232" y="288" lock="1" view="2" width="720" type="6317">
+							<Params>
+								<Param id="2581" value="0.707108"/>
+								<Param id="2582" value="5"/>
+								<Param id="2564" value="1390.999146"/>
+								<Param id="2565" value="1"/>
+								<Param id="2566" value="10"/>
+								<Param id="2567" value="0.5"/>
+								<Param id="2568" value="0.020004"/>
+								<Param id="2570" value="1390.999146"/>
+								<Param id="2579" value="3"/>
+								<Param id="2571" value="1"/>
+								<Param id="2572" value="50"/>
+								<Param id="2573" value="0.039993"/>
+								<Param id="2574" value="0.399994"/>
+								<Param id="2575" value="0"/>
+								<Param id="2576" value="0"/>
+								<Param id="2577" value="0"/>
+								<Param id="2578" value="0.100006"/>
+							</Params>
+						</Block>
+						<Block page="6" command="18" name="current loop" caption="current loop" x="666" y="3060" lock="1" view="2" width="840" type="6023">
+							<Params>
+								<Param id="2369" value="0.399994"/>
+								<Param id="2370" value="0.199997"/>
+								<Param id="2382" value="0"/>
+								<Param id="2372" value="0"/>
+								<Param id="2373" value="20"/>
+								<Param id="2374" value="0.199997"/>
+								<Param id="2375" value="0"/>
+								<Param id="2376" value="0"/>
+								<Param id="2383" value="0.100006"/>
+								<Param id="2385" value="1.300003"/>
+								<Param id="2384" value="1"/>
+							</Params>
+						</Block>
+						<Block page="6" command="18" name="dynamic braking" caption="dynamic braking" x="6363" y="1620" lock="1" view="2" width="663" type="6309">
+							<Params>
+								<Param id="3170" value="87.5"/>
+								<Param id="3176" value="94.300003"/>
+							</Params>
+						</Block>
+						<Block page="6" command="18" name="encoder" caption="encoder" x="666" y="288" lock="1" view="2" width="720" type="6326">
+							<Params>
+								<Param id="2279" value="0"/>
+								<Param id="2283" value="0"/>
+								<Param id="2284" value="0"/>
+								<Param id="2285" value="0"/>
+								<Param id="2286" value="0"/>
+								<Param id="2287" value="0"/>
+								<Param id="2288" value="0"/>
+								<Param id="2289" value="0"/>
+								<Param id="2290" value="0"/>
+								<Param id="2291" value="0"/>
+								<Param id="2292" value="0"/>
+								<Param id="2293" value="0"/>
+								<Param id="2295" value="0"/>
+								<Param id="2296" value="0"/>
+								<Param id="2297" value="0"/>
+							</Params>
+						</Block>
+						<Block page="6" command="18" name="energy meter" caption="energy meter" x="6363" y="2628" lock="1" view="2" width="546" type="6306">
+							<Params>
+								<Param id="3622" value="0"/>
+							</Params>
+						</Block>
+						<Block page="6" command="18" name="feedbacks" caption="feedbacks" x="666" y="1584" lock="1" view="2" width="720" type="6327">
+							<Params>
+								<Param id="2247" value="0"/>
+								<Param id="2248" value="0"/>
+								<Param id="2249" value="0"/>
+								<Param id="2254" value="90"/>
+								<Param id="2255" value="85"/>
+								<Param id="2256" value="80"/>
+								<Param id="2261" value="0"/>
+								<Param id="2262" value="0"/>
+								<Param id="2263" value="-0.267029"/>
+								<Param id="2264" value="0.59967"/>
+								<Param id="2265" value="0.291443"/>
+								<Param id="2266" value="0.020935"/>
+								<Param id="2267" value="-0.03273"/>
+								<Param id="2268" value="0.011765"/>
+								<Param id="2269" value="31846"/>
+								<Param id="2270" value="31767"/>
+								<Param id="2271" value="1"/>
+							</Params>
+						</Block>
+						<Block page="6" command="18" name="firewire" caption="firewire" x="6363" y="324" lock="1" view="2" width="720" type="6357">
+							<Params>
+								<Param id="3753" value="65535"/>
+								<Param id="3754" value="0"/>
+								<Param id="3755" value="0"/>
+								<Param id="3756" value="0"/>
+							</Params>
+						</Block>
+						<Block page="6" command="18" name="flux control" caption="flux control" x="6354" y="4284" lock="1" view="2" width="840" type="6022">
+							<Params>
+								<Param id="2406" value="83.000183"/>
+								<Param id="2407" value="55.999756"/>
+								<Param id="2408" value="0"/>
+								<Param id="2409" value="0"/>
+								<Param id="2401" value="2"/>
+								<Param id="2402" value="1"/>
+								<Param id="2403" value="50"/>
+								<Param id="2404" value="-50"/>
+								<Param id="2405" value="1"/>
+								<Param id="2410" value="5"/>
+							</Params>
+						</Block>
+						<Block page="6" command="18" name="flux tables" caption="flux tables" x="3726" y="2520" lock="1" view="2" width="624" type="6021">
+							<Params>
+								<Param id="2433" value="1390.6604"/>
+								<Param id="2435" value="1545.161133"/>
+								<Param id="2437" value="1738.3255"/>
+								<Param id="2439" value="1986.639404"/>
+								<Param id="2441" value="2317.752686"/>
+								<Param id="2443" value="2781.320801"/>
+								<Param id="2445" value="3476.651001"/>
+								<Param id="2447" value="4635.527344"/>
+								<Param id="2449" value="6953.302002"/>
+								<Param id="2451" value="13906.604004"/>
+								<Param id="2434" value="100"/>
+								<Param id="2436" value="76.747513"/>
+								<Param id="2438" value="62.179337"/>
+								<Param id="2440" value="50.883865"/>
+								<Param id="2442" value="43.614609"/>
+								<Param id="2444" value="36.345276"/>
+								<Param id="2446" value="29.076218"/>
+								<Param id="2448" value="21.80719"/>
+								<Param id="2450" value="14.538101"/>
+								<Param id="2452" value="7.269043"/>
+								<Param id="2453" value="100"/>
+								<Param id="2454" value="116.582901"/>
+								<Param id="2455" value="126.967331"/>
+								<Param id="2456" value="134.466858"/>
+								<Param id="2457" value="132.745483"/>
+								<Param id="2458" value="130.331604"/>
+								<Param id="2459" value="130.331604"/>
+								<Param id="2460" value="130.331604"/>
+								<Param id="2461" value="130.331604"/>
+								<Param id="2462" value="130.331604"/>
+								<Param id="2463" value="50"/>
+							</Params>
+						</Block>
+						<Block page="6" command="18" name="fluxing" caption="fluxing" x="6363" y="2052" lock="1" view="2" width="663" type="6336">
+							<Params>
+								<Param id="678" value="0"/>
+								<Param id="679" value="0"/>
+								<Param id="677" value="0.25"/>
+								<Param id="702" value="1"/>
+							</Params>
+						</Block>
+						<Block page="6" command="18" name="flycatching" caption="flycatching" x="6372" y="3600" lock="1" view="2" width="624" type="6328">
+							<Params>
+								<Param id="2217" value="0"/>
+								<Param id="2218" value="5"/>
+								<Param id="2219" value="0.5"/>
+								<Param id="2220" value="200"/>
+							</Params>
+						</Block>
+						<Block page="6" command="18" name="inverse time" caption="inverse time" x="5112" y="4788" lock="1" view="2" width="546" type="6313">
+							<Params>
+								<Param id="2695" value="0"/>
+							</Params>
+						</Block>
+						<Block page="6" command="18" name="motor data" caption="motor data" x="6363" y="936" lock="1" view="2" width="800" type="6330">
+							<Params>
+								<Param id="882" value="1178.050049"/>
+								<Param id="883" value="109.33989"/>
+								<Param id="876" value="0.001389"/>
+								<Param id="877" value="0"/>
+								<Param id="884" value="120"/>
+							</Params>
+						</Block>
+						<Block page="6" command="18" name="motor sequencing" caption="motor sequencing" x="5112" y="3420" lock="1" view="2" width="720" type="6011">
+							<Params>
+								<Param id="2849" value="2"/>
+							</Params>
+						</Block>
+						<Block page="6" command="18" name="mras" caption="mras" x="5112" y="324" lock="1" view="2" width="720" type="6037">
+							<Params>
+								<Param id="648" value="0"/>
+								<Param id="649" value="0"/>
+								<Param id="650" value="0"/>
+								<Param id="651" value="0"/>
+								<Param id="652" value="0"/>
+								<Param id="653" value="0"/>
+								<Param id="654" value="0"/>
+								<Param id="655" value="1"/>
+								<Param id="656" value="0"/>
+								<Param id="641" value="11.528793"/>
+								<Param id="642" value="0.449997"/>
+								<Param id="643" value="2.628296"/>
+								<Param id="644" value="0.112"/>
+								<Param id="645" value="0.10939"/>
+								<Param id="646" value="500"/>
+								<Param id="647" value="500"/>
+								<Param id="657" value="0.5"/>
+								<Param id="658" value="1"/>
+								<Param id="659" value="1"/>
+								<Param id="660" value="0"/>
+								<Param id="661" value="0.019989"/>
+								<Param id="662" value="0"/>
+								<Param id="663" value="3"/>
+								<Param id="667" value="0.5"/>
+								<Param id="664" value="0"/>
+								<Param id="665" value="0.25"/>
+								<Param id="666" value="2"/>
+							</Params>
+						</Block>
+						<Block page="6" command="18" name="open-loop i-lim" caption="open-loop i-lim" x="5112" y="2484" lock="1" view="2" width="663" type="6033">
+							<Params>
+								<Param id="771" value="0"/>
+								<Param id="772" value="0"/>
+								<Param id="769" value="2"/>
+								<Param id="770" value="0.5"/>
+							</Params>
+						</Block>
+						<Block page="6" command="18" name="pattern gen" caption="pattern gen" x="3726" y="1188" lock="1" view="2" width="720" type="6025">
+							<Params>
+								<Param id="2306" value="0"/>
+								<Param id="2307" value="0"/>
+								<Param id="2312" value="545"/>
+								<Param id="2313" value="1020"/>
+								<Param id="2346" value="0"/>
+								<Param id="2305" value="1"/>
+								<Param id="2308" value="4000"/>
+								<Param id="2310" value="1.799988"/>
+								<Param id="2311" value="0.029999"/>
+								<Param id="2314" value="1.099991"/>
+								<Param id="2342" value="0"/>
+								<Param id="2343" value="1.049988"/>
+								<Param id="2344" value="1400"/>
+								<Param id="2345" value="5"/>
+							</Params>
+						</Block>
+						<Block page="6" command="18" name="regen cntrl" caption="regen cntrl" x="2232" y="2196" lock="1" view="2" width="624" type="6305">
+							<Params>
+								<Param id="3651" value="1.270004"/>
+								<Param id="3652" value="0.031906"/>
+								<Param id="3653" value="5.479996"/>
+								<Param id="3654" value="0.031799"/>
+								<Param id="3655" value="0.100006"/>
+								<Param id="3656" value="0"/>
+								<Param id="3664" value="10"/>
+							</Params>
+						</Block>
+						<Block page="6" command="18" name="slew rate limit" caption="slew rate limit" x="5112" y="4320" lock="1" view="2" width="663" type="6335">
+							<Params>
+								<Param id="708" value="0"/>
+							</Params>
+						</Block>
+						<Block page="6" command="18" name="slip comp" caption="slip comp" x="5112" y="2988" lock="1" view="2" width="540" type="6334">
+							<Params>
+								<Param id="741" value="0"/>
+								<Param id="740" value="250"/>
+							</Params>
+						</Block>
+						<Block page="6" command="18" name="slip control" caption="slip control" x="6363" y="3060" lock="1" view="2" width="624" type="6020">
+							<Params>
+								<Param id="2465" value="0"/>
+							</Params>
+						</Block>
+						<Block page="6" command="18" name="speed loop" caption="speed loop" x="675" y="4104" lock="1" view="2" width="624" type="6319">
+							<Params>
+								<Param id="2518" value="0"/>
+								<Param id="2519" value="1"/>
+								<Param id="2520" value="10"/>
+								<Param id="2521" value="0"/>
+							</Params>
+						</Block>
+						<Block page="6" command="18" name="stabilisation" caption="stabilisation" x="2241" y="4572" lock="1" view="2" width="663" type="6332">
+							<Params>
+								<Param id="806" value="0"/>
+								<Param id="807" value="0"/>
+								<Param id="802" value="10"/>
+								<Param id="803" value="-0.199997"/>
+								<Param id="804" value="0.199997"/>
+								<Param id="805" value="1"/>
+							</Params>
+						</Block>
+						<Block page="6" command="18" name="stall trip" caption="stall trip" x="2232" y="1728" lock="1" view="2" width="624" type="6348">
+							<Params>
+								<Param id="3364" value="0"/>
+								<Param id="3365" value="0"/>
+								<Param id="3366" value="0"/>
+							</Params>
+						</Block>
+						<Block page="6" command="18" name="tr adaptation" caption="tr adaptation" x="2232" y="2952" lock="1" view="2" width="720" type="6018">
+							<Params>
+								<Param id="2535" value="100"/>
+								<Param id="2536" value="0"/>
+								<Param id="2537" value="0"/>
+								<Param id="2538" value="0"/>
+								<Param id="2542" value="0"/>
+								<Param id="2543" value="0"/>
+								<Param id="2547" value="0"/>
+								<Param id="2529" value="50"/>
+								<Param id="2530" value="1"/>
+								<Param id="2531" value="2"/>
+								<Param id="2532" value="5"/>
+								<Param id="2533" value="50"/>
+								<Param id="2534" value="5"/>
+								<Param id="2539" value="0"/>
+								<Param id="2540" value="105"/>
+								<Param id="2541" value="0"/>
+								<Param id="2544" value="1"/>
+								<Param id="2545" value="0.100006"/>
+								<Param id="2546" value="0.25"/>
+							</Params>
+						</Block>
+						<Block page="6" command="18" name="trace" caption="trace" x="5112" y="3816" lock="1" view="2" width="540" type="6008">
+							<Params>
+								<Param id="3428" value="0"/>
+								<Param id="3427" value="0"/>
+								<Param id="3425" value="0"/>
+								<Param id="3426" value="0"/>
+							</Params>
+						</Block>
+						<Block page="6" command="18" name="vdc_ripple" caption="vdc_ripple" x="3726" y="324" lock="1" view="2" width="720" type="6049">
+							<Params>
+								<Param id="3329" value="1"/>
+								<Param id="3330" value="70"/>
+								<Param id="3331" value="90"/>
+								<Param id="3332" value="10"/>
+								<Param id="3333" value="9"/>
+								<Param id="3334" value="1.465485"/>
+								<Param id="3335" value="1.396622"/>
+							</Params>
+						</Block>
+						<Block page="6" command="18" name="voltage control" caption="voltage control" x="666" y="4680" lock="1" view="2" width="663" type="6316">
+							<Params>
+								<Param id="2598" value="0"/>
+								<Param id="2599" value="0"/>
+								<Param id="2596" value="0.019989"/>
+								<Param id="2597" value="0.25"/>
+							</Params>
+						</Block>
+						<Block page="7" command="18" name="drive info" caption="drive info" x="855" y="432" lock="1" view="3" width="663" type="6071">
+							<Params>
+								<Param id="3393" value="134"/>
+								<Param id="3395" value="0"/>
+								<Param id="3396" value="70034022"/>
+								<Param id="3397" value="3801"/>
+								<Param id="3398" value="1"/>
+								<Param id="3399" value="0"/>
+								<Param id="3400" value="1"/>
+								<Param id="3402" value="3"/>
+								<Param id="3403" value="86306"/>
+								<Param id="3404" value="85615"/>
+								<Param id="3405" value="27"/>
+								<Param id="3406" value="4100"/>
+								<Param id="3407" value="272"/>
+								<Param id="3401" value="0"/>
+							</Params>
+						</Block>
+						<Block page="7" command="18" name="file attributes" caption="file attributes" x="855" y="2520" lock="1" view="3" width="663" type="6072">
+							<Params>
+								<Param id="3713" value="0"/>
+							</Params>
+						</Block>
+						<Block page="7" command="18" name="move to master" caption="move to master" x="4230" y="3231" lock="1" view="2" width="624" performance="2" type="6053">
+							<Params>
+								<Param id="3975" value="0"/>
+							</Params>
+						</Block>
+						<Block page="7" command="18" name="OP STATION" caption="OP STATION" x="855" y="1872" lock="1" view="3" width="546" type="6074">
+							<Params>
+								<Param id="961" value="0"/>
+								<Param id="962" value="0"/>
+								<Param id="963" value="0"/>
+							</Params>
+						</Block>
+						<Block page="7" command="18" name="peek data" caption="peek data" x="2555" y="3528" lock="1" view="3" width="663" type="6076">
+							<Params>
+								<Param id="2881" value="40"/>
+								<Param id="2882" value="0"/>
+								<Param id="2883" value="0"/>
+								<Param id="2884" value="0"/>
+								<Param id="2885" value="0"/>
+								<Param id="2886" value="0"/>
+								<Param id="2887" value="1"/>
+								<Param id="2888" value="0"/>
+							</Params>
+						</Block>
+						<Block page="7" command="18" name="phase inch" caption="phase inch" x="4239" y="459" lock="1" view="2" width="540" performance="1" type="6361">
+							<Params>
+								<Param id="3467" value="0"/>
+							</Params>
+						</Block>
+						<Block page="7" command="18" name="phase move" caption="phase move" x="4230" y="2691" lock="1" view="2" width="540" performance="1" type="6360">
+							<Params>
+								<Param id="3497" value="0"/>
+								<Param id="3500" value="0"/>
+							</Params>
+						</Block>
+						<Block page="7" command="18" name="phase move abs" caption="phase move abs" x="4239" y="963" lock="1" view="2" width="624" performance="1" type="6354">
+							<Params>
+								<Param id="3849" value="0"/>
+							</Params>
+						</Block>
+						<Block page="7" command="18" name="phase tuning" caption="phase tuning" x="4239" y="2007" lock="1" view="2" width="720" performance="1" type="6358">
+							<Params>
+								<Param id="3562" value="0"/>
+								<Param id="3563" value="0"/>
+								<Param id="3570" value="3000"/>
+								<Param id="3571" value="0"/>
+								<Param id="3572" value="100"/>
+							</Params>
+						</Block>
+						<Block page="7" command="18" name="position loop" caption="position loop" x="4239" y="1467" lock="1" view="2" width="585" performance="1" type="6304">
+							<Params>
+								<Param id="3889" value="0"/>
+								<Param id="3890" value="10"/>
+								<Param id="3891" value="20"/>
+							</Params>
+						</Block>
+						<Block page="7" command="18" name="ramp to stop" caption="ramp to stop" x="855" y="3744" lock="1" view="3" width="546" type="6031">
+							<Params>
+								<Param id="833" value="0"/>
+							</Params>
+						</Block>
+						<Block page="7" command="18" name="task 1" caption="task 1" x="2564" y="427" lock="1" view="3" width="702" type="6077">
+							<Params>
+								<Param id="2753" value="0"/>
+								<Param id="2754" value="task name"/>
+								<Param id="2755" value="1000"/>
+								<Param id="2756" value="9"/>
+								<Param id="2757" value="200"/>
+								<Param id="2758" value="1000"/>
+								<Param id="2759" value="1000"/>
+								<Param id="2760" value="174"/>
+								<Param id="2761" value="609"/>
+								<Param id="2762" value="0"/>
+								<Param id="2763" value="0"/>
+							</Params>
+						</Block>
+						<Block page="7" command="18" name="task 2" caption="task 2" x="2564" y="1399" lock="1" view="3" width="702" type="6078">
+							<Params>
+								<Param id="2785" value="0"/>
+								<Param id="2786" value="task name"/>
+								<Param id="2787" value="5000"/>
+								<Param id="2788" value="20"/>
+								<Param id="2789" value="500"/>
+								<Param id="2790" value="5000"/>
+								<Param id="2791" value="5000"/>
+								<Param id="2792" value="1720"/>
+								<Param id="2793" value="2498"/>
+								<Param id="2794" value="0"/>
+								<Param id="2795" value="0"/>
+							</Params>
+						</Block>
+						<Block page="7" command="18" name="task 3" caption="task 3" x="2564" y="2376" lock="1" view="3" width="702" type="6079">
+							<Params>
+								<Param id="2817" value="0"/>
+								<Param id="2818" value="task name"/>
+								<Param id="2819" value="0"/>
+								<Param id="2820" value="1000"/>
+								<Param id="2821" value="0"/>
+								<Param id="2822" value="0"/>
+								<Param id="2823" value="0"/>
+								<Param id="2824" value="138"/>
+								<Param id="2825" value="28804"/>
+								<Param id="2826" value="0"/>
+								<Param id="2827" value="0"/>
+							</Params>
+						</Block>
+						<Block page="7" command="18" name="uv trip" caption="uv trip" x="855" y="3132" lock="1" view="3" width="540" type="6073">
+							<Params>
+								<Param id="4833" value="1"/>
+							</Params>
+						</Block>
+					</Blocks>
+					<Graphics>
+						<Text page="2" command="562" name="AUXILIARY FUNCTIONS|" x="5373" y="252" w="1596" h="336" drawitem="1" textColor="ff" fontSize="140"/>
+						<Text page="2" command="526" name="TRIPS|" x="3618" y="279" w="430" h="336" drawitem="1" textColor="ff" fontSize="140"/>
+						<Text page="2" command="58" name="START/STOP|" x="1233" y="270" w="849" h="336" drawitem="1" textColor="ff" fontSize="140"/>
+						<Text page="1" command="526" name="REFERENCE|" x="990" y="180" w="801" h="288" drawitem="1" textColor="ff" fontSize="120"/>
+						<Text page="1" command="58" name="SPEED LOOP|" x="4446" y="144" w="783" h="288" drawitem="1" textColor="ff" fontSize="120"/>
+						<Text page="1" command="58" name="TORQUE/CURRENT|" x="6093" y="135" w="1665" h="288" drawitem="1" textColor="ff" fontSize="120"/>
+						<Text page="1" command="58" name="FEEDBACK|" x="1071" y="2394" w="1134" h="288" drawitem="1" textColor="ff" fontSize="120"/>
+						<Text page="4" command="58" name="THIS SHEET RESERVED FOR POSITION LOOP BLOCKS" x="2000" y="3300" w="3696" h="168" textColor="ff" fontSize="140"/>
+						<Text page="4" command="58" name="ONLY AVAILABLE IN ADVANCED AND HIGH PERFORMANCE DRIVES" x="2000" y="3500" w="4536" h="168" textColor="ff" fontSize="140"/>
+					</Graphics>
+					<Forms/>
+				</Blockdiagram>
+			</Block>
+			<Block page="1" name="SAM" caption="SAM" x="0" y="0" lock="1" type="5404"/>
+		</Blocks>
+		<Graphics>
+			<Line page="1" command="58" penwidth="4" points="0,0;0,0"/>
+			<Group page="1" command="-12851" x="6300" y="540" w="1548" h="3240">
+				<Group page="1" command="-12851" x="6318" y="1684" w="1376" h="931">
+					<Line page="1" pencolor="ff6633" penwidth="4" points="6596,1800;6596,2587"/>
+					<Text page="1" command="-12851" name="ZERO SPEED|" x="7042" y="2291" w="651" h="214" drawitem="1" fontSize="80"/>
+					<Text page="1" command="-12851" name="RUNNING|" x="7042" y="1865" w="433" h="214" drawitem="1" fontSize="80"/>
+					<Line page="1" pencolor="ff6633" penwidth="4" points="6318,2434;6592,2434"/>
+					<Line page="1" pencolor="ff6633" penwidth="4" points="6327,2006;6601,2005"/>
+					<Line page="1" pencolor="ff6633" penwidth="3" points="6897,2006;7259,2006"/>
+					<Line page="1" pencolor="ff6633" penwidth="3" points="6897,2434;7259,2434"/>
+					<Text page="1" command="-12851" name="X15|" x="6650" y="1684" w="289" h="288" drawitem="1" textColor="ff6633" fontSize="120"/>
+					<Text page="1" command="-12851" name="9|" x="6704" y="2328" w="144" h="288" drawitem="1" textColor="ff6633" fontSize="120"/>
+					<Text page="1" command="-12851" name="8|" x="6714" y="1961" w="72" h="288" drawitem="1" textColor="ff6633" fontSize="120"/>
+					<Line page="1" pencolor="ff6633" penwidth="4" points="6596,2228;6885,2228"/>
+					<Line page="1" pencolor="ff6633" penwidth="4" points="6596,2588;6885,2588"/>
+					<Line page="1" pencolor="ff6633" penwidth="4" points="6596,1870;6885,1870"/>
+					<Line page="1" pencolor="ff6633" penwidth="4" points="6886,1728;6886,2587"/>
+				</Group>
+				<Group page="1" command="-12851" x="6300" y="540" w="1548" h="1180">
+					<Oval page="1" command="-12851" x="7021" y="1139" w="288" h="284" pencolor="ff6633" penwidth="3" fillcolor="0" filltype="-2"/>
+					<Line page="1" pencolor="ff6633" penwidth="3" points="7093,1208;7164,1347"/>
+					<Text page="1" command="-12851" name="SPEED|" x="7340" y="1003" w="507" h="284" drawitem="1" fontSize="80"/>
+					<Text page="1" command="-12851" name="TORQUE|" x="7260" y="1435" w="434" h="284" drawitem="1" fontSize="80"/>
+					<Oval page="1" command="-12851" x="7021" y="789" w="288" h="284" pencolor="ff6633" penwidth="3" fillcolor="0" filltype="-2"/>
+					<Line page="1" pencolor="ff6633" penwidth="3" points="7093,857;7164,996"/>
+					<Text page="1" command="-12851" name="6|" x="6676" y="832" w="72" h="288" drawitem="1" textColor="ff6633" fontSize="120"/>
+					<Text page="1" command="-12851" name="7|" x="6676" y="1199" w="72" h="288" drawitem="1" textColor="ff6633" fontSize="120"/>
+					<Text page="1" command="-12851" name="X12|" x="6631" y="540" w="360" h="288" drawitem="1" textColor="ff6633" fontSize="120"/>
+					<Line page="1" pencolor="ff6633" penwidth="3" points="6875,931;7017,931"/>
+					<Line page="1" pencolor="ff6633" penwidth="3" points="6875,1281;7017,1281"/>
+					<Group page="1" command="-12851" x="6558" y="710" w="297" h="859">
+						<Line page="1" pencolor="ff6633" penwidth="4" points="6566,710;6566,1569"/>
+						<Line page="1" pencolor="ff6633" penwidth="4" points="6566,718;6853,718"/>
+						<Line page="1" pencolor="ff6633" penwidth="4" points="6566,1076;6853,1076"/>
+						<Line page="1" pencolor="ff6633" penwidth="4" points="6558,1434;6845,1434"/>
+						<Line page="1" pencolor="ff6633" penwidth="4" points="6855,718;6855,1503"/>
+					</Group>
+					<Line page="1" pencolor="ff6633" penwidth="4" points="6300,925;6558,925"/>
+					<Line page="1" pencolor="ff6633" penwidth="4" points="6313,1277;6550,1277"/>
+				</Group>
+				<Group page="1" command="-12851" x="6321" y="2763" w="1341" h="1016">
+					<Line page="1" pencolor="ff6633" penwidth="4" points="6600,2921;6600,3778"/>
+					<Line page="1" pencolor="ff6633" penwidth="4" points="6890,2930;6890,3714"/>
+					<Line page="1" pencolor="ff6633" penwidth="4" points="6366,3490;6584,3490"/>
+					<Line page="1" pencolor="ff6633" penwidth="4" points="6367,3131;6597,3132"/>
+					<Text page="1" command="-12851" name="HEALTHY|" x="7022" y="3241" w="639" h="192" drawitem="1" fontSize="80"/>
+					<Line page="1" pencolor="ff6633" penwidth="3" points="6899,3133;7205,3133"/>
+					<Line page="1" pencolor="ff6633" penwidth="3" points="6896,3492;7213,3492"/>
+					<Text page="1" command="-12851" name="1|" x="6702" y="3053" w="72" h="288" drawitem="1" textColor="ff6633" fontSize="120"/>
+					<Text page="1" command="-12851" name="2|" x="6702" y="3421" w="72" h="288" drawitem="1" textColor="ff6633" fontSize="120"/>
+					<Text page="1" command="-12851" name="X14|" x="6659" y="2763" w="357" h="288" drawitem="1" textColor="ff6633" fontSize="120"/>
+					<Line page="1" pencolor="ff6633" penwidth="4" points="6600,2921;6885,2921"/>
+					<Line page="1" pencolor="ff6633" penwidth="4" points="6600,3287;6885,3287"/>
+					<Line page="1" pencolor="ff6633" penwidth="4" points="6598,3643;6883,3643"/>
+					<Line page="1" pencolor="ff6633" penwidth="4" points="6367,3491;6368,3351"/>
+					<Line page="1" pencolor="ff6633" penwidth="4" points="6367,3137;6367,3271"/>
+					<Line page="1" pencolor="ff6633" penwidth="4" points="6321,3274;6412,3274"/>
+					<Line page="1" pencolor="ff6633" penwidth="4" points="6323,3339;6414,3339"/>
+				</Group>
+			</Group>
+			<Text page="1" name="" RTF="{\rtf1\ansi\ansicpg1252\deff0\deflang1040{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\fs18 RUN FORWARD\par
+}
+" x="1332" y="792" w="2304" h="216" drawitem="1" fontSize="120"/>
+			<Text page="1" command="251" name="" RTF="{\rtf1\ansi\ansicpg1252\deff0\deflang1040{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\fs18 RUN REVERSE\par
+\par
+}
+" x="1334" y="1100" w="2304" h="216" drawitem="1" fontSize="120"/>
+			<Text page="1" command="251" name="" RTF="{\rtf1\ansi\ansicpg1252\deff0\deflang1040{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\fs18 SLOE DOWN\par
+}
+" x="1327" y="1462" w="2304" h="216" drawitem="1" fontSize="120"/>
+			<Text page="1" command="251" name="" RTF="{\rtf1\ansi\ansicpg1252\deff0\deflang1040{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\fs18 DRIVE RESET\par
+\par
+}
+" x="1368" y="1872" w="2304" h="216" drawitem="1" fontSize="120"/>
+		</Graphics>
+		<Forms>
+			<Form name="GENERIC6">
+				<Rect x="198" y="126" w="7367" h="5610" pencolor="776e00" penwidth="4" fillcolor="0" filltype="-2"/>
+				<Line pencolor="776e00" penwidth="4" points="198,5292;7560,5292"/>
+				<Line pencolor="776e00" penwidth="4" points="1800,5292;1800,5731"/>
+				<Line pencolor="776e00" penwidth="4" points="2907,5292;2907,5731"/>
+				<Line pencolor="776e00" penwidth="4" points="3888,5292;3888,5617"/>
+				<Line pencolor="776e00" penwidth="4" points="5796,5292;5796,5731"/>
+				<Line pencolor="776e00" points="1800,5403;7569,5403"/>
+				<Line pencolor="776e00" points="1800,5514;7569,5514"/>
+				<Line pencolor="776e00" points="1800,5625;7569,5625"/>
+				<Line pencolor="776e00" points="6041,5292;6041,5403"/>
+				<Line pencolor="776e00" points="6678,5514;6678,5625"/>
+				<Text name="DWN" x="1827" y="5305" textColor="776e00" fontSize="60"/>
+				<Text name="CHK" x="1827" y="5421" textColor="776e00" fontSize="60"/>
+				<Text name="APP" x="1827" y="5527" textColor="776e00" fontSize="60"/>
+				<Text name="EDIT" x="1827" y="5638" textColor="776e00" fontSize="60"/>
+				<Text name="LOC" x="2948" y="5638" textColor="776e00" fontSize="60"/>
+				<Text name="SIZE" x="5823" y="5305" textColor="776e00" fontSize="60"/>
+				<Text name="A" x="5985" y="5325" textColor="776e00" fontSize="60"/>
+				<Text name="DWG. NO." x="6068" y="5305" textColor="776e00" fontSize="60"/>
+				<Text name="ISSUE" x="5823" y="5421" textColor="776e00" fontSize="60"/>
+				<Text name="SCALE" x="5823" y="5527" textColor="776e00" fontSize="60"/>
+				<Text name="SHEET" x="6705" y="5527" textColor="776e00" fontSize="60"/>
+			</Form>
+		</Forms>
+	</Blockdiagram>
+</Drive>

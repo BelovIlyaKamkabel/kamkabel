@@ -1,0 +1,199 @@
+Monday, April 07, 2008 
+
+-------------------- Error --------------------
+
+Error in compiling 
+'Pay-off 2500 bwire break  0=off 1=on'.
+
+Typ 'OtherText'.
+The length of text 
+'Отдатчик 2500 обрыв провода  0=выкл. 1=вкл.' 
+is invalid.
+The maximum number of characters per line is 40.
+
+-------------------- Error --------------------
+
+Error in compiling 
+'Cage 6 number of wires inserted set'.
+
+Typ 'OtherText'.
+The length of text 
+'Клеть 6 установка кол-ва введенных проводов' 
+is invalid.
+The maximum number of characters per line is 40.
+
+-------------------- Error --------------------
+
+Error in compiling 
+'Cage 12 number of wires inserted set'.
+
+Typ 'OtherText'.
+The length of text 
+'Клеть 12 установка кол-ва введенных проводов' 
+is invalid.
+The maximum number of characters per line is 40.
+
+-------------------- Error --------------------
+
+Error in compiling 
+'Cage 12 preforming cable compacting set'.
+
+Typ 'OtherText'.
+The length of text 
+'Клеть 12 предварит.формование уплотнение кабеля' 
+is invalid.
+The maximum number of characters per line is 40.
+
+-------------------- Error --------------------
+
+Error in compiling 
+'Cage 12 preforming lay set'.
+
+Typ 'OtherText'.
+The length of text 
+'Клеть 12 предварит.формование установка шага скрутки' 
+is invalid.
+The maximum number of characters per line is 40.
+
+-------------------- Error --------------------
+
+Error in compiling 
+'Cage 12 preforming 0=off 1=z 2=s'.
+
+Typ 'OtherText'.
+The length of text 
+'Клеть 12 предварит.формование 0=выкл. 1=z 2=s' 
+is invalid.
+The maximum number of characters per line is 40.
+
+-------------------- Error --------------------
+
+Error in compiling 
+'Cage 18 number of wires inserted set'.
+
+Typ 'OtherText'.
+The length of text 
+'Клеть 18 установка кол-ва введенных проводов' 
+is invalid.
+The maximum number of characters per line is 40.
+
+-------------------- Error --------------------
+
+Error in compiling 
+'Cage 18 preforming cable compacting set'.
+
+Typ 'OtherText'.
+The length of text 
+'Клеть 18 предварит.формование уплотнение кабеля' 
+is invalid.
+The maximum number of characters per line is 40.
+
+-------------------- Error --------------------
+
+Error in compiling 
+'Cage 18 preforming lay set'.
+
+Typ 'OtherText'.
+The length of text 
+'Клеть 18 предварит.формование установка шага скрутки' 
+is invalid.
+The maximum number of characters per line is 40.
+
+-------------------- Error --------------------
+
+Error in compiling 
+'Cage 18 preforming 0=off 1=z 2=s'.
+
+Typ 'OtherText'.
+The length of text 
+'Клеть 18 предварит.формование 0=выкл. 1=z 2=s' 
+is invalid.
+The maximum number of characters per line is 40.
+
+-------------------- Error --------------------
+
+Error in compiling 
+'Cage 24 number of wires inserted set'.
+
+Typ 'OtherText'.
+The length of text 
+'Клеть 24 установка кол-ва введенных проводов' 
+is invalid.
+The maximum number of characters per line is 40.
+
+-------------------- Error --------------------
+
+Error in compiling 
+'Cage 24 preforming cable compacting set'.
+
+Typ 'OtherText'.
+The length of text 
+'Клеть 24 предварит.формование уплотнение кабеля' 
+is invalid.
+The maximum number of characters per line is 40.
+
+-------------------- Error --------------------
+
+Error in compiling 
+'Cage 24 preforming lay set'.
+
+Typ 'OtherText'.
+The length of text 
+'Клеть 24 предварит.формование установка шага скрутки' 
+is invalid.
+The maximum number of characters per line is 40.
+
+-------------------- Error --------------------
+
+Error in compiling 
+'Cage 24 preforming 0=off 1=z 2=s'.
+
+Typ 'OtherText'.
+The length of text 
+'Клеть 24 предварит.формование 0=выкл. 1=z 2=s' 
+is invalid.
+The maximum number of characters per line is 40.
+
+-------------------- Error --------------------
+
+Error in compiling 
+'Take-up bobbin inversion delay set'.
+
+Typ 'OtherText'.
+The length of text 
+'Приемная катушка установка задержки инверсии' 
+is invalid.
+The maximum number of characters per line is 40.
+
+-------------------- Error --------------------
+
+Error in compiling 
+'Take-up bobbin right flange set'.
+
+Typ 'OtherText'.
+The length of text 
+'Приемная катушка установка правого фланца' 
+is invalid.
+The maximum number of characters per line is 40.
+
+-------------------- Error --------------------
+
+Error in compiling 
+'Take-up traverse lay set'.
+
+Typ 'OtherText'.
+The length of text 
+'Установка шага скрутки траверсы приемника' 
+is invalid.
+The maximum number of characters per line is 40.
+
+-------------------- Error --------------------
+
+Error in compiling 
+'Take-up bobbin flange diameter set'.
+
+Typ 'OtherText'.
+The length of text 
+'Установка диаметра фланца приемной катушки' 
+is invalid.
+The maximum number of characters per line is 40.

@@ -1,0 +1,10 @@
+﻿ES2RT linker log file created on 6 августа 2014 г. 11:10:56
+
+Linking...
+User Info - Resource Id [ NrOfTags ], caused in [ LinkerVar ]
+User Info - Resource Id [ NumberPowerTags ], caused in [ LinkerLicense ]
+User Info - Resource Id [ RequiredLicense ], caused in [ LinkerLicense ]
+0 errors, 0 warnings - succeeded.
+
+Writing "D:\PG720\S7_DATEN\zeh_01_(01)\Cortinovis_RSM1\StepMonitor.Device_1"...
+Done.
